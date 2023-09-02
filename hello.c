@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int makmain(void)
 {
     printf("hello, world\n");
     }
