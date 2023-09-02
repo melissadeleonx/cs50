@@ -2,4 +2,4 @@
 
 int main(void)
 {
-    printf("Hello, World")
+    printf("hello, world\n");
