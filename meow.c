@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 int main(void)
-int counter = 3
+int counter = 3;
+while
 {
     printf("meow\n");
     printf("meow\n");
