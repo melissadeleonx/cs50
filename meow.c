@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main(void)
-int counter = 0;
+int counter = counter + 1;
 {
     printf("meow\n");
     printf("meow\n");
