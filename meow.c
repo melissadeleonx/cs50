@@ -4,6 +4,8 @@
 int main(void)
 {
     int i = 0;
-    while (i < 3)printf("meow\n");
-    1--;
+    while (i < 3)
+    { printf("meow\n");
+    i++;
+    }
 }
