@@ -6,11 +6,14 @@ int main(void)
     string answer = get_string("What's your name? ");
     printf("hello, %s!\n", answer);
     }
-    if (x){
+    if (x < y){
 
     }
-    else
+    else if (x > y)
     {
 
+    }
+    else if (x == y)
+    {
 
     }
