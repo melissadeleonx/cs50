@@ -10,4 +10,3 @@ int main(void)
         i++;
     } //    return 0;Added to indicate successful program execution
 }
-}
