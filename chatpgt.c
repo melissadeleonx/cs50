@@ -1,12 +1,6 @@
-#include <iostream>
+#include <stdio.h>
 
-int main(void) {
-    int i = 1;
-
-    do {
-        std::cout << i << " ";
-        i++;
-    } while (i <= 5);
-
+int main() {
+    printf("Hello, World!\n");
     return 0;
 }
