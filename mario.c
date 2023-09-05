@@ -1,15 +1,17 @@
 #include <stdio.h>
 #include <cs50.h>
 int main(void)
+// Get size of grid
 {
     int n;
     do
     {
-        n = get_int("Size: ");
+        n = get_int("Size: "); // research more to understand
     }
     while (n < 1);
     for (int i = 0; i < n; i++)
     {
+      // Print grid of bricks
         for (int j = 0; j < n; j++) {
              printf("#");
         }
