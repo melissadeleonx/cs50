@@ -53,7 +53,6 @@ void print_grid(int size)
     for (int j = 0; j < size; j++)
     { printf("#");
     }
-
             printf("\n");
         }
     }
