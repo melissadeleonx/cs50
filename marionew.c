@@ -9,6 +9,9 @@ int main(void)
     printgrid();
 }
 
+
+
+
 int get_size(void)
 {
     int n;
@@ -18,5 +21,6 @@ int get_size(void)
     }
     while (n < 1);
     return n;
-
 }
+
+void print_grid(int size)
