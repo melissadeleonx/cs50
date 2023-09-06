@@ -1,8 +1,15 @@
 #include <cs50.h>
 #include <stdio.h>
 
-int main(void)
-{
+int main(void) {
+    int integerVariable;
+    size_t size = sizeof(integerVariable);
+
+    printf("Size of int: %zu bytes\n", size);
+
+    return 0;
+}
+// {
     int x = get_int("x: ");
     int y = get_int("x: ");
 
