@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
 int main(void)
-// Get size of grid
 {
     int n;
     do
