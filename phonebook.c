@@ -13,7 +13,9 @@ int main(void)
 
     //Age
     printf("Age: ");
-    scanf("%d", age);
+    scanf("%d", &age);
+
+    //Phone Number
 }
 
 
