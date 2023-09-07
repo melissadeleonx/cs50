@@ -21,6 +21,12 @@ int main(void)
     //Phone Number
     printf("Phone Number: ");
     scanf("14%s", phoneNumber); // Limit input to 14 characters
+
+    // Print the user's information as confirmation
+    printf("\nThank you! Here is the information you provided:\n");
+    printf("Name: %s\n", name);
+    printf("Age: %d\n", age);
+    printf("Phone Number: 14%s\n", phoneNumber);
 }
 
 
