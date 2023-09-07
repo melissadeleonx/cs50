@@ -3,17 +3,14 @@
 
 int main(void)
 {
+    // create a C program that prompts a user for a name age and a phone number
+int string = get_string ("Name: ");
+printf(Name)
 
-    // Maximum Contact list
 
-    // Make contact list
+    // Add contact, Name, Age, Phone Number
 
-    // Add contact, Name, Phone Number, Email Address, Address
-
-    // Edit Contact
-
-    // Delete a contact
-
+    // print the values back to the user as confirmation
 
 
 }
