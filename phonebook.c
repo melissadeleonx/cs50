@@ -3,15 +3,13 @@
 
 int main(void)
 {
-    // create a C program that prompts a user for a name age and a phone number
-char string = get_charstring ("Name: ");
-printf("Name: %s\n")
+    char name[100];
+    int age;
+    char phoneNumber[15]; // number of characters for each variables
 
-
-    // Add contact, Name, Age, Phone Number
-
-    // print the values back to the user as confirmation
-
-
+    // Prompt the user for their name
+    printf("Name: ");
+    scanf("%s", name);
 }
+
 
