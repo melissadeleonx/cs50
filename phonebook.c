@@ -4,7 +4,7 @@
 int main(void)
 {
     // create a C program that prompts a user for a name age and a phone number
-int string = get_string ("Name: ");
+char string = get_charstring ("Name: ");
 printf("Name: %s\n")
 
 
