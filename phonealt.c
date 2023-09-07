@@ -9,6 +9,6 @@ int main(void)
 
     printf("Age is %i", age);
     printf("Name is %s", name);
-    printf("Phone Number is %s", number)
+    printf("Phone Number is %s", number);
     printf("\n");
 }
