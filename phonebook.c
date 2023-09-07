@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <string.h>
 
-int main (void)
 #define MAX_CONTACTS 100
 
 // Define a structure to represent a contact
