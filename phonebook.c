@@ -5,7 +5,7 @@ int main(void)
 {
     char name[100];
     int age;
-    char phoneNumber[14]; // number of characters for each variables
+    long long phoneNumber; // using long long instead of characters to show numbers
 
     // Prompt the user for their name
     printf("Name: ");
@@ -20,13 +20,13 @@ int main(void)
 
     //Phone Number
     printf("Phone Number: ");
-    scanf("14%s", phoneNumber); // Limit input to 14 characters
+    scanf("%lld", &phoneNumber); // using long long
 
     // Print the user's information as confirmation
     printf("\nThank you! Here is the information you provided:\n");
     printf("Name: %s\n", name);
     printf("Age: %d\n", age);
-    printf("Phone Number: %s\n", phoneNumber);
+    printf("Phone Number: %lld\n", &phoneNumber);
     return 0;
 }
 
