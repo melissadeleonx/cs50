@@ -4,7 +4,7 @@
 int main(void)
 {
 
-    get_string = ("Name: ");
+    get_string = get_string("Name: ");
     {
         printf ("Name: ");
         }
