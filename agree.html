@@ -1,44 +1,61 @@
 #include <cs50.h>
     #include <stdio.h>
+    #include <stdlib.h> // for system() function
     
     int main(void)
     {
         char c = get_char("Do you agree? ");
-        
-        if (c == 'y' || c == 'Y' )
+        char title[100];
+        char message[100];
+    
+        if (c == 'y' || c == 'Y')
         {
             printf("Agreed.\n");
-            
-            // HTML code
-            FILE *htmlFile = fopen("index.html", "w");
-            if (htmlFile == NULL) {
-                perror("Error opening file");
-                return 1;
-            }
-            fprintf(htmlFile, "<html><head><title>Agreement Page</title></head><body>\n");
-            fprintf(htmlFile, "<h1>You Agreed!</h1>\n");
-            fprintf(htmlFile, "<p>Thank you for agreeing.</p>\n");
-            fprintf(htmlFile, "</body></html>\n");
-            fclose(htmlFile);
-            
-            printf("HTML file generated successfully. Open 'index.html' in your browser.\n");
+            strcpy(title, "You Agreed!");
+            strcpy(message, "Thank you for agreeing.");
         }
-        else if (c == 'n' || c == 'N' )
+        else if (c == 'n' || c == 'N')
         {
             printf("Not agreed.\n");
-            
-            // HTML code
-            FILE *htmlFile = fopen("index.html", "w");
-            if (htmlFile == NULL) {
-                perror("Error opening file");
-                return 1;
-            }
-            fprintf(htmlFile, "<html><head><title>Agreement Page</title></head><body>\n");
-            fprintf(htmlFile, "<h1>You Did Not Agree!</h1>\n");
-            fprintf(htmlFile, "<p>Thank you for considering.</p>\n");
-            fprintf(htmlFile, "</body></html>\n");
-            fclose(htmlFile);
-            
-            printf("HTML file generated successfully. Open 'index.html' in your browser.\n");
+            strcpy(title, "You Did Not Agree!");
+            strcpy(message, "Thank you for considering.");
         }
+    
+        FILE *htmlFile = fopen("index.html", "w");
+        if (htmlFile == NULL)
+        {
+            perror("Error opening file");
+            return 1;
+        }
+    
+        // Read the template file
+        FILE *templateFile = fopen("template.html", "r");
+        if (templateFile == NULL)
+        {
+            perror("Error opening template file");
+            return 1;
+        }
+    
+        char buffer[1000];
+        while (fgets(buffer, sizeof(buffer), templateFile) != NULL)
+        {
+            // Replace template placeholders with actual content
+            fprintf(htmlFile, buffer, title, message);
+        }
+    
+        fclose(templateFile);
+        fclose(htmlFile);
+    
+        printf("HTML file generated successfully. Open 'index.html' in your browser.\n");
+    
+        // Open the generated HTML file in the default web browser (platform-specific)
+        #ifdef _WIN32
+        system("start index.html");
+        #elif __APPLE__
+        system("open index.html");
+        #else
+        system("xdg-open index.html");
+        #endif
+    
+        return 0;
     }
