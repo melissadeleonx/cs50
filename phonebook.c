@@ -6,6 +6,6 @@ int main(void)
 
     get_string = get_string("Name: ");
     {
-        printf ("Name: ");
+        printf("Name: ");
         }
 }
