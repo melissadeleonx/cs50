@@ -9,3 +9,4 @@ int main(void)
     double z = (double) x / (double) y;
     printf("%.20f\n", z);
     }
+    gcc my_program.c -o my_program
