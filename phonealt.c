@@ -7,8 +7,7 @@ int main(void)
     int age = get_int("What's your age? ");
     string number = get_string("What's your phone number? ");
 
-    printf("Age is %i", age);
-    printf("Name is %s", name);
-    printf("Phone Number is %s", number);
-    printf("\n");
+    printf("Age is %i\n", age);
+    printf("Name is %s\n", name);
+    printf("Phone Number is %s\n", number);
 }
