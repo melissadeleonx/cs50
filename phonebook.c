@@ -16,6 +16,8 @@ int main(void)
     scanf("%d", &age);
 
     //Phone Number
+    printf("Phone Number: ");
+    scanf("%s", &age);
 }
 
 
