@@ -27,6 +27,7 @@ int main(void)
     printf("Name: %s\n", name);
     printf("Age: %d\n", age);
     printf("Phone Number: %s\n", phoneNumber);
+    return 0;
 }
 
 
