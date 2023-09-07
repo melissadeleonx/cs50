@@ -2,15 +2,19 @@
 #include <stdio.h>
 
 int main(void)
+{
 
-int calls = 4;
-int x = 50
-// Maximum Contact lis
+    // Maximum Contact list
 
-// Make contact list
+    // Make contact list
 
-// Add contact, Name, Phone Number, Email Address, Address
+    // Add contact, Name, Phone Number, Email Address, Address
 
-// Edit Contact
+    // Edit Contact
 
-// Delete a contact
+    // Delete a contact
+
+
+
+}
+
