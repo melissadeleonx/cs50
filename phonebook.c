@@ -10,6 +10,10 @@ int main(void)
     // Prompt the user for their name
     printf("Name: ");
     scanf("%s", name);
+
+    //Age
+    printf("Age: ");
+    scanf("%d", age);
 }
 
 
