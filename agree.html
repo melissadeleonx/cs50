@@ -1,0 +1,39 @@
+#include <cs50.h>
+    #include <stdio.h>
+
+    int main(void)
+    {
+       char c = get_char("Do you agree? ");
+       if (c == 'y' || c == 'Y' )
+       {
+        printf("Agreed.\n");
+        // HTML code
+        FILE *htmlFile = fopen("index.html", "w");
+        if (htmlFile == NULL) {
+            perror("Error opening file");
+            return 1;
+        }
+        fprintf(htmlFile, "<html><head><title>Agreement Page</title></head><body>\n");
+        fprintf(htmlFile, "<h1>You Agreed!</h1>\n");
+        fprintf(htmlFile, "<p>Thank you for agreeing.</p>\n");
+        fprintf(htmlFile, "</body></html>\n");
+        fclose(htmlFile);
+        printf("HTML file generated successfully. Open 'index.html' in your browser.\n");
+       }
+       else if (c == 'n' || c == 'N' )
+       {
+        printf("Not agreed.\n");
+        // HTML code
+        FILE *htmlFile = fopen("index.html", "w");
+        if (htmlFile == NULL) {
+            perror("Error opening file");
+            return 1;
+        }
+        fprintf(htmlFile, "<html><head><title>Agreement Page</title></head><body>\n");
+        fprintf(htmlFile, "<h1>You Did Not Agree!</h1>\n");
+        fprintf(htmlFile, "<p>Thank you for considering.</p>\n");
+        fprintf(htmlFile, "</body></html>\n");
+        fclose(htmlFile);
+        printf("HTML file generated successfully. Open 'index.html' in your browser.\n");
+       }
+    }
