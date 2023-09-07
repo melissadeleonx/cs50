@@ -29,6 +29,3 @@ int main(void)
     printf("Phone Number: %lld\n", phoneNumber);
     return 0;
 }
-
-
-
