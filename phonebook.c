@@ -26,7 +26,7 @@ int main(void)
     printf("\nThank you! Here is the information you provided:\n");
     printf("Name: %s\n", name);
     printf("Age: %d\n", age);
-    printf("Phone Number: %lld\n", &phoneNumber);
+    printf("Phone Number: %lld\n", phoneNumber);
     return 0;
 }
 
