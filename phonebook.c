@@ -3,6 +3,8 @@
 
 int main(void)
 
+int calls = 4;
+int x = 50
 // Maximum Contact lis
 
 // Make contact list
