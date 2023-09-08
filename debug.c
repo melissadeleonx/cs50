@@ -3,18 +3,9 @@
 
 int main(void)
 {
-    int x;
-    int y;
-    float result;
-
+    int x = scanf("%d", x); printf("x: ");
+    int y = scanf("%d", y); printf("y: ");
     float result = x / y;
-
-    printf("x: ");
-    scanf("%i", x);
-
-    printf("y: ");
-    scanf("%i", y);
-
     if (x || y != 0) {
         printf("The result of %d and %d is: %.2f\n", x, y, result);
     } else {
