@@ -14,11 +14,18 @@ int main(void)
     int x;
      do
     {
-        n = get_int("Number of newborn llamas: (must be >= 9): ");
+        x = get_int("Number of newborn llamas: (must be <= n): ");
         getchar();
     }
-    while (n < 9);
-    int y = get_int("Number of deceased llamas: ");
+    while (x < n);
+
+    int y;
+    do
+    {
+        n = get_int("Number of newborn llamas: (must be >= n): ");
+        getchar();
+    }
+    while (y < n);
 
     int end = n + x - y;
 
