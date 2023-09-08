@@ -3,9 +3,18 @@
 
 int main(void)
 {
-    int x = 
-    int y =
-    int result =
+    int x;
+    int y;
+    float result;
+
+    // print and scan x
+    printf("x: ");
+    scanf("%i", x);
+
+    // print and scan y
+    printf("y: ");
+    scanf("%i", y);
+
 
 
 
