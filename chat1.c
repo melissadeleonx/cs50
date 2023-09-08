@@ -11,18 +11,12 @@ int main(void)
 
     int x = get_int("Number of newborn llamas: ");
 
-    int y = get_int("Number of deceased llamas: ")
+    int y = get_int("Number of deceased llamas: ");
 
     if (y > n)
         {
-            printf("Number of deceased llamas: (must be y<n): ");
+            printf("Number of deceased llamas: (must be less than the starting population) ");
         }
-
-    do
-    {
-        y = get_int("Number of deceased llamas: (must be <= n): ");
-    }
-    while (y < n);
 
     int end = n + x - y;
 
