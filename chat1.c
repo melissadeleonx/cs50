@@ -6,7 +6,8 @@ int main(void)
     int n = get_int("Enter a starting population size : ");
     if (n < 9)
         {
-            printf("Enter a starting population size (must be >= 9): ");
+            get_int("Enter a starting population size (must be >= 9): ");
+            printf("Enter a starting population size (must be >= 9): \n");
         }
 
     int x = get_int("Number of newborn llamas: ");
