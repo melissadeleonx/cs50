@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    int num1 = 15;
+    int num1 = 15
     int num2 = 7;
     int difference;
 
