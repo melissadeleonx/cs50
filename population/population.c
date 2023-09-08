@@ -3,6 +3,10 @@
 
 int main(void)
 {
+    int start =
+    int end
+    int 
+
     // TODO: Prompt for start size
 
     // TODO: Prompt for end size
