@@ -3,8 +3,8 @@
 
 int main(void)
 {
-    float num1 = get_int("insert num1: ");
-    float num2 = get_int("insert num2: ");
+    float num1 = get_float("insert num1: ");
+    float num2 = get_float("insert num2: ");
     float difference;
 
     difference = num1 - num2;
