@@ -3,12 +3,12 @@
 
 int main(void)
 {
-    int num1 = get_int("insert num1: ");
-    int num2 = get_int("insert num2: ");
-    int difference;
+    float num1 = get_int("insert num1: ");
+    float num2 = get_int("insert num2: ");
+    float difference;
 
     difference = num1 - num2;
-    printf("The difference of %i and %i is: %d\n", num1, num2, difference);
+    printf("The difference of %.2f and %.2f is: %.2f\n", num1, num2, difference);
 
     return 0;
 }
