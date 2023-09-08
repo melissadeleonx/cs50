@@ -3,10 +3,10 @@
 
 int main(void)
 {
-    int height, width = get_int("height: ");
-                        get_int("weight: ");
-
-    printf("Your height is %i and your weight is %i\n, height, width);
+    int height = get_int("height: ");
+    int width = get_int("weight: ");
+    string result;
+    printf("Your height is %i and your weight is %i\n", height, width);
 
     return 0;
 }
