@@ -4,6 +4,14 @@
 int main(void)
 {
     int n = get_int("Enter the starting population: ");
+
+    // Prompt for start size until the user enters a number >= 9
+    do
+    {
+        n = get_int("Enter a starting population size (must be >= 9): ");
+    }
+    while (n < 9);
+
     int x = get_int("Number of newbor llamas: ");
     int y = get_int("Number of deceased llamas: ");
 
