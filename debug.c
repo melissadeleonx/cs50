@@ -7,7 +7,7 @@ int main(void)
     int y = get_int("y: ");
     float result = x / y;
 
-    if (x || y != 0) {
+    if (x && y != 0) {
         printf("The result of %i and %i is: %.2f\n", x, y, result);
     } else {
         printf("Division by zero is not allowed.\n");
