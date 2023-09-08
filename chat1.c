@@ -3,8 +3,10 @@
 
 int main(void)
 {
-    int n = get_int("Enter a starting population size : ");
+
     do {
+        int n = get_int("Enter a starting population size : ");
+
         if (n < 9)
         {
             get_int("Enter a starting population size (must be >= 9): ");
@@ -19,6 +21,7 @@ int main(void)
     if (y > n)
         {
             printf("Number of deceased llamas: (must be less than the starting population) ");
+        }
         }
 
     int end = n + x - y;
