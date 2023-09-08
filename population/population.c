@@ -7,7 +7,6 @@ int main(void)
     do
     {
         n = get_int("Enter a starting population size (must be >= 9): ");
-        getchar();
     }
     while (n < 9);
 
@@ -17,7 +16,6 @@ int main(void)
     do
     {
         y = get_int("Number of deceased llamas: (must be <= n): ");
-        getchar();
     }
     while (y < n);
 
