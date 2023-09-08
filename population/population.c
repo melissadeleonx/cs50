@@ -4,13 +4,13 @@
 int main(void)
 {
 
-    // TODO: Prompt for start size 
+    // TODO: Prompt for start size
     int n = get_int("start: ");
     int x = get_int("first: ");
     int y = get_int("second: ");
     int end = start + x - y;
 
-    printf()
+    printf("The ")
 
 
     // TODO: Prompt for end size
