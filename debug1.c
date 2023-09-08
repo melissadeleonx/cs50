@@ -8,9 +8,6 @@ int main(void)
     float difference = num1 - num2;
 
     if (difference < 0)
-    {
-    printf("The difference of %.2f and %.2f is: %.2f (negative)\n", num1, num2, difference);
-    }
     printf("The difference of %.2f and %.2f is: %.2f\n", num1, num2, difference);
 
     return 0;
