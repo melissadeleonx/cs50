@@ -15,12 +15,9 @@ int main(void)
     printf("y: ");
     scanf("%i", y);
 
-
-
-
     if (x || y != 0) {
-        result = num1 / num2;
-        printf("The result of %d and %d is: %.d\n", num1, num2, result);
+        result = x / y;
+        printf("The result of %d and %d is: %.2f\n", x, y, result);
     } else {
         printf("Division by zero is not allowed.\n");
     }
