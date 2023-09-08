@@ -11,13 +11,7 @@ int main(void)
     }
     while (n < 9);
 
-    int x;
-     do
-    {
-        x = get_int("Number of newborn llamas: (must be <= n): ");
-        getchar();
-    }
-    while (x < n);
+    int x = get_int("Number of newborn llamas: ");
 
     int y;
     do
