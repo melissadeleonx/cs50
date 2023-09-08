@@ -3,9 +3,9 @@
 
 int main(void)
 {
-    int start =
-    int end
-    int 
+    int start = get_int("start: ")
+    int end = get_int("end: ")
+    int years = start 
 
     // TODO: Prompt for start size
 
