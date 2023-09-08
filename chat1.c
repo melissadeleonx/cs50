@@ -7,10 +7,14 @@ int main(void)
     do
     {
         n = get_int("Enter a starting population size : ");
-        
+
         if (n < 9)
         {
             printf("Enter a starting population size (must be >= 9): ");
+        }
+        else {
+            printf("Enter a starting population size: ");
+        }
         }
     while (n < 9);
 
