@@ -3,8 +3,8 @@
 
 int main(void)
 {
-    int x = scanf("%i", x);
-    int y = scanf("%i", y);
+    int x = get_int("x: ");
+    int y = get_int("y: ");
     float result = x / y;
 
     if (x || y != 0) {
