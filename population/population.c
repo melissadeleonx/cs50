@@ -7,7 +7,7 @@ int main(void)
     int x = get_int("first: ")
     int y = start
 
-    // TODO: Prompt for start size
+    // TODO: Prompt for start size - 
 
     // TODO: Prompt for end size
 
