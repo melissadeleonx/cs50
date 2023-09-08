@@ -4,8 +4,8 @@
 int main(void)
 {
     int start = get_int("start: ")
-    int  = get_int("end: ")
-    int end = start
+    int x = get_int("first: ")
+    int y = start
 
     // TODO: Prompt for start size
 
