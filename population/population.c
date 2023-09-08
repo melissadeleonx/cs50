@@ -4,8 +4,8 @@
 int main(void)
 {
     int n = get_int("Enter the starting population: ");
-    int x = get_int("first: ");
-    int y = get_int("second: ");
+    int x = get_int("Number of newbor llamas: ");
+    int y = get_int("Number of deceased llamas: ");
 
     // TODO: Calculate number of years until we reach threshold
 
