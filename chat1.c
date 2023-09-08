@@ -11,7 +11,13 @@ int main(void)
 
     int x = get_int("Number of newborn llamas: ");
 
-    int y;
+    int y = get_int("Number of deceased llamas: ")
+
+    if (y > n)
+        {
+            printf("Number of deceased llamas: (must be y<n): ");
+        }
+
     do
     {
         y = get_int("Number of deceased llamas: (must be <= n): ");
