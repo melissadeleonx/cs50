@@ -3,11 +3,15 @@
 
 int main(void)
 {
-    int start = get_int("start: ")
-    int x = get_int("first: ")
-    int y = start
 
-    // TODO: Prompt for start size - 
+    // TODO: Prompt for start size 
+    int n = get_int("start: ");
+    int x = get_int("first: ");
+    int y = get_int("second: ");
+    int end = start + x - y;
+
+    printf()
+
 
     // TODO: Prompt for end size
 
