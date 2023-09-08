@@ -5,12 +5,11 @@ int main(void)
 {
     int num1 = 10;
     int num2 = 0;
-    int result;
+    string result;
 
     result = num1 / num2;
-    if (num2 == 0)
-    {
-    printf("The result is invalid %i\n", result);
+
+    printf("Division of 0 is not allowed\n", result);
+
     return 0;
-    }
 }
