@@ -22,7 +22,7 @@ int main(void)
     int y;
     do
     {
-        n = get_int("Number of newborn llamas: (must be >= n): ");
+        n = get_int("Number of deceased llamas: (must be <= n): ");
         getchar();
     }
     while (y < n);
