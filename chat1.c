@@ -8,8 +8,9 @@ int main(void)
     int result;
 
     result = num1 / num2;
-
-    printf("The result is: %d\n", result);
-
+    if num2 =! 0
+    {
+    printf("The result is invalid\n", result);
     return 0;
+    }
 }
