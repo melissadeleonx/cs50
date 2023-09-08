@@ -6,8 +6,11 @@ int main(void)
     int n;
     do
     {
-        n = get_int("Enter a starting population size (must be >= 9): ");
-    }
+        n = get_int("Enter a starting population size : ");
+        if (n < 9)
+        {
+            printf("Enter a starting population size : ")
+        }    }
     while (n < 9);
 
     int x = get_int("Number of newborn llamas: ");
