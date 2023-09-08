@@ -12,9 +12,6 @@ int main(void)
         {
             printf("Enter a starting population size (must be >= 9): ");
         }
-        else {
-            printf("Enter a starting population size: ");
-        }
     while (n < 9);
 
     int x = get_int("Number of newborn llamas: ");
