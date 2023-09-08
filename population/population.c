@@ -3,12 +3,11 @@
 
 int main(void)
 {
-    int n = get_int("Enter the starting population: ");
-
-    // Prompt for start size until the user enters a number >= 9
+    int n;
     do
     {
         n = get_int("Enter a starting population size (must be >= 9): ");
+        getchar();
     }
     while (n < 9);
 
