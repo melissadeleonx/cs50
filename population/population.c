@@ -12,7 +12,7 @@ int main(void)
     }
     while (n < 9);
 
-    int x = get_int("Number of newbor llamas: ");
+    int x = get_int("Number of newborn llamas: ");
     int y = get_int("Number of deceased llamas: ");
 
     // TODO: Calculate number of years until we reach threshold
@@ -24,7 +24,5 @@ int main(void)
     printf("The number of llamas at the end of the year is %i\n", end);
 
     return 0;
-
     // TODO: Prompt for end size
-
 }
