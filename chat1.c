@@ -3,16 +3,28 @@
 
 int main(void)
 {
-    int num1 = get_int("num1: ");
-    int num2 = get_int("num2: ");
-    int result;
-
-    if (num1 != 0 && num2 != 0)
+    int n;
+    do
     {
-        result = num1 / num2;
-        printf("The result is: %i\n", result);
-    } else {
-        printf("Division by zero is not allowed\n");
+        n = get_int("Enter a starting population size : ");
+        if (n < 9)
+        {
+            printf("Enter a starting population size (must be >= 9): ");
         }
+    while (n < 9);
+
+    int x = get_int("Number of newborn llamas: ");
+
+    int y;
+    do
+    {
+        y = get_int("Number of deceased llamas: (must be <= n): ");
+    }
+    while (y < n);
+
+    int end = n + x - y;
+
+    printf("The number of llamas at the end of the year is %i\n", end);
+
     return 0;
 }
