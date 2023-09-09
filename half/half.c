@@ -8,7 +8,7 @@ int main(void)
     float tax_amount = ((tax_percent / 100) * bill_amount);
     float bill_amount_with_tax = (bill_amount + tax_amount);
     int tip_percent = get_int("Tip percent: ");
-    float billtip = ((tip_percent / 100) * bill_amount_with_tax);
+    float tip_amount = ((tip_percent / 100) * bill_amount_with_tax);
     int people = get_int("How many are you: ");
 
     float my_half = ((bill_amount + billtax + tip_percent)/people);
