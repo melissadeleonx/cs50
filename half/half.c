@@ -8,7 +8,7 @@ int main(void)
     int tip_percent = get_int("Tip percent: ");
     int people = get_int("How many are you: ");
 
-    float my_half = ((bill_amount + tax_percent + tip_percent)/2);
+    float my_half = ((bill_amount + tax_percent + tip_percent)/people);
 
     printf("You will owe $%.2f each!\n", my_half);
 
