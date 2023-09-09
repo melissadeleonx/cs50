@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-int get_size(void);
+int get_height(void);
 void print_grid(int size);
 int main(void)
 {
@@ -12,12 +12,18 @@ int main(void)
 }
 
 
+
+
+
+
+
+
 int get_height(void)
 {
     int n;
     do
     {
-        n = get_int("Size: ");
+        n = get_int("Height: ");
     }
     while (n < 1);
     return n;
