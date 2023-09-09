@@ -14,6 +14,7 @@ int main(void)
     float f = ((e / 100) * d);
 
     int people = get_int("How many are you: ");
+    // my half = bill amount + tax + tip / people
     float my_half = ((d + f) / people);
 
     printf("You will owe $%.2f each!\n", my_half);
