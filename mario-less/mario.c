@@ -10,6 +10,7 @@ int main(void)
          get_int("Height: ");
         } while (height > 1);
           while (height < 8);
+          printf()
 
 // Add Iterate from 1 through height: On iteration i, print i hashes and then a newline
 }
