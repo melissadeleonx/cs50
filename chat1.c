@@ -4,6 +4,7 @@
 int main(void)
 {
     int n = get_int("Enter a starting population size : ");
+    if (n < 9)
     int x = get_int("Number of newborn llamas: ");
     int y = get_int("Number of deceased llamas: ");
     int end = n + x - y;
