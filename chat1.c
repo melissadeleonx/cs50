@@ -5,7 +5,12 @@ int main(void)
 {
     int n = get_int("Enter a starting population size : ");
     do {
-        n = get_int("Enter a starting population size not less than 9: ");
+       if (n < 9){
+        get_int("Enter a starting population size not less than 9: ");
+        }
+        else {
+        get_int("Enter a starting population size : ");
+        }
     }
     while (n < 9);
 
