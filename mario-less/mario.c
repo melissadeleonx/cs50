@@ -5,8 +5,11 @@ int get_height(void);
 void print_grid(int size);
 int main(void)
 {
-    // conditionals: if height < 1 or > 8 (or not a positive integer at all), prompt again and again (loop) until valid answer is received
-
+   // conditionals: if height < 1 or > 8 (or not a positive integer at all), prompt again and again (loop) until valid answer is received
+   // Get height of grid
+    int n = get_size();
+    // Print grid of bricks
+    print_grid(n);
 
    // Add Iterate from 1 through height: On iteration i, print i hashes and then a newline
 }
