@@ -4,11 +4,12 @@
 int main(void)
 {
     int height = get_int("Height: ");
+    for 
     // conditionals: if height < 1 or > 8 (or not a positive integer at all), prompt again and again (loop) until valid answer is received
     do {
          get_int("Height: ");
         } while (height > 1);
           while (height < 8);
-        
+
 // Add Iterate from 1 through height: On iteration i, print i hashes and then a newline
 }
