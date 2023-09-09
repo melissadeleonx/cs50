@@ -11,6 +11,6 @@ int main(void)
     char location = get_char("Where do you live? ");
 
     // Say hello
-    printf("Hello, %s, from %s!", name, location);
+    printf("Hello, %c, from %c!", name, location);
     return 0;
     }
