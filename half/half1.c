@@ -1,23 +1,31 @@
 #include <cs50.h>
 #include <stdio.h>
 
+// Function to calculate the total amount with tax
+float calculateTotalWithTax(float billAmount, float taxRate)
+{
+    return billAmount + (taxRate / 100) * billAmount;
+}
+
+// Function to calculate the tip amount
+float calculateTip(float totalAmount, float tipPercent)
+{
+    return (tipPercent / 100) * totalAmount;
+}
+
 int main(void)
 {
-    float a = get_float("Bill before tax and tip: ");
-    float b = get_float("Sale Tax Percent: ");
-    // get the amount of the %
-    float c = ((b / 100) * a);
-    // get the bill amount + tax
-    float d = (a + c);
-    // get the amount of the tip percent
-    float e = get_float("Tip percent: ");
-    float f = ((e / 100) * d);
+    float billAmount = get_float("Bill before tax and tip: ");
+    float taxRate = get_float("Sales Tax Percent: ");
+    float totalAmount = calculateTotalWithTax(billAmount, taxRate);
+
+    float tipPercent = get_float("Tip percent: ");
+    float tipAmount = calculateTip(totalAmount, tipPercent);
 
     int people = get_int("How many are you: ");
-    // my half = bill amount + tax + tip / people
-    float my_half = ((d + f) / people);
+    float perPersonAmount = (totalAmount + tipAmount) / people;
 
-    printf("You will owe $%.2f each!\n", my_half);
+    printf("Each person will owe $%.2f\n", perPersonAmount);
 
     return 0;
 }
