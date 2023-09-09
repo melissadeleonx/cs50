@@ -5,7 +5,7 @@ int main(void)
 {
     float bill_amount = get_float("Bill before tax and tip: ");
     float tax_percent = get_float("Sale Tax Percent: ");
-          tax_percent = 
+          tax_percent = (.2f% / bill_amount);
     int tip_percent = get_int("Tip percent: ");
     int people = get_int("How many are you: ");
 
