@@ -3,7 +3,8 @@
 
 // Prompt user for height
 
-// conditionals: if height < 1 or > 8 (or not an integer at all), go back one step
+// conditionals: if height < 1 or > 8 (or not an integer at all), prompt again and again until valid answer is received
+
 Iterate from 1 through height:
 On iteration i, print i hashes and then a newline
 int main(void)
