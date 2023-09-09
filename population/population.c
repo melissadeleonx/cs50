@@ -26,5 +26,5 @@ int main(void)
 
     printf("The number of llamas at the end of the year is %i\n", end);
 
-    return 0;
+    return 0; }
 }
