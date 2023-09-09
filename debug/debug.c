@@ -7,8 +7,8 @@
 int main(void)
 {
     // Ask for your name and where live
-    char name = get_char("What is your name? ");
-    char location = get_char("Where do you live? ");
+    char name [100] = get_char("What is your name? ");
+    char location [100] = get_char("Where do you live? ");
 
     // Say hello
     printf("Hello, %c, from %c!", name, location);
