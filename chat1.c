@@ -10,10 +10,9 @@ int main(void)
             get_int("Enter a starting population size more than 9: ");
 
         }
-    while (n < 9);
-
-    n = get_int("Enter a starting population size : ");
-    
+    while (n > 9) {
+        get_int("Enter a starting population size : ");
+    }
     }
 
     int x = get_int("Number of newborn llamas: ");
