@@ -7,8 +7,8 @@ int main(void)
 {
     // Prompt user for height
 
-// conditionals: if height < 1 or > 8 (or not an integer at all), prompt again and again (loop) until valid answer is received
+// conditionals: if height < 1 or > 8 (or not a positive integer at all), prompt again and again (loop) until valid answer is received
 
-// Add 
+// Add
 
 }
