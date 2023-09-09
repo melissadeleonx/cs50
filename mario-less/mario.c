@@ -6,6 +6,8 @@ int main(void)
 {
     // Prompt the user to put the height of the pyramid, not less than 1 nor more than 8. Reprompt again if user gives an invalid answer.
 
-    // Use the for loop to 
+    // Use the 'for loop' to make the ascending #
+
+    // Print # as bricks
 
 }
