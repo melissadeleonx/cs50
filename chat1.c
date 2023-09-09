@@ -16,11 +16,8 @@ int main(void)
     int x = get_int("Number of newborn llamas: ");
 
     int y;
-    do
-    {
-        y = get_int("Number of deceased llamas: (must be <= n): ");
-    }
-    while (y < n);
+
+    y = get_int("Number of deceased llamas: (must be <= n): ");
 
     int end = n + x - y;
 
