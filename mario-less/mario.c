@@ -3,9 +3,8 @@
 
 int main(void)
 
-int height;
-do {}
-{
+{ int height;
+    do
     int height = get_int("Height: ");
 
     for (int i = 1; i < height; i++)
