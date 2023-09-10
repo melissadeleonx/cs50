@@ -7,7 +7,7 @@ int main(void)
     do
     {height = get_int("Height: ");
 
-    } while (height > 1) || (height < 8);
+    } while (height > 1); while (height < 8);
 
     for(int i; i = 1; i < height; i++){
 
