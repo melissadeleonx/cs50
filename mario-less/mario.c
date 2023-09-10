@@ -7,8 +7,12 @@ int main(void)
     do
     {int height = get_int("Height: ");
 
-    } while {}
+    } while (height > 1) || (height < 8);
 
+    for{
+
+        
+    }
     for (int i = 1; i < height; i++)
  {
     for (int j = 1; j < height - 1; j++)
