@@ -7,26 +7,18 @@ int main(void)
 
     for (int i < height; i++);
         {
-            for (j = height - 1; j++);
+            for (int j = height - 1; j++);
                 {
                 printf(" ");
                 }
+            for (int j < i; j++)
                 {
-                    for (j < columns; rows++)
-                    {
-                        printf("#");
+                printf("#");
+                }
+                printf("\n");
                         }
-                        printf("\n");
-                        }
-    }
     return 0;
 }
-
-
-
-
-
-
 
 
 // Goal is to recreate a right-aligned pyramid
