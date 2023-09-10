@@ -15,7 +15,7 @@ int main(void) {
 
     for(rows = 0; rows < height; rows++)
     {
-        for(columns = 0; columns < height - rows - 1; columns++)
+        for(columns = 0; columns < (height - rows - 1); columns++)
         {
             printf(" ");
         }
