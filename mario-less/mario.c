@@ -19,8 +19,10 @@ int main(void) {
         {
             printf(" ");
         }
-
-        for()
+        for(columns = 0; columns < rows - 1; columns++)
+        {
+            printf("#");
+        }
     printf("\n");
     }
 }
