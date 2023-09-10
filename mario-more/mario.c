@@ -14,5 +14,8 @@ int main(void)
             printf("Height should be between 1 and 8 inclusive.\n");
         }
     } while (height < 1 || height > 8);
+
+       // Use the 'for' function to make rows and form the pyramids
+
    return 0;
 }
