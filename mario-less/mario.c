@@ -4,19 +4,19 @@
 int main(void)
 {
     int height = get_int("Height: ");
-    int columns = 1;
-    int rows = 1;
 
-    for (columns < height; columns++);
+    for (int i < height; i++);
         {
-            for (rows = height - 1; rows++);
+            for (j = height - 1; j++);
             {
             printf(" ");
         }
-    for (rows < columns; rows++) {
+        {
+        for (j < columns; rows++) {
             printf("#");
         }
         printf("\n");
+    }
     }
     return 0;
 }
