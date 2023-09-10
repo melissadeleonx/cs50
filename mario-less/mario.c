@@ -9,7 +9,7 @@ int main(void) {
    if (height < 1 || height > 8) {
         printf("Height should be between 1 and 8 inclusive.\n");
         }
-   while ()
+   while (height < 1 || height > 8);
         return 1; // Exit with an error code
     }
 
