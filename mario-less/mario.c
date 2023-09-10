@@ -7,7 +7,7 @@ int main(void) {
     int height;
 
     do {
-        // Prompt the user for the pyramid height
+        // Prompt the user for the pyramid height with height more than 1 but not less than 8 and loop it
         height = get_int("Enter the height of the pyramid (1-8): ");
 
         if (height < 1 || height > 8) {
@@ -15,7 +15,7 @@ int main(void) {
         }
     } while (height < 1 || height > 8);
 
-    // Loop for each row
+    // Use the 'for' function to make the row always subtracting 1 from the height
     for (int i = 0; i < height; i++) {
         // Print spaces
         for (int j = 0; j < height - i - 1; j++) {
@@ -27,12 +27,9 @@ int main(void) {
             printf("#");
         }
 
-        // Move to the next line
+        // Next line
         printf("\n");
     }
 
-    return 0; // Exit successfully
+    return 0;
 }
-
-// Prompt the user to put the height of the pyramid. Height always greater than 1
-// Use the 'for' function to make the row always subtracting 1 from the height
