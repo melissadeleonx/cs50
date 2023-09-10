@@ -14,7 +14,13 @@ int main(void)
     }
     } while(height < 1 || height > 8);
 
-    for(rows = 0; )
+    for(rows2 = 0; rows2 < height2; rows2++)
+    {
+        for(columns2 = 0; columns2 <= rows2; columns2++)
+        {
+            printf("#");
+        }
+    printf("\n");
 }
 //2nd pyramid
 {
