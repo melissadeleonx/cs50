@@ -2,23 +2,14 @@
 #include <stdio.h>
 
 int main(void)
-{
-    int height = get_int("Height: ");
 
-    for (int i; i < height; i++);
-        {
-            for (int j; j < (height - 1); j++);
-                {
-                printf(" ");
-                }
-    for (int j < i; j++);
-                {
-                printf("#");
-                }
-                printf("\n");
-                        }
-    return 0;
+{
+    
+int height = get_int("Height: ");
+
 }
+
+
 
 
 // Goal is to recreate a right-aligned pyramid
