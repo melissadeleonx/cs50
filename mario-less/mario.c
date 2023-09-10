@@ -11,11 +11,9 @@ int main(void)
 
     for (int i = 1; i <= height; i++);
         {
-            for j = i
+            for j = 1; j<=
         }
 
-
-
-    // Print # as bricks
+    // Print # as bricks of the pyramid
 
 }
