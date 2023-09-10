@@ -5,13 +5,13 @@ int main(void)
 {
     int height = get_int("Height: ");
 
-    for (int i; i < height; i++)
+    for (int i; i < height; i++);
         {
-            for (int j; j < height - 1; j++)
+            for (int j; j < (height - 1); j++);
                 {
                 printf(" ");
                 }
-            for (int j < i; j++)
+    for (int j < i; j++);
                 {
                 printf("#");
                 }
