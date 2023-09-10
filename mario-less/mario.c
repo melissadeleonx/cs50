@@ -12,7 +12,9 @@ int main(void)
     for{int i; i = 1; i < height; i++;
 
     for{int j; j = -1; j < height - 1; j++};
-    printf
+
+    { printf(" ")}
+    for{ j < i }
 
 
     }
