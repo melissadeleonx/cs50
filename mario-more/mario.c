@@ -14,21 +14,22 @@ int main(void)
     }
     } while(height < 1 || height > 8);
 
+    for(rows = 0; )
 }
 //2nd pyramid
 {
-    int height, rows, columns;
+    int height2, rows2, columns2;
 
-    do { height = get_int("Height: ");
-    if(height < 1 || height > 8)
+    do { height2 = get_int("Height: ");
+    if(height2 < 1 || height > 8)
     {
         printf("Enter a number from 1 to 8\n");
     }
-    } while(height < 1 || height > 8);
+    } while(height2 < 1 || height2 > 8);
 
-    for(rows = 0; rows < height; rows++)
+    for(rows2 = 0; rows2 < height2; rows2++)
     {
-        for(columns = 0; columns <= rows; columns++)
+        for(columns2 = 0; columns2 <= rows2; columns2++)
         {
             printf("#");
         }
