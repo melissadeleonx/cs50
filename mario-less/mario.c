@@ -15,12 +15,12 @@ int main(void)
 
     for (i < height; i++);
         {
-            for (j = 1; j < height - 1; j++);
+            for (j = height - 1; j++);
             {
             printf(" ");
         }
     // Print # as bricks of the pyramid
-    for (int j = 1; j < i; j++) {
+    for (j < i; j++) {
             printf("#");
         }
         printf("\n");
