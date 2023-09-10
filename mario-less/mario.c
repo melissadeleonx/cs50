@@ -8,15 +8,16 @@ int main(void)
     for (int i < height; i++);
         {
             for (j = height - 1; j++);
-            {
-            printf(" ");
-        }
-        {
-        for (j < columns; rows++) {
-            printf("#");
-        }
-        printf("\n");
-    }
+                {
+                printf(" ");
+                }
+                {
+                    for (j < columns; rows++)
+                    {
+                        printf("#");
+                        }
+                        printf("\n");
+                        }
     }
     return 0;
 }
