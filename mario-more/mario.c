@@ -32,6 +32,21 @@ for (int i = 0; i < height; i++) {
     }
 
     // 2nd pyramid
-   
+for (int i = height; i < height; i--) {
+        // Print spaces
+        for (int j = 0; j < height - i - 1; j--) {
+            printf(" ");
+        }
+
+        // Print hashes
+        for (int j = 0; j < i + 1; j++) {
+            printf("#");
+        }
+
+        // Next line
+        printf("\n");
+    }
+
+
    return 0;
 }
