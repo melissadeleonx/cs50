@@ -15,11 +15,10 @@ int main(void) {
 
     for(rows = 0; rows < height; rows++)
     {
-        for(columns = 0; columns < height; columns++)
+        for(columns = 0; columns < rows; columns++)
         {
             printf("#");
         }
     printf("\n");
-    return 0;
     }
 }
