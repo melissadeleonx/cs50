@@ -5,9 +5,9 @@ int main(void)
 {
     int height = get_int("Height: ");
 
-    for (int i < height; i++);
+    for (int i < height; i++)
         {
-            for (int j = height - 1; j++);
+            for (int j = height - 1; j++)
                 {
                 printf(" ");
                 }
