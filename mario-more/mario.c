@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-// Goal is to recreate two adjacent pyramids of blocks
+// Goal is to recreate Super Mario's two adjacent pyramids of blocks
 
 // 
 
