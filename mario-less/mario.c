@@ -9,9 +9,12 @@ int main(void)
 
     } while (height > 1) || (height < 8);
 
-    for{
+    for{int i; i = 1; i < height; i++;
 
-        
+    for{int j; j = -1; j < height - 1; j++};
+    printf
+
+
     }
     for (int i = 1; i < height; i++)
  {
