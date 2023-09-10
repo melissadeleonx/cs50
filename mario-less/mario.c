@@ -1,17 +1,17 @@
-#include <cs50.h>
 #include <stdio.h>
+#include <cs50.h>
 
 int main(void) {
     int height;
 
-    // Prompt the user for the pyramid height
-   do { get_int("Height: ");
-   if (height < 1 || height > 8) {
-        printf("Height should be between 1 and 8 inclusive.\n");
+    do {
+        // Prompt the user for the pyramid height
+        get_int("Enter the height of the pyramid (1-8): ");
+
+        if (height < 1 || height > 8) {
+            printf("Height should be between 1 and 8 inclusive.\n");
         }
-   while (height < 1 || height > 8);
-        return 1; // Exit with an error code
-    }
+    } while (height < 1 || height > 8);
 
     // Loop for each row
     for (int i = 0; i < height; i++) {
