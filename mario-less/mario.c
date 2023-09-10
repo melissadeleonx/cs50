@@ -8,7 +8,7 @@ int main(void)
     int height;
         height = get_int("Height: ")
 
-          // Use the 'for loop' to make the ascending with 
+          // Use the 'for loop' to make the ascending with the row always less than 1 than the height
         for i < 8; i > 1;
         {
             for j
