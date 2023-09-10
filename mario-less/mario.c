@@ -8,19 +8,19 @@ int main(void)
     // Prompt the user to put the height of the pyramid. Height always greater than 1
 
     int height = get_int("Height: ");
-    int i = 1;
-    int j = 1;
+    int columns = 1;
+    int rows = 1;
 
     // Use the 'for' function to make the row always subtracting 1 from the height
 
-    for (i < height; i++);
+    for (columns < height; columns++);
         {
-            for (j = height - 1; j++);
+            for (rows = height - 1; rows++);
             {
             printf(" ");
         }
     // Print # as bricks of the pyramid
-    for (j < i; j++) {
+    for (rows < columns; rows++) {
             printf("#");
         }
         printf("\n");
