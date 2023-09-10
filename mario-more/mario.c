@@ -18,7 +18,7 @@ int main(void)
     {
         for(columns = 0; columns <= rows; columns++)
         {
-         printf("#");
+         printf(" ");
         }
          for(columns = 1; columns < height; columns++)
 
