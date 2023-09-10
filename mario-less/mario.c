@@ -5,9 +5,12 @@ int main(void)
 
 { int height;
     do
-    {height = get_int("Height: ");
+    { height = get_int("Height: ");
 
     } while (height > 1); while (height < 8);
+     return 0;
+}
+
 
 
 
