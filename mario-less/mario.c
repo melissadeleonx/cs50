@@ -5,9 +5,11 @@ int main(void) {
     int height;
 
     // Prompt the user for the pyramid height
-   get_int("Height: ");
+   do { get_int("Height: ");
    if (height < 1 || height > 8) {
         printf("Height should be between 1 and 8 inclusive.\n");
+        }
+   while ()
         return 1; // Exit with an error code
     }
 
