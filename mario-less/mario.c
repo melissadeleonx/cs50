@@ -9,20 +9,6 @@ int main(void)
 
     } while (height > 1); while (height < 8);
 
-    for(int i; i = 1; i < height; i++){
-
-    for{int j; j = -1; j < height - 1; j++};
-
-    { printf(" ");
-    }
-    for (j < i){
-        printf("#");
-        }
-return;
-}
-}
-
-
 
 
 // Goal is to recreate a right-aligned pyramid
