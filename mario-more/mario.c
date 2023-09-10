@@ -15,7 +15,7 @@ int main(void)
         }
     } while (height < 1 || height > 8);
 
-       // Use the 'for' function to make rows and form the pyramids
+       // 1st pyramid
 for (int i = 0; i < height; i++) {
         // Print spaces
         for (int j = 0; j < height - i - 1; j++) {
@@ -30,5 +30,8 @@ for (int i = 0; i < height; i++) {
         // Next line
         printf("\n");
     }
+
+    // 2nd pyramid
+   
    return 0;
 }
