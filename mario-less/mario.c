@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <cs50.h>
 
+// Goal is to recreate a right-aligned pyramid
+
 int main(void) {
     int height;
 
     do {
         // Prompt the user for the pyramid height
-        get_int("Enter the height of the pyramid (1-8): ");
+        height = get_int("Enter the height of the pyramid (1-8): ");
 
         if (height < 1 || height > 8) {
             printf("Height should be between 1 and 8 inclusive.\n");
@@ -32,6 +34,5 @@ int main(void) {
     return 0; // Exit successfully
 }
 
-// Goal is to recreate a right-aligned pyramid
 // Prompt the user to put the height of the pyramid. Height always greater than 1
 // Use the 'for' function to make the row always subtracting 1 from the height
