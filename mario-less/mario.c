@@ -9,9 +9,8 @@ int main(void)
 
     } while (height > 1); while (height < 8);
      return 0;
-    printf("#");
+     printf("#");
     }
-}
 
 
 
