@@ -9,12 +9,13 @@ int main(void)
 
     int height = get_int("Height: ");
 
-    //  not less than 1 nor more than 8. Reprompt again if user gives an invalid answer.
-    // Use the 'for' function to make the ascending with the row always subtracting 1 from the height
+    // Height always greater than 1
 
     for (int i = 1; i <= height; i++);
+
+    // Use the 'for' function to make the row always subtracting 1 from the height
         {
-            for j = 1; j <= height - 1; j++;
+            for int j = 1; j <= height - 1; j++;
             {
             printf(" ");
         }
