@@ -21,11 +21,10 @@ int main(void)
          for(columns = 1; columns < height; columns++)
          {
             printf(" ");
-         }
-        }
-        {
             printf("#");
+         }
+
+            printf("\n");
         }
-    printf("\n");
-}
+
 }
