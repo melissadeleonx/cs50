@@ -15,34 +15,15 @@ int main(void)
         }
     } while (height < 1 || height > 8);
 
-       // 1st pyramid
-for (int i = 0; i < height; i++) {
+for (int i = height; i--) {
         // Print spaces
-        for (int j = 0; j < height - i - 1; j++) {
+        for (int j = 1; j < height - 1; j++) {
             printf(" ");
         }
-
         // Print hashes
-        for (int j = 0; j < i + 1; j++) {
+        for (int j = 1; j < i + 1; j++) {
             printf("#");
         }
-
-        // Next line
-        printf("\n");
-    }
-
-    // 2nd pyramid
-for (int i = height; i < height; i--) {
-        // Print spaces
-        for (int j = 0; j < height - i - 1; j--) {
-            printf(" ");
-        }
-
-        // Print hashes
-        for (int j = 0; j < i + 1; j++) {
-            printf("#");
-        }
-
         // Next line
         printf("\n");
     }
