@@ -12,4 +12,6 @@ int main(void) {
         printf("Enter a height from 1 to 8");
     }
     } while(height < 1 || height > 8);
+
+    for(rows = 0; rows < height; rows++)
 }
