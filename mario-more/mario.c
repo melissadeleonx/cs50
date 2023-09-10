@@ -5,9 +5,12 @@
 // Try first pyramid
 int main(void)
 { int height;
-      do {
-        
+      do { height = get_int("Height");
+      if(height > 8)  (height < 1 )
+      {
+        printf("Enter a number from 1-8")
       }
-
+      }
+      while (height > 8) || (height < 1 )
 
 }
