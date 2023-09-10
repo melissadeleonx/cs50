@@ -19,7 +19,7 @@ int main(void) {
         {
             printf(" ");
         }
-        for(columns = 0; columns < rows + rows + 1; columns++)
+        for(columns = 0; columns < (rows + 1); columns++)
         {
             printf("#");
         }
