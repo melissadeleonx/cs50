@@ -4,8 +4,17 @@
 int main(void)
 
 {
-    
-int height = get_int("Height: ");
+    int height = get_int("Height: ");
+
+    for (int i = 1; i < height; i++)
+ {
+    for (int j = 1; j < height - 1; j++)
+    {
+        printf(".");
+        }
+    for ()
+        printf("#");
+
 
 }
 
