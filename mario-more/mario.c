@@ -8,9 +8,11 @@ int main(void)
       do { height = get_int("Height: ");
       if(height > 8 || height < 1 )
       {
-        printf("Enter a number from 1-8");
+        printf("Enter a number from 1-8\n");
       }
       }
       while (height > 8 || height < 1);
+
+      for i = 
     return 0;
 }
