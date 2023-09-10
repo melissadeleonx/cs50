@@ -21,9 +21,7 @@ int main(void)
          printf("#");
         }
          for(columns = 1; columns < height; columns++)
-         {
-            printf(" ");
-         }
+
             printf("\n");
         }
 }
