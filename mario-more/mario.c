@@ -14,7 +14,11 @@ int main(void)
       while (height > 8 || height < 1);
 
       for(i = 0; i < h; i++)
-         { for(j = 0; j < h - 1; )
+         { for(j = 0; j < h - 1; j++)
+         {
+            for()
+
+         }
 
 
       }
