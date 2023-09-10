@@ -2,6 +2,7 @@
 #include <stdio.h>
 
  // Goal is to recreate a right-aligned pyramid of blocks Nintendo’s Super Mario Brothers
+
 int main(void)
 {
     // Prompt the user to put the height of the pyramid, not less than 1 nor more than 8. Reprompt again if user gives an invalid answer.
@@ -17,5 +18,12 @@ int main(void)
         }
         }
     // Print # as bricks of the pyramid
+for (int j = 1; j <= i; j++) {
+            printf("#");
+        }
 
+        printf("\n");
+    }
+
+    return 0;
 }
