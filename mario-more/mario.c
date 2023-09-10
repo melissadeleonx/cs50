@@ -18,13 +18,12 @@ int main(void)
     {
         for(columns = 0; columns <= rows; columns++)
         {
+         printf("#");
+        }
          for(columns = 1; columns < height; columns++)
          {
             printf(" ");
-            printf("#");
          }
-
             printf("\n");
         }
-
 }
