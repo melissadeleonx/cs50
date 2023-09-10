@@ -7,13 +7,15 @@ int main(void)
     // Prompt the user to put the height of the pyramid, not less than 1 nor more than 8. Reprompt again if user gives an invalid answer.
     int height = get_int("Height: ");
 
-    // Use the 'for' function to make the ascending with the row always subtracting 1 than the height
+    // Use the 'for' function to make the ascending with the row always subtracting 1 from the height
 
     for (int i = 1; i <= height; i++);
         {
-            for j = 1; j <= height - 1
+            for j = 1; j <= height - 1; j++;
+            {
+            printf(" ");
         }
-
+        }
     // Print # as bricks of the pyramid
 
 }
