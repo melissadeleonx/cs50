@@ -54,17 +54,6 @@ int main(void)
 
 
 
-int get_cents(void)
-{
-    int n;
-    do
-    {
-        n = get_int("Change due: ");
-    }
-    while (n < 1);
-    return n;
-}
-
 int calculate_quarters(int cents)
 {
      if (quarters == 1) {
