@@ -26,6 +26,10 @@ int main(void)
         }
     printf("\n");
     }
+
+
+
+    // second pyramid
     for(rows = 0; rows < height; rows++)
     {
         for(columns = 0; columns <= rows; columns++)
@@ -33,6 +37,6 @@ int main(void)
          printf("#");
         }
             printf("\n");
-            
+
         } return 0;
         }
