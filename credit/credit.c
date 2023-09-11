@@ -1,31 +1,18 @@
 #include <cs50.h>
 #include <stdio.h>
 
-long get_number(void);
-long american_express(long number);
-long master_card(long number);
-long visa(long number);
+// Goal is to find out if a credit card is valid and identify their type(Visa, MasterCard, American Express)
 
 int main(void)
 {
-    long number = get_number("Number: ");
+    // Prompt user to enter the credit card number
+    long number = get_number("Enter the credit card number: ");
+
+    // Calculate checksum ??????
+
+    // Check for card length and starting digits
+
+    // Print Visa, MasterCard, American Express or INVALID
 
 
-}
-
-
-long get_number(void);
-{
-    long n;
-    do
-    {
-        n = get_long("Number: ");
-
-        if (n == 16)
-        {
-            printf("VISA\n");
-        } else
-    }
-    while (n > 16);
-    return n;
 }
