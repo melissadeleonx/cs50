@@ -66,12 +66,20 @@ int calculate_dimes(int cents)
 
 int calculate_nickels(int cents)
 {
-    // TODO
+  if (nickels == 1) {
+        cents = 5;
+    } else {
+        cents = nickels * 5;
+    }
     return 0;
 }
 
 int calculate_pennies(int cents)
 {
-    // TODO
+      if (pennies == 1) {
+        cents = 1;
+    } else {
+        cents = quarters * 1;
+    }
     return 0;
 }
