@@ -13,19 +13,19 @@ int main(void)
     int cents = get_cents("Change owed: ");
 
     // Calculate the number of quarters to give the customer
-    int quarters = calculate_quarters(25 cents);
+    int quarters = calculate_quarters(cents);
     cents = cents - quarters * 25;
 
     // Calculate the number of dimes to give the customer
-    int dimes = calculate_dimes(10 cents);
+    int dimes = calculate_dimes(cents);
     cents = cents - dimes * 10;
 
     // Calculate the number of nickels to give the customer
-    int nickels = calculate_nickels(5 cents);
+    int nickels = calculate_nickels(cents);
     cents = cents - nickels * 5;
 
     // Calculate the number of pennies to give the customer
-    int pennies = calculate_pennies(1 cents);
+    int pennies = calculate_pennies(cents);
     cents = cents - pennies * 1;
 
     // Sum coins
@@ -34,10 +34,6 @@ int main(void)
     // Print total number of coins to give the customer
     printf("%i\n", coins);
 }
-
-
-
-
 
 int get_cents(void)
 {
@@ -52,38 +48,23 @@ int get_cents(void)
 
 int calculate_quarters(int cents)
 {
-     if (quarters == 1) {
-        cents = 25;
-    } else {
-        cents = quarters * 25;
-    }
+
+
 }
 
 int calculate_dimes(int cents)
 {
-    if (dimes == 1) {
-        cents = 10;
-    } else {
-        cents = quarters * 10;
-    }
+
 }
 
 int calculate_nickels(int cents)
 {
-  if (nickels == 1) {
-        cents = 5;
-    } else {
-        cents = nickels * 5;
-    }
+    // TODO
     return 0;
 }
 
 int calculate_pennies(int cents)
 {
-      if (pennies == 1) {
-        cents = 1;
-    } else {
-        cents = quarters * 1;
-    }
+    // TODO
     return 0;
 }
