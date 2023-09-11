@@ -42,6 +42,10 @@ int get_cents(const char* prompt)
     do
     {
         n = get_int("Change due: ");
+
+        if (n < 1){
+            printf("Please enter a positive number\n");
+        }
     }
     while (n < 1);
     return n;
