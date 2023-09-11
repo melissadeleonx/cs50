@@ -53,13 +53,15 @@ int calculate_quarters(int cents)
     } else {
         cents = quarters * 25;
     }
-    return 0;
 }
 
 int calculate_dimes(int cents)
 {
-    // TODO
-    return 0;
+    if (dimes == 1) {
+        cents = 10;
+    } else {
+        cents = quarters * 10;
+    }
 }
 
 int calculate_nickels(int cents)
