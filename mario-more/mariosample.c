@@ -5,7 +5,7 @@
 int main(void)
 // First pyramid
 {
-    int height, rows, columns, grid;
+    int height, rows, columns;
 
     do { height = get_int("Height: ");
     if(height < 1 || height > 8)
@@ -15,12 +15,10 @@ int main(void)
     } while(height < 1 || height > 8);
 
     for(rows = 0; rows < height; rows++)
-    { for(rows = 0; rows < height; rows++)
-       { for(columns = 0; columns <= rows; columns++)
-       { for(columns = 0; columns < (height - rows - 1); columns++)
+    {
+        for(columns = 0; columns < (height - rows - 1); columns++)
         {
             printf(" ");
-        }
         }
         for(columns = 0; columns < (rows + 1); columns++)
         {
@@ -28,5 +26,16 @@ int main(void)
         }
     printf("\n");
     }
+
+    
+
+    // Second pyramid
+    for(rows = 0; rows < height; rows++)
+    {
+        for(columns = 0; columns <= rows; columns++)
+        {
+         printf("#");
+        }
+            printf("\n");
         } return 0;
         }
