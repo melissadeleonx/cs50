@@ -8,21 +8,24 @@ int main(void)
 {
     int height, rows, columns;
 
-    do { height = get_int("Enter the height: ");
-    if(height < 1 || height > 8)
+    do
     {
-        printf("Enter a number from 1 to 8\n");
+        height = get_int("Enter the height: ");
+        if (height < 1 || height > 8)
+        {
+            printf("Enter a number from 1 to 8\n");
+        }
     }
-    } while(height < 1 || height > 8);
+    while (height < 1 || height > 8);
 
     // First pyramid
-    for(rows = 0; rows < height; rows++)
+    for (rows = 0; rows < height; rows++)
     {
-        for(columns = 0; columns < (height - rows - 1); columns++)
+        for (columns = 0; columns < (height - rows - 1); columns++)
         {
             printf(" ");
         }
-        for(columns = 0; columns < (rows + 1); columns++)
+        for (columns = 0; columns < (rows + 1); columns++)
         {
             printf("#");
         }
@@ -31,10 +34,11 @@ int main(void)
         printf("  ");
 
         // Second Pyramid
-      for(columns = 0; columns <= rows; columns++)
+        for (columns = 0; columns <= rows; columns++)
         {
-         printf("#");
+            printf("#");
         }
         printf("\n");
-        } return 0;
-        }
+    }
+    return 0;
+}
