@@ -1,20 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
 
-int get_cents(void);
-
-
-int get_cents(void)
-{
-    int n;
-    do
-    {
-        n = get_int("Change due: ");
-    }
-    while (n < 1);
-    return n;
-}
-
 int get_size(void);
 void print_grid(int size);
 
