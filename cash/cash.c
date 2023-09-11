@@ -13,19 +13,19 @@ int main(void)
     int cents = get_cents("Change owed: ");
 
     // Calculate the number of quarters to give the customer
-    int quarters = calculate_quarters(cents);
+    int quarters = calculate_quarters(25 cents);
     cents = cents - quarters * 25;
 
     // Calculate the number of dimes to give the customer
-    int dimes = calculate_dimes(cents);
+    int dimes = calculate_dimes(10 cents);
     cents = cents - dimes * 10;
 
     // Calculate the number of nickels to give the customer
-    int nickels = calculate_nickels(cents);
+    int nickels = calculate_nickels(5 cents);
     cents = cents - nickels * 5;
 
     // Calculate the number of pennies to give the customer
-    int pennies = calculate_pennies(cents);
+    int pennies = calculate_pennies(1 cents);
     cents = cents - pennies * 1;
 
     // Sum coins
