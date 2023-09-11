@@ -35,6 +35,25 @@ int main(void)
     printf("%i\n", coins);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 int get_cents(void)
 {
     int n;
