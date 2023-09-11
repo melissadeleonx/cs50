@@ -21,7 +21,7 @@ long get_number(void);
     {
         n = get_long("Number: ");
 
-        if (n = )
+        if (n == 16 )
         {
             printf("VISA\n");
         } else
