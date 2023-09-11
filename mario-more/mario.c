@@ -5,7 +5,7 @@
 int main(void)
 // First pyramid
 {
-    int height, rows, columns;
+    int height, rows, columns, grid;
 
     do { height = get_int("Height: ");
     if(height < 1 || height > 8)
@@ -33,5 +33,6 @@ int main(void)
          printf("#");
         }
             printf("\n");
+            
         } return 0;
         }
