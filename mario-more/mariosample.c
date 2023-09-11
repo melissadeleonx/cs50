@@ -15,7 +15,7 @@ int main(void)
     } while(height < 1 || height > 8);
 
     for(rows = 0; rows < height; rows++)
-    {for(rows = 0; rows < height; rows++)
+    { for(rows = 0; rows < height; rows++)
        { for(columns = 0; columns <= rows; columns++)
        { for(columns = 0; columns < (height - rows - 1); columns++)
         {
