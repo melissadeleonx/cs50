@@ -36,6 +36,7 @@ int main(void)
 }
 
 int get_cents(const char* prompt)
+
 {
     int n;
     do
