@@ -1,19 +1,20 @@
 #include <cs50.h>
 #include <stdio.h>
 
-long get_number(const char *prompt);
-int american_express(int number);
-int master_card(int number);
-int visa(int number);
+long get_number(void);
+long american_express(long number);
+long master_card(long number);
+long visa(long number);
 
 int main(void)
 {
-    long number = get_number("Number: ")
+    long number = get_number("Number: ");
+
 
 }
 
 
-long get_number(const char *prompt);
+long get_number(void);
 {
     long n;
     do
