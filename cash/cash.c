@@ -48,7 +48,7 @@ int get_cents(void)
 
 int calculate_quarters(int cents)
 {
-    for(i )
+    
     return 0;
 }
 
