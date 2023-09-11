@@ -23,8 +23,8 @@ long get_number(void);
 
         if (n < 1)
         {
-            printf("Please enter a positive number\n");
-        }
+            printf("VISA\n");
+        } else
     }
     while (n < 1);
     return n;
