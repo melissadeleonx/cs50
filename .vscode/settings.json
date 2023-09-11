@@ -3,6 +3,7 @@
     "files.associations": {
         "stdio.h": "c",
         "functional": "c",
-        "mariosample": "c"
+        "mariosample": "c",
+        "cs50.h": "c"
     }
 }
