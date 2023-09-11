@@ -3,17 +3,19 @@
 // Goal is to recreate Super Mario's two adjacent pyramids of blocks
 
 int main(void)
-// First pyramid
-{
-    int height, rows, columns, grid;
 
-    do { height = get_int("Height: ");
+// Prompt the user to enter the height
+{
+    int height, rows, columns;
+
+    do { height = get_int("Enter the height: ");
     if(height < 1 || height > 8)
     {
         printf("Enter a number from 1 to 8\n");
     }
     } while(height < 1 || height > 8);
 
+    // First pyramid
     for(rows = 0; rows < height; rows++)
     {
         for(columns = 0; columns < (height - rows - 1); columns++)
@@ -24,12 +26,15 @@ int main(void)
         {
             printf("#");
         }
-    printf("  ");
+        // Make spaces
 
+        printf("  ");
+
+        // Second Pyramid
       for(columns = 0; columns <= rows; columns++)
         {
          printf("#");
         }
-    printf("\n");
+        printf("\n");
         } return 0;
         }
