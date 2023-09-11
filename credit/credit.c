@@ -21,11 +21,11 @@ long get_number(void);
     {
         n = get_long("Number: ");
 
-        if (n == 16 )
+        if (n == 16)
         {
             printf("VISA\n");
         } else
     }
-    while (n < 1);
+    while (n > 16);
     return n;
 }
