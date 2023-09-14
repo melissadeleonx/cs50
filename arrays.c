@@ -8,8 +8,9 @@ int scores[3];
 for(int i = 0; i < 3; i++)
 
 {
-    printf("Average score is %f\n", (scores[0] + scores[1] + scores[2]) / (float) 3);
-
+    scores[i] = get_int("Score: ");
     }
+
+    printf("Average score is %f\n", (scores[0] + scores[1] + scores[2]) / (float) 3);
 return 0;
 }
