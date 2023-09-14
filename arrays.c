@@ -1,13 +1,14 @@
 #include <cs50.h>
 #include <stdio.h>
 
+const int N = 3;
 float average(int array[]);
 
 int main (void)
 {
-int scores[3];
+int scores[N];
 
-for(int i = 0; i < 3; i++)
+for(int i = 0; i < N; i++)
 
 {
     scores[i] = get_int("Score: ");
@@ -18,5 +19,5 @@ for(int i = 0; i < 3; i++)
 
 float average(int array[])
 {
-    
+
 }
