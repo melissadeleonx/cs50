@@ -3,11 +3,11 @@
 
 int main (void)
 
-{ int scores [3]
+{ int scores [3];
 
 for(i = 0; i < 3; i++)
 {
-    printf()
+    printf("Average score is %i")
 }
 
 
