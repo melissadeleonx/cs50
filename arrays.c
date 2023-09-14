@@ -14,5 +14,9 @@ for(int i = 0; i < 3; i++)
     }
 
     printf("Average score is %f\n", average(scores));
-return 0;
+}
+
+float average(int array[])
+{
+    
 }
