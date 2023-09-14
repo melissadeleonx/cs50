@@ -5,14 +5,11 @@ int main (void)
 {
 int scores[3];
 
-    scores[0] = get_int("Score: ")
-    scores[1] = get_int("Score: ")
-    scores[2] = get_int("Score: ")
+    scores[0] = 72;
+    scores[1] = 73;
+    scores[2] = 33;
 
-for(i = 0; i < 3; i++)
+    printf("Average score is %f\n", (scores[0] + scores[1] + scores[2]) / (float) 3);
 
-{
-    printf("Average score is %f\n", (score1 + score2 + score3) / (float)3);
-}
 return 0;
 }
