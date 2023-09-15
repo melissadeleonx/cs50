@@ -13,4 +13,7 @@ int main(int argc, string argv[])
         {
             printf(hello, %s %s\n", argv[2]);
             }
+            else {
+                printf(Hello user\n");
+            }
 }
