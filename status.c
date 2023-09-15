@@ -3,6 +3,7 @@
 #include <ctype.h>
 #include <string.h>
 #include <stdbool.h>
+bool containsDigit = false;
 
 int main(int argc, string argv[])
 {
@@ -10,15 +11,21 @@ int main(int argc, string argv[])
     {
         printf("Missing info!!\n");
     }
-    else {
-        printf("%s\n", argv[1]);
+    else if (!containsDigit) {
+        printf("Missing info!!\n")
     }
- // Check if the input contains any digit character
+    else { printf("%s\n", argv[1]);}
+}
+
+
+
+
+
+// Check if the input contains any digit character
     bool containsDigit = false;
-    for (int i = 0; argv[1] != 0; i++) {
-        if (isdigit(argv[1])) {
+    for (int i = 0; argv[] != 0; i++) {
+        if (isdigit(argv[])) {
             containsDigit = true;
             break;
         }
-    }
-}
+        }
