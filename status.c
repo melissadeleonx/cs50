@@ -11,7 +11,8 @@ int main(int argc, string argv[])
     {
         printf("Missing info!!\n");
     }
-    else if (!containsDigit) {
+    else if(!containsDigit)
+    {
         printf("Missing info!!\n")
     }
     else { printf("%s\n", argv[1]);}
