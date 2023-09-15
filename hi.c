@@ -7,5 +7,5 @@ int main(void)
     char C2 = 'I';
     char C3 = '!';
 
-    printf("%c%c%c\n", C1, C2, C3);
+    printf("%i %i %i\n", C1, C2, C3);
 }
