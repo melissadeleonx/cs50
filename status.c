@@ -10,7 +10,7 @@ int main(int argc, string argv[])
         printf("%s\n", argv[1]);
     }
     else {
-        printf("Missing info!!");
+        printf("Missing info!!\n");
     }
 
 }
