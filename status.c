@@ -13,12 +13,11 @@ int main(int argc, string argv[])
     }
     else if(!containsDigit)
     {
-        printf("Missing info!!\n")
+        printf("No numbers please\n");
     }
-    else { printf("%s\n", argv[1]);}
+    else { printf("%s\n", argv[1]);
+    }
 }
-
-
 
 
 
