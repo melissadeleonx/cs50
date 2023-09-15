@@ -6,14 +6,14 @@ float average(int length, int array[]);
 
 int main (void)
 {
-int scores[N];
+    int scores[N];
 
-for(int i = 0; i < N; i++)
-
-{
-    scores[i] = get_int("Score: ");
-} printf("Average score is %f\n", average(N, scores));
-return 0;
+    for(int i = 0; i < N; i++)
+    {
+        scores[i] = get_int("Score: ");
+        }
+        printf ("Average score is %f\n", average(N, scores));
+        return 0;
 }
 
 
