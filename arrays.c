@@ -22,7 +22,7 @@ for(int i = 0; i < N; i++)
 float average(int length, int array[])
 {
     int sum = 0;
-    for(int i = 0; i < length; i++;)
+    for(int i = 0; i < length; i++)
     {
         sum += array[i];
     }
