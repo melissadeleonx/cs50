@@ -6,6 +6,13 @@
 int main(void)
 {
     string s = get_string("Before ");
-    printf("%s\n", s);
+    printf("After: ");
+    for (i = 0; i < strlen(s); i++)
+    {
+        if(s[i] >= 'a' && s[i] < 'z')
+        {
+            printf("%c", s[i])
+        }
+    }
 
 }
