@@ -7,26 +7,29 @@
 int main(int argc, string argv[])
 {
     bool containsDigit = false;
-    
+
     if(argc != 2)
     {
         printf("Missing info!!\n");
+        return 1;
     }
-    else if(!containsDigit)
-    {
-        printf("No numbers please\n");
-    }
-    else { printf("%s\n", argv[1]);
-    }
-}
 
-
-
-// Check if the input contains any digit character
-    bool containsDigit = false;
-    for (int i = 0; argv[] != 0; i++) {
-        if (isdigit(argv[])) {
+       for (int i = 0; argv[1][i] != '\0'; i++) {
+        if (isdigit(argv[1][i])) {
             containsDigit = true;
             break;
         }
         }
+
+        if(containsDigit)
+    {
+        printf("No numbers please\n");
+    }
+    else
+    {
+        printf("%s\n", argv[1]);
+    }
+    return 0;
+}
+
+
