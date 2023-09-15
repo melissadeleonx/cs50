@@ -6,11 +6,7 @@ int main(void)
 {
     string name = get_string("What is your name? ");
 
-    int n = 0;
-    while (name[n] != \0)
-    {
-        n++;
-    }
+    int n = strlen(name);
     printf("%i\n", n);
 
 }
