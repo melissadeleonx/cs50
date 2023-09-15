@@ -5,11 +5,12 @@
 
 int main(int argc, string argv[])
 {
-    if(argc == 4)
+    if(argc == 2)
     {
-        printf("hello, %s %s %s\n", argv[1], argv[2], argv[3]);
-        } else
-        {
-            printf("erro\nr");
+        printf("hello, %s\n", argv[1]);
         }
+        else if(argc == 3)
+        {
+            printf(hello, %s %s\n", argv[2]);
+            }
 }
