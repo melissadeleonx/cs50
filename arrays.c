@@ -19,7 +19,7 @@ for(int i = 0; i < N; i++)
 
 
 
-float average(int array[])
+float average(int length, int array[])
 {
     for(int sum = 0; sum =< array[]; sum += array[] / N;)
 }
