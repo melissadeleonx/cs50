@@ -12,7 +12,7 @@ for(int i = 0; i < N; i++)
 
 {
     scores[i] = get_int("Score: ");
-    printf("Average score is %f\n", average());
+    printf("Average score is %f\n", average(N, scores));
 } return 0;
 }
 
