@@ -8,12 +8,13 @@ int main(int argc, string argv[])
     if(argc == 2)
     {
         printf("hello, %s\n", argv[1]);
-        }
-        else if(argc == 3)
-        {
-            printf(hello, %s %s\n", argv[2]);
-            }
-            else {
-                printf(Hello user\n");
-            }
+    }
+    else if(argc == 3)
+    {
+        printf("hello, %s %s\n", argv[1], argv[2]);
+    }
+        else
+    {
+        printf("Hello user!\n");
+    }
 }
