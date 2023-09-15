@@ -12,10 +12,12 @@ for(int i = 0; i < N; i++)
 
 {
     scores[i] = get_int("Score: ");
-    }
-
-    printf("Average score is %f\n", average(scores));
+    printf("Average score is %f\n", average);
+} return 0;
 }
+
+
+
 
 float average(int array[])
 {
