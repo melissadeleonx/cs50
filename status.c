@@ -15,8 +15,8 @@ int main(int argc, string argv[])
     }
  // Check if the input contains any digit character
     bool containsDigit = false;
-    for (int i = 0; input[i] != '\0'; i++) {
-        if (isdigit(input[i])) {
+    for (int i = 0; argv[1] != 0; i++) {
+        if (isdigit(argv[1])) {
             containsDigit = true;
             break;
         }
