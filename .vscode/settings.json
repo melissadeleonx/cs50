@@ -4,6 +4,7 @@
         "stdio.h": "c",
         "functional": "c",
         "mariosample": "c",
-        "cs50.h": "c"
+        "cs50.h": "c",
+        "array": "c"
     }
 }

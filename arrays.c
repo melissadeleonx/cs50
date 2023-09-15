@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 const int N = 3;
-float average(int array[]);
+float average(int length, int array[]);
 
 int main (void)
 {
@@ -19,5 +19,5 @@ for(int i = 0; i < N; i++)
 
 float average(int array[])
 {
-    int sum = 0;
+    for(int sum = 0; sum =< array[]; sum += array[] / N;)
 }
