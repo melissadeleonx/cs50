@@ -7,10 +7,10 @@ int main(int argc, string argv[])
 {
     if(argc != 2)
     {
-        printf("%s\n", argv[1]);
+        printf("Missing info!!\n");
     }
     else {
-        printf("Missing info!!\n");
+        printf("%s\n", argv[1]);
     }
 
 }
