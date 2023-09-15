@@ -19,5 +19,5 @@ for(int i = 0; i < N; i++)
 
 float average(int array[])
 {
-    int sum = 0; 
+    int sum = 0;
 }
