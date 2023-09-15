@@ -3,10 +3,11 @@
 #include <ctype.h>
 #include <string.h>
 #include <stdbool.h>
-bool containsDigit = false;
 
 int main(int argc, string argv[])
 {
+    bool containsDigit = false;
+    
     if(argc != 2)
     {
         printf("Missing info!!\n");
