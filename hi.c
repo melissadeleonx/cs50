@@ -3,9 +3,7 @@
 
 int main(void)
 {
-    char C1 = 'H';
-    char C2 = 'I';
-    char C3 = '!';
+   string s = "HI!";
 
-    printf("%i %i %i\n", C1, C2, C3);
+    printf("%i %i %i\n", s[0], s[1], s[2]);
 }
