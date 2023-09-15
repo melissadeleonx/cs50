@@ -12,7 +12,7 @@ for(int i = 0; i < N; i++)
 
 {
     scores[i] = get_int("Score: ");
-    printf("Average score is %f\n", average);
+    printf("Average score is %f\n", average());
 } return 0;
 }
 
@@ -21,5 +21,10 @@ for(int i = 0; i < N; i++)
 
 float average(int length, int array[])
 {
-    for(int sum = 0; sum =< array[]; sum += array[] / N;)
+    int sum = 0;
+    for(int i = 0; i < length; i++;)
+    {
+        sum += array[i];
+    }
+    return sum / (float) length;
 }
