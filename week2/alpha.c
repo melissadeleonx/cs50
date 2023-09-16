@@ -4,16 +4,11 @@
 
 int main (void)
 {
-    string word;
+    string word = get_string("Word: ");
     int word_length = strlen(word);
-    word = get_string("Word: ");
 
-    for(int i = 0; i < word_length -1; i++)
-        {
-            printf("Yes\n");
-        }
-    do
-    {
-          printf("No, try again!\n");
-          }while(word[i] > word[i + 1]);
+    for(int i = 0; i < word_length; i++);
+
+    if(word )
+
 }
