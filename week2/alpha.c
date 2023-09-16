@@ -4,21 +4,21 @@
 
 int main (void)
 {
-    string word = get_string("Word: ");
-    int word_length = strlen(word);
-
-    
-}
     string word;
     int word_length = strlen(word);
     do
     {
-        word =
-        printf("Yes\n");
-
+        word = get_string("Word: ");
         for(int i = 0; i < word_length -1; i++)
         {
-            if(word[i] > word[i +1])
-            {printf("No\n");
-            return 0;}}
+            printf("Yes\n");
+        }
+        for(int i = 0; i < word_length -1; i++)
+        {
+            if(word[i] > word[i + 1])
+        {
+          printf("No, try again!\n");
+        }
+        }
     } while (word[i] > word[i +1]);
+    }
