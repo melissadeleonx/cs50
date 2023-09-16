@@ -30,11 +30,9 @@ float calc_hours(int hours[i], int weeks, char output)
         for (int i = 0; i < weeks; i++) {
             totalHours += hours[i];
         }
-
+    } else if(output == 'A') {
         return totalHours / weeks;
-    } else {
-        // Handle other cases or errors appropriately
-        return 0
+        printf(Average is %f, calc_hours)
     }
 }
 }
