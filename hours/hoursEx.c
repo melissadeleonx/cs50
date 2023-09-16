@@ -27,8 +27,7 @@ int main(void)
                 Totalhours += hours[i];
                 }
             printf("The Total is %i hours\n", Totalhours);
-        }
-        if(output == 'A')
+        } else if(output == 'A')
         {
             printf("The Average numbers of hours is %2f", calc_hours);
         }
