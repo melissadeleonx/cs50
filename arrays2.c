@@ -6,16 +6,16 @@ int main (void)
 {
     int size[N];
 
+    for(int i = 0; i < N; i ++)
+    {
+        size[N] = get_int("size: ");
+        printf("%i\n", size[N]);
+        }
     do
     {
         size[N] = get_int("size: ");
     }
     while(size < 0);
-     for(int i = 0; i < N; i ++)
-    {
-        printf("%i\n", size[N]);
-        }
-
-}
+    }
 
 
