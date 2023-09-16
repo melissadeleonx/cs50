@@ -2,12 +2,12 @@
 #include <ctype.h>
 #include <stdio.h>
 
-float calc_hours(int hours[], int weeks, char output);
+float calc_hours(float hours[], int weeks, char output);
 
 int main(void)
 {
     int weeks = get_int("Number of weeks taking CS50: ");
-    int hours[weeks];
+    float hours[weeks];
 
     for (int i = 0; i < weeks; i++)
     {
@@ -25,11 +25,12 @@ int main(void)
 }
 
 // TODO: complete the calc_hours function
-float calc_hours(int hours[], int weeks, char output)
+float calc_hours(float hours[], int weeks, char output)
 {
     return hours[weeks] / weeks;
-    if(output = 'T')
+    for(int i = 0; i < weeks; i++)
+    if(output == 'T')
     {
-        printf("%.1f hours\n", calc_hours(hours, weeks, output))
+        printf("%.1f Total hours\n", hours[i]);
     }
 }
