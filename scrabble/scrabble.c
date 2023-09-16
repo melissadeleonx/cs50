@@ -26,8 +26,8 @@ int compute_score(string word)
 {
     // TODO: Compute and return score for string
     int compute_score = 0;
-    for (int i = 0; i < points[i]; i++)
+    for (int i = 0; i < POINTS[i]; i++)
     {
-        Totalhours += hours[i];
+        compute_score += return POINTS[i];
     }
 }
