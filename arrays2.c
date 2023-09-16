@@ -3,5 +3,10 @@
 
 int main (void)
 {
-    int 
+    int size;
+    do
+    {
+        size = get_int("Size: ");
+    }
+    while (size < 0);
 }
