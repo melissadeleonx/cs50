@@ -3,10 +3,11 @@
 
 int main (void)
 {
-    int n[5] = {5, 6, 6, 6, 6};
+    int size[];
 
-        for(int i = 1; i < 5; i++)
+    for(int i = 0; i < 5; i++)
     {
-        printf("%i\n", n[i]);
-    }
+        size[i] = get_int("size: ");
+        }
+        printf("%i\n", n[]);
 }
