@@ -15,26 +15,6 @@ int main(void)
     string word1 = get_string("Player 1: ");
     string word2 = get_string("Player 2: ");
 
-do
-    { // Score and Print
-        output = toupper(get_char("Enter T for total hours, A for average hours per week: "));
-
-        if (output == 'T')
-        {
-            int Totalhours = 0;
-            for (int i = 0; i < weeks; i++)
-            {
-                Totalhours += hours[i];
-            }
-            printf("The Total is %i hours\n", Totalhours);
-        }
-        else if (output == 'A')
-        {
-            float Average = calc_hours(hours, weeks);
-            printf("The average is %.2f\n", Average);
-        }
-    }
-    while (output != 'T' && output != 'A');
     // Score both words
     int score1 = compute_score(word1);
     int score2 = compute_score(word2);
