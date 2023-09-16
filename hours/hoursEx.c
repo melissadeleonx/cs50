@@ -40,6 +40,6 @@ float calc_hours(int hours[], int weeks, char output)
 
         if(output == 'A')
         {
-            printf("Average is %d", calc_hours);
+            printf("Average is %2f", calc_hours);
         }
 }
