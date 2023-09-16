@@ -35,5 +35,11 @@ int main(void)
 // TODO: complete the calc_hours function
 float calc_hours(int hours[], int weeks, char output)
 {
-        return hours[i] / weeks;
+        calc_hours;
+        return hours[weeks] / weeks;
+
+        if(output == 'A')
+        {
+            printf("Average is %d", calc_hours);
+        }
 }
