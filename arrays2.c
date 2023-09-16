@@ -6,9 +6,15 @@ int main (void)
 {
     int size[N];
 
-    for(int i = 0; i < N; i++)
+    do
     {
-        size[i] = get_int("size: ");
-        }
+        size[N] = get_int("size: ");
+
+        for(int i = 0; i < N; i++)
+    {
         printf("%i\n", size[N]);
+        }
+    }
+    while(size < 0);
 }
+
