@@ -2,6 +2,7 @@
 #include <ctype.h>
 #include <stdio.h>
 
+// Mention new function on the top
 float calc_hours(int hours[], int weeks, char output);
 
 int main(void)
@@ -37,7 +38,7 @@ int main(void)
           }
     while (output != 'T' && output != 'A');
 }
-
+}
 // TODO: complete the calc_hours function
 float calc_hours(int hours[], int weeks, char output)
 {
