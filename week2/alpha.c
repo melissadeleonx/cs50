@@ -4,5 +4,7 @@
 
 int main (void)
 {
-    string word = get_string("");
+    string word = get_string("Please type from a-f: ");
+
+    if 
 }
