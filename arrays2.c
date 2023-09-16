@@ -10,7 +10,7 @@ int main (void)
     {
         size[N] = get_int("size: ");
     }
-    while(size < 0);
+    while(size[N] < 0);
 
     for(int i = 0; i < N; i ++)
     {
