@@ -9,12 +9,13 @@ int main (void)
     do
     {
         size[N] = get_int("size: ");
-
-        for(int i = 0; i < N; i ++)
+    }
+    while(size < 0);
+     for(int i = 0; i < N; i ++)
     {
         printf("%i\n", size[N]);
         }
-    }
-    while(size < 0);
+
 }
+
 
