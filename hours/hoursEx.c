@@ -30,7 +30,7 @@ int main(void)
         }
         if(output == 'A')
         {
-            printf("The Average numbers of hours is %1f", calc_hours);
+            printf("The Average numbers of hours is %2f", calc_hours);
         }
           }
     while (output != 'T' && output != 'A');
