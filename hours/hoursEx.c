@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 // Mention new function on the top
-float calc_hours(int hours[], int weeks, char output);
+float calc_hours(int hours[], int weeks);
 
 int main(void)
 {
