@@ -18,6 +18,11 @@ int main(void)
     do
     {
         output = toupper(get_char("Enter T for total hours, A for average hours per week: "));
+
+        if(output == 'T')
+        {
+            printf("The Total is %1f hours\n", hours[weeks]);
+        }
     }
     while (output != 'T' && output != 'A');
 
@@ -28,9 +33,4 @@ int main(void)
 float calc_hours(float hours[], int weeks, char output)
 {
     return hours[weeks] / weeks;
-    for(int i = 0; i < weeks; i++)
-    if(output == 'T')
-    {
-        printf("%.1f Total hours\n", hours[i]);
-    }
 }
