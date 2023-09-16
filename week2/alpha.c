@@ -20,5 +20,5 @@ int main (void)
           printf("No, try again!\n");
         }
         }
-    } while (word[i] > word[i +1]);
+    }while(word[i] > word[i +1]);
     }
