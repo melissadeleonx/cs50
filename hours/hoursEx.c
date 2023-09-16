@@ -2,12 +2,12 @@
 #include <ctype.h>
 #include <stdio.h>
 
-float calc_hours(float hours[], int weeks, char output);
+float calc_hours(int hours[], int weeks, char output);
 
 int main(void)
 {
     int weeks = get_int("Number of weeks taking CS50: ");
-    float hours[weeks];
+    int hours[weeks];
 
     for (int i = 0; i < weeks; i++)
     {
@@ -30,14 +30,14 @@ int main(void)
         }
         if(output == 'A')
         {
-            
+            printf("The Average numbers of hours is %1f", calc_hours);
         }
           }
     while (output != 'T' && output != 'A');
 }
 
 // TODO: complete the calc_hours function
-float calc_hours(float hours[], int weeks, char output)
+float calc_hours(int hours[], int weeks, char output)
 {
     return hours[weeks] / weeks;
 }
