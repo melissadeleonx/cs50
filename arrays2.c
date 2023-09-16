@@ -11,11 +11,11 @@ int main (void)
     while(length < 0);
 
     int twice[length];
+    twice[0] = 1;
 
-    int twice[0] = 1;
     for(int i = 1; i < length; i++)
    {
-    twice[i] = 2 * twice[i - 1];
+    twice[i] = 2 * twice[i -1];
     printf("%i\n", twice[i]);
     }
    }
