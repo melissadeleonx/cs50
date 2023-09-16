@@ -12,9 +12,8 @@ int main (void)
     }
     while(size[N] < 0);
 
-    for(int i = 0; i < N; i ++)
+    for(int i = 1; i < N; i ++)
     {
-        printf("%i\n", size[N]);
-
+        printf("%i\n", size[N](size[1]*2, size[2]*2, size[3]*2, size[4]*2));
         }
 }
