@@ -28,4 +28,5 @@ int main(void)
 float calc_hours(int hours[], int weeks, char output)
 {
     return hours[weeks] / weeks;
+    if()
 }
