@@ -4,14 +4,17 @@
 const int N = 5;
 int main (void)
 {
-    int size[N];
+    int length;
     do
     {
-        size[N] = get_int("size: ");
+        length = get_int("Lenght: ");
     }
-    while(size[N] < 0);
+    while(length < 0);
 
-    for(int i = 1; i < N; i ++)
+    int twice[length];
+    for(int i = 0; i < length; i++)
    {
-        printf("%i\n", size[N] - 1 * 2);}
+    twice[i] = (twice[i] - 1) * 2;
+
+    printf("%i\n", twice);}
    }
