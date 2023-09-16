@@ -28,7 +28,6 @@ int compute_score(string word)
     int TotalScore = 0;
     for (int i = 0; i < points[]; i++)
     {
-        TotalScore += Points[i];
+        TotalScore += return Points[i];
     }
-    return (float) Total Score;
 }
