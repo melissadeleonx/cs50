@@ -33,7 +33,11 @@ int main(void)
 }
 
 // TODO: complete the calc_hours function
-float calc_hours(int hours[weeks], int weeks, char output)
+float calc_hours(int hours[], int weeks, char output)
 {
-    return hours[weeks] / weeks;
+    for(int i = 0; i < weeks; i++)
+    {
+        return hours[i] / weeks;
+    }
+
 }
