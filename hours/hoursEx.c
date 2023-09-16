@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 // Mention new function on the top
-float calc_hours(int hours[], int weeks);
+float calc_hours(int hours[], int weeks, char output);
 
 int main(void)
 {
@@ -30,7 +30,7 @@ int main(void)
             printf("The Total is %i hours\n", Totalhours);
         } else if(output == 'A')
         {
-            int Average = calc_hours(hours[i], weeks);
+            int Average = calc_hours(hours[weeks], weeks);
             for (int i = 0; i < weeks; i++)
             {
             printf("Average is %f", Average);
@@ -42,5 +42,5 @@ int main(void)
 // TODO: complete the calc_hours function
 float calc_hours(int hours[], int weeks, char output)
 {
-        return hours[weeks] / weeks;
+        return (float) hours[weeks] / weeks;
 }
