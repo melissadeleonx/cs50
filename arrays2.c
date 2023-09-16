@@ -13,8 +13,8 @@ int main (void)
 
     for(int i = 1; i < N; i ++)
    {
-        size[i] = size[i - 1] * 2;
-        printf("%i\n", size[N]);
-    }
-
+    for(i = 1; i < N; i ++)
+        {size[i] = size[i - 1] * 2;
+        printf("%i\n", size[N]);}
+   }
 }
