@@ -14,7 +14,6 @@ int main (void)
     for(int i = 0; i < length; i++)
    {
     twice[i] = 2 * twice[i - 1];
-    {    printf("%i\n", twice[i]);
-    }
+    printf("%i\n", twice[i]);
     }
    }
