@@ -26,9 +26,13 @@ int main(void)
             {
                 Totalhours += hours[i];
                 }
-            printf("The Total is %2f hours\n", Totalhours);
+            printf("The Total is %i hours\n", Totalhours);
         }
-    }
+        if(output == 'A')
+        {
+            
+        }
+          }
     while (output != 'T' && output != 'A');
 }
 
