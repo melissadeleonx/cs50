@@ -29,7 +29,7 @@ int main(void)
             printf("The Total is %i hours\n", Totalhours);
         } else if(output == 'A')
         {
-            printf("The Average numbers of hours is %f", calc_hours);
+            printf("The Average numbers of hours is %f\n", calc_hours);
         }
           }
     while (output != 'T' && output != 'A');
