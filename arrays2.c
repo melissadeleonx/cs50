@@ -3,7 +3,7 @@
 
 int main (void)
 {
-    int n[];
+    int n[5];
     do
     {
         n = get_int("Size: ");
