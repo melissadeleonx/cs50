@@ -7,11 +7,11 @@ int main (void)
     do
     {
         n = get_int("Size: ");
-    }
-    while (size < 0);
-
-    for(int i = 1; i < 5; i++)
+        for(int i = 1; i < 5; i++)
     {
         printf("%i\n", n[i]);
     }
 }
+    }
+    while (size < 0);
+
