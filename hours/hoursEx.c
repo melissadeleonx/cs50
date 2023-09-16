@@ -29,8 +29,10 @@ int main(void)
             printf("The Total is %i hours\n", Totalhours);
         } else if(output == 'A')
         {
-            int Average = 
-            printf("Average is %f", calc_hours(hours[i], weeks));
+            int Average = calc_hours(hours[i], weeks);
+            for (int i = 0; i < weeks; i++)
+            {
+            printf("Average is %f", Average);
         }
           }
     while (output != 'T' && output != 'A');
