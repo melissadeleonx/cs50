@@ -16,7 +16,7 @@ int main(void)
     string word2 = get_string("Player 2: ");
 
 do
-    { // Make the conditions 'T' for total hours and 'A' for average hours
+    { // Score and Print
         output = toupper(get_char("Enter T for total hours, A for average hours per week: "));
 
         if (output == 'T')
