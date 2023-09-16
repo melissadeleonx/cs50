@@ -27,13 +27,16 @@ int main(void)
                 Totalhours += hours[i];
                 }
             printf("The Total is %i hours\n", Totalhours);
+        } else if(output == 'A')
+        {
+            printf("The Average numbers of hours is %f", calc_hours);
         }
           }
     while (output != 'T' && output != 'A');
 }
 
 // TODO: complete the calc_hours function
-float calc_hours(int hours[], int weeks, char output)
+float calc_hours(int hours[i], int weeks, char output)
 {
-    calcreturn hours[weeks] / weeks;
+    calc_hours = return hours[i] / weeks;
 }
