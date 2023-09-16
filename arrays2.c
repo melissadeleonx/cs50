@@ -14,7 +14,7 @@ int main (void)
 
     for(int i = 0; i < N; i ++)
     {
-        printf("%i\n", size[N] );
-       
+        printf("%i\n", size[N]);
+
         }
 }
