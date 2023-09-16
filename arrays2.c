@@ -10,7 +10,7 @@ int main (void)
     {
         size[N] = get_int("size: ");
 
-        for(int i = 0; i < N; i += 2)
+        for(int i = 0; i < N; i ++)
     {
         printf("%i\n", size[N]);
         }
