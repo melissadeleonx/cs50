@@ -21,7 +21,12 @@ int main(void)
 
         if(output == 'T')
         {
-            printf("The Total is %1f hours\n", hours[weeks]);
+            float Totalhours = 0.00;
+            for (int i = 0; i < weeks; i++)
+            {
+                Totalhours += hours[i];
+                }
+            printf("The Total is %1f hours\n", Totalhours);
         }
     }
     while (output != 'T' && output != 'A');
