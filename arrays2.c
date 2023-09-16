@@ -5,11 +5,11 @@ const int N = 5;
 int main (void)
 {
     int size[N];
-    size[0] = size;
+    int size[0] = size;
     for (int i = 1; i < 5; i++) {
         numbers[i] = numbers[i - 1] * 2;
     }
-    
+
     do
     {
         size[N] = get_int("size: ");
