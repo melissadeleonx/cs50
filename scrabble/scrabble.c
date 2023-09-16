@@ -25,5 +25,5 @@ int main(void)
 int compute_score(string word)
 {
     // TODO: Compute and return score for string
-    int compute_score = return POINTS[i];
+    int compute_score = return word[i];
 }
