@@ -3,8 +3,13 @@
 #include <string.h>
 
 int main (void)
-{
-    string word = get_string("Please type from a-f: ");
+{ string word;
+    // Prompt the user to put lowercase letters from a-f)
+        word = get_string("Please type from a-f: ");
+        if(){
+            printf("Yes");
+        }
 
-    if 
+        else
+        printf("No");
 }

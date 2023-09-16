@@ -5,6 +5,7 @@
         "functional": "c",
         "mariosample": "c",
         "cs50.h": "c",
-        "array": "c"
+        "array": "c",
+        "string.h": "c"
     }
 }
