@@ -3,10 +3,12 @@
 
 int main (void)
 {
-    int size;
+    int size[];
     do
     {
         size = get_int("Size: ");
     }
     while (size < 0);
+
+
 }
