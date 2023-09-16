@@ -19,7 +19,10 @@ int main (void)
 
     for(int i = 1; i < length; i++)
    {
+    //Make the current element twice the previous
     twice[i] = 2 * twice[i -1];
+    // Print our the current element
     printf("%i\n", twice[i]);
     }
+    return 0;
    }
