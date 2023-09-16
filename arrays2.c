@@ -7,6 +7,7 @@ int main (void)
     do
     {
         n = get_int("Size: ");
+
         for(int i = 1; i < 5; i++)
     {
         printf("%i\n", n[i]);
