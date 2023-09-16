@@ -11,9 +11,8 @@ int main (void)
     {
         if(word[i] < word[i - 1])
         {
-            printf("No");
+            printf("No\n");
         }
-        else{ printf("Yes");
         }
-    }
-}
+{ printf("Yes\n");
+    }}
