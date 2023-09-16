@@ -26,7 +26,7 @@ int compute_score(string word)
 {
     // TODO: Compute and return score for string
     int TotalScore = 0;
-    for (int i = 0; i < ?; i++)
+    for (int i = 0; i < ; i++)
     {
         TotalScore += Points[i];
     }
