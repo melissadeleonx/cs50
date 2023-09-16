@@ -14,6 +14,7 @@ int main (void)
 
     for(int i = 0; i < N; i ++)
     {
-        printf("%i\n", size[N] * 2);
+        printf("%i\n", size[N]);
+        size *= 2;
         }
 }
