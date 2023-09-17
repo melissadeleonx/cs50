@@ -28,7 +28,7 @@ int main(void)
         } else if(score1 < score2)
         {
             printf("Player 2 wins!\n");
-        } else(score1 == score2)
+        } else
         {
             printf("Tie!\n");
         }
@@ -46,5 +46,4 @@ int compute_score(string word)
         sum += POINTS[i];
     } return sum
 }
-
 
