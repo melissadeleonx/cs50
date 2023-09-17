@@ -47,11 +47,7 @@ int compute_score(string word)
     } return sum;
 }
 char input;
-    do
-    {
-        output = toupper(get_char("Enter T for total hours, A for average hours per week: "));
-
-        if (output == 'T')
+if (input == 'T')
         {
             int Totalhours = 0;
             for (int i = 0; i < weeks; i++)
