@@ -22,9 +22,11 @@ int main(void)
     int score2 = compute_score(word[1]);
 
     char numbers = ' ';
-    char symbols =
+    char symbols = '&lsqb;';
 
-
+    if(isupper(number)){
+        compute_score = 0;
+    }
 
 
     // TODO: Print the winner
