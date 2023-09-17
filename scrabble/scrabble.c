@@ -17,6 +17,9 @@ int main(void)
     word[0] = get_string("Player 1: ");
     word[1] = get_string("Player 2: ");
 
+    isupper
+    islower
+
     // Score both words
     int score1 = compute_score(word[0]);
     int score2 = compute_score(word[1]);
