@@ -18,9 +18,5 @@ int main(void)
     for(int i = 0; i < word_length; i++)
     {
         sum += POINTS[i];
-        printf("The score is %i\n", sum);
-    }
-    return sum;
-
-
+    }  printf("The score is %i\n", sum);
 }
