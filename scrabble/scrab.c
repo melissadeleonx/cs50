@@ -14,16 +14,8 @@ int main(void)
 {
     // Get input words from both players
     string word[N];
-    char input;
-    do
-    {
     word[0] = get_string("Player 1: ");
     word[1] = get_string("Player 2: ");
-
-    if(input == )
-
-
-    } while()
 
     // Score both words
     int score1 = compute_score(word[0]);
@@ -51,6 +43,8 @@ int compute_score(string word)
 
         for(int i = 0; i < word_length; i++)
     {
+        char input = isupper(word[i]);
+        
         sum += POINTS[i];
     } return sum;
 }
