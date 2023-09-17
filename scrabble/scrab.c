@@ -17,9 +17,9 @@ int main(void)
     int word_length = strlen(word1);
 
     // Score both words
-    int score1 = compute_score;
+    int score1 = compute_score(word1);
 
-    printf("The score is %i\n", sum);
+    printf("The score is %i\n", score1);
 
     // TODO: Print the winner
 }
