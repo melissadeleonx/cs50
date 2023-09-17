@@ -22,6 +22,6 @@ int main(void)
     // Score both words
 
     // TODO: Print the winner
-
+return 0;
 }
 
