@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 
-// Points assigned to each letter of the alphabet 
+// Points assigned to each letter of the alphabet
 int POINTS[] = {1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10};
 
 // Mention new function on the top
@@ -19,7 +19,9 @@ int main(void)
 
     // Score both words
     int score1 = compute_score(word[0]);
+    printf("%i", score1);
     int score2 = compute_score(word[1]);
+    printf("%i", score2);
 
     // TODO: Print the winner
     if (score1 > score2)
