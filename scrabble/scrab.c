@@ -50,13 +50,13 @@ int compute_score(string word)
 
         if (isupper(letter) || islower(letter))
         {
-            int index = toupper(letter) - 'A'; // Calculate index for uppercase letter
+            int index = toupper(letter) - 'A';
             sum += POINTS[index];
         }
         else
         {
-            sum = 0; // If there's a non-alphabet character, set the score to 0
-            break;   // Exit the loop since we know the score is 0
+            sum = 0;
+            break;
         }
     }
 
