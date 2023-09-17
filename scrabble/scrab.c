@@ -8,7 +8,7 @@ int POINTS[] = {1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 
 
 // Mention new function on the top
 const int N = 2;
-int compute_score(string word[N], int word_length);
+int compute_score(string word);
 
 int main(void)
 {
