@@ -14,41 +14,13 @@ int main(void)
     string word = get_string("Word: ");
     int word_length = strlen(word);
 
-    for(int i = 0; i < word_length - 1; i++)
-    {
-        if(word[i] > word[i + 1])
-        {
-            printf("No\n");
-            return 0;
-        }
-        }
-{ printf("Yes\n");
-    }}
-
-{
-    // Get input words from both players
-    string word1 = get_string("Player 1: ");
-    // use strlen?
-    int word_length = strlen(word1);
-
-    // Score both words
-    int score1 = compute_score(word1);
-
-    printf("The score is %i\n", score1);
-
-    // TODO: Print the winner
-}
-
-
-
-
-int compute_score(string word1, int word_length)
-{
-    // TODO: Compute and return score for string
-  int sum = 0;
+    int sum = 0;
     for(int i = 0; i < word_length; i++)
     {
         sum += POINTS[i];
+        printf("The score is %i\n", sum);
     }
-    return sum
+    return sum;
+
+
 }
