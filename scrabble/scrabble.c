@@ -56,6 +56,7 @@ int compute_score(string word)
         else
         {
             i = 0;
+            break;
         }
     }
     return sum;
