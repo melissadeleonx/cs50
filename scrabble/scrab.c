@@ -46,21 +46,3 @@ int compute_score(string word)
         sum += POINTS[i];
     } return sum;
 }
-char input;
-if (input == 'T')
-        {
-            int Totalhours = 0;
-            for (int i = 0; i < weeks; i++)
-            {
-                Totalhours += hours[i];
-            }
-            printf("The Total is %i hours\n", Totalhours);
-        }
-        else if (output == 'A')
-        {
-            float Average = calc_hours(hours, weeks);
-            printf("The average is %.2f\n", Average);
-        }
-    }
-    while (output != 'T' && output != 'A');
-}
