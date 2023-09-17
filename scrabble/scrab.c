@@ -19,9 +19,7 @@ int main(void)
 
     // Score both words
     int score1 = compute_score(word[0]);
-    printf("%i", score1);
     int score2 = compute_score(word[1]);
-    printf("%i", score2);
 
     // TODO: Print the winner
     if (score1 > score2)
