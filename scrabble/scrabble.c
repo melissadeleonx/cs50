@@ -17,12 +17,15 @@ int main(void)
 
     // Score both words
     int score1 = compute_score(word1);
-    printf("The score is %i\n", score1);
-
     int score2 = compute_score(word2);
-    printf("The score is %i\n", score1);
+
 
     // TODO: Print the winner
+
+    if(score1 < score2)
+    {
+        printf("The winner is score2 with %i points", score2);
+    }
 }
 
 int compute_score(string word, int word_length)
