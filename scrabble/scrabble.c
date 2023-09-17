@@ -22,42 +22,43 @@ int main(void)
     int score2 = compute_score(word[1]);
 
     // TODO: Print the winner
-    if(score1 > score2)
+    if (score1 > score2)
     {
         printf("Player 1 wins!\n");
-        } else if(score1 < score2)
-        {
-            printf("Player 2 wins!\n");
-        } else
-        {
-            printf("Tie!\n");
-        }
-        return 0;
+    }
+    else if (score1 < score2)
+    {
+        printf("Player 2 wins!\n");
+    }
+    else
+    {
+        printf("Tie!\n");
+    }
+
+    return 0;
 }
-
-
-
 
 int compute_score(string word)
 {
     // TODO: Compute and return score for string
-        int sum = 0;
-        int word_length = strlen(word);
+    int sum = 0;
+    int word_length = strlen(word);
 
-        for(int i = 0; i < word_length; i++)
+    for (int i = 0; i < word_length; i++)
     {
-        for (i = 0; i < word_length; i++) {
+        // Conditions about upper and lowercase eg. A = a, numbers and symbols = 0
         char letter = word[i];
-        if(isupper(letter) || islower(letter))
-    {
-        word[i] += letter;
-        sum += POINTS[i];
+        if (isupper(letter) || islower(letter))
+        {
+            int index = toupper(letter) - 'A';
+            sum += POINTS[index];
+        }
+        else
+        {
+            sum = 0;
+            break;
+        }
     }
-    } else {
-       word[i] = 0;
-    }
-    }
+    return sum;
 }
-
-
 
