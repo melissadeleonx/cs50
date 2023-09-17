@@ -21,7 +21,7 @@ int main(void)
     int score1 = compute_score(word[0]);
     int score2 = compute_score(word[1]);
 
-    char numbers = '
+    char numbers = ' ';
     char symbols =
 
 
