@@ -21,8 +21,8 @@ int main(void)
     int score1 = compute_score(word[0]);
     int score2 = compute_score(word[1]);
 
-    char input;
-    if 
+    char input = string word[N]
+    if(isupper)
 
     // TODO: Print the winner
     if(score1 > score2)
