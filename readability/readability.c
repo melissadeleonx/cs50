@@ -6,7 +6,7 @@
 // New functions to calculate number of letters in the text
 int count_letters(string text)
 int count_words(string text)
-
+int count_sentences(string text)
 
 int main(void)
 {
