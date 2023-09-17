@@ -12,8 +12,15 @@ int count_sentences(string text)
 
 int main(void)
 {
-    //
+    // Start the readability program
+    string text = get_string("Text: ");
+    float cli_score = calculate_cli(text);
+    string readability = interpret_cli_score(cli_score);
 
+    printf("CLI Score: %.2f\n", cli_score);
+    printf("Readability: %s\n", readability);
+
+    return 0;
 }
 
 // Grade Classifications
