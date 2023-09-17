@@ -21,8 +21,10 @@ int main(void)
     int score1 = compute_score(word[0]);
     int score2 = compute_score(word[1]);
 
-    char input = string word[N]
-    if(isupper)
+    char input;
+    if(input == )
+
+
 
     // TODO: Print the winner
     if(score1 > score2)
@@ -43,7 +45,7 @@ int compute_score(string word)
     // TODO: Compute and return score for string
         int sum = 0;
         int word_length = strlen(word);
-        
+
         for(int i = 0; i < word_length; i++)
     {
         sum += POINTS[i];
