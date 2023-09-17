@@ -11,6 +11,21 @@ int compute_score(string word1, int word_length);
 
 int main(void)
 {
+    string word = get_string("Word: ");
+    int word_length = strlen(word);
+
+    for(int i = 0; i < word_length - 1; i++)
+    {
+        if(word[i] > word[i + 1])
+        {
+            printf("No\n");
+            return 0;
+        }
+        }
+{ printf("Yes\n");
+    }}
+
+{
     // Get input words from both players
     string word1 = get_string("Player 1: ");
     // use strlen?
