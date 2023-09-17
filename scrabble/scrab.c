@@ -21,36 +21,44 @@ int main(void)
     int score1 = compute_score(word[0]);
     int score2 = compute_score(word[1]);
 
-    char numbers = ' ';
-    char symbols = '&lsqb;';
-
-    if(isupper(number)){
-        compute_score = 0;
-    }
-
-
     // TODO: Print the winner
-    if(score1 > score2)
+    if (score1 > score2)
     {
         printf("Player 1 wins!\n");
-        } else if(score1 < score2)
-        {
-            printf("Player 2 wins!\n");
-        } else
-        {
-            printf("Tie!\n");
-        }
-        return 0;
+    }
+    else if (score1 < score2)
+    {
+        printf("Player 2 wins!\n");
+    }
+    else
+    {
+        printf("Tie!\n");
+    }
+
+    return 0;
 }
 
 int compute_score(string word)
 {
     // TODO: Compute and return score for string
-        int sum = 0;
-        int word_length = strlen(word);
+    int sum = 0;
+    int word_length = strlen(word);
 
-        for(int i = 0; i < word_length; i++)
+    for (int i = 0; i < word_length; i++)
     {
-        sum += POINTS[i];
-    } return sum;
+        char letter = word[i];
+
+        if (isupper(letter) || islower(letter))
+        {
+            int index = toupper(letter) - 'A'; // Calculate index for uppercase letter
+            sum += POINTS[index];
+        }
+        else
+        {
+            sum = 0; // If there's a non-alphabet character, set the score to 0
+            break;   // Exit the loop since we know the score is 0
+        }
+    }
+
+    return sum;
 }
