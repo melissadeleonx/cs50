@@ -12,12 +12,13 @@ int compute_score(string word, int word_length);
 int main(void)
 {
     // Get input words from both players
-    string word1 = get_string("Player 1: ");
-    string word2 = get_string("Player 2: ");
+    string word[];
+    word[0] = get_string("Player 1: ");
+    word[1] = get_string("Player 2: ");
 
     // Score both words
-    int score1 = compute_score(word1);
-    int score2 = compute_score(word2);
+    int score1 = compute_score(word[0]);
+    int score2 = compute_score(word[1]);
 
 
     // TODO: Print the winner
