@@ -14,8 +14,12 @@ int main(void)
 {
     // Get input words from both players
     string word[N];
+    do{
     word[0] = get_string("Player 1: ");
     word[1] = get_string("Player 2: ");
+
+    
+    } while()
 
     // Score both words
     int score1 = compute_score(word[0]);
