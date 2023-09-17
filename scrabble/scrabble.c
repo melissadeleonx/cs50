@@ -35,6 +35,9 @@ int main(void)
         return 0;
 }
 
+
+
+
 int compute_score(string word)
 {
     // TODO: Compute and return score for string
@@ -43,16 +46,18 @@ int compute_score(string word)
 
         for(int i = 0; i < word_length; i++)
     {
-        sum += POINTS[i];
-    } return sum;
-        for (int i = 0; i < word_length; i++) {
+        for (i = 0; i < word_length; i++) {
         char letter = word[i];
-
-    if(isupper(letter) || islower(letter))
+        if(isupper(letter) || islower(letter))
     {
         word[i] += letter;
+        sum += POINTS[i];
+    }
     } else {
-        word[i] = 0;
+       word[i] = 0;
     }
     }
 }
+
+
+
