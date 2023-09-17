@@ -8,6 +8,7 @@ int count_letters(string text)
 int count_words(string text)
 int count_sentences(string text)
 
+// Coleman-Liau index computation is 
 int main(void)
 {
     //
