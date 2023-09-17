@@ -22,7 +22,25 @@ int main(void)
         return 0;
         }
     // Score both words
+    int score1 = compute_score(word[0]);
+    int score2 = compute_score(word[1]);
+
+    if(score1 > score2)
+{
+    printf("Player 1 is the winner\n");
+}
 
     // TODO: Print the winner
 }
+
+int compute_score(string word[N], int word_length)
+{
+    // TODO: Compute and return score for string
+        int sum = 0;
+    for(int i = 0; i < word_length - 1; i++)
+    {
+        sum += POINTS[i];
+    }
+}
+
 
