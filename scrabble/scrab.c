@@ -39,11 +39,11 @@ int compute_score(string word)
 {
     // TODO: Compute and return score for string
         int sum = 0;
-        int word_lenth = strlen(word);
+        int word_length = strlen(word);
 
         for(int i = 0; i < word_length; i++)
     {
         sum += POINTS[i];
-    } return sum
+    } return sum;
 }
 
