@@ -43,8 +43,6 @@ int compute_score(string word)
 
         for(int i = 0; i < word_length; i++)
     {
-        char input = isupper(word[i]);
-        
         sum += POINTS[i];
     } return sum;
 }
