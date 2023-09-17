@@ -17,17 +17,6 @@ int main(void)
     word[0] = get_string("Player 1: ");
     word[1] = get_string("Player 2: ");
 
-    char letter = POINTS[i];
-    int i = 0
-    for(int i = 0; i < word_length; i++)
-    {
-    if(isupper(letter) || islower(letter))
-    {
-        POINT[i] =+ letter;
-    } else {
-        POINT[i] = 0;
-    }
-    }
     // Score both words
     int score1 = compute_score(word[0]);
     int score2 = compute_score(word[1]);
@@ -56,4 +45,14 @@ int compute_score(string word)
     {
         sum += POINTS[i];
     } return sum;
+        for (int i = 0; i < word_length; i++) {
+        char letter = word[i];
+
+    if(isupper(letter) || islower(letter))
+    {
+        word[i] += letter;
+    } else {
+        word[i] = 0;
+    }
+    }
 }
