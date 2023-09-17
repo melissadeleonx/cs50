@@ -15,7 +15,7 @@ int main(void)
     int word_length = strlen(word);
 
     int sum = 0;
-    for(int i = 0; i < word_length; i++)
+    for(int i = 0; i < word_length - 1; i++)
     {
         sum += POINTS[i];
     }  printf("The score is %i\n", sum);
