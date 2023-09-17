@@ -18,10 +18,10 @@ int main(void)
     {
         word[0] = get_string("Player 1: ");
         word[1] = get_string("Player 2: ");
+        return 0;
         }
     // Score both words
 
     // TODO: Print the winner
-return 0;
 }
 
