@@ -25,7 +25,10 @@ int main(void)
 int compute_score(string word)
 {
     // TODO: Compute and return score for string
-    string word = 0;
-    
-    return word = POINTS[i]
+  int sum = 0;
+    for(int i = 0; i < length; i++)
+    {
+        sum += array[i];
+    }
+    return sum
 }
