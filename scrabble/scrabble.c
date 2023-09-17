@@ -8,39 +8,41 @@ int POINTS[] = {1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 
 
 // Mention new function on the top
 const int N = 2;
-int compute_score(string word[N], int word_length);
+int compute_score(string word);
 
 int main(void)
 {
     // Get input words from both players
     string word[N];
-    int word_length = strlen(word[N]);
-    for(int i = 0; i < N; i++)
-    {
-        word[0] = get_string("Player 1: ");
-        word[1] = get_string("Player 2: ");
-        }
-
+    word[0] = get_string("Player 1: ");
+    word[1] = get_string("Player 2: ");
 
     // Score both words
     int score1 = compute_score(word[0]);
     int score2 = compute_score(word[1]);
 
-
     // TODO: Print the winner
-
-    if(score1 < score2)
+    if(score1 > score2)
     {
-        printf("The winner is score2 with %i points", score2);
-    }
+        printf("Player 1 wins!\n");
+        } else if(score1 < score2)
+        {
+            printf("Player 2 wins!\n");
+        } else
+        {
+            printf("Tie!\n");
+        }
+        return 0;
 }
 
-int compute_score(string word[N], int word_length)
+int compute_score(string word)
 {
     // TODO: Compute and return score for string
         int sum = 0;
-    for(int i = 0; i < word_length - 1; i++)
+        int word_length = strlen(word);
+
+        for(int i = 0; i < word_length; i++)
     {
         sum += POINTS[i];
-    }
+    } return sum;
 }
