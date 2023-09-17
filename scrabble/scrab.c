@@ -40,7 +40,7 @@ int compute_score(string word[N], int word_length)
     for(int i = 0; i < word_length - 1; i++)
     {
         sum += POINTS[i];
-    }
+    } return sum
 }
 
 
