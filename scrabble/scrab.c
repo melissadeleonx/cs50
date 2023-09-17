@@ -7,7 +7,7 @@
 int POINTS[] = {1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10};
 
 // use strlen?
-int length = strlen 
+int word_length = strlen(word);
 
 // Mention new function on the top
 int compute_score(string word);
@@ -25,13 +25,13 @@ int main(void)
     // TODO: Print the winner
 }
 
-int compute_score(string word)
+int compute_score(string word, strlen(word))
 {
     // TODO: Compute and return score for string
   int sum = 0;
-    for(int i = 0; i < length; i++)
+    for(int i = 0; i < word_length; i++)
     {
-        sum += array[i];
+        sum += POINTS[i];
     }
     return sum
 }

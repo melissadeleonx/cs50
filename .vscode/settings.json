@@ -6,6 +6,7 @@
         "mariosample": "c",
         "cs50.h": "c",
         "array": "c",
-        "string.h": "c"
+        "string.h": "c",
+        "string_view": "c"
     }
 }
