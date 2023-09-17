@@ -24,7 +24,7 @@ int main(void)
     // TODO: Print the winner
 }
 
-int compute_score(string word1, int strlen(word1))
+int compute_score(string word1, int word_length)
 {
     // TODO: Compute and return score for string
   int sum = 0;
