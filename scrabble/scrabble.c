@@ -14,6 +14,7 @@ int main(void)
 {
     // Get input words from both players
     string word[N];
+    int word_length = strlen(word[N]);
     for(int i = 0; i < N; i++)
     {
         word[0] = get_string("Player 1: ");
