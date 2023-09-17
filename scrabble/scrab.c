@@ -13,7 +13,13 @@ int main(void)
 {
     string word = get_string("Word: ");
     int word_length = strlen(word);
+    int score = compute_score(word);
+    printf("%i", score)
+}
 
+
+int compute_score(string word, int word_length)
+{
     int sum = 0;
     for(int i = 0; i < word_length - 1; i++)
     {
