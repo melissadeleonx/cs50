@@ -46,7 +46,7 @@ int compute_score(string word)
 
     for (int i = 0; i < word_length; i++)
     {
-        // Conditions about upper and lowercase eg. A = a, numbers and symbols = 0
+        // Conditions about upper and lowercase eg. A = a
         char letter = word[i];
         if (isupper(letter) || islower(letter))
         {
@@ -55,6 +55,7 @@ int compute_score(string word)
         }
         else
         {
+            // Numbers and symbols = 0
             i = 0;
             break;
         }
