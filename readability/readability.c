@@ -9,21 +9,39 @@ int count_letters(string text); //done
 int count_words(string text);   //done
 int count_sentences(string text); //done
 
-// Function for Coleman-Liau index, result, and grade level classification
-float calculate_clindex(string text);
-float clindex;
-string grade_level(clindex);
-
 int main(void)
 {
     string text = get_string("Text: ");
     float clindex = calculate_clindex(string text);
     string grade_level = grade_level(clindex);
 
-    printf("%f", clindex);
-    printf("%s\n", grade_level);
-    return 0;
+//Coleman-Liau index computation is 0.0588 * L - 0.296 * S - 15.8
+// Function for Coleman-Liau index, result, and grade level classification
 
+    float clindex(string text)
+{
+    int letters = count_letters(text);
+    int words = count_words(text);
+    int sentences = count_sentences(text);
+
+    // Use the formula with average number of letters per 100 words(L) and the average number of sentences per 100 words(S)
+    float L = (float)letters / words * 100;
+    float S = (float)sentences / words * 100;
+
+    clindex = round (0.0588 * L - 0.296 * S - 15.8);
+
+        // Grade Level Classification - determine the readability level of the user
+    if(clindex > 1)
+    {
+        printf("Before Grade 1");
+    } else if(clindex < 16)
+    {
+        printf("Grade 16+");
+    } else
+    {
+        printf("Grade %i", clindex);
+    }
+}
 }
 
 
@@ -70,30 +88,4 @@ int count_sentences(string text)
     } return 0;
 }
 
-
-//Coleman-Liau index computation is 0.0588 * L - 0.296 * S - 15.8
-    float clindex(string text)
-{
-    int letters = count_letters(text);
-    int words = count_words(text);
-    int sentences = count_sentences(text);
-
-    // Use the formula with average number of letters per 100 words(L) and the average number of sentences per 100 words(S)
-    float L = (float)letters / words * 100;
-    float S = (float)sentences / words * 100;
-
-    clindex = round (0.0588 * L - 0.296 * S - 15.8);
-
-        // Grade Level Classification - determine the readability level of the user
-    if(clindex > 1)
-    {
-        printf("Before Grade 1");
-    } else if(clindex < 16)
-    {
-        printf("Grade 16+");
-    } else
-    {
-        printf("Grade %i", clindex);
-    }
-}
 
