@@ -20,6 +20,7 @@ int main(void)
     float colemanliau_result = calculate_colemanliau(string text);
     string grade_level = grade_level_result(colemanliau_result);
 
+    printf("%f", colemanliau_result);
     printf("%s\n", grade_level);
     return 0;
 
@@ -85,5 +86,5 @@ int count_sentences(string text)
 }
 
     // Grade Level Classification - determine the readability level of the user
-    
+
 
