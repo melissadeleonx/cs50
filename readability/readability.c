@@ -85,7 +85,7 @@ int count_sentences(string text)
 }
 
 
-//Coleman-Liau index computation is 0.0588 * L - 0.296 * S - 15.8
+//Coleman-Liau index computation is 0.0588 * L - 0.296 * S - 15.8 (eg. )
     float calculate_colemanliau
 {
     int letters = count_letters(text);
