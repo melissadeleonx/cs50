@@ -6,14 +6,14 @@
 int main(void)
 {
    string text = get_string("Text: ");
-    int words = 1;
+      int sentences = 0;
     for (int i = 0; text[i] != '\0'; i++)
     {
-        if (isspace(text[i]))
+        if(ispunct(text[i]))
         {
-            words++;
+            sentences++;
         }
-    } printf("Total words is %i\n", words);
+    } printf("Total sentences is %i\n", sentences);
     return 0;
 }
 

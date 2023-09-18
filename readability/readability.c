@@ -21,7 +21,7 @@ int main(void)
 int count_letters(string text)
  {
     int letters = 0;
-    for (int i = 0; text[i] != '\0'; i++)
+    for(int i = 0; text[i] != '\0'; i++)
     {
         if (isalpha(text[i]))
         {
@@ -35,9 +35,9 @@ int count_letters(string text)
 int count_words(string text)
 {
     int words = 0;
-    for (int i = 0; text[i] != '\0'; i++)
+    for(int i = 0; text[i] != '\0'; i++)
     {
-        if (isspace(text[i]))
+        if(isspace(text[i]))
         {
             words++;
         }
@@ -50,7 +50,7 @@ int count_sentences(string text)
     int sentences = 0;
     for (int i = 0; text[i] != '\0'; i++)
     {
-        if (ispunct(text[i]))
+        if(ispunct(text[i]))
         {
             sentences++;
         }
