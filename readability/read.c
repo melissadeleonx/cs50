@@ -6,14 +6,5 @@
 int main(void)
 {
     string text = get_string("Text: ");
-    {
-    int letters = 0;
-    for (int i = 0; text[i] != '\0'; i++)
-    {
-        if (isalpha(text[i]))
-        {
-            letters++;
-        }
-    } 
-    }
+   
 }

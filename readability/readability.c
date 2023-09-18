@@ -19,15 +19,15 @@ int main(void)
 
 // Function to count the number of letters
 int count_letters(string text)
-{
+ {
     int letters = 0;
-    for (int i = 0; text[i]; i++) {
+    for (int i = 0; text[i] != '\0'; i++)
+    {
         if (isalpha(text[i]))
         {
             letters++;
         }
     }
-    return letters;
 }
 
 // Function to count the number of words
@@ -40,7 +40,7 @@ int count_letters(string text)
             letters++;
         }
     }
-    return letters;
+    return ;
 }
 
 
