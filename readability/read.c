@@ -6,12 +6,14 @@
 int main(void)
 {
     string text = get_string("Text: ");
-    long length = strlen(text);
-    for (int i = 0; i < text[i]; i++) {
+    {
+    int letters = 0;
+    for (int i = 0; text[i] != '\0'; i++)
+    {
         if (isalpha(text[i]))
         {
-            text[i]++;
+            letters++;
         }
-        printf("%li\n", strlen(text));
+    } 
     }
 }
