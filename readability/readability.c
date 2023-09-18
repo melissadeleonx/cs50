@@ -44,4 +44,18 @@ int count_words(string text)
     } return 0;
 }
 
+// Function to count the number of words
+int count_sentences(string text)
+{
+    int sentences = 0;
+    for (int i = 0; text[i] != '\0'; i++)
+    {
+        if (isspace(text[i]))
+        {
+            words++;
+        }
+    } return 0;
+}
+
+
 

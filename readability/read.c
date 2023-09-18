@@ -6,7 +6,7 @@
 int main(void)
 {
    string text = get_string("Text: ");
-    int words = 0;
+    int words = 1;
     for (int i = 0; text[i] != '\0'; i++)
     {
         if (isspace(text[i]))
