@@ -10,13 +10,6 @@ int main(void)
 {
     // Start the readability program
     string text = get_string("Text: ");
-    int count_letters(string text);
-    long length = strlen(text);
-    int letters = 0;
-    for (int i = 0; i < strlen; i++) {
-        if (isalpha(strlen[i]))
-        {
-            printf("Text Number is %%li\n", length);
-        }
+    int n = strlen(text);
+    printf("%i\n", n);
     }
-}
