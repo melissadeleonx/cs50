@@ -1,7 +1,6 @@
 #include <cs50.h>
 #include <stdio.h>
 #include <ctype.h>
-#include <math.h>
 
 // Readability Test
 // New functions to calculate number of letters in the text
@@ -17,3 +16,9 @@ int main(void)
     //
 
 }
+
+
+int count_letters(string text)
+
+
+
