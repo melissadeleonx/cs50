@@ -5,9 +5,9 @@
 // Readability Test
 // New functions to calculate number of letters, words and sentences in the text
 string text(const char *prompt);
-int count_letters(string text);
-int count_words(string text);
-int count_sentences(string text);
+int count_letters(string text); //done
+int count_words(string text);   //done
+int count_sentences(string text); //done
 
 // Coleman-Liau index computation is index = 0.0588 * L - 0.296 * S - 15.8
 
