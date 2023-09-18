@@ -16,7 +16,7 @@ int main(void)
         if (isalpha(text[i]))
         {
             letters++;
-            printf("Text Number is %i\n", letters);
+            printf("Text Number is %i\n", );
         }
     }
     return letters;
