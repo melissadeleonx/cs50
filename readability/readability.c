@@ -21,27 +21,9 @@ int main(void)
     string grade_level = grade_level_result(colemanliau_result);
 
     printf("%s\n", grade_level);
-
-    // Grade Level Classification
-
-
-
-
     return 0;
 
-
-
-
-
-
 }
-
-
-
-
-
-
-
 
 
 
@@ -101,3 +83,7 @@ int count_sentences(string text)
 
     return 0.0588 * L - 0.296 * S - 15.8;
 }
+
+    // Grade Level Classification - determine the readability level of the user
+    
+
