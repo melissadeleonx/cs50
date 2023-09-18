@@ -5,7 +5,7 @@
 
 int main(void)
 {
-    string text = get_string("Text: ");
+   string text = get_string("Text: ");
    int letters = 0;
     for (int i = 0; text[i] != '\0'; i++)
     {
@@ -13,7 +13,16 @@ int main(void)
         {
             letters++;
         }
-    } printf("%i\n", letters);
+    } printf("Total letters is %i\n", letters);
     return 0;
+
+    int words = 0;
+    for (int i = 0; text[i] != '\0'; i++)
+    {
+        if (isspace(text[i]))
+        {
+            words++;
+        }
+    } printf("Total words is %i\n", words);
 }
 
