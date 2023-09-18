@@ -79,10 +79,11 @@ int count_sentences(string text)
     int sentences = count_sentences(text);
 
     // Use the formula with average number of letters per 100 words(L) and the average number of sentences per 100 words(S)
-    float L = letters / words * 100;
-    float S = sentences / words * 100;
+    float L = (float)letters / words * 100;
+    float S = (float)sentences / words * 100;
 
-    return 0.0588 * L - 0.296 * S - 15.8;
+    clindex = round (0.0588 * L - 0.296 * S - 15.8);
+    if(clindex )
 }
 
     // Grade Level Classification - determine the readability level of the user
