@@ -15,7 +15,7 @@ float calculate_colemanliau;
 int main(void)
 {
     string text = get_string("Text: ");
-    float 
+    float colemanliau_result = 
 
 
 
