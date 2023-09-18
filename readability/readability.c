@@ -16,7 +16,14 @@ int main(void)
 {
     string text = get_string("Text: ");
     float colemanliau_result = calculate_colemanliau(string text);
-    string grade_level = 
+    string grade_level = grade_level_result(colemanliau_result);
+
+    printf("%s\n", grade_level);
+
+
+
+
+    return 0;
 
 
 
