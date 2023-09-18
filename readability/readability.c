@@ -27,7 +27,7 @@ int count_letters(string text)
         {
             letters++;
         }
-    }
+    } return 0;
 }
 
 // Function to count the number of words
@@ -40,7 +40,7 @@ int count_letters(string text)
         {
             words++;
         }
-    }
+    } return 0;
 }
 
 
