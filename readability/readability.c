@@ -34,13 +34,13 @@ int count_letters(string text)
 
 {
     int words = 0;
-    for (int i = 0; text[i[i]]; i++) {
-        if (isalpha(text[i]))
+    for (int i = 0; text[i] != '\0'; i++)
+    {
+        if (isspace(text[i]))
         {
-            letters++;
+            words++;
         }
     }
-    return ;
 }
 
 
