@@ -83,9 +83,17 @@ int count_sentences(string text)
     float S = (float)sentences / words * 100;
 
     clindex = round (0.0588 * L - 0.296 * S - 15.8);
-    if(clindex )
+
+        // Grade Level Classification - determine the readability level of the user
+    if(clindex > 1)
+    {
+        printf("Before Grade 1");
+    } else if(clindex < 16)
+    {
+        printf("Grade 16+");
+    } else
+    {
+        printf("Grade %i", clindex);
+    }
 }
-
-    // Grade Level Classification - determine the readability level of the user
-
 
