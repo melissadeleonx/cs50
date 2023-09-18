@@ -16,7 +16,7 @@ int main(void)
     for (int i = 0; i < strlen; i++) {
         if (isalpha(strlen[i]))
         {
-            printf("Text Number is %\n", strlen);
+            printf("Text Number is %%li\n", length);
         }
     }
 }
