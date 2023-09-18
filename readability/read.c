@@ -6,11 +6,11 @@
 int main(void)
 {
     string text = get_string("Text: ");
-    int letters = 0;
-    for (int i = 0; text[i]; i++) {
+    long length = strlen(text);
+    for (int i = 0; i < text[i]; i++) {
         if (isalpha(text[i]))
         {
-            letters++;
+            text[i]++;
         }
         printf("%li\n", strlen(text));
     }
