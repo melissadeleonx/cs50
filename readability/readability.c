@@ -92,7 +92,8 @@ int count_sentences(string text)
     int words = count_words(text);
     int sentences = count_sentences(text);
 
+    // use the formula
     letters / words * 100;
-    sentences /words * 100;
+    sentences / words * 100;
     return 0.0588 * L - 0.296 * S - 15.8;
 }
