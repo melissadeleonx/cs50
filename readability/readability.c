@@ -9,8 +9,10 @@ int count_letters(string text); //done
 int count_words(string text);   //done
 int count_sentences(string text); //done
 
-// Function for Coleman-Liau index
+// Function for Coleman-Liau index, result, and grade level classification
 float calculate_colemanliau(string text);
+float colemanliau_result;
+string grade_level_result(colemanliau_result);
 
 int main(void)
 {
@@ -21,7 +23,7 @@ int main(void)
     printf("%s\n", grade_level);
 
     // Grade Level Classification
-    
+
 
 
 
