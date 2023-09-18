@@ -50,9 +50,9 @@ int count_sentences(string text)
     int sentences = 0;
     for (int i = 0; text[i] != '\0'; i++)
     {
-        if (isspace(text[i]))
+        if (ispunct(text[i]))
         {
-            words++;
+            sentences++;
         }
     } return 0;
 }
