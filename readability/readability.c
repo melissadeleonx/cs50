@@ -34,7 +34,7 @@ int count_letters(string text)
 
 {
     int words = 0;
-    for (int i = 0; text[i]; i++) {
+    for (int i = 0; text[i[i]]; i++) {
         if (isalpha(text[i]))
         {
             letters++;
