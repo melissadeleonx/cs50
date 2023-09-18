@@ -9,13 +9,44 @@ int count_letters(string text); //done
 int count_words(string text);   //done
 int count_sentences(string text); //done
 
-// Coleman-Liau index computation is index = 0.0588 * L - 0.296 * S - 15.8
-
 int main(void)
 {
-    //
+
+
+
+   // Coleman-Liau index computation is index = 0.0588 * L - 0.296 * S - 15.8
+
+    float calculate_colemanliau;
+{
+    int letters = count_letters(text);
+    int words = count_words(text);
+    int sentences = count_sentences(text);
+}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Function to count the number of letters
 int count_letters(string text)
@@ -56,6 +87,4 @@ int count_sentences(string text)
         }
     } return 0;
 }
-
-
 
