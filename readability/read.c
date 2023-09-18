@@ -4,10 +4,13 @@
 
 int main(void)
 {
-    string s = get_string("Input: ");
-    for (int i = 0, n = strlen(s); i < n; i++)
-    {
-        printf("%c", s[i]);
+    string text = get_string("Text: ");
+    int letters = 0;
+    for (int i = 0; text[i]; i++) {
+        if (isalpha(text[i]))
+        {
+            letters++;
+        }
     }
-    printf("\n");
+    return letters;
 }
