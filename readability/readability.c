@@ -10,12 +10,13 @@ int count_words(string text);   //done
 int count_sentences(string text); //done
 
 // Function for Coleman-Liau index
-float calculate_colemanliau;
+float calculate_colemanliau(string text);
 
 int main(void)
 {
     string text = get_string("Text: ");
-    float colemanliau_result = 
+    float colemanliau_result = calculate_colemanliau(string text);
+    string grade_level = 
 
 
 
@@ -77,7 +78,7 @@ int count_sentences(string text)
 
 
 //Coleman-Liau index computation is 0.0588 * L - 0.296 * S - 15.8
-    float calculate_colemanliau
+    float calculate_colemanliau(string text)
 {
     int letters = count_letters(text);
     int words = count_words(text);
