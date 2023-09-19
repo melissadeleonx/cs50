@@ -16,7 +16,7 @@ float calculate_clindex(string text);
 int main(void)
 {
     string text = get_string("Write a text: ");
-    float clindex_grade = calculate_clindex(text);
+    int clindex_grade = calculate_clindex(text);
 
     // Grade Level Classification - determine the readability level of the user
     if (clindex_grade > 1)
@@ -29,7 +29,7 @@ int main(void)
     }
     else
     {
-        printf("Grade %.0f\n", clindex_grade);
+        printf("Grade %i\n", clindex_grade);
     }
     return 0;
 }
@@ -84,17 +84,9 @@ float calculate_clindex(string text)
     int sentences = count_sentences(text);
 
     // Use the formula with average number of letters per 100 words(L) and the average number of sentences per 100 words(S)
-    float L = (float) letters / words * 100;
-    float S = (float) sentences / words * 100;
+    float L = letters / words * 100;
+    float S = sentences / words * 100;
 
-     // Print the values of L, S, and the calculated clindex_grade for debugging
-    printf("L: %.2f, S: %.2f\n", L, S);
-
-    // Coleman-Liau index formula
-    float clindex_grade = 0.0588 * L - 0.296 * S - 15.8;
-
-    // Print the calculated clindex_grade for debugging
-    printf("clindex_grade: %.2f\n", clindex_grade);
-
-    return round(clindex_grade);
+    int clindex_grade = round(0.0588 * L - 0.296 * S - 15.8);
+    return clindex_grade;
 }
