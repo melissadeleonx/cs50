@@ -91,6 +91,6 @@ float calculate_clindex(string text)
     float S = (float)sentences / words * 100;
 
     // Coleman-Liau index formula
-    int clindex_grade = round(0.0588 * L - 0.296 * S - 15.8);
-    return clindex_grade;
+    int clindex_grade = (0.0588 * L - 0.296 * S - 15.8);
+    return round(clindex_grade);
  }
