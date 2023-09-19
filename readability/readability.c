@@ -92,7 +92,5 @@ float calculate_clindex(string text)
 
     // Coleman-Liau index formula
     int clindex_grade = round(0.0588 * L - 0.296 * S - 15.8);
-    {
-        return clindex_grade;
-    }
+    return clindex_grade;
  }
