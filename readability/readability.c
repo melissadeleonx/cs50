@@ -55,14 +55,13 @@ int count_letters(string text)
 // Function to count the number of words
 int count_words(string text)
 {
-    int words = 0;
+    int words = 1;
     for (int i = 0; i < strlen(text); i++)
     {
         if (isspace(text[i]))
         {
             words++;
         }
-        words++;
     } return words;
 }
 
