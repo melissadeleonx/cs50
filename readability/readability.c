@@ -62,7 +62,7 @@ int count_words(string text)
         {
             words++;
         }
-    } return words + 1;
+    } return words;
 }
 
 // Function to count the number of words
