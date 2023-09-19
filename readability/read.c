@@ -11,7 +11,6 @@ int count_sentences(string text);
 
 // Implement the Coleman-Liau Index (0.0588 * L - 0.296 * S - 15.8)
 float calculate_clindex(string text);
-int clindex_grade;
 
 int main(void)
 {
@@ -88,6 +87,6 @@ float calculate_clindex(string text)
     float L = (float)letters / words * 100;
     float S = (float)sentences / words * 100;
 
-    clindex_grade = round(0.0588 * L - 0.296 * S - 15.8);
+    int clindex_grade = round(0.0588 * L - 0.296 * S - 15.8);
  }
     return clindex_grade;
