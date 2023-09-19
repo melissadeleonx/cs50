@@ -68,20 +68,13 @@ int count_letters(string text)
 int count_words(string text)
 {
     int words = 0;
-    int word_count = 0; // 0 for not in a word, 1 for in a word
-
     for (int i = 0; i < strlen(text); i++) {
-        if (isalpha(text[i])) {
-            if (word_count == 0) {
-                word_count = 1;
+        if (text[i] == ' ')
+        {
                 words++;
             }
         }
-        else if (isspace(text[i])) {
-            word_count = 0;
-        }
-    }
-    return words;
+    return words + 1;
 }
 
 // Function to count the number of words
