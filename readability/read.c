@@ -1,95 +1,105 @@
 #include <cs50.h>
-#include <stdio.h>
 #include <ctype.h>
+#include <string.h>
+#include <stdio.h>
 #include <math.h>
 
-// Week 2 Problem Set: Readability Test
-// New functions to calculate number of letters, words and sentences of the text
+// Function to count the number of letters in a string
 int count_letters(string text);
+
+// Function to count the number of words in a string
 int count_words(string text);
+
+// Function to count the number of sentences in a string
 int count_sentences(string text);
 
 // Implement the Coleman-Liau Index (0.0588 * L - 0.296 * S - 15.8)
-float calculate_clindex(string text);
+float calculate_clindex(int letters, int words, int sentences);
 
 int main(void)
 {
-    string text = get_string("Write a text: ");
-    int clindex_grade = calculate_clindex(text);
+    string text = get_string("Text: ");
+    int letters = count_letters(text);
+    int words = count_words(text);
+    int sentences = count_sentences(text);
 
-        // Grade Level Classification - determine the readability level of the user
-    if(clindex_grade > 1)
+    float clindex = calculate_clindex(letters, words, sentences);
+
+    // Grade Level Classification - determine the readability level of the user
+    if (clindex < 1)
     {
         printf("Before Grade 1\n");
     }
-    else if(clindex_grade >= 16)
+    else if (clindex >= 16)
     {
         printf("Grade 16+\n");
     }
     else
     {
-        printf("Grade %i\n", clindex_grade);
+        printf("Grade %.0f\n", clindex);
     }
+
     return 0;
 }
 
-
-
-
-
-
-
-
 // Function to count the number of letters
 int count_letters(string text)
- {
+{
     int letters = 0;
-    for(int i = 0; text[i] != '\0'; i++)
+    for (int i = 0, n = strlen(text); i < n; i++)
     {
         if (isalpha(text[i]))
         {
             letters++;
         }
-    } return letters;
+    }
+    return letters;
 }
 
 // Function to count the number of words
 int count_words(string text)
 {
     int words = 0;
-    for(int i = 0; text[i] != '\0'; i++)
+    bool in_word = false;
+
+    for (int i = 0, n = strlen(text); i < n; i++)
     {
-        if(isspace(text[i]))
+        if (isalpha(text[i]))
         {
-            words++;
+            if (!in_word)
+            {
+                in_word = true;
+                words++;
+            }
         }
-    } return words;
+        else
+        {
+            in_word = false;
+        }
+    }
+    return words;
 }
 
-// Function to count the number of words
+// Function to count the number of sentences
 int count_sentences(string text)
 {
     int sentences = 0;
-    for (int i = 0; text[i] != '\0'; i++)
+
+    for (int i = 0, n = strlen(text); i < n; i++)
     {
-        if(text[i] == '.' || text[i] == '!' || text[i] == '?')
+        if (text[i] == '.' || text[i] == '!' || text[i] == '?')
         {
             sentences++;
         }
-    } return sentences;
+    }
+    return sentences;
 }
 
-// Function to calculate the Coleman-Liau index and classify readability grade level
-float calculate_clindex(string text)
+// Function to calculate the Coleman-Liau index
+float calculate_clindex(int letters, int words, int sentences)
 {
-    int letters = count_letters(text);
-    int words = count_words(text);
-    int sentences = count_sentences(text);
+    float L = (letters * 100.0) / words;
+    float S = (sentences * 100.0) / words;
 
-    // Use the formula with average number of letters per 100 words(L) and the average number of sentences per 100 words(S)
-    float L = (float)letters / words * 100;
-    float S = (float)sentences / words * 100;
-
-    int clindex_grade = round(0.0588 * L - 0.296 * S - 15.8);
-    return clindex_grade;
- }
+    return 0.0588 * L - 0.296 * S - 15.8;
+}
