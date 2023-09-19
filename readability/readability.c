@@ -20,7 +20,7 @@ int main(void)
     int words = count_words(text);
     int sentences = count_sentences(text);
 
-    float clindex = calculate_clindex(string text);
+    float clindex = calculate_clindex(text);
 
     // Grade Level Classification - determine the readability level of the user
     if (clindex > 1)
