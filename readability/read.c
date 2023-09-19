@@ -16,7 +16,21 @@ int clindex_grade;
 int main(void)
 {
     string text = get_string("Write a text: ");
+
+        // Grade Level Classification - determine the readability level of the user
+    if(clindex_grade > 1)
+    {
+        printf("Before Grade 1\n");
+    } else if(clindex_grade < 16)
+    {
+        printf("Grade 16+\n");
+    } else
+    {
+        printf("Grade %i\n", clindex_grade);
+    }
+    return clindex_grade;
 }
+
 
 
 
@@ -62,3 +76,18 @@ int count_sentences(string text)
         }
     } return sentences;
 }
+
+// Function to calculate the Coleman-Liau index and classify readability grade level
+float calculate_clindex(string text)
+{
+    int letters = count_letters(text);
+    int words = count_words(text);
+    int sentences = count_sentences(text);
+
+    // Use the formula with average number of letters per 100 words(L) and the average number of sentences per 100 words(S)
+    float L = (float)letters / words * 100;
+    float S = (float)sentences / words * 100;
+
+    clindex_grade = round(0.0588 * L - 0.296 * S - 15.8);
+ }
+    return clindex_grade;
