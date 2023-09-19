@@ -11,15 +11,19 @@ int count_words(string text);
 int count_sentences(string text);
 
 // Implement the Coleman-Liau Index (0.0588 * L - 0.296 * S - 15.8)
-float calculate_clindex(string text);
+float calculate_clindex(int letters, int words, int sentences);
 
 int main(void)
 {
     string text = get_string("Write a text: ");
-    float clindex = calculate_clindex(text);
+    int letters = count_letters(text);
+    int words = count_words(text);
+    int sentences = count_sentences(text);
+
+    float clindex = calculate_clindex(int letters, int words, int sentences);
 
     // Grade Level Classification - determine the readability level of the user
-    if (clindex >= 0)
+    if (clindex > 1)
     {
         printf("Before Grade 1\n");
     }
