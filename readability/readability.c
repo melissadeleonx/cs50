@@ -87,7 +87,14 @@ float calculate_clindex(string text)
     float L = (float) letters / words * 100;
     float S = (float) sentences / words * 100;
 
+     // Print the values of L, S, and the calculated clindex_grade for debugging
+    printf("L: %.2f, S: %.2f\n", L, S);
+
     // Coleman-Liau index formula
-    float clindex_grade = (float)0.0588 * L - (float)0.296 * S - 15.8;
+    float clindex_grade = 0.0588 * L - 0.296 * S - 15.8;
+
+    // Print the calculated clindex_grade for debugging
+    printf("clindex_grade: %.2f\n", clindex_grade);
+
     return round(clindex_grade);
 }
