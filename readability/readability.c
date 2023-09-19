@@ -2,7 +2,6 @@
 #include <ctype.h>
 #include <math.h>
 #include <stdio.h>
-#include <string.h>
 
 // Week 2 Problem Set: Readability Test
 // New functions to calculate number of letters, words and sentences of the text
