@@ -59,6 +59,11 @@ int count_words(string text)
             words++;
         }
     }
+    if (words > 0)
+    {
+        words++;
+    }
+
     return words;
 }
 
