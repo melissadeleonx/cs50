@@ -65,30 +65,30 @@ int count_letters(string text)
 
 
 // Function to count the number of words
-int count_words(string text)
 {
     int words = 0;
-    int space = 0;
+    bool in_word = false;
 
-    for (int i = 0; i < strlen(text); i++)
+    for (int i = 0, n = strlen(text); i < n; i++)
     {
         if (isalpha(text[i]))
         {
-            if (!space)
+            if (!in_word)
             {
-                space = 1;
+                in_word = true;
                 words++;
             }
         }
         else
         {
-            space = 0;
+            in_word = false;
         }
     }
     return words;
 }
 
-// Function to count the number of words
+
+// Function to count the number of sentences
 int count_sentences(string text)
 {
     int sentences = 0;
