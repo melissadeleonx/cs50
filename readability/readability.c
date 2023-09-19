@@ -1,11 +1,11 @@
 #include <cs50.h>
 #include <stdio.h>
 #include <ctype.h>
+#include <string.h>
 #include <math.h>
 
 // Week 2 Problem Set: Readability Test
 // New functions to calculate number of letters, words and sentences of the text
-int length = strlen(string text);
 int count_letters(string text);
 int count_words(string text);
 int count_sentences(string text);
