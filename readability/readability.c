@@ -21,7 +21,7 @@ int main(void)
     if(clindex_grade > 1)
     {
         printf("Before Grade 1\n");
-    } else if(clindex_grade < 16)
+    } else if(clindex_grade > 16)
     {
         printf("Grade 16+\n");
     } else
