@@ -86,6 +86,6 @@ float calculate_clindex(int letters, int words, int sentences)
     float L = (letters * 100.0) / words;
     float S = sentences * 100.0 / words;
 
-    float clindex = 0.0588 * L - 0.296 * S - 15.8;
-    return round(clindex);
+    return round(0.0588 * L - 0.296 * S - 15.8);
+
 }
