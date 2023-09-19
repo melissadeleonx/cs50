@@ -20,22 +20,6 @@ int main(void)
     int words = count_words(text);
     int sentences = count_sentences(text);
 
-    for (int i = 0; i < strlen(text); i++)
-    {
-        if (isalpha(text[i]))
-        {
-            letters++;
-        }
-    }
-    if (text[i] == ' ')
-        {
-            words++;
-        }
-     if (text[i] == '.' || text[i] == '!' || text[i] == '?')
-        {
-            sentences++;
-        }
-
     float clindex = calculate_clindex(letters, words, sentences);
 
     // Grade Level Classification - determine the readability level of the user
