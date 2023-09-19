@@ -19,7 +19,7 @@ int main(void)
     float clindex_grade = calculate_clindex(text);
 
     // Grade Level Classification - determine the readability level of the user
-    if (clindex_grade >= 0)
+    if (clindex_grade > 1)
     {
         printf("Before Grade 1\n");
     }
