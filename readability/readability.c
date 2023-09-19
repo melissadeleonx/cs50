@@ -28,7 +28,7 @@ int main(void)
     {
         printf("Grade %i\n", clindex_grade);
     }
-    return clindex;
+    return clindex_grade;
 }
 
 
