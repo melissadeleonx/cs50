@@ -65,6 +65,7 @@ int count_letters(string text)
 
 
 // Function to count the number of words
+int count_words(string text)
 {
     int words = 0;
     bool in_word = false;
