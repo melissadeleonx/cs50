@@ -70,7 +70,7 @@ int count_sentences(string text)
     int sentences = 0;
     for (int i = 0; text[i] != '\0'; i++)
     {
-        if(ispunct(text[i]))
+        if(text[i] == '.' || text[i] == '!' || text[i] == '?')
         {
             sentences++;
         }
@@ -88,6 +88,6 @@ float calculate_clindex(string text)
     float L = (float)letters / words * 100;
     float S = (float)sentences / words * 100;
 
-    int clindex_grade = round((0.0588 * L) - (0.296 * S) - (15.8));
+    int clindex_grade = round(0.0588 * L - 0.296 * S - 15.8);
     return clindex_grade;
  }
