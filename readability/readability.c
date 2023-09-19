@@ -67,14 +67,24 @@ int count_letters(string text)
 // Function to count the number of words
 int count_words(string text)
 {
-    int words = 1;
-    for (int i = 0; i < strlen(text); i++)
+    int words = 0;
+    bool in_word = false;
+
+    for (int i = 0, n = strlen(text); i < n; i++)
     {
-        if (text[i] == ' ')
+        if (isalpha(text[i]))
         {
+            if (!in_word)
+            {
+                in_word = true;
                 words++;
             }
         }
+        else
+        {
+            in_word = false;
+        }
+    }
     return words;
 }
 
