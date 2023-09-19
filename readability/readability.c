@@ -60,7 +60,6 @@ int count_words(string text)
     {
         if (text[i] == ' ')
         {
-            if(text[i] == ' ')
             words++;
         }
     } return words;
