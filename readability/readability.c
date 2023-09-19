@@ -20,6 +20,37 @@ int main(void)
     int words = count_words(text);
     int sentences = count_sentences(text);
 
+    for (int i = 0; i < strlen(text); i++)
+    {
+        if (isalpha(text[i]))
+        {
+            letters++;
+        }
+    }
+else if (text[i] == ' ')
+        {
+            words++;
+        }
+else (text[i] == '.' || text[i] == '!' || text[i] == '?')
+        {
+            sentences++;
+        }
+
+
+// Function to count the number of words
+int count_sentences(string text)
+{
+    int sentences = 0;
+    for (int i = 0; i < strlen(text); i++)
+    {
+        if (text[i] == '.' || text[i] == '!' || text[i] == '?')
+        {
+            sentences++;
+        }
+    }
+    return sentences;
+}
+
     float clindex = calculate_clindex(letters, words, sentences);
 
     // Grade Level Classification - determine the readability level of the user
