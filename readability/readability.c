@@ -59,12 +59,6 @@ int count_words(string text)
             words++;
         }
     }
-    if (words > 0)
-    {
-        words++;
-    }
-
-    return words;
 }
 
 // Function to count the number of words
@@ -94,5 +88,6 @@ float calculate_clindex(string text)
 
     // Coleman-Liau index formula
     float clindex_grade = 0.0588 * L - 0.296 * S - 15.8;
+    
     return round(clindex_grade);
 }
