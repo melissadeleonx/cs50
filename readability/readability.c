@@ -81,11 +81,8 @@ int count_sentences(string text)
 }
 
 // Function to calculate the Coleman-Liau index and classify readability grade level
-float calculate_clindex(string text)
+float calculate_clindex(int letters, int words, int sentences)
 {
-    int letters = count_letters(text);
-    int words = count_words(text);
-    int sentences = count_sentences(text);
 
     // Use the formula with average number of letters per 100 words(L) and the average number of sentences per 100 words(S)
     float L = letters / words * 100;
