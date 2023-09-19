@@ -37,8 +37,9 @@ int main(void)
 // Function to count the number of letters
 int count_letters(string text)
 {
+    int length = strlen(text);
     int letters = 0;
-    for (int i = 0; text[i] != '\0'; i++)
+    for (int i = 0; i < text[i]; i++)
     {
         if (isalpha(text[i]))
         {
