@@ -58,7 +58,7 @@ int count_words(string text)
     int words = 1;
     for (int i = 0; i < strlen(text); i++)
     {
-        if (text[i] == ' ')
+        if (isblank(text[i]))
         {
             words++;
         }
