@@ -4,7 +4,7 @@
 #include <math.h>
 
 // Week 2 Problem Set: Readability Test
-// New functions to calculate number of letters, words and sentences in the text
+// New functions to calculate number of letters, words and sentences of the text
 int count_letters(string text);
 int count_words(string text);
 int count_sentences(string text);
@@ -21,14 +21,16 @@ int main(void)
     if(clindex_grade > 1)
     {
         printf("Before Grade 1\n");
-    } else if(clindex_grade < 16)
+    }
+    else if(clindex_grade >= 16)
     {
         printf("Grade 16+\n");
-    } else
+    }
+    else
     {
         printf("Grade %i\n", clindex_grade);
     }
-    return clindex_grade;
+    return 0;
 }
 
 
@@ -70,7 +72,7 @@ int count_sentences(string text)
     int sentences = 0;
     for (int i = 0; text[i] != '\0'; i++)
     {
-        if(ispunct(text[i]))
+        if(text[i] == '.' || text[i] == '!' || text[i] == '?')
         {
             sentences++;
         }
