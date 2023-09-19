@@ -74,15 +74,15 @@ int count_words(string text)
     {
         if (isalpha(text[i]))
         {
-            if (!in_word)
+            if (!space)
             {
-                in_word = true;
+                space = 1;
                 words++;
             }
         }
         else
         {
-            in_word = false;
+            space = 0;
         }
     }
     return words;
