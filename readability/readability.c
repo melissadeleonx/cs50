@@ -68,20 +68,19 @@ int count_letters(string text)
 int count_words(string text)
 {
     int words = 0;
-    int in_word = 0; // 0 for not in a word, 1 for in a word
+    int word_count = 0; // 0 for not in a word, 1 for in a word
 
-    for (int i = 0, n = strlen(text); i < n; i++) {
+    for (int i = 0; i < strlen(text); i++) {
         if (isalpha(text[i])) {
-            if (in_word == 0) {
-                in_word = 1;
+            if (word_count == 0) {
+                word_count = 1;
                 words++;
             }
         }
         else if (isspace(text[i])) {
-            in_word = 0;
+            word_count = 0;
         }
     }
-
     return words;
 }
 
