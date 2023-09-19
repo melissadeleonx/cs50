@@ -31,25 +31,10 @@ int main(void)
         {
             words++;
         }
-else (text[i] == '.' || text[i] == '!' || text[i] == '?')
+else if(text[i] == '.' || text[i] == '!' || text[i] == '?')
         {
             sentences++;
         }
-
-
-// Function to count the number of words
-int count_sentences(string text)
-{
-    int sentences = 0;
-    for (int i = 0; i < strlen(text); i++)
-    {
-        if (text[i] == '.' || text[i] == '!' || text[i] == '?')
-        {
-            sentences++;
-        }
-    }
-    return sentences;
-}
 
     float clindex = calculate_clindex(letters, words, sentences);
 
@@ -68,6 +53,10 @@ int count_sentences(string text)
     }
     return 0;
 }
+
+
+
+
 
 // Function to count the number of letters
 int count_letters(string text)
