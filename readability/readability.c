@@ -16,7 +16,6 @@ int clindex_grade;
 int main(void)
 {
     string text = get_string("Write a text: ");
-    printf("%i\n", clindex_grade);
 }
 
 
