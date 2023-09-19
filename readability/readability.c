@@ -65,6 +65,7 @@ int count_words(string text)
         if (isspace(text[i]))
         {
             words++;
+            printf("%i", words);
         }
     } return words;
 }
