@@ -42,6 +42,13 @@ int main(void)
 
 
 
+
+
+
+
+
+
+
 // Function to count the number of letters
 int count_letters(string text)
 {
@@ -55,6 +62,7 @@ int count_letters(string text)
     }
     return letters;
 }
+
 
 // Function to count the number of words
 int count_words(string text)
