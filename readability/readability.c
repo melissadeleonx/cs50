@@ -16,20 +16,20 @@ float calculate_clindex(string text);
 int main(void)
 {
     string text = get_string("Write a text: ");
-    int clindex_grade = calculate_clindex(text);
+    float clindex = calculate_clindex(text);
 
     // Grade Level Classification - determine the readability level of the user
-    if (clindex_grade > 1)
+    if (clindex > 1)
     {
         printf("Before Grade 1\n");
     }
-    else if (clindex_grade >= 16)
+    else if (clindex >= 16)
     {
         printf("Grade 16+\n");
     }
     else
     {
-        printf("Grade %i\n", clindex_grade);
+        printf("Grade %.0f\n", clindex);
     }
     return 0;
 }
