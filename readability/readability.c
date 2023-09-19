@@ -89,6 +89,9 @@ float calculate_clindex(string text)
     // Use the formula with average number of letters per 100 words(L) and the average number of sentences per 100 words(S)
     float L = (float)letters / words * 100;
     float S = (float)sentences / words * 100;
-    
-    return round(0.0588 * L - 0.296 * S - 15.8);
+    {
+         int clindex_grade = round(0.0588 * L - 0.296 * S - 15.8);
+         return clindex_grade;
+    }
+    // Coleman-Liau index formula
  }
