@@ -4,8 +4,6 @@
 #include <math.h>
 
 // Week 2 Problem Set: Readability Test
-string text(const char *prompt);
-
 // New functions to calculate number of letters, words and sentences in the text
 int count_letters(string text);
 int count_words(string text);
@@ -17,8 +15,7 @@ int clindex_grade;
 
 int main(void)
 {
-    string text = get_string("Text: ");
-    printf("%i", clindex_grade);
+    string text = get_string("Write a text: ");
 }
 
 
@@ -37,7 +34,7 @@ int count_letters(string text)
         {
             letters++;
         }
-    } return 0;
+    } return letters;
 }
 
 // Function to count the number of words
@@ -50,7 +47,7 @@ int count_words(string text)
         {
             words++;
         }
-    } return 0;
+    } return words;
 }
 
 // Function to count the number of words
@@ -63,31 +60,5 @@ int count_sentences(string text)
         {
             sentences++;
         }
-    } return 0;
-}
-
-// Function to calculate the Coleman-Liau index and classify readability grade level
-float calculate_clindex(string text)
-{
-    int letters = count_letters(text);
-    int words = count_words(text);
-    int sentences = count_sentences(text);
-
-    // Use the formula with average number of letters per 100 words(L) and the average number of sentences per 100 words(S)
-    float L = (float)letters / words * 100;
-    float S = (float)sentences / words * 100;
-
-    clindex_grade = round (0.0588 * L - 0.296 * S - 15.8);
-
-        // Grade Level Classification - determine the readability level of the user
-    if(clindex_grade > 1)
-    {
-        printf("Before Grade 1");
-    } else if(clindex_grade < 16)
-    {
-        printf("Grade 16+");
-    } else
-    {
-        printf("Grade %i", clindex_grade);
-    }
+    } return sentences;
 }
