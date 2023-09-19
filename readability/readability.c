@@ -56,7 +56,7 @@ int count_letters(string text)
 int count_words(string text)
 {
     int words = 1;
-    int isspace(char c);
+    int isspace(text[i]);
     for (int i = 0; i < strlen(text); i++)
     {
         if (isspace(text[i]))
