@@ -27,11 +27,11 @@ int main(void)
             letters++;
         }
     }
-    else if (text[i] == ' ')
+    if (text[i] == ' ')
         {
             words++;
         }
-else if(text[i] == '.' || text[i] == '!' || text[i] == '?')
+     if (text[i] == '.' || text[i] == '!' || text[i] == '?')
         {
             sentences++;
         }
