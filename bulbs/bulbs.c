@@ -8,7 +8,8 @@ void print_bulb(int bit);
 
 int main(void)
 {
-
+    string text = get_string("HI");
+    
 }
 
 void print_bulb(int bit)
