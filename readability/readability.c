@@ -1,16 +1,12 @@
 #include <cs50.h>
 #include <ctype.h>
-#include <string.h>
-#include <stdio.h>
 #include <math.h>
+#include <stdio.h>
+#include <string.h>
 
-// Function to count the number of letters in a string
+// Functions to count the number of letters, words and sentences in a string
 int count_letters(string text);
-
-// Function to count the number of words in a string
 int count_words(string text);
-
-// Function to count the number of sentences in a string
 int count_sentences(string text);
 
 // Implement the Coleman-Liau Index (0.0588 * L - 0.296 * S - 15.8)
@@ -47,7 +43,7 @@ int main(void)
 int count_letters(string text)
 {
     int letters = 0;
-    for (int i = 0, n = strlen(text); i < n; i++)
+    for (int i = 0; i < strlen(text); i++)
     {
         if (isalpha(text[i]))
         {
@@ -60,22 +56,13 @@ int count_letters(string text)
 // Function to count the number of words
 int count_words(string text)
 {
-    int words = 0;
-    bool in_word = false;
+    int words = 1;
 
-    for (int i = 0, n = strlen(text); i < n; i++)
+    for (int i = 0; i < strlen(text); i++)
     {
-        if (isalpha(text[i]))
+        if (isspace(text[i]))
         {
-            if (!in_word)
-            {
-                in_word = true;
-                words++;
-            }
-        }
-        else
-        {
-            in_word = false;
+            words++;
         }
     }
     return words;
@@ -86,7 +73,7 @@ int count_sentences(string text)
 {
     int sentences = 0;
 
-    for (int i = 0, n = strlen(text); i < n; i++)
+    for (int i = 0; i < strlen(text); i++)
     {
         if (text[i] == '.' || text[i] == '!' || text[i] == '?')
         {
