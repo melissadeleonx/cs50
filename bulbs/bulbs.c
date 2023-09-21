@@ -9,11 +9,12 @@ void print_bulb(int bit);
 int main(void)
 {
     string text = get_string("Enter your message here:  ");
+    int bit = 0;
     for (int i = 0; i < strlen(text); i++)
 {
     if (text[i] >= 'A' || text[i] <= 'z')
     {
-        i++;
+        bit++;
     }
     printf("%i\n", text[i]);
 }
