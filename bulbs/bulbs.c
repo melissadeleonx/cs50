@@ -9,7 +9,7 @@ void print_bulb(int bit);
 int main(void)
 {
     string text = get_string("Enter your message here:  ");
-
+    printf("");
 
 }
 
@@ -25,9 +25,4 @@ void print_bulb(int bit)
         // Light emoji
         printf("\U0001F7E1");
     }
-}
-
-int BITS_IN_BYTE(int bit, string text[i])
-{
-
 }
