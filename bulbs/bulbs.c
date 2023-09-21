@@ -13,8 +13,9 @@ int main(void)
 {
     if (text[i] >= 'A' || text[i] <= 'z')
     {
-    printf("%i\n", text[i]);
+        i++;
     }
+    printf("%i\n", text[i]);
 }
 }
 
