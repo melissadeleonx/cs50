@@ -12,6 +12,9 @@ int main(void)
     for(int i = 0; i < strlen(text); i++)
     
     {
+
+    }
+    {
          printf("%i\n", text[i]);
     }
 
