@@ -10,6 +10,7 @@ int main(void)
 {
     string text = get_string("Enter your message here:  ");
 
+
 }
 
 void print_bulb(int bit)
@@ -26,3 +27,7 @@ void print_bulb(int bit)
     }
 }
 
+int BITS_IN_BYTE(int bit, string text)
+{
+    
+}
