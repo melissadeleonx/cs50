@@ -10,7 +10,7 @@ int main(void)
 {
     string text = get_string("Enter your message here:  ");
     int bit = 0;
-    printf("%i", bit);
+    printf("%i", BITS_IN_BYTE);
 
 }
 
