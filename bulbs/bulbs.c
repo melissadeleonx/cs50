@@ -11,9 +11,9 @@ int main(void)
     string text = get_string("Enter your message here:  ");
     for (int i = 0; i < strlen(text); i++)
 {
-    if (text[i] >= '65' || text[i] <= '172')
+    if (text[i] >= 'A' || text[i] <= 'z')
     {
-    printbulb("%i\n", text[i]);
+    printf("%i\n", text[i]);
     }
 }
 }
