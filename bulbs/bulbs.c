@@ -9,12 +9,11 @@ void print_bulb(int bit);
 int main(void)
 {
     string text = get_string("Enter your message here:  ");
-    int bit = 0;
     for (int i = 0; i < strlen(text); i++)
     {
        printf("%i\n", text[i]);
     }
-
+// Only issue now is to convert ASCII to Binary??
 }
 
 
