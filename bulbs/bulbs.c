@@ -9,7 +9,7 @@ void print_bulb(int bit);
 int main(void)
 {
     string text = get_string("Enter your message here:  ");
-    for(int i = 0; i < text[i]; i++)
+    for(int i = 0; i < strlen(text); i++)
     {
         i++;
         printf("%i\n", text[i]);
