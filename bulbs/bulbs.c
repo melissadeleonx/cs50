@@ -8,8 +8,8 @@ void print_bulb(int bit);
 
 int main(void)
 {
-    string text = get_string("HI");
-    
+    string text = get_string("Enter your message here:  ");
+
 }
 
 void print_bulb(int bit)
@@ -25,3 +25,4 @@ void print_bulb(int bit)
         printf("\U0001F7E1");
     }
 }
+
