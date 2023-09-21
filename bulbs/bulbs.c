@@ -9,8 +9,13 @@ void print_bulb(int bit);
 int main(void)
 {
     string text = get_string("Enter your message here:  ");
-    int bit = ;
-    printf("%i\n", bit);
+    int bit = text[i];
+    for(i = 0; i < BITS_IN_BYTE; i++)
+    {
+        i++;
+        printf("%i\n", bit);
+    }
+
 
 }
 
