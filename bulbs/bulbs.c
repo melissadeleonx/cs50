@@ -10,6 +10,7 @@ int main(void)
 {
     string text = get_string("Enter your message here:  ");
     for(int i = 0; i < strlen(text); i++)
+    
     {
          printf("%i\n", text[i]);
     }
