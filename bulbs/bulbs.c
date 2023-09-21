@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-const int BITS_IN_BYTE(int bit, string text[i]) = 8;
+const int BITS_IN_BYTE = 8;
 
 void print_bulb(int bit);
 
