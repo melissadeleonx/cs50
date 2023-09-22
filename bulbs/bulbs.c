@@ -3,6 +3,9 @@
 #include <string.h>
 
 const int BITS_IN_BYTE = 8;
+int ones(string text);
+int tenths(string text);
+int hundredths(string text);
 
 void print_bulb(int bit);
 
@@ -30,3 +33,5 @@ void print_bulb(int bit)
         printf("\U0001F7E1");
     }
 }
+
+numberstobinary
