@@ -2,8 +2,10 @@
 #include <stdio.h>
 #include <string.h>
 
+//
 const int BITS_IN_BYTE = 8;
 
+// Function to print a series of 0s and 1s as a series of yellow and black emoji
 void print_bulb(int bit);
 
 int main(void)
