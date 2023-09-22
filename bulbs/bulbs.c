@@ -11,15 +11,14 @@ void print_bulb(int bit);
 int main(void)
 {
     string text = get_string("Enter your message here:  ");
+    int bit = binary;
     for (int i = 0; i < strlen(text); i++)
         {
             int decimal = text[i];
             for (int j = BITS_IN_BYTE; j < decimals; j++;)
             {
-
-            }
-
-            printf("%i", text[i]);
+                print_bulb;
+            };
         }
     printf("\n");
 // Only issue now is to convert ASCII to Binary??
@@ -43,6 +42,8 @@ void print_bulb(int bit)
 int binary(int decimal)
 {
     int decimal = text[i];
+    n = 0;
+    n = decimal / 2 %;
 
     return
 }
