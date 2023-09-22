@@ -5,14 +5,14 @@
 // Make sure program was run with just one command-line argument
 int main(int argc, string argv[])
 {
-
-
     // Make sure every character in argv[1] is a digit, a non-negative integer.
 
     // Convert argv[1] from a `string` to an `int`
 
     // Prompt user for plaintext
-
+    string plaintext = get_string("plaintext: ");
+    int key = argc;
+    printf("%i", argc[3]);
 
     // For each character in the plaintext:
 
