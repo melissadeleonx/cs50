@@ -12,7 +12,7 @@ void print_bulb(int bit);
 int main(void)
 {
     string text = get_string("Enter your message here:  ");
-    int bit = binary;
+    int bit = binary(string text);
     for (int i = 0; i < strlen(text); i++)
     {
         for (int j = BITS_IN_BYTE; j < text[i]; j++)
@@ -42,9 +42,5 @@ void print_bulb(int bit)
 
 int binary(string text)
 {
-    int bit = text[i];
-    for (int j = BITS_IN_BYTE; j < bit; j++)
-    {
-        j++;
-    }
-} return 0;
+    
+}
