@@ -11,8 +11,10 @@ int main(void)
     string text = get_string("Enter your message here:  ");
     for (int i = 0; i < strlen(text); i++)
         {
-            int decimal = text[i];
+            char n = text[i];
             int binary(BITS_IN_BYTE);
+            int 
+
 
             for (int j = BITS_IN_BYTE; j < decimals; j++;)
             {
