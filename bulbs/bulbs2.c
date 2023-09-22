@@ -33,3 +33,14 @@ void print_bulb(int bit)
         printf("\U0001F7E1");
     }
 }
+
+int numberstobinary(int hundredth, int tenths, int ones, string text)
+if (string text[i] >= 32 && string text [i] <= 377)
+{
+    int hundredths = text[i] / 100;
+    int tenths = (text[i] % 100) / 10;
+    int ones = text[i] % 10;
+
+    int sum = hundredths + tenths + ones;
+    return sum;
+}
