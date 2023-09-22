@@ -12,6 +12,8 @@ int main(void)
     for (int i = 0; i < strlen(text); i++)
         {
             int decimal = text[i];
+            int binary(BITS_IN_BYTE);
+
             for (int j = BITS_IN_BYTE; j < decimals; j++;)
             {
                 print_bulb;
