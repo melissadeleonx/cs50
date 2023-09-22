@@ -28,7 +28,7 @@ int main(void)
                 binary[j] = remainder;
                 n /= 2;            }
 
-            // Reversing the remainder from right to left
+            // Reversing the remainder from left to right
             for (int k = BITS_IN_BYTE; k >= 0; k--)
             {
                 print_bulb(binary[k]);
