@@ -11,9 +11,8 @@ int main(void)
 {
     string text = get_string("Enter your message here:  ");
     for (int i = 0; i < strlen(text); i++)
-    int bit = converttonabinary()
 {
-    printf("%i\n", bit);
+    printf("%i\n", text[i]);
 }
 return 0;
     }
@@ -35,9 +34,4 @@ void print_bulb(int bit)
         // Light emoji
         printf("\U0001F7E1");
     }
-}
-
-void converttobinary(string text)
-{
-
 }
