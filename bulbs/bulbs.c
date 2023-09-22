@@ -5,9 +5,6 @@
 #include <string.h>
 
 const int BITS_IN_BYTE = 8;
-int hundredths(string text);
-int tenths(string text);
-int ones(string text);
 
 int numberstobinary(int hundredth, int tenths, int ones, string text);
 void print_bulb(int bit);
