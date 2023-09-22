@@ -15,29 +15,29 @@ int main(void)
 
     // Convert letters to decimal numbers
     for (int i = 0; i < strlen(secret); i++)
+    {
+        // Convert decimals numbers to binary
+        char n = secret[i];
+        int binary[BITS_IN_BYTE];
+        int decimals = n;
+        int remainder;
+
+        for (int j = 0; j < BITS_IN_BYTE; j++)
         {
-            // Convert decimals numbers to binary
-            char n = secret[i];
-            int binary[BITS_IN_BYTE];
-            int decimals = n;
-            int remainder;
-
-            for (int j = 0; j < BITS_IN_BYTE; j++)
-            {
-                // The formula to convert from decimal to binary
-                remainder = n % 2;
-                binary[j] = remainder;
-                n /= 2;            }
-
-            // Reversing the remainder from left to right
-            for (int k = BITS_IN_BYTE; k >= 0; k--)
-            {
-                print_bulb(binary[k]);
-            }
-                printf("\n");
+            // The formula to convert from decimal to binary
+            remainder = n % 2;
+            binary[j] = remainder;
+            n /= 2;
         }
-}
 
+        // Reversing the remainder from left to right
+        for (int k = BITS_IN_BYTE; k >= 0; k--)
+        {
+            print_bulb(binary[k]);
+        }
+        printf("\n");
+    }
+}
 
 // Function Definition to print a series of 0s and 1s as a series of yellow and black emoji
 void print_bulb(int bit)
@@ -53,4 +53,3 @@ void print_bulb(int bit)
         printf("\U0001F7E1");
     }
 }
-
