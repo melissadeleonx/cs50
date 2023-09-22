@@ -43,5 +43,4 @@ void converttobinary(string text)
     n >= 0;
     text[i] = n % 2;
     n = n / 2;
-    i++
 }
