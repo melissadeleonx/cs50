@@ -14,6 +14,7 @@ int main(int argc, string argv[])
     string plaintext = get_string("plaintext: ");
     int key = atoi(argv[1]);
 
+
     // For each character in the plaintext:
 
         // Rotate the character if it's a letter
