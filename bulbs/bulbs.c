@@ -6,21 +6,21 @@
 
 const int BITS_IN_BYTE = 8;
 
-int binary(string text);
 void print_bulb(int bit);
 
 int main(void)
 {
     string text = get_string("Enter your message here:  ");
-    int bit = binary(string text);
     for (int i = 0; i < strlen(text); i++)
-    {
-        for (int j = BITS_IN_BYTE; j < text[i]; j++)
         {
-            printf("%i", bit);
-        }
+            int decimal = text[i];
+            for (int j = BITS_IN_BYTE; j < decimals; j++;)
+            {
+                
+            }
 
-    }
+            printf("%i", text[i]);
+        }
     printf("\n");
 // Only issue now is to convert ASCII to Binary??
 }
@@ -40,7 +40,7 @@ void print_bulb(int bit)
     }
 }
 
-int binary(string text)
+int binary(int decimal)
 {
-    
+
 }
