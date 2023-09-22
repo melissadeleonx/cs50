@@ -12,14 +12,10 @@ void print_bulb(int bit);
 int main(void)
 {
     string text = get_string("Enter your message here:  ");
+    int bit = converttobinary;
     for (int i = 0; i < strlen(text); i++)
 {
-    int hundredths = text[i] / 100;
-    int tenths = (text[i] % 100) / 10;
-    int ones = text[i] % 10;
-
-    int bit = hundredths + tenths + ones;
-    printf("%i\n", bit); 
+    printf("%i\n", bit);
 }
 return 0;
     }
@@ -42,4 +38,3 @@ void print_bulb(int bit)
         printf("\U0001F7E1");
     }
 }
-
