@@ -24,10 +24,11 @@ int main(void)
             }
             for (int k = BITS_IN_BYTE; k >= 0; k--)
             {
-                
+                print_bulb(binary[k]);
             }
+                printf("\n");
         }
-    printf("\n");
+
 // Only issue now is to convert ASCII to Binary??
 }
 
@@ -46,11 +47,3 @@ void print_bulb(int bit)
     }
 }
 
-int binary(int decimal)
-{
-    int decimal = text[i];
-    n = 0;
-    n = decimal / 2 %;
-
-    return
-}
