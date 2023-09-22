@@ -5,14 +5,16 @@
 const int BITS_IN_BYTE = 8;
 
 void print_bulb(int bit);
-int converttobinary(string text);
+void converttobinary(string text);
 
 int main(void)
 {
     string text = get_string("Enter your message here:  ");
     for (int i = 0; i < strlen(text); i++)
+// bit should be equivalent to the convert binary solution
 {
-    printf("%i\n", text[i]);
+    bit = converttobinary(text);
+    printf("%i\n", bit);
 }
 return 0;
     }
@@ -34,4 +36,12 @@ void print_bulb(int bit)
         // Light emoji
         printf("\U0001F7E1");
     }
+}
+
+void converttobinary(string text)
+{
+    n >= 0;
+    text[i] = n % 2;
+    n = n / 2;
+    i++
 }
