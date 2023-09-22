@@ -24,6 +24,7 @@ int main(void)
 
             for (int j = 0; j < BITS_IN_BYTE; j++)
             {
+                // The formula to convert from decimal to binary
                 remainder = n % 2;
                 binary[j] = remainder;
                 n /= 2;            }
