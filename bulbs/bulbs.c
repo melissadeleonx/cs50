@@ -12,11 +12,11 @@ int main(void)
     for (int i = 0; i < strlen(text); i++)
         {
             char n = text[i];
-            int binary(BITS_IN_BYTE);
+            int binary[BITS_IN_BYTE];
             int quotient = n;
             int remainder;
 
-            for (int j = 0; j < BITS_IN_BYTE; j++;)
+            for (int j = 0; j < BITS_IN_BYTE; j++)
             {
                 remainder = n % 2;
                 binary[j] = remainder;
