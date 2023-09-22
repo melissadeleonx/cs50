@@ -3,18 +3,14 @@
 #include <string.h>
 
 const int BITS_IN_BYTE = 8;
-int ones(string text);
-int tenths(string text);
-int hundredths(string text);
 
 void print_bulb(int bit);
+int converttobinary(string text);
 
 int main(void)
 {
     string text = get_string("Enter your message here:  ");
-    int bit = converttobinary(hundreds, ones, tens);
-
-    for (int i = 0; i < strlen(text); i++)
+    int bit = converttobinary(hundreds, tens, ones);
 {
     printf("%i\n", bit);
 }
@@ -40,4 +36,13 @@ void print_bulb(int bit)
     }
 }
 
-int converttobinary(s)
+int converttobinary(string text)
+{
+    for (int i = 0; i < strlen(text); i++)
+    {
+         for (BITS_IN_BYTE = 8; BITS_IN_BYTE =< strlen(text); BITS_IN_BYTE++)
+         {
+            BITS_IN_BYTE++
+            }
+    }
+}
