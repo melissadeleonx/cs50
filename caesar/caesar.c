@@ -13,6 +13,12 @@ int main(int argc, string argv[])
     // Prompt user for plaintext
     string plaintext = get_string("plaintext: ");
     int key = atoi(argv[1]);
+    for (int i = 0; i <= strlen(plaintext); i++)
+    {
+        printf("cyphertext: %s", plaintext);
+
+    }
+
 
 
     // For each character in the plaintext:
