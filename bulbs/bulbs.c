@@ -12,8 +12,11 @@ int main(void)
 {
     // Prompt the user to enter the secret message
     string secret = get_string("Enter your secret message here:  ");
+
+    // Convert letters to decimal numbers
     for (int i = 0; i < strlen(secret); i++)
         {
+            // Convert decimals numbers to binary
             char n = secret[i];
             int binary[BITS_IN_BYTE];
             int decimals = n;
@@ -24,10 +27,7 @@ int main(void)
                 remainder = n % 2;
                 binary[j] = remainder;
                 n /= 2;
-            }
-            for (int k = BITS_IN_BYTE; k >= 0; k--)
-            {
-                print_bulb(binary[k]);
+                print_bulb(binary[j]);
             }
                 printf("\n");
         }
