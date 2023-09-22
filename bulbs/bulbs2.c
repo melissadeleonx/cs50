@@ -12,7 +12,8 @@ void print_bulb(int bit);
 int main(void)
 {
     string text = get_string("Enter your message here:  ");
-    int bit = converttobinary;
+    int bit = converttobinary(hundreds, ones, tens);
+
     for (int i = 0; i < strlen(text); i++)
 {
     printf("%i\n", bit);
@@ -38,3 +39,5 @@ void print_bulb(int bit)
         printf("\U0001F7E1");
     }
 }
+
+int converttobinary(s)
