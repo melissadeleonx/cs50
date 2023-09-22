@@ -10,7 +10,7 @@ int converttobinary(string text);
 int main(void)
 {
     string text = get_string("Enter your message here:  ");
-    
+
     int bit = converttobinary(hundreds, tens, ones);
 {
     printf("%i\n", bit);
@@ -37,13 +37,7 @@ void print_bulb(int bit)
     }
 }
 
-int converttobinary(string text)
+void converttobinary(string text)
 {
-    for (int i = 0; i < strlen(text); i++)
-    {
-         for (BITS_IN_BYTE = 8; BITS_IN_BYTE =< strlen(text); BITS_IN_BYTE++)
-         {
-            BITS_IN_BYTE++
-            }
-    }
+    
 }
