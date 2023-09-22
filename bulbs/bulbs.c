@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-//
+// Each characters(letters, numbers or symbols) has 8 bits. For example, 'H' = 72 = 01001000
 const int BITS_IN_BYTE = 8;
 
 // Function to print a series of 0s and 1s as a series of yellow and black emoji
@@ -10,10 +10,11 @@ void print_bulb(int bit);
 
 int main(void)
 {
-    string text = get_string("Enter your message here:  ");
-    for (int i = 0; i < strlen(text); i++)
+    // Prompt the user to enter the secret message
+    string secret = get_string("Enter your secret message here:  ");
+    for (int i = 0; i < strlen(secret); i++)
         {
-            char n = text[i];
+            char n = secret[i];
             int binary[BITS_IN_BYTE];
             int decimals = n;
             int remainder;
@@ -30,11 +31,10 @@ int main(void)
             }
                 printf("\n");
         }
-
-// Only issue now is to convert ASCII to Binary??
 }
 
 
+// Function Definition to print a series of 0s and 1s as a series of yellow and black emoji
 void print_bulb(int bit)
 {
     if (bit == 0)
