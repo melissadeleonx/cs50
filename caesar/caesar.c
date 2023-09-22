@@ -3,5 +3,7 @@
 
 int main(int argc, string argv[])
 {
- printf("%c\n", argv[1][0]);
+    string plaintext = get_string("plaintext: ");
+    printf("ciphertext: %s\n", plaintext);
+
 }
