@@ -13,13 +13,19 @@ int main(void)
         {
             char n = text[i];
             int binary(BITS_IN_BYTE);
-            int 
+            int quotient = n;
+            int remainder;
 
-
-            for (int j = BITS_IN_BYTE; j < decimals; j++;)
+            for (int j = 0; j < BITS_IN_BYTE; j++;)
             {
-                print_bulb;
-            };
+                remainder = n % 2;
+                binary[j] = remainder;
+                n /= 2;
+            }
+            for (int k = BITS_IN_BYTE; k >= 0; k--)
+            {
+                
+            }
         }
     printf("\n");
 // Only issue now is to convert ASCII to Binary??

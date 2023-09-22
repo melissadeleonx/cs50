@@ -7,6 +7,7 @@
         "cs50.h": "c",
         "array": "c",
         "string.h": "c",
-        "string_view": "c"
+        "string_view": "c",
+        "compare": "c"
     }
 }
