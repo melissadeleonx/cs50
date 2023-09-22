@@ -1,5 +1,6 @@
 #include <cs50.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 // Design and implement a program, caesar, that encrypts messages using Caesar’s cipher.
 // Make sure program was run with just one command-line argument
