@@ -1,11 +1,12 @@
 #include <cs50.h>
 #include <stdio.h>
 
+// Make sure program was run with just one command-line argument
 int main(int argc, string argv[])
 {
   int main(void)
 {
-    // Make sure program was run with just one command-line argument
+
 
     // Make sure every character in argv[1] is a digit
 
