@@ -16,7 +16,7 @@ int main(void)
             int decimal = text[i];
             for (int j = BITS_IN_BYTE; j < decimals; j++;)
             {
-                
+
             }
 
             printf("%i", text[i]);
@@ -42,5 +42,7 @@ void print_bulb(int bit)
 
 int binary(int decimal)
 {
+    int decimal = text[i];
 
+    return
 }
