@@ -13,7 +13,7 @@ int main(void)
         {
             char n = text[i];
             int binary[BITS_IN_BYTE];
-            int quotient = n;
+            int decimals = n;
             int remainder;
 
             for (int j = 0; j < BITS_IN_BYTE; j++)
