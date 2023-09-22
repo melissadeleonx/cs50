@@ -7,3 +7,10 @@ int main(int argc, string argv[])
     printf("ciphertext: %s\n", plaintext);
 
 }
+
+
+
+void print_cyphertext(string plaintext)
+{
+    
+}
