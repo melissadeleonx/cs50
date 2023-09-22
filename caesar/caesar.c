@@ -12,8 +12,8 @@ int main(int argc, string argv[])
 
     // Prompt user for plaintext
     string plaintext = get_string("plaintext: ");
-    int key = argv[3];
-    printf("%s", argv[3]);
+    int atoi(string s) = argv[1];
+    printf("%s", );
 
     // For each character in the plaintext:
 
