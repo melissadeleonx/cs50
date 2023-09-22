@@ -35,3 +35,4 @@ void print_bulb(int bit)
 }
 
 numberstobinary
+if (string text[i] >= 100 && string text [i] <= 999)
