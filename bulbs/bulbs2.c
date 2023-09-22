@@ -13,20 +13,20 @@ int main(void)
 {
     string text = get_string("Enter your message here:  ");
     for (int i = 0; i < strlen(text); i++)
-    {
-        if (text[i] >= 32 && text[i] <= 377)
 {
     int hundredths = text[i] / 100;
     int tenths = (text[i] % 100) / 10;
     int ones = text[i] % 10;
 
     int bit = hundredths + tenths + ones;
-    printf("%i\n", bit);
+    printf("%i\n", bit); 
 }
 return 0;
     }
+
+
 // Only issue now is to convert ASCII to Binary??
-}
+
 
 
 void print_bulb(int bit)
