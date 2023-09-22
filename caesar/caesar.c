@@ -4,7 +4,7 @@
 int main(int argc, string argv[])
 {
     string plaintext = get_string("plaintext: ");
-    for (int i = argv[1]; i < strlen(plaintext); i++)
+    for (int i = 0; i < argc; i++)
     {
          printf("ciphertext: %s\n", plaintext);
     }
