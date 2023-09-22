@@ -3,10 +3,11 @@
 #include <string.h>
 
 const int BITS_IN_BYTE = 8;
-int ones(string text);
-int tenths(string text);
 int hundredths(string text);
+int tenths(string text);
+int ones(string text);
 
+int numberstobinary(int hundredth, int tenths, int ones, string text);
 void print_bulb(int bit);
 
 int main(void)
@@ -34,5 +35,13 @@ void print_bulb(int bit)
     }
 }
 
-numberstobinary
+int numberstobinary(int hundredth, int tenths, int ones, string text)
 if (string text[i] >= 32 && string text [i] <= 377)
+{
+    int hundredths = text[i] / 100;
+    int tenths = (text[i] % 100) / 10;
+    int ones = text[i] % 10;
+
+    int sum = hundredths + tenths + ones;
+    return sum;
+}
