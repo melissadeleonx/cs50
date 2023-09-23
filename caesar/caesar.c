@@ -7,7 +7,15 @@
 // Make sure program was run with just one command-line argument
 int main(int argc, string argv[])
 {
-    // Make sure every character in argv[1] is a digit, a non-negative integer.
+   if (isdigit(argv[]))
+    {
+        printf("%s\n", argv[]);
+    }
+    else
+    {
+        printf("Your input is not a digit.\n");
+    }
+} // Make sure every character in argv[1] is a digit, a non-negative integer.
     do
     {
         string plaintext = get_string("plaintext: ");
