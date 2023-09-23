@@ -10,17 +10,12 @@ int main(int argc, string argv[])
     int key = atoi(argv[1]);
    if (isdigit(key))
     {
-        printf("%i\n", key);
+        string plaintext = get_string("plaintext: ");
     }
     else
     {
         printf("Usage: ./caesar key\n");
         return 1;
-    }
-
-    string plaintext = get_string("plaintext: ");
-    {
-        printf("ciphertext: %s", plaintext);
     }
 
 
