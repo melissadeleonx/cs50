@@ -13,23 +13,14 @@ int main(int argc, string argv[])
     }
     else
     {
-        printf("Your input is not a digit.\n");
+        printf("Usage: ./caesar key\n");
+        return 1;
     }
-} // Make sure every character in argv[1] is a digit, a non-negative integer.
-    do
-    {
-        string plaintext = get_string("plaintext: ");
 
-    } while
-    // Convert argv[1] from a `string` to an `int`
-
-    // Prompt user for plaintext
     string plaintext = get_string("plaintext: ");
     for (int i = 0; i <= strlen(plaintext); i++)
     {
         int key = atoi(argv[1]);
-
-
         printf("ciphertext: %s", plaintext);
 
     }
