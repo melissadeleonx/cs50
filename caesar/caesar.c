@@ -7,7 +7,11 @@
 int main(int argc, string argv[])
 {
     // Make sure every character in argv[1] is a digit, a non-negative integer.
-
+    do
+    {
+        string plaintext = get_string("plaintext: ");
+        
+    } while
     // Convert argv[1] from a `string` to an `int`
 
     // Prompt user for plaintext
@@ -15,7 +19,7 @@ int main(int argc, string argv[])
     for (int i = 0; i <= strlen(plaintext); i++)
     {
         int key = atoi(argv[1]);
-        
+
 
         printf("ciphertext: %s", plaintext);
 
