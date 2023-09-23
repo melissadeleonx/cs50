@@ -21,7 +21,3 @@ int main(int argc, string argv[])
         // Rotate the character if it's a letter
 }
 
-string ciphertext(string plaintext)
-{
-    
-}
