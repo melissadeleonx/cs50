@@ -7,9 +7,10 @@
 // Make sure program was run with just one command-line argument
 int main(int argc, string argv[])
 {
-   if (isdigit(argv[]))
+    int key = atoi(argv[1]);
+   if (isdigit(key))
     {
-        printf("%s\n", argv[]);
+        printf("%i\n", key);
     }
     else
     {
@@ -18,11 +19,8 @@ int main(int argc, string argv[])
     }
 
     string plaintext = get_string("plaintext: ");
-    for (int i = 0; i <= strlen(plaintext); i++)
     {
-        int key = atoi(argv[1]);
         printf("ciphertext: %s", plaintext);
-
     }
 
 
