@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include <string.h>
 
 
 // Design and implement a program, caesar, that encrypts messages using Caesar’s cipher.
@@ -10,11 +11,13 @@ int main(int argc, string argv[])
 {
     int key = atoi(argv[1]);
     string plaintext = get_string("plaintext:  ");
-    char n = argv[3][0];
-    if ( isalpha('n') || isupper('n') || isupper('n'))
-{
-    printf("ciphertext: %s\n", plaintext);
-}
+    for (int i = 0; i < strlen(plaintext); i++)
+    {
+        int cipher = strlen(plaintext) + key;
+        printf("%i", cipher);
+    }
+
+
     // For each character in the plaintext:
 
         // Rotate the character if it's a letter
