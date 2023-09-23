@@ -9,9 +9,8 @@
 int main(int argc, string argv[])
 {
     int key = atoi(argv[1]);
-    argc = 2;
-    for (int i = 0; i < argc; i++)
-    {
+
+    string plaintext = get_string("plaintext:  ");
     if (isdigit(key))
     {
         printf("%i", key);
@@ -24,5 +23,4 @@ int main(int argc, string argv[])
     // For each character in the plaintext:
 
         // Rotate the character if it's a letter
-}
 
