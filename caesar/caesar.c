@@ -8,9 +8,9 @@
 int main(int argc, string argv[])
 {
     int key = atoi(argv[1]);
-   if (isdigit(key))
+    if (isdigit(key))
     {
-        string plaintext = get_string("plaintext: ");
+        printf("%i", key);
     }
     else
     {
