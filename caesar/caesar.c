@@ -11,12 +11,7 @@ int main(int argc, string argv[])
     int key = atoi(argv[1]);
 
     string plaintext = get_string("plaintext:  ");
-    if (isdigit(key))
-    {
-        printf("%i", key);
-        return 0;
-    }
-  }
+    
 
 
 
