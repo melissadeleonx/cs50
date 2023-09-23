@@ -11,12 +11,13 @@ int main(int argc, string argv[])
     int key = atoi(argv[1]);
 
     string plaintext = get_string("plaintext:  ");
-    if ( isalha(plaintext) || isupper(plaintext) || isupper(plaintext))
+    
+    if ( isalpha() || isupper() || isupper())
 {
     printf("ciphertext: %s", plaintext);
 }
 
-
+}
     // For each character in the plaintext:
 
         // Rotate the character if it's a letter
