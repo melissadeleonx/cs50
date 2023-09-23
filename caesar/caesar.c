@@ -3,11 +3,13 @@
 #include <stdlib.h>
 #include <ctype.h>
 
+
 // Design and implement a program, caesar, that encrypts messages using Caesar’s cipher.
 // Make sure program was run with just one command-line argument
 int main(int argc, string argv[])
 {
     int key = atoi(argv[1]);
+    argc = 2;
     for (int i = 0; i < argc; i++)
     {
     if (isdigit(key))
