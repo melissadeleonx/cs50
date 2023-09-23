@@ -19,4 +19,9 @@ int main(int argc, string argv[])
     // For each character in the plaintext:
 
         // Rotate the character if it's a letter
+}
 
+string ciphertext(string plaintext)
+{
+    
+}
