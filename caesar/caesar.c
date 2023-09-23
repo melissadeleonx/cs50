@@ -11,8 +11,10 @@ int main(int argc, string argv[])
     int key = atoi(argv[1]);
 
     string plaintext = get_string("plaintext:  ");
-    
-
+    if ( isalha(plaintext) || isupper(plaintext) || isupper(plaintext))
+{
+    printf("ciphertext: %s", plaintext);
+}
 
 
     // For each character in the plaintext:
