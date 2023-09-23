@@ -8,15 +8,14 @@
 int main(int argc, string argv[])
 {
     int key = atoi(argv[1]);
+    for (int i = 0; i < argc; i++)
+    {
     if (isdigit(key))
     {
         printf("%i", key);
+        return 0;
     }
-    else
-    {
-        printf("Usage: ./caesar key\n");
-        return 1;
-    }
+  }
 
 
 
