@@ -11,12 +11,10 @@ int main(int argc, string argv[])
     int key = atoi(argv[1]);
 
     string plaintext = get_string("plaintext:  ");
-    
-    if ( isalpha() || isupper() || isupper())
+    char n = argv[3][0];
+    if ( isalpha('n') || isupper('n') || isupper('n'))
 {
-    printf("ciphertext: %s", plaintext);
-}
-
+    printf("ciphertext: %s\n", plaintext);
 }
     // For each character in the plaintext:
 
