@@ -8,8 +8,8 @@ int main(void)
     string answer = get_string("Are you ready to learn? ");
     printf("Great, Data types and variables are kinda unique to C\n");
     string answer2 = get_string("Do you want to know why? ");
-    printf("If you've been a programmer for a really long time, you've probably not worked with data types
+    {
+        printf("If you've been a programmer for a really long time, you've probably not worked with data types
     if you've used modern programming languages");
-
-
+    }
 }
