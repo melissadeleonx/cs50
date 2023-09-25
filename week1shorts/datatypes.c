@@ -9,7 +9,8 @@ int main(void)
     printf("Great, Data types and variables are kinda unique to C\n");
     string answer2 = get_string("Do you want to know why? ");
     {
-        printf("If you've been a programmer for a really long time, you've probably not worked with data types
-    if you've used modern programming languages");
+        printf("you've been a programmer for a really long time\n";
+        "you've probably not worked with data types if you've used\n";
+         "modern programming languages");
     }
 }
