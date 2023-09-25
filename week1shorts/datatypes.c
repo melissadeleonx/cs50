@@ -6,6 +6,6 @@ int main(void)
 
 {
     string answer = get_string("Are you ready to learn? ");
-    printf("Great, ");
+    printf("Great, Data types and variables");
 
 }
