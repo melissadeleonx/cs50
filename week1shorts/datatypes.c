@@ -1,11 +1,11 @@
 #include <cs50.h>
 #include <stdio.h>
 
+// Lecture Notes of Week 1 from video shorts of Dr. Doug Lloyd
 int main(void)
 
 {
-    int integer = 0;
-    printf("Integers or int %i\n", integer);
-    printf("Unsigned Integer, if the value will never be negative\n");
+    string answer = get_string("Are you ready to learn? ");
+    printf("Great, ");
 
 }
