@@ -12,7 +12,7 @@ int main(void)
     {
         printf("You lost more points than me.\n");
     }
-    else (point = 2)
+    else
     {
         printf("We are tie!\n");
     }
