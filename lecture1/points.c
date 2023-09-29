@@ -14,6 +14,6 @@ int main(void)
     }
     else
     {
-        printf("We are tie!\n");
+        printf("We are the same!\n");
     }
 }
