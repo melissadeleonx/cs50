@@ -5,7 +5,7 @@ int main(void)
 {
     // Prompt user for x
     int first_number = get_int("first number: ");
-    
+
     // Promp user for y
     int second_number = get_int("second number: ");
 
@@ -16,6 +16,7 @@ int main(void)
 
     // From x and y, we can name our variables depending on the context of the program
 
-    // Integer like
+    // More than 4 billion of integers might run out the computer memory as integer is usually 32 bit
+    // 
 
 }
