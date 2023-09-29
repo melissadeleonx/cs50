@@ -27,8 +27,10 @@ int main(void)
     // linux command that I might use, cp(copy), cd(change directory), mkdir(make directory), ls(list), rm(remove), mv(move), rmdir(remove directory)
     // cd .. means going to parent director, the . in ./hello means this directory
     // data types: bool, chat, double, float, int, long, string (%c, %f, %i, %li, %s )
-    // the CS50 library is our training wheel, it exists only in the first weeks then we are on our own figuring things out
+    // functions: the CS50 library is our training wheel for functions, it exists only in the first weeks then we are on our own figuring things out
     // https://manual.cs50.io/
+    // operators: a lot of math and computation (+ - * / %)
+    // variables and syntactic sugar
 
 
 }
