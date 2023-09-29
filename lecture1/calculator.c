@@ -18,7 +18,8 @@ int main(void)
 
     // More than 4 billion of integers might run out the computer memory as integer is usually 32 bit(2 billion + and 2 billion -)
     // If there is a calculation for more than that, we can change the data type to long(%li), it has 64 bit
-    // 
+    // Conditions or conditionals: if (x < y){ printf("");} The word is IF is not a function, it is a conditionals in C
+    // if else 
 
 
 }
