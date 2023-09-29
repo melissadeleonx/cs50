@@ -24,8 +24,8 @@ int main(void)
     // python and other languages are easier since they use the English language more
     // in C, there is no string data type but instead characters which will be discussed in detail later. a training wheel for noobs
     // we will talk about scanf later!! it is very easy to make mistakes with C as it is lower level language that can pretty much control your entire computer
+    // linux command that I might use, cp(copy), cd(change directory), mkdir(make directory), ls(list), rm(remove), mv(move), rmdir(remove directory)
     
-
 
 
 }
