@@ -30,7 +30,8 @@ int main(void)
     // functions: the CS50 library is our training wheel for functions, it exists only in the first weeks then we are on our own figuring things out
     // https://manual.cs50.io/
     // operators: a lot of math and computation (+ - * / %)
-    // variables and syntactic sugar
+    // variables and syntactic sugar, fewer characters but express the code the same
+    // in scratch, it is called counter = 0, in C, 
 
 
 }
