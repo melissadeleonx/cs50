@@ -18,6 +18,8 @@ int main(void)
     // text editor can change colors but it does not really affect the code, it is for the appearance and for focus and mistake, visually useful, to check if the (){}are aligned to each other
     // %i %s %d %.f
     // nicer to have design from top to bottom so it is easier to read
+    // arguments(input) -> functions -> return value(output)
     
+
 
 }
