@@ -15,13 +15,16 @@ int main(void)
     // stdio.h and cs50.h libraries(extensions) have the functions, any functions, one need to include its library
     // the cs50.h library is automatically done through cloud for the cs50 students
     // in scratch, it is when flag is clicked, in c, it is int main
-    // header files(programmers called) are the libraries(code that predecessors wrote)
+    // header files(programmers called) are the libraries(code that predecessors wrote), there are still difference between library and header file though
     // get_string is for Cs50 but there are equivalent functions from other libraries
     // text editor can change colors but it does not really affect the code, it is for the appearance and for focus and mistake, visually useful, to check if the (){}are aligned to each other
     // %i %s %d %.f
     // nicer to have design from top to bottom so it is easier to read
     // arguments(input) -> functions -> return value(output)
     // python and other languages are easier since they use the English language more
+    // in C, there is no string data type but instead characters which will be discussed in detail later. a training wheel for noobs
+    // we will talk about scanf later!! it is very easy to make mistakes with C as it is lower level language that can pretty much control your entire computer
+    
 
 
 
