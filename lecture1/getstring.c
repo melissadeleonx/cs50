@@ -12,5 +12,7 @@ int main(void)
     // the string depends on how the programmer wants it to implement
     // \n is for the next line or create a new line - please note that compiler tools are not user-friendly, you need to work around it to avoid errors!!
     // what is the % for? it is to identify the data types, an identifier
-    // stdio.h and cs50.h libraries have the functions
+    // stdio.h and cs50.h libraries(extensions) have the functions, any functions, one need to include its library
+    // get_string is for Cs50 but there are equivalent functions from other libraries
+    //
 }
