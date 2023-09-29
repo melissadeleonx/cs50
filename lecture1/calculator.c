@@ -5,6 +5,7 @@ int main(void)
 {
     // Prompt user for x
     int first_number = get_int("first number: ");
+    
     // Promp user for y
     int second_number = get_int("second number: ");
 
