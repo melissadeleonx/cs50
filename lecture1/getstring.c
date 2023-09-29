@@ -31,7 +31,8 @@ int main(void)
     // https://manual.cs50.io/
     // operators: a lot of math and computation (+ - * / %)
     // variables and syntactic sugar, fewer characters but express the code the same
-    // in scratch, it is called counter = 0, in C, 
+    // in scratch, it is called counter = 0, counter = counter + 1 (in C, int counter = 0; counter++ or counter+=1) when changing a variable
+    // once datatype is declared, computer remember; with syntactic sugar, one needs to initialize the datatype
 
 
 }
