@@ -5,10 +5,11 @@
 int main(void)
 {
     int n;
-    // Use a 'for' loop to make the ? repeat 4 times horizontally - First version of the code
+    // Use a 'for' conditionals to make the ? repeat 4 times horizontally - First version of the code
     // do while LOOP will be discussed now for the second version of the code
     // do while is similar to the while loop but the condition is at the end, do the right thing and while will prompt user again and again until do is met
     // For the second version of the code, we need to make a brick of #
+    // You can also use the while LOOP but it is a little longer, and you will use the function break at the end for the condition that does not met the requirement
     do
     {
         n = get_int("Size: "); // The size in this context is the
