@@ -14,7 +14,8 @@ int main(void)
         n = get_int("Size: "); // The size in this context is the
     } while (n < 1);
 
-   for (int i = 0; i < n; i++)
+    // I was able to solve the problem but I am still unsure with more complicated ones
+    for (int i = 0; i < n; i++)
    {
     for (int j = 0; j < n; j++)
        {
@@ -22,8 +23,6 @@ int main(void)
    }
     printf("\n");
    }
-
-
 
     // printf("\n") Put it in the end of the loop so it won't affect the other ASCII art
 }
