@@ -16,6 +16,9 @@ int main(void)
 
 
 
+
+
+// As long as you declare the function at the top before the main, the program will identity the functions, it reads from top to bottom
 void meow(void)
 {
     printf("meow\n");
