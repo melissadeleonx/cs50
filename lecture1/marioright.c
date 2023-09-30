@@ -16,14 +16,13 @@ int main(void)
     {
         for (int j = 0; j < n - i; j++)
         {
-            printf(".");
+            printf(" ");
         }
-
         // Print # NOW!!
         for (int k = 0; k < i + 1; k++)
     {
         printf("#");
     }
-            printf("\n");
-    }
+    printf("\n");
+    } // Moral of the story: Try and try until you succeed! Go girl!!
 }
