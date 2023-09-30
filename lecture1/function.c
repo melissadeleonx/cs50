@@ -6,9 +6,8 @@ void meow(int n); // You can put void on the function so it won't have any input
 int main(void)
 {
     // Since we function meow is no longer define as void, we can remove the LOOP for which makes it meow a few times
-    // I think we need to define the int n???
+    // I think we need to define the int n??? okay for this case, there is no need as it is already in the definition()
         {
-            int n = 3;
             meow(3);
     }
 }
@@ -30,4 +29,6 @@ void meow(int n)
     {
         printf("meow\n");
     }
+    // Aspiring programmers can use the cs50.h libraries with protype functions or we can make our own to modularize the code
+    // Next week, we will discuss int main :)
 }
