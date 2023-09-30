@@ -11,17 +11,15 @@ int main(void)
         n = get_int("Size: ");
     } while (n < 1);
 
-    // Print . as the space the remove it later after we identify how to make the right pyramid
+    // Print . as the space the remove it later after we identify how to make the right
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < n - i; j++)
         {
             printf(".");
-            for (int k = 0; k < j; k++)
-            {
-                printf("#");
-            }
         }
-        printf("\n");
+            printf("\n");
+
+        for 
     }
 }
