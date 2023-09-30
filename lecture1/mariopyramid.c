@@ -20,12 +20,14 @@ int main(void)
         }
         for (int k = 0; k < i + 1; k++)
     {
-        // Print the space in between using . for now then change it to space
+
         printf("#");
     }
+     // Print the space in between using . for now then change it to space
     printf("  ");
 
-        for (int l = 0; l < i + 1; l++) // (--) always lead me to error, lol!
+    // Add another counter variable for the left pyramid
+        for (int l = 0; l < i + 1; l++)
         {
             printf("#");
         }
