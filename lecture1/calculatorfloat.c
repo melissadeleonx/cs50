@@ -15,6 +15,6 @@ int main(void)
 
     // Divide x by y
     int z = x / y;
-    int a = x % y;
+    int a = x % y; // This is extra exercise, I want to learn more!
     printf("%i remainder %i is the answer for x divided by y\n", z, a);
 }
