@@ -13,6 +13,7 @@ int main(void)
         i++; // To increment from 0 and up, syntatic sugar if you want to implement how many times you want to repeat depending on the boolean function inside while
 
         // To increment by a number other than 1, you need to change the parameter to i += 2; for example or 3, 4, so on and so forth
-        
+        // If you want decrement, use the operator --, write i--; count up or count down
+
     }
 }
