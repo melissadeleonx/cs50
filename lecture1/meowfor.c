@@ -6,7 +6,8 @@ int main(void)
 {
     // Initialize the value of i and its datatype!!(which always start depending on the programmer with 0) and indicate its paramenter or limitation like, should i be less than or greater than a certain number
     // Try on your own
-    // for and while loops are almost the same, whichever you choose to make the code design more sophis
+    // for and while loops are almost the same, whichever you choose to make the code design more sophisticated
+    // also there are difference with scopes, where for is more limited with the () and what functions{} is related to that initialization while 'while has more scope and continue to exist. For example () {} {} {} - more later
     for (int i = 0; i < 3; i++)
     {
         printf("meow\n");
