@@ -10,9 +10,9 @@ float discount(float regular);
 int main(void)
 {
     float regular = get_float("Regular Price: ");
-    int percent_off = get_int("Percent Off: ");
+    float percent_off = get_int("Percent Off: ");
     float sale = discount(regular);
-    printf("The Sale Price is $%.2f\n", sale);
+    printf("The Sale Price is $%.2f\n", sale, percent off);
 
 }
 
