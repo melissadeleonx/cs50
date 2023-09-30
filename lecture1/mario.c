@@ -15,6 +15,7 @@ int main(void)
     } while (n < 1);
 
     // I was able to solve the problem but I am still unsure with more complicated ones
+    // Do not forget that i and j are counters like in scratch, the variable that will assign the number of times
     for (int i = 0; i < n; i++)
    {
     for (int j = 0; j < n; j++)
