@@ -12,5 +12,5 @@ int main(void)
     float sale = regular * .85;
 
     // Print the discount price, usually in the US it is with 2 decimals so use .2f%
-    printf("The discount price is %.2f\n", sale);
+    printf("Sale Price is $%.2f\n", sale);
 }
