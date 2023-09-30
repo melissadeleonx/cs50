@@ -16,10 +16,14 @@ int main(void)
     {
         for (int j = 0; j < n - i; j++)
         {
-            printf(".");
+            for (int k = 0; k < j; k++)
+
+            {
+                printf(".");
+                printf("#");
+            }
         }
             printf("\n");
 
-        for 
     }
 }
