@@ -16,14 +16,8 @@ int main(void)
     {
         for (int j = 0; j < n - i; j++)
         {
-            for (int k = 0; k < j; k++)
-
-            {
-                printf(".");
-                printf("#");
-            }
+            printf(".");
         }
             printf("\n");
-
     }
 }
