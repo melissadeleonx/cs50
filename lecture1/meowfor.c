@@ -6,9 +6,10 @@ int main(void)
 {
     // Initialize the value of i and its datatype!!(which always start depending on the programmer with 0) and indicate its paramenter or limitation like, should i be less than or greater than a certain number
     // Try on your own
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; i < 10; i--)
     {
         printf("meow\n");
-     // no need for now to put the increments here 
+     // no need for now to put the increments here
+     // try to do -- :
     }
 }
