@@ -3,17 +3,17 @@
 
 float discount(float regular);
 // A modified version of discount.c with our created function called float discount
+// Sometimes, the simpler codes are the better codes
 
 int main(void)
 {
     float regular = get_float("Regular Price: ");
-    float sale = discount;
-    printf("The Sale Price is %.2f", sale);
+    printf("The Sale Price is %.2f", discount);
 
 }
 
 
 float discount(int regular)
 {
-    float sale = regular * .85;
+    return * .85;
 }
