@@ -25,7 +25,6 @@ int main(void)
     }
 
     // Print the left pyramid, since they will all be in the same levels, the conditionals should be together with other conditionals under 1 major conditionals
-    for 
     printf("\n");
     }
 }
