@@ -1,16 +1,22 @@
 #include <stdio.h>
 
 void meow(void);
-const int n = 3;
+
 int main(void)
 {
-
+    for (int i = 0; i < 3; i++)
+    {
+        meow();
+    }
 }
+
+
+
+
+
+
 
 void meow(void)
 {
-     for (int i = 0; i < n; i++)
-    {
-        printf("meow\n");
-        }
+    printf("meow\n");
 }
