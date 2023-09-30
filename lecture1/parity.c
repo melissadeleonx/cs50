@@ -7,7 +7,7 @@ int main(void)
 
     int n = get_int("n: ");
     // You can make a pseudocode, retain it or transfer them somewhere
-    // if n is even
+    // if n is even --> how to get the remainder (any number divide by 2 will have 0 remainder, so n % 2 == 0)
     if (n % 2 == 0) // == is the equivalent operator; java even have === :)
         {
             printf("even\n");
