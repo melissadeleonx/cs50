@@ -18,12 +18,14 @@ int main(void)
         {
             printf(" ");
         }
-        // Print # NOW!!
         for (int k = 0; k < i + 1; k++)
     {
-        printf("#");
+        // Print the space in between using . for now then change it to space
+        printf("#..");
     }
+
+    // Print the left pyramid, since they will all be in the same levels, the conditionals should be together with other conditionals under 1 major conditionals
+    for 
     printf("\n");
-    } // Moral of the story: Try and try until you succeed! Go girl!! I am not really sure how I made it happen but I guess I just invert the for loop of the i
-      // Coding and Guessing :)
+    }
 }
