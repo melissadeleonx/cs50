@@ -3,12 +3,14 @@
 
 int main(void)
 {
+    const int MINE = 2; // Initializing a variable to use for conditionals so you can change it more easily and design is better
+    // Make the name capitalize as good practice for constant variables, as a reminder that somewhere somehow it is a constant
     int point = get_int("How many points did you lose? ");
-    if (point < 2)
+    if (point < MINE)
     {
         printf("You lost fewer points than me.\n");
     }
-    else if (point > 2)
+    else if (point > MINE)
     {
         printf("You lost more points than me.\n");
     }
