@@ -15,5 +15,6 @@ int main(void)
 
     // Divide x by y
     int z = x / y;
-    printf("%i is the quotient of x by y\n", z);
+    int a = x % y;
+    printf("%i remainder %i is the answer for x divided by y\n", z, a);
 }
