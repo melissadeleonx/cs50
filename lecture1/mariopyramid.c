@@ -21,10 +21,11 @@ int main(void)
         for (int k = 0; k < i + 1; k++)
     {
         // Print the space in between using . for now then change it to space
-        printf("#..");
+        printf("#");
     }
 
     // Print the left pyramid, since they will all be in the same levels, the conditionals should be together with other conditionals under 1 major conditionals
-    printf("\n");
+    printf("..
+    \n");
     }
 }
