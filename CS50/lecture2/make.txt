@@ -1,2 +1,3 @@
 make is an automated command implemented by CS50 staff
--
+-#include <cs50.h>
+#include <stdio.h>

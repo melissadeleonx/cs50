@@ -4,5 +4,5 @@
 // Compile with Clang instead of the automated make command
 int main(void)
 {
-    printf("Hello World!");
+    printf("Hello World!\n");
 }
