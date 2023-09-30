@@ -12,5 +12,5 @@ int main(void)
 
     // Divide x by y
     float z = x / y;
-    printf("%.2f is the quotient of x by y\n", z);
+    printf("%.50f is the quotient of x by y\n", z);
 }
