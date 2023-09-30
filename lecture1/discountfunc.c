@@ -24,7 +24,7 @@ int main(void)
 
 
 // The new functions is not printing anything but handling a value to a variable to make the code cleaner
-float discount(float regular, int percentage)
+float discount(float regular, int percentage) // wondering where is the in percentage declaration??
 {
     return regular * (100 - percentage) / 100;
 }
