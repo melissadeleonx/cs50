@@ -16,14 +16,14 @@ int main(void)
 
    for (int i = 0; i < n; i++)
    {
-     printf("#\n");
     for (int j = 0; j < n; j++)
        {
     printf("#");
    }
+    printf("\n");
    }
 
-   printf("\n");
+
 
     // printf("\n") Put it in the end of the loop so it won't affect the other ASCII art
 }
