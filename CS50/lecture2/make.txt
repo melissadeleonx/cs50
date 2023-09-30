@@ -1,7 +1,21 @@
 make is an automated command implemented by CS50 staff
 -->
+* This is another way
 CS50/lecture2/ $ clang clang.c
 CS50/lecture2/ $ ls
 a.out*  clang.c  make.txt
 CS50/lecture2/ $ ./a.out
 Hello World!
+
+* Another way of exploring what is under the hood. I also tried the VSCode on Desktop using the Make Extension and took me 1 day to figure it out
+clang -o clang clang.c
+CS50/lecture2/ $ ls
+a.out*  clang*  clang.c  make.txt
+./clang
+Hello World!
+
+* I will try to procedure on my VSCODE
+
+
+
+
