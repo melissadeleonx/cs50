@@ -6,8 +6,10 @@
 int main(void)
 {
     // while loop also take bool function, one case use 1 for true and 0 for false or just as it is to be explicit
-    while (true)
+    int i = 0; // counter is what used in Scratch
+    while (i < 3)
     {
-        printf("meow");
+        printf("meow\n");
+        i++;
     }
 }
