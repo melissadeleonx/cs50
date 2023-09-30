@@ -1,3 +1,7 @@
 make is an automated command implemented by CS50 staff
--#include <cs50.h>
-#include <stdio.h>
+-->
+CS50/lecture2/ $ clang clang.c
+CS50/lecture2/ $ ls
+a.out*  clang.c  make.txt
+CS50/lecture2/ $ ./a.out
+Hello World!
