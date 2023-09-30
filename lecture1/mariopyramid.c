@@ -23,12 +23,12 @@ int main(void)
         // Print the space in between using . for now then change it to space
         printf("#");
     }
+    printf("  ");
 
         for (int l = 0; l < i + 1; l++) // (--) always lead me to error, lol!
         {
-            printf("  #");
+            printf("#");
         }
-
           printf("\n");
     }
 }    // Print the left pyramid, since they will all be in the same levels, the conditionals should be together with other conditionals under 1 major conditionals
