@@ -26,7 +26,9 @@ int main(void)
         // Print a brick
         printf("#");
    }
-    printf("\n");
+
+   // Move to next row
+   printf("\n");
    }
 
     // printf("\n") Put it in the end of the loop so it won't affect the other ASCII art
