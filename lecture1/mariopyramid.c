@@ -23,9 +23,9 @@ int main(void)
         // Print the space in between using . for now then change it to space
         printf("#");
     }
-
-    // Print the left pyramid, since they will all be in the same levels, the conditionals should be together with other conditionals under 1 major conditionals
-    printf("..
-    \n");
+        printf("..\n");
+    
     }
 }
+
+    // Print the left pyramid, since they will all be in the same levels, the conditionals should be together with other conditionals under 1 major conditionals
