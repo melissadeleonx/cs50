@@ -11,7 +11,7 @@ int main(void)
         n = get_int("Size: ");
     } while (n < 1);
 
-    //
+    // Print . as the space the remove it later after we identify how to make the right pyramid
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < n - i; j++)
