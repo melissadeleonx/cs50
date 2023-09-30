@@ -3,13 +3,17 @@
 
 int main(void)
 {
-    string answer = get_string("Do you agree? ");
-    if ()
+    char answer = get_char("Do you agree? ");
+    if (answer == 'y' || answer == 'Y')
     {
-        printf("Agreed");
+        printf("Agreed\n");
+    }
+    else if (answer == 'n' || answer == 'N')
+    {
+        printf("Not agreed");
     }
     else
     {
-        printf("Not agreed");
+        printf("Please answer yes or no");
     }
 }
