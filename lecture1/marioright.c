@@ -24,5 +24,6 @@ int main(void)
         printf("#");
     }
     printf("\n");
-    } // Moral of the story: Try and try until you succeed! Go girl!!
+    } // Moral of the story: Try and try until you succeed! Go girl!! I am not really sure how I made it happen but I guess I just invert the for loop of the i
+      // Coding and Guessing :)
 }
