@@ -8,7 +8,7 @@ int main(void)
     // Try on your own
     for (int i = 0; i < 10; i++)
     {
-        printf("meow");
-        i++; // Indicate the increments again?? Try it!
+        printf("meow\n");
+     // no need for now to put the increments here 
     }
 }
