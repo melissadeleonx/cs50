@@ -1,9 +1,12 @@
 #include <cs50.h>
+#include <math.h>
 #include <stdio.h>
 
+// First version has 4.20 dollar amount to pennies but only resulted to 419 pennines, programmers need to be attended to this kind of problem
+// We added the math.h library for a function called round and it works correctly
 int main(void)
 {
     float amount =  get_float("Dollar amount: ");
-    int pennies = amount * 100;
+    int pennies = round(amount * 100);
     printf("Pennies: %i\n", pennies);
 }
