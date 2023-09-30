@@ -5,7 +5,9 @@
 
 int main(void)
 {
-    printf("meow\n")
-
-    // while loop also take bool function
+    // while loop also take bool function, one case use 1 for true and 0 for false or just as it is to be explicit
+    while (true)
+    {
+        printf("meow");
+    }
 }
