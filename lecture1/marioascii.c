@@ -10,7 +10,7 @@ int main(void)
         n = get_int("Size: "); // Size in this context is the height and widht of the left pyramid
     } while (n < 1);
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n - 1; i++)
     {
         for (int j = 0; j < n; j++) // -- always lead me to error, lol!
         {
