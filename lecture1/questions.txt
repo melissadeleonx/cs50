@@ -1,0 +1,1 @@
+Can we multiple string? In C, no! But we will find out later in 
