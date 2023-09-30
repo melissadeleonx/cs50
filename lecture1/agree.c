@@ -8,11 +8,11 @@ int main(void)
     // Check whether user agreed
     if (answer == 'y' || answer == 'Y')
     {
-        printf("Agreed\n");
+        printf("Agreed.\n");
     }
     else if (answer == 'n' || answer == 'N')
     {
-        printf("Not agreed\n");
+        printf("Not agreed.\n");
     }
     else
     {
