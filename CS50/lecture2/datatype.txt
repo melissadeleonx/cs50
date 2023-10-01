@@ -8,3 +8,5 @@ long 8 bytes
 string ? bytes (sets of chars)
 
 RAM - Random Access Memory
+    the green chip of the computer, in the black section is where the binary code 1 and 0 are stored
+    
