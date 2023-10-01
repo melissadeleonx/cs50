@@ -8,7 +8,7 @@
 // Fourth version will use a loop, where i(counter) will represent the number of array using the for loop
 // Use the array programmatically so the code is efficient.
 // For the number of score[arrays], we can prompt the user to provide it or put it as constant so we can go back and change it easily const int N = 3;
-
+// The purpose of the array is not to save space but to minimize the use of multiple variables
 int main (void)
 {
     int n = get_int("How many scores? ");
@@ -21,4 +21,6 @@ int main (void)
 
     printf("Average: %f\n", ((float)scores[0] + scores[1] + scores[2]) / 3);
     // Typecasting is the solution to get a float result of integers or we can also put a decimal .0 on the number 3(but not ideal). As long as one of the values is float, all will be treated as float
+    // There are other data types which we will discover soon, like short, which is shorter than an int
+
 }
