@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
+// Goal is to get negative integer
 int get_negative_int(void); // void for no input
 
 int main(void)
