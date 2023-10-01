@@ -7,7 +7,7 @@ int get_negative_int(void); // void for no input
 int main(void)
 {
     int i = get_negative_int();
-    printf("%i\n", i);
+    printf("You entered %i\n", i);
 
 }
 
