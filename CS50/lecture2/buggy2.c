@@ -12,7 +12,7 @@ int main(void)
 
 
 
-get_negative_int(integer )
+get_negative_int(integer prompt)
 {
 
 }
