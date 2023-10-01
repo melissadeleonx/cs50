@@ -1,4 +1,4 @@
-compiling --> actually means doing 4 things all at once
+compiling(make as an alias) --> actually means doing 4 things all at once
 1. preprocessing - notice the first section of the code, there is the command #include, technically it is called
                 preprocessor directives, handled special than the rest of the codes.
                 For prototype functions that we make, we declare its existence before the main and add its definition somewhere at the bottom of the code
@@ -14,4 +14,12 @@ compiling --> actually means doing 4 things all at once
 
 3. assembling --> Each computers like Mac and Windows have different sets of instructions so the programs of each might not work with the other
                 assemble code to binary code, the language of the computer
-4. linking --> 
+4. linking --> when coding, we are using different files, our file, the librarys(cs50.h inside the cs50.c and the most standard stdio.c) - we are talking about 01 and linking them all together 1010010101010 so on and so forth
+
+Simple Notes
+--> a -out - any program that you compile, means assembler output, overwriting it with our own file like hello.c
+--> sometimes with library, depending on the purpose should be in roder
+
+Debugging
+--> as we progress, we will for sure make more sophisticated bugs or even stupid ones
+--> Grace Hopper - women in tech inspiration, first to record actual physical bug on Harvard Mark 2 Computer
