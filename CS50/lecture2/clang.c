@@ -4,6 +4,6 @@
 // Compile with Clang instead of the automated make command
 int main(void)
 {
-    string name = get_string("What's your name? ");
-    printf("Hello World!\n");
+    string name = get_string("What's your name?  ");
+    printf("Hello %s!\n", name);
 }
