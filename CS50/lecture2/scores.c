@@ -6,10 +6,14 @@
 // Third version is to prompt the user to provide the score using get_int(do not forget the cs50.h library)
 // Something is still off with the third version, often called 'code smell' when something is a bit off
 // Fourth version will use a loop, where i(counter) will represent the number of array using the for loop
+// Use the array programmatically so the code is efficient.
+// For the number of score[arrays], we can prompt the user to provide it or put it as constant so we can go back and change it easily const int N = 3;
+
 int main (void)
 {
+    int N = get_int("How many scores? ");
     // Use [] sign to declare how much are the data inside the array and indexing it from 0 like many other counts in programming
-    int scores[3];
+    int scores[N];
     for (int i = 0; i < 3; i++)
     {
         scores[i] = get_int("Score: ");
