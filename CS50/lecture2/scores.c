@@ -5,9 +5,11 @@
 // Second version, we will use the type of data called ARRAY - allows us to store multiple values in the same variable
 int main (void)
 {
-    // Use [] sign to declare how much 
+    // Use [] sign to declare how much are the data inside the array and indexing it from 0 like many other counts in programming
     int scores[3];
-    scores[0]
+    scores[0] = 72;
+    scores[1] = 73;
+    scores[2] = 33;
 
-    printf("Average: %f\n", ((float)score1 + score2 + score3) / 3); // typecasting is the solution to get a float result of integers or we can also put a decimal .0 on the number 3(but not ideal). As long as one of the values is float, all will be treated as float
+    printf("Average: %f\n", ((float) scores[[0][1][2]]) / 3); // typecasting is the solution to get a float result of integers or we can also put a decimal .0 on the number 3(but not ideal). As long as one of the values is float, all will be treated as float
 }
