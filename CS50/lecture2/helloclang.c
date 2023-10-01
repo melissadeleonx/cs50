@@ -1,8 +1,10 @@
-#include <stdio.h>
+#include <stdio.h> // Special Library, the standard
 
 // Compile with Clang instead of the automated make command
 // First version of the code, we include cs50.h and learn about clang -o helloclang helloclang.c -lcs50
-// Second version, let us only use the stdio.h library which is a very very standard library with lots of prototype functions like printf (only use clang -o helloclang helloclang.c)
+// Second version, let us only use the stdio.h library which is a very very standard library(comes in with language C) with lots of prototype functions like printf (only use clang -o helloclang helloclang.c)
+// Everything will be tedious and the commands will be longer and longer, more cryptic, more sophisticated, 'make' make it simpler
+// -l means to link in the library
 int main(void)
 {
     // if you use clang, the terminal will have errors with get_string as undefined, why?
