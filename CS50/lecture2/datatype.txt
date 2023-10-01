@@ -1,6 +1,6 @@
 How large each of the data types is?
-bool 1 byte(8 bits) - actually it should only be 1 bi
-char 2 byte
+bool 1 byte(8 bits) - actually it should only be 1 bit for True(1) and Fales(0) but the computer standardazied it to 8 bits
+char 1 byte - as in ASCII (numbers, letters, symbols etc.)
 double  8 bytes
 float 4 bytes
 int 4 bytes
