@@ -8,7 +8,7 @@
 // Fourth version will use a loop, where i(counter) will represent the number of array using the for loop
 // Use the array programmatically so the code is efficient.
 // For the number of score[arrays], we can prompt the user to provide it or put it as constant so we can go back and change it easily const int N = 3;
-// The purpose of the array is not to save space but to minimize the use of multiple variables
+// The purpose of the array is not to save space but to minimize the use of multiple variables, nowadays we do not worry much about memory too
 int main (void)
 {
     int n = get_int("How many scores? ");
