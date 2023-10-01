@@ -18,7 +18,8 @@ int get_negative_int(void)
     int n;
     do
     {
-        int n = get_int("Negative Integer: ");
+        n = get_int("Negative Integer: ");
+               printf("n is %i\n", n);
 
     } while (n < 0);
     return n;
