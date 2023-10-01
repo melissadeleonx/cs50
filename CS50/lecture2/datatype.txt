@@ -11,4 +11,5 @@ RAM - Random Access Memory
     the green chip of the computer, in the black section is where the binary code 1 and 0 are stored
     imagine a box of grids representing the memory and bytes occupied by each of the data type
 
-array 
+Array is a type of data that allows us to store multiple values of the same type. It can let us create memory of multiple integers of the different values using the same variable name
+    - if we need line of codes with the same variable name, we can simplify the code with an array.
