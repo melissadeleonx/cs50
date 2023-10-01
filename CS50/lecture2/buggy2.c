@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-get_negative_int();
+get_negative_int(void); // void for no input
 
 int main(void)
 {
@@ -12,7 +12,7 @@ int main(void)
 
 
 
-get_negative_int(integer prompt)
+get_negative_int(void)
 {
 
 }
