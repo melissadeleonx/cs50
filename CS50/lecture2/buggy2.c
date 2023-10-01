@@ -1,21 +1,23 @@
 #include <stdio.h>
 #include <cs50.h>
 
-void get_negative_int; // void for no input
+int get_negative_int(void); // void for no input
 
 int main(void)
 {
-    int i = get_negative_int("Negative: ");
+    int i = get_negative_int();
     printf("%i\n", i);
 
 }
 
 
 
-void get_negative_int
+int get_negative_int(void)
 {
-    for (int i = 0; i < 3; i++)
+    int n;
+    do
     {
-        printf("%i\n");
-    }
+        n = get_int("Negative Integer: ");
+    } while (n < 0);
+    return n;
 }
