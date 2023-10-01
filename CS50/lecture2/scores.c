@@ -7,6 +7,8 @@ int main (void)
 {
     // Use [] sign to declare how much are the data inside the array and indexing it from 0 like many other counts in programming
     int scores[3];
+
+    // Initialize the array
     scores[0] = 72;
     scores[1] = 73;
     scores[2] = 33;
