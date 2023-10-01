@@ -10,7 +10,7 @@ int main(void)
     // so we need to manually tell clang not only we want to o(output) a file and compile(.c), we also want to link in library with bunch of 1 and 0
     // clang -o helloclang helloclang.c -lcs50
     // Basically, we need to indicate all libraries(math, string, etc.) that we want to add to compile the files on the termina
-    // I also tried to so the make command on VSCode Desktop and it is quite a long process to make 'make' command word
+    // I also tried to so the make command on VSCode Desktop and it is quite a long process to make 'make' command word (see the cs50 documentation for tips)
 
     printf("Hello %s!\n", name);
 }
