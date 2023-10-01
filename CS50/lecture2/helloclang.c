@@ -2,7 +2,7 @@
 
 // Compile with Clang instead of the automated make command
 // First version of the code, we include cs50.h and learn about clang -o helloclang helloclang.c -lcs50
-// Second version, let us only use the stdio.h library which is a very very standard library with lots of prototype functions like printf
+// Second version, let us only use the stdio.h library which is a very very standard library with lots of prototype functions like printf (only use clang -o helloclang helloclang.c)
 int main(void)
 {
     // if you use clang, the terminal will have errors with get_string as undefined, why?
@@ -12,5 +12,5 @@ int main(void)
     // Basically, we need to indicate all libraries(math, string, etc.) that we want to add to compile the files on the termina
     // I also tried to so the make command on VSCode Desktop and it is quite a long process to make 'make' command word (see the cs50 documentation for tips)
 
-    printf("Hello %s!\n", name);
+    printf("Hello World!\n");
 }
