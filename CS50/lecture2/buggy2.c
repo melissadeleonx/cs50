@@ -2,7 +2,7 @@
 #include <cs50.h>
 
 // Goal is to get negative integer
-// I think I was able to solve the code? 
+// I think I was able to solve the code? on the do while loop line, while user put positive integer or 0, loop will continue until they provide a negative integer
 int get_negative_int(void); // void for no input
 
 int main(void)
