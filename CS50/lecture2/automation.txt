@@ -6,6 +6,8 @@ compiling --> actually means doing 4 things all at once
                 The get_string function is defined like this for example:
                 string get_string(string prompt); - this line is added before main
                 string get_string(string prompt){its definition} is added somewhere on the code, telling the computer that it exists and we will implement it somehow
+                In stdio.h, the prototype for printf is int printf(string format. . .) - more complicated than we think
+                
 2. compiling
 3. assembling
 4. linking
