@@ -8,6 +8,9 @@ compiling --> actually means doing 4 things all at once
                 string get_string(string prompt){its definition} is added somewhere on the code, telling the computer that it exists and we will implement it somehow
                 In stdio.h, the prototype for printf is int printf(string format. . .) - more complicated than we think
                 preprocessing basically is like plugging in all the files that we need for the code
-2. compiling
-3. assembling
+2. compiling --> turning our codes into a more cryptic code something called assembly language, there are different types, lower level language before code turn into machine code
+                it has mentions of names, words, related to C
+                computer only understand basic instruction so programmer needs to simplify all complicated codes to turn into simple instruction for the computer brain
+
+3. assembling --> 
 4. linking
