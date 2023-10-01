@@ -14,5 +14,8 @@ int main(void)
 
 get_negative_int(void)
 {
-
+    for (int i = 0; i < 3; i++)
+    {
+        printf("%i\n");
+    }
 }
