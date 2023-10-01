@@ -11,5 +11,6 @@ int main (void)
     scores[1] = 73;
     scores[2] = 33;
 
-    printf("Average: %f\n", ((float) scores[[0][1][2]]) / 3); // typecasting is the solution to get a float result of integers or we can also put a decimal .0 on the number 3(but not ideal). As long as one of the values is float, all will be treated as float
+    printf("Average: %f\n", ((float)scores[0] + scores[1] + scores[2]) / 3);
+    // Typecasting is the solution to get a float result of integers or we can also put a decimal .0 on the number 3(but not ideal). As long as one of the values is float, all will be treated as float
 }
