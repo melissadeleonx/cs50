@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// Get the average of the scores - the numbers represent hi! in ASCII
 int main (void)
 {
     int score1 = 72;

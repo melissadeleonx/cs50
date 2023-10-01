@@ -10,3 +10,5 @@ string ? bytes (sets of chars)
 RAM - Random Access Memory
     the green chip of the computer, in the black section is where the binary code 1 and 0 are stored
     imagine a box of grids representing the memory and bytes occupied by each of the data type
+
+array 
