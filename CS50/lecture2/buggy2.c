@@ -2,6 +2,7 @@
 #include <cs50.h>
 
 // Goal is to get negative integer
+// I think I was able to solve the code? 
 int get_negative_int(void); // void for no input
 
 int main(void)
