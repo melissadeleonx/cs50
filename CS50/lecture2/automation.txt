@@ -12,5 +12,6 @@ compiling --> actually means doing 4 things all at once
                 it has mentions of names, words, related to C
                 computer only understand basic instruction so programmer needs to simplify all complicated codes to turn into simple instruction for the computer brain
 
-3. assembling --> 
-4. linking
+3. assembling --> Each computers like Mac and Windows have different sets of instructions so the programs of each might not work with the other
+                assemble code to binary code, the language of the computer
+4. linking --> 
