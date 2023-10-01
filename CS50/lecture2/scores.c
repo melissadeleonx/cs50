@@ -4,6 +4,8 @@
 // First version, we use 3 different variables with almost the same name
 // Second version, we will use the type of data called ARRAY - allows us to store multiple values in the same variable
 // Third version is to prompt the user to provide the score using get_int(do not forget the cs50.h library)
+// Something is still off with the third version, often called 'code smell' when something is a bit off
+
 int main (void)
 {
     // Use [] sign to declare how much are the data inside the array and indexing it from 0 like many other counts in programming
