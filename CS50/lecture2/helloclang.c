@@ -2,6 +2,8 @@
 #include <stdio.h>
 
 // Compile with Clang instead of the automated make command
+// First version of the code, we include cs50.h and learn about clang -o helloclang helloclang.c -lcs50
+// Second version
 int main(void)
 {
     string name = get_string("What's your name?  ");
