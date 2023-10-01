@@ -11,10 +11,10 @@
 
 int main (void)
 {
-    int N = get_int("How many scores? ");
+    int n = get_int("How many scores? ");
     // Use [] sign to declare how much are the data inside the array and indexing it from 0 like many other counts in programming
-    int scores[N];
-    for (int i = 0; i < 3; i++)
+    int scores[n];
+    for (int i = 0; i < n; i++)
     {
         scores[i] = get_int("Score: ");
     }
