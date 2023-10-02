@@ -4,11 +4,12 @@
 int main(void)
 {
     int i = 0;
+    string name;
     do
     {
-        string name = get_string("Name: ");
+        name = get_string("Name: ");
         i++;
-        printf("");
     } while ( i < 3);
+    printf("%s", name);
 
 }
