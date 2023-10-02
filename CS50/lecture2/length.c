@@ -6,7 +6,7 @@
 // Do while loop also works the same as while, make sure to put ' ' on the \O nul character
 // If you want to get the total of i, put the printf outside the loop
 // Let's put it back to while again.
-// Second version is trying to make our own function to get the stringlenght!! I ROCK IT!!
+// Second version is trying to make our own function to get the stringlength!! I ROCK IT!!
 // Between numbers and letters in ASCII, the program interprets them using the datatype variables
 
 int string_length(string name);
