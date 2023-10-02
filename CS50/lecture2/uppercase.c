@@ -16,7 +16,7 @@ int main(void)
 
     printf("After: ");
     for (int i = 0, n = strlen(s); i < n; i++)
-    { if(islower(s[i]))
+    { if(islower(s[i]) != 0)
             {
                 printf("%c", toupper(s[i]));
             }
