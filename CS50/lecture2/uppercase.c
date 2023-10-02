@@ -9,6 +9,7 @@
 // Hmmn, his version is more complicated but feels like the result he wants is just to uppercase.
 // The code needs to only accept lowercase characters
 // I used the true or false conditions using islower
+// Last version removed all the conditionals and make it more logical since the only goal is to make it uppercase
 
 
 int main(void)
@@ -17,12 +18,8 @@ int main(void)
 
     printf("After: ");
     for (int i = 0, n = strlen(s); i < n; i++)
-    { if(islower(s[i]) != 0)
-            {
-                printf("%c", toupper(s[i]));
-            } else {
-                printf("%c", s[i]);
-            }
+    {
+        printf("%c", toupper(s[i]));
     }
     printf("\n");
 
