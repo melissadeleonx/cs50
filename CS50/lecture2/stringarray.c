@@ -8,12 +8,12 @@
 
 int main(void)
 {
-    string name;
+    string name[3];
     for (int i = 0; i < 3; i++)
     {
-        name = get_string("Name: ");
+        name[i] = get_string("Name: ");
     }
-        printf("%s\n", name);
+        printf("You've entered: ");
         int i = 0;
         while (i < 3)
         {
