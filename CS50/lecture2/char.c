@@ -12,6 +12,7 @@
 // Fourth version is proving the definition of string with arrays string[0][1][2]. . .
 // Now we are too technical, lol, \0 or NUL(ASCII) is being introduced, it determine when a string is to end or start. 8 0 bits means nul(\0). It is an invisible placeholder.
 // In languages like C, C++, and similar low-level languages, the null character ('\0') is not added automatically. It's the programmer's responsibility to ensure that strings are properly null-terminated.
+// For example, when you declare a string literal like "Hello", the compiler automatically adds a null character at the end. However, if you create a character array and populate it character by character, you need to explicitly add the null character to indicate the end of the string.
 int main(void)
 {
     string s = "HI!";
