@@ -14,10 +14,11 @@
 // In languages like C, C++, and similar low-level languages, the null character ('\0') is not added automatically. It's the programmer's responsibility to ensure that strings are properly null-terminated.
 // For example, when you declare a string literal like "Hello", the compiler automatically adds a null character at the end. However, if you create a character array and populate it character by character, you need to explicitly add the null character to indicate the end of the string.
 // char s[] = {'H', 'I', '!', '\0'};
-
+// Fifth version is printing the \0(invincible 0 at the end of the string[the next digit after the last array number])
+// Let us try with "HELLO!"
 int main(void)
 {
-    string s = "HI!";
-    printf("%i %i %i\n", s[0], s[1], s[2]);
+    string s = "HELLO!";
+    printf();
 }
 
