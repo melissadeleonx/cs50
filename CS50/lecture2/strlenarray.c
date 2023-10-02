@@ -13,9 +13,11 @@ int main(void)
         // Prompt the user
         name[i] = get_string("Name: ");
     }
-        printf("You've entered: ");
+        // Print the array of name with the strlen - please note that the return datatype of strlen is lu(undefined long)
+        printf("You've entered:\n");
         for (int i = 0; i < 3; i++)
         {
-            printf()
+            printf("%s - Lenght: %lu\n", name[i], strlen(name[i]));
         }
+        return 0;
 }
