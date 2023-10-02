@@ -9,6 +9,7 @@ int main(void)
     int i = 0;
     while(name[i] != '\0') // We are basically excluding the last string array which is nul to get the lenght of the string, there is also another datatype called strlen to make it easier for us
     {
-        
+        i++;
     }
+    printf("%i", i)
 }
