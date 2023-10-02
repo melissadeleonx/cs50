@@ -6,7 +6,7 @@
 // Goal to turn before lowercase to uppercase letters(char)
 // I used the function tolower from ctype.h library. Let's hear what Dr. Malan propose?
 // Okay he wants to uppercase so I will use toupper this time. My code works!
-
+// Hmmn, his version is more complicated but feels like the result he wants is just to uppercase.
 
 
 int main(void)
