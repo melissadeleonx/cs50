@@ -3,9 +3,8 @@
 #include <string.h>
 
 // Always start with pseudocode so you won't make a mistake, solve one at a time
-// Goal is to get 3 names and printing the name with the strlen
+// Goal is to get 3 names and printing the name with the strlen integer
 
-int strlen(string s);
 int main(void)
 {
     string name[3];
@@ -16,4 +15,3 @@ int main(void)
         printf("You've entered: ");
 
 }
-
