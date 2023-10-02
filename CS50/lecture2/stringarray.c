@@ -7,9 +7,9 @@ int main(void)
     string name;
     do
     {
-        name = get_string("Name: ");
+        name = get_string("Name: ")
         i++;
-    } while ( i < 3);
-    printf("%s", name);
+    } while ( name[i] < 3);
+    printf("The name of my friends are %s, %s, %s", name, name, name);
 
 }
