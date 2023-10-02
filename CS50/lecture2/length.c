@@ -10,17 +10,14 @@
 // Between numbers and letters in ASCII, the program interprets them using the datatype variables
 
 int string_length(string s); // string s in this prototype function represent any string variable in the name, it will carry over the definition of the function
-// Why? So we can reuse the function and it won't be limited to the name or the first string variable of main. Let us try!!
+// Why? So we can reuse the function and it won't be limited to the name or the first string variable of main.
+// Trying the array of strings on stringarray.c
 
 int main(void)
 {
     string name = get_string("Name: ");
-    for (int i = 0; i < 2; i++)
-    {
-        int length = string_length(name[0]);
-        printf("%i\n", length[0]);
-    }
-
+    int length = string_length(name);
+    printf("%i\n", length);
 }
 
 
