@@ -23,8 +23,6 @@ int main(void)
 
 
 
-
-
 int string_length(string s)
 {
     int i = 0;
