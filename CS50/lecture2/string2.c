@@ -3,6 +3,7 @@
 #include <string.h>
 
 // Ready to conquer the world!!
+// First version is trying out to print the string using char representation %c but string alone is better designed
 int main(void)
 {
     string s = get_string("Input: ");
