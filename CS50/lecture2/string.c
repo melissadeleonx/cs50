@@ -3,6 +3,9 @@
 #include <string.h>
 
 // Simplify the code with strlen(do not forget the string.h library)
+// One can omit int length and use %lu(undefined long) instead of %i
+// Explore the https://manual.cs50.io/
+
 int main(void)
 {
     string name = get_string("Name: ");
