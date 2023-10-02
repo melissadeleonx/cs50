@@ -20,5 +20,5 @@ int main(void)
             printf(" %s", name[i]);
             i++;
         }
-        printf("\n");
+        printf("\n"); // Put the next line outside the loop so it won't repeat itself
 }
