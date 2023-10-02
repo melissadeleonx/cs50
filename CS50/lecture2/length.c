@@ -15,8 +15,12 @@ int string_length(string s); // string s in this prototype function represent an
 int main(void)
 {
     string name = get_string("Name: ");
-    int length = string_length(name);
-    printf("%i\n", length);
+    for (int i = 0; i < 2; i++)
+    {
+        int length = string_length(name[0]);
+        printf("%i\n", length[0]);
+    }
+
 }
 
 
