@@ -19,9 +19,7 @@ int main(void)
     { if(s[i] >= 'a' && s[i] <= 'z')
             {
                 printf("%c", toupper(s[i]));
-                } else {
-                    printf("%c", );
-                }
+            }
     }
     printf("\n");
 }
