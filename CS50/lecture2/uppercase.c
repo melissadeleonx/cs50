@@ -16,11 +16,10 @@ int main(void)
 
     printf("After: ");
     for (int i = 0, n = strlen(s); i < n; i++)
-    {
-            if(s[i] >= 'a' && s[i] <= 'z')
+    { if(s[i] >= 'a' && s[i] <= 'z')
             {
                 printf("%c", toupper(s[i]));
-            } 
+                }
     }
     printf("\n");
 }
