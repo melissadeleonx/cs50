@@ -4,7 +4,7 @@
 
 // Simplify the code with strlen(do not forget the string.h library)
 // One can omit int length and use %lu(undefined long) instead of %i
-// Explore the https://manual.cs50.io/
+// Explore the https://manual.cs50.io/ STUDY!!!
 
 int main(void)
 {
