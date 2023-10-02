@@ -17,8 +17,8 @@ int main(void)
         int i = 0;
         while (i < 3)
         {
-            printf("%s", name[i]);
+            printf(" %s", name[i]);
             i++;
         }
-
+        printf("\n");
 }
