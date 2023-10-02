@@ -14,5 +14,11 @@ int main(void)
         name = get_string("Name: ");
     }
         printf("%s\n", name);
+        int i = 0;
+        while (i < 3)
+        {
+            printf("%s", name[i]);
+            i++;
+        }
 
 }
