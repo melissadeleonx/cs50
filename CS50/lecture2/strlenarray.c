@@ -2,20 +2,16 @@
 #include <cs50.h>
 #include <string.h>
 
+// Always start with pseudocode so you won't make a mistake, solve one at a time
 int main(void)
 {
-    int i = 0;
+    // We need 3 names in th same variable. Printf to check!
     string name[3];
-    while(i < 3)
+    for (int i = 0; i < 3; i++)
     {
         name[i] = get_string("Name: ");
-        i++;
     }
+    printf("%s\n%s\n", name[0], name[1]);
 
 
-    int n = strlen(name[i]);
-    for (i = 0; i < 3; i++)
-    {
-       printf("The length of %s is %i while the length of %s is %i", name, n );
-    }
 }
