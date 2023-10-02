@@ -3,28 +3,16 @@
 
 // Goal is to make an array of string, similar to the array int on score.c
 // First version is a copied code online for study reference, check on the terminal and try to remember the rules
+// My second version after taking a glimpse of the code online, let's go! Okay, I used the for loop which loops both get_string and printf_  but that is not my intention, I want to have only one sentence at the end.
+// Third version
 
 int main(void)
 {
-    // Define an array of strings
-    string myStrings[3];
-
-    // Get strings from the user using a while loop
-    int i = 0;
-    while (i < 3)
+    string name;
+    for (int i = 0; i < 3; i++)
     {
-        myStrings[i] = get_string("Enter a string: ");
-        i++;
+        name = get_string("Name: ");
     }
+        printf("%s\n", name);
 
-    // Print the entered strings
-    printf("You entered:\n");
-    i = 0;
-    while (i < 3)
-    {
-        printf("%s\n", myStrings[i]);
-        i++;
-    }
-
-    return 0;
 }
