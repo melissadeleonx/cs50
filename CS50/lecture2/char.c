@@ -6,12 +6,10 @@
 // Second version, using ASCII, we will convert letters to numbers but still printing the char[count of string]
 // Good to note that for char letters, we put ' ' and with numbers there is no need. For char numbers, the representation is %i too.
 // C knows ASCII and Unicode so it recognizes the conversion
+// Third version is now using string HI!
 int main(void)
 {
-    char C1 = 'H';
-    char C2 = 'I';
-    char C3 = '!';
-
-    printf("%i %i %i\n", C1, C2, C3);
+    string hi = "HI!";
+    printf("%s", hi);
 }
 
