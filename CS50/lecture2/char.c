@@ -9,9 +9,10 @@
 // C knows ASCII and Unicode so it recognizes the conversion
 // Third version is now using string HI! Do not forget the library that support string which is CS50.h
 // String is an array of characters as proven by the first and second versions
+// Fourth version is proving the definition of string with arrays string[0][1][2]. . .
 int main(void)
 {
     string s = "HI!";
-    printf("%s\n", s);
+    printf("%i %i %i\n", s[0], s[1], s[2]);
 }
 
