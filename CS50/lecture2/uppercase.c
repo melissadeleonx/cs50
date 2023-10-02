@@ -20,8 +20,8 @@ int main(void)
     { if(islower(s[i]) != 0)
             {
                 printf("%c", toupper(s[i]));
-            }
+            } 
     }
     printf("\n");
-    if
+
 }
