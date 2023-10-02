@@ -6,22 +6,27 @@
 // Do while loop also works the same as while, make sure to put ' ' on the \O nul character
 // If you want to get the total of i, put the printf outside the loop
 // Let's put it back to while again.
-// Second version is trying to make our own function to get the stringlenght!!
+// Second version is trying to make our own function to get the stringlenght!! I ROCK IT!!
 
-string_length(string name);
+int string_length(string name);
 int main(void)
 {
     string name = get_string("Name: ");
-    int lenght = string_length(name);
-
+    int length = string_length(name);
+    printf("%i\n", length);
 }
 
-string_length(string name)
+
+
+
+
+
+int string_length(string name)
 {
     int i = 0;
     while (name[i] != '\0')
     {
         i++;
     }
-    printf("%i\n", i);
+    return i;
 }
