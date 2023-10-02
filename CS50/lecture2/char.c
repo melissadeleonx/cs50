@@ -15,12 +15,12 @@
 // For example, when you declare a string literal like "Hello", the compiler automatically adds a null character at the end. However, if you create a character array and populate it character by character, you need to explicitly add the null character to indicate the end of the string.
 // char s[] = {'H', 'I', '!', '\0'};
 // Fifth version is printing the \0(invincible 0 at the end of the string[the next digit after the last array number])
-// Let us try with "HELLO!" and other string examples
+// Let us try with "HELLO!" and other string examples. I poke around and very satisfied.
 int main(void)
 {
     string s = "HI!";
     string t = "BYE!";
 
-    printf("%s\n%s\n", s, t);
+    printf("%c%c%c %i\n%c%c%c%c %i\n", s[0], s[1], s[2], s[3], t[0], t[1], t[2], t[3], t[4]);
 }
 
