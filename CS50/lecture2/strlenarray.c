@@ -10,8 +10,12 @@ int main(void)
     string name[3];
     for (int i = 0; i < 3; i++)
     {
+        // Prompt the user
         name[i] = get_string("Name: ");
     }
         printf("You've entered: ");
-
+        for (int i = 0; i < 3; i++)
+        {
+            printf()
+        }
 }
