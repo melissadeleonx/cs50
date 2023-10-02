@@ -1,0 +1,5 @@
+From int main(void), our main can now function with commandline arguments, For example: int main(int argc, string argv[])
+A program that run commandline arguments
+int argc, string argv
+* int argc - argument count (integer that determines how many words are typed at the prompt)
+* string argv - argument vector(array of all the words typed at the prompt)
