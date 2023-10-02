@@ -16,6 +16,8 @@
 // char s[] = {'H', 'I', '!', '\0'};
 // Fifth version is printing the \0(invincible 0 at the end of the string[the next digit after the last array number])
 // Let us try with "HELLO!" and other string examples. I poke around and very satisfied.
+// String uses dynamic memory allocation - we will find out more in the next two weeks
+
 int main(void)
 {
     string s = "HI!";
