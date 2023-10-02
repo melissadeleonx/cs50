@@ -2,14 +2,13 @@
 #include <cs50.h>
 
 // Write a pseudocode(int i in this context is the length of the string)
+// First version, we use the while loop to get the lenght of the string. I want to try the other types of loops
 int main(void)
 {
     string name = get_string("Name: ");
-
-    int i = 0;
-    while(name[i] != '\0') // We are basically excluding the last string array which is nul to get the lenght of the string, there is also another datatype called strlen to make it easier for us
+    for (int i = 0; name[i] != '\0'; i++)
     {
-        i++;
+
+        printf("%i\n", i);
     }
-    printf("%i\n", i);
 }
