@@ -7,6 +7,7 @@
 // If you want to get the total of i, put the printf outside the loop
 // Let's put it back to while again.
 // Second version is trying to make our own function to get the stringlenght!! I ROCK IT!!
+// Between numbers and letters in ASCII, the program interprets them using the datatype variables
 
 int string_length(string name);
 int main(void)
