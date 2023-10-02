@@ -12,11 +12,5 @@ int main(void)
         name[i] = get_string("Name: ");
     }
 
-    int n = strlen(name[3]);
-    for (int i = 0; i < strlen(name[i]); i++)
-    {
-        printf("%i is the lenght %s\n", strlen(name[0]), name[0]);
-    }
-
 
 }
