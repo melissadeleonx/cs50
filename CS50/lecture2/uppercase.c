@@ -8,6 +8,7 @@
 // Okay he wants to uppercase so I will use toupper this time. My code works!
 // Hmmn, his version is more complicated but feels like the result he wants is just to uppercase.
 // The code needs to only accept lowercase characters
+// I used the true or false conditions using islower
 
 
 int main(void)
@@ -22,4 +23,5 @@ int main(void)
             }
     }
     printf("\n");
+    if
 }
