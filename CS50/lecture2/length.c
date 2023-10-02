@@ -17,7 +17,7 @@ int main(void)
 {
     string name = get_string("Name: ");
     int length = string_length(name);
-    printf("%i\n", length);
+    printf("The name has %i letters.\n", length);
 }
 
 
