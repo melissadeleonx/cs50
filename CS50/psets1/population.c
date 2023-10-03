@@ -5,5 +5,8 @@
 // Goal: Determine how long it takes for a population to reach a particular size.
 int main(void)
 {
+    // Prompt the user for a starting population size
+
+    // 
 
 }
