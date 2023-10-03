@@ -34,6 +34,12 @@ int main(void)
     // Calculate the user input: Your program should then calculate the (integer) number of years required for the population to reach at least the size of the end value.
     // Remember the formula provided and think of another to satisfy the result. First year = start + 1/3 new llamas - 1/4 deceased llamas
 
+    int years = 0;
+    while (start < end)
+    {
+       int first_year = start + (start / 3) - (start / 4);
+        years++;
+    }
     printf("Year: \n");
 
 }
