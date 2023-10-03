@@ -2,9 +2,10 @@
 #include <stdio.h>
 #include <string.h>
 
-// Goal is to set simple programs with commandline arguments
+// Goal is to set simple programs with commandline arguments - Users are able to put input when they run the program
 // Commandline arguments are the basics of programming and getting input from users from the main code
 // Let's play around one more
+// Any questions? SO MUCH!!
 int main(int argc, string argv[])
 {
     if (argc > 0) // The conditionals should be cohesive with what you want to implement, otherwise it will result to the other conditionals you want to implement
