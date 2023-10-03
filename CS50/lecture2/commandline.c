@@ -6,6 +6,6 @@
 int main(int argc, string argv[])
 {
     string s = get_string("Name: ");
-    printf("Hello %s\n", argv[1]);
+    printf("Hello %s\n", argv[4]);
 
 }
