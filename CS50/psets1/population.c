@@ -6,12 +6,19 @@
 int main(void)
 {
     // Prompt the user for a starting population size
-    int start = get_int("Start Size: ");
+    int start;
     // Step 2: Make a condition with this rule: If the user enters a number less than 9 (the minimum allowed population size), the user should be re-prompted to enter a starting population size until they enter a number that is greater than or equal to 9. (If we start with fewer than 9 llamas, the population of llamas will quickly become stagnant!)
-    while (start <= 9)
+    do
     {
-        printf("Please enter a number equals or greater than 9\n");
+        start = get_int("Start Size: ");
+        // Put another conditionals inside the loop so there is a prompt message everytime the user puts less than 9
+        if (start <= 9)
+    {
+        printf("enter more 9");
     }
+    } while (start <= 9);
+
+
 
     int end = get_int("End Size: ");
 
