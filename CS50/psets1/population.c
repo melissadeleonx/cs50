@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
+#include <math.h>
 
 // Step 1: Make a pseudocode
 // Goal: Determine how long it takes for a population to reach a particular size. We need to print the year!
@@ -32,8 +33,9 @@ int main(void)
 
     // Calculate the user input: Your program should then calculate the (integer) number of years required for the population to reach at least the size of the end value.
     // Remember the formula provided and think of another to satisfy the result. First year = start + 1/3 new llamas - 1/4 deceased llamas
-    int first year = start + ((round)(start + 1/3)) + ((round)(start + 1/4));
-    int years = 
+    int first_year = start + ((round)(start + 1/3)) + ((round)(start + 1/4));
+    int years = end / first_year;
+    printf("Year: %i", years);
 
 }
 
