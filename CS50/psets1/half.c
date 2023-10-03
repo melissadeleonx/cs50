@@ -19,7 +19,7 @@ int main(void)
 // Complete the function using parameters(they are different from the variable inside the main)
 float half(float bill, float tax, int tip)
 {
-    // Calculate the bill with this formula (bill + tax = billtax; billtax + tip)
+    // Calculate the bill with this formula (bill + tax = billtax; (billtax + tip)/ 2)
     float bill_tax = bill + (bill * tax / 100.0);
     bill = (bill_tax + (bill_tax * tip / 100.0)) / 2;
     return bill;
