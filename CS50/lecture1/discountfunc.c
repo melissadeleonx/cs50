@@ -1,11 +1,11 @@
 #include <cs50.h>
 #include <stdio.h>
 
+// SIMPLER CODES are the BETTER CODES
+// Remember that a new function should have a parameter that will not affect the variables of main
+// Do not complicate life! Please see the example below:
+
 float discount(float regular, int percent_off);
-// A modified version of discount.c with our created function called float discount
-// Sometimes, the SIMPLER CODES are the BETTER CODES
-// Watch out for the data types inside the () of the new functions, the return of the input, for this case, the prompted regular from the user
-// Do not complicate life!
 
 int main(void)
 {
@@ -13,22 +13,11 @@ int main(void)
     int percentage = get_int("Percent Off: ");
     float sale = discount(regular, percentage);
     printf("The Sale Price is $%.2f\n", sale);
-
 }
 
-
-
-
-
-
-
-
-// The new functions is not printing anything but handling a value to a variable to make the code cleaner
 float discount(float regular, int percent_off)
 {
-
-    regular - (percent_off / 100);
-
-   // I am not sure why Prof. David did not see the bug or why the system made it work but he declared 2 different int, one int percentage and one is int percent_off: I have no idea!
-   // Regarding my question, turned out there is a thing called parameters within the functions, which can be changed on the main
+    regular = regular - (regular * percent_off / 100.0);
+    return regular;
 }
+
