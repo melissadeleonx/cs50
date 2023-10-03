@@ -35,12 +35,10 @@ int main(void)
     // Remember the formula provided and think of another to satisfy the result. First year = start + 1/3 new llamas - 1/4 deceased llamas
 
 
-    int first_year = start + (start/3) - (start/4);
-    int gains = first_year - start;
-    int gainsx = gains + (start/12);
-    int es = end - start;
-    int year = es / gains;
+    int birth_rate = 1/3;
+    int death_rate = 1/4;
 
+    int years = lo
     printf("Year: %i\n", year);
 
 }
