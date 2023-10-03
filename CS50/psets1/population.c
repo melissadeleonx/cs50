@@ -31,8 +31,7 @@ int main(void)
     } while (end < start);
 
     int first_year = start + (start * 1/3) - (start * 1/4);
-    int years = end / (8.33/100);
-
+    int years = 
     printf("Year: %i\n", years);
 }
 
