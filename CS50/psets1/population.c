@@ -37,11 +37,12 @@ int main(void)
 
     int birth = 1/3;
     int death = 1/4;
-    int first_year = start + birth - death;
-    for (int i = first_year; i > end; i++)
+    int year = start + birth - death;
+    do
     {
-        printf("%i", i);
-    }
+        year++;
+        printf("%i\n", year);
+    } while (year > end);
 
 }
 
