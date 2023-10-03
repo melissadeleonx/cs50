@@ -36,8 +36,8 @@ int main(void)
 
     int birth = start/3;
     int death = start/4;
-    int first_year = round (start + birth - death);
-    
+    int first_year = round ((start + birth) - death);
+
     printf("%i\n", first_year);
 
 }
