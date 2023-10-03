@@ -39,10 +39,9 @@ int main(void)
     int death = 1/4;
 
 
-    int first year =
-    int years =
+    int first year = start + birth - death;
 
-    printf("Year: %i\n", years);
+    printf("Year: %i\n", first_year);
 
 }
 
