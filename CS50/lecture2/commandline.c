@@ -7,7 +7,7 @@
 // Let's play around one more
 int main(int argc, string argv[])
 {
-    if (argc == 3)
+    if (argc > 0) // The conditionals should be cohesive with what you want to implement, otherwise it will result to the other conditionals you want to implement
     {
     printf("Hello %s %s\n", argv[1], argv[2]);
     }
