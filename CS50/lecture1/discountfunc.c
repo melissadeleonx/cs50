@@ -27,4 +27,4 @@ int main(void)
 float discount(float regular, int percentage) // wondering where is the in percentage declaration??
 {
     return regular * (100 - percentage) / 100; // I am not sure why Prof. David did not see the bug or why the system made it work but he declared 2 different int, one int percentage and one is int percent_off: I have no idea!
-}
+}// Regarding my question, turned out there is a thing called parameters within the functions, which can be changed on the main
