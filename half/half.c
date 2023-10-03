@@ -13,14 +13,14 @@ int main(void)
     int tip_percent = get_int("Tip percent: ");
 
 
-    printf("You will owe $%.2f each!\n", half(bill_amount, tax_percent, tip_percent));
+    printf("You will owe %.2f each!\n", half(bill_amount, tax_percent, tip_percent));
 }
 
 // TODO: Complete the function
 float half(float bill, float tax, int tip)
 {
     int persons = 2;
-    float bill_tax = bill + (tax/100);
-    float half = (bill_tax + (tip/100)) / persons;
+    float bill_tax = bill + (tax/bill);
+    float half = (bill_tax + (tip/bill_tax)) / persons;
     return 0;
 }
