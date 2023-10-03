@@ -1,1 +1,4 @@
 How Ciphertext works
+From(plaintext), using key can turn into (ciphertext)
+For example the key is 1, it means that we will add 1 to the current letters and turn it into another secret word.
+From HI! to IJ! Or Name to Obnf
