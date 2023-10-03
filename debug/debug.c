@@ -11,7 +11,7 @@ int main(void)
     string address = get_string("Where do you live? ");
 
     // Say hello
-    printf("Hello %s from %s!\n", name, address);
+    printf("Hello, %s, from %s!\n", name, address);
 
     return 0;
 }
