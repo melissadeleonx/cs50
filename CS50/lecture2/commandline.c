@@ -5,5 +5,5 @@
 // Goal is to set simple programs with commandline arguments
 int main(int argc, string argv[])
 {
-    printf("Hello %s\n", argv[2]);
+    printf("Hello %s\n", argv[200000]);
 }
