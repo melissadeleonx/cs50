@@ -37,10 +37,12 @@ int main(void)
     int years = 0;
     while (start < end)
     {
-       int first_year = start + (start / 3) - (start / 4);
+       start = start + (start / 3) - (start / 4);
         years++;
     }
-    printf("Year: \n");
+    printf("Year: %i\n", years);
+
+    return 0;
 
 }
 
