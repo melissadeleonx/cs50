@@ -14,7 +14,6 @@ int main(void)
 
     // We can also make the code more user-friendly if we add the a get_int for the number of people
     float half_share = half(bill_amount, tax_percent, tip_percent);
-
     printf("%.2f", half_share);
 }
 
