@@ -37,8 +37,9 @@ int main(void)
 
     int first_year = start + (start/3) - (start/4);
     int gains = first_year - start;
-    int xgains = gains + (1/12);
-    int year = end / xgains;
+    int gainsx = gains + (1/3 - 1/4);
+    int es = end - start;
+    int year = es / gains;
 
     printf("Year: %i\n", year);
 
