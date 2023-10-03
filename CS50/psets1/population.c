@@ -30,6 +30,8 @@ int main(void)
         }
     } while (end < start);
 
+    int year = start + (start * .33) - (start * .25)
+
 }
 
 
