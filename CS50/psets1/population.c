@@ -33,7 +33,6 @@ int main(void)
 
     // Calculate the user input: Your program should then calculate the (integer) number of years required for the population to reach at least the size of the end value.
     // Remember the formula provided and think of another to satisfy the result. First year = start + 1/3 new llamas - 1/4 deceased llamas
-    // Use the logarithmic function from the math.h library, note that ^n is the opposite of log(n)
 
     int birth = 1/3;
     int death = 1/4;
