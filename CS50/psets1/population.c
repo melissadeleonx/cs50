@@ -30,6 +30,9 @@ int main(void)
         }
     } while (end < start);
 
+    // Calculate the user input: Your program should then calculate the (integer) number of years required for the population to reach at least the size of the end value.
+
+
     int n = start + (start * 1/3) - (start * 1/4);
 
 }
@@ -39,6 +42,5 @@ int main(void)
 
 
 
-    // Calculate the user input: Your program should then calculate the (integer) number of years required for the population to reach at least the size of the end value.
 
     // Print the number of years required for the llama population to reach that end size, as by printing to the terminal Years: n, where n is the number of years.
