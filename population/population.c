@@ -32,7 +32,7 @@ int main(void)
     } while (end < start);
 
     // Calculate the user input: Your program should then calculate the (integer) number of years required for the population to reach at least the size of the end value.
-    // Remember the formula provided and think of another to satisfy the result. First year = start + 1/3 new llamas - 1/4 deceased llamas
+    // Remember the formula provided and think of another to satisfy the result. First year = start + 1/3 new llamas - 1/4 deceased llamas. Increment the year to see the number of counts.
 
     int years = 0;
     while (start < end)
@@ -40,13 +40,12 @@ int main(void)
        start = start + (start / 3) - (start / 4);
         years++;
     }
+    // Print the number of years required for the llama population to reach that end size: Print the count(years).
     printf("Year: %i\n", years);
 
     return 0;
-
 }
 
 
 
 
-    // Print the number of years required for the llama population to reach that end size, as by printing to the terminal Years: n, where n is the number of years.
