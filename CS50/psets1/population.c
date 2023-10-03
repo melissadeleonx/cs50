@@ -36,7 +36,7 @@ int main(void)
     int first_year = start + (1/3) + (1/4);
     int year = end / first_year;
 
-    printf("Year: %i\n", year);
+    printf("Year: %i\n", first_year);
 
 }
 
