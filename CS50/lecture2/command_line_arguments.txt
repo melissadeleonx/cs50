@@ -2,4 +2,4 @@ From int main(void), our main can now function with commandline arguments, For e
 A program that run commandline arguments
 int argc, string argv
 * int argc - argument count (integer that determines how many words are typed at the prompt)
-* string argv - argument vector(array of all the words typed at the prompt) - logically, it is everything that a user type in a prompt including the name of the program
+* string argv - argument vector(array of all the words typed at the prompt) - logically, it is everything that a user type after the commandline
