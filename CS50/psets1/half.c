@@ -16,9 +16,10 @@ int main(void)
     printf("You will owe %f each!\n", half_share);
 }
 
-// Complete the function
+// Complete the function using parameters(they are different from the variable inside the main)
 float half(float bill, float tax, int tip)
 {
+    // Calculate the bill with this formula (bill + tax = billtax; billtax + tip)
     float bill_tax = bill + (bill * tax / 100.0);
     bill = (bill_tax + (bill_tax * tip / 100.0)) / 2;
     return bill;
