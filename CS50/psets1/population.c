@@ -37,9 +37,9 @@ int main(void)
 
     int birth = 1/3;
     int death = 1/4;
-    int year = start + birth - death;
-
     
+
+
 
 
 
