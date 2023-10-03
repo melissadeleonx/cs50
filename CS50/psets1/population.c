@@ -40,7 +40,7 @@ int main(void)
     int xgains = gains + (1/12);
     int year = end / xgains;
 
-    printf("Year: %i\n", xgains);
+    printf("Year: %i\n", year);
 
 }
 
