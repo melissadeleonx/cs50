@@ -12,11 +12,11 @@ int main(void)
     {
         start = get_int("Start Size: ");
         // Put another conditionals inside the loop so there is a prompt message everytime the user puts less than 9
-        if (start < 10)
-    {
+        if (start < 8 )
+        {
         printf("Please enter a number equals or less than 9\n");
-    }
-    } while (start < 10);
+        }
+    } while (start < 8);
 
 
 
