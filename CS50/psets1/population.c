@@ -38,9 +38,11 @@ int main(void)
     int birth = 1/3;
     int death = 1/4;
 
-    double years = log(end / (double)start) / log(1 + birth - death);
 
-    printf("Year: %d\n", (int)round(years));
+    int first year =
+    int years =
+
+    printf("Year: %i\n", years);
 
 }
 
