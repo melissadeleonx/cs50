@@ -41,7 +41,7 @@ int main(void)
         years++;
     }
     // Print the number of years required for the llama population to reach that end size: Print the count(years).
-    printf("Year: %i\n", years);
+    printf("Years: %i\n", years);
 
     return 0;
 }
