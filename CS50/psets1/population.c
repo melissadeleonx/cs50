@@ -31,12 +31,7 @@ int main(void)
     } while (end < start);
 
     int n = start + (start * 1/3) - (start * 1/4);
-    int i = 0;
-    do
-    {
-            i++;
-            printf("Year: %i\n", i);
-    } while (i < n);
+
 }
 
 
