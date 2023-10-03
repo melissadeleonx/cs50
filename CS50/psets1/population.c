@@ -26,7 +26,7 @@ int main(void)
         // Step 3: Make a condition with this rule: If the user enters a number less than the starting population size, the user should be re-prompted to enter an ending population size until they enter a number that is greater than or equal to the starting population size. (After all, we want the population of llamas to grow!)
         if (end < start)
         {
-        printf("Please enter more\n");
+        printf("Please enter a number greater than the starting population size\n");
         }
     } while (end < start);
 
