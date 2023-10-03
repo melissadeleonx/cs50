@@ -2,7 +2,7 @@
 #include <cs50.h>
 
 // Step 1: Make a pseudocode
-// Goal: Determine how long it takes for a population to reach a particular size.
+// Goal: Determine how long it takes for a population to reach a particular size. We need to print the year!
 int main(void)
 {
     // Prompt the user for a starting population size
@@ -14,7 +14,7 @@ int main(void)
         // Put another conditionals inside the loop so there is a prompt message everytime the user puts less than 9
         if (start <= 9)
     {
-        printf("enter more 9");
+        printf("Please enter a number equals or less than 9\n");
     }
     } while (start <= 9);
 
