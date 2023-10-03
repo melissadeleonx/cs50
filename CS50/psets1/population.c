@@ -37,7 +37,7 @@ int main(void)
 
     int first_year = start + (start/3) - (start/4);
     int gains = first_year - start;
-    int gainsx = gains + (1/3 - 1/4);
+    int gainsx = gains + (start/12);
     int es = end - start;
     int year = es / gains;
 
