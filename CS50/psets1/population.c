@@ -31,9 +31,8 @@ int main(void)
     } while (end < start);
 
     // Calculate the user input: Your program should then calculate the (integer) number of years required for the population to reach at least the size of the end value.
+    // Remember the formula provided and think of another to satisfy the result. First year = start + 
 
-
-    int n = start + (start * 1/3) - (start * 1/4);
 
 }
 
