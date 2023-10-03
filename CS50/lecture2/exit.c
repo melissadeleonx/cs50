@@ -6,6 +6,8 @@
 // Let's make an example again with command-lines int argc and string argv
 // When doing conditionals, sometimes we can skip else and just do the regular code after if
 // Main is now returning something for us, now codes are getting more sophisticated, what to do next?
+// In real life programming, there are many possible numbers used as a return value if something went wrong aside from one
+
 int main(int argc, string argv[]) // Do not forget [] on argv
 {
     // Implement the conditionals, do not confuse the number of counts to number of argv which in coding always start with 0, it means here, 2 = argv[0] and argv[1]
