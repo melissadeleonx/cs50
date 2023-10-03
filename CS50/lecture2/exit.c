@@ -14,6 +14,6 @@ int main(int argc, string argv[]) // Do not forget [] on argv
     } else
     {
         printf("Hello %s\n", argv[1]);
+        return 0; // Signal to 
     }
-
 }
