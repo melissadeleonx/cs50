@@ -14,4 +14,4 @@ int main(void)
     printf("Hello %s from %s!\n", name, address);
 
     return 0;
-    }
+}
