@@ -3,8 +3,7 @@
 int main(void)
 {
     string name = get_string("What's your name? ");
-    string location = get_string("Where are you from? ");
-    printf("hello, %s from %s!\n", name, location);
+    printf("hello, %s!\n", name);
 
     return 0;
 }
