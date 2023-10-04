@@ -24,7 +24,6 @@ int main(void)
     {
         if (i % 2 == 1)
         {
-            printf("%i\n", i);
         }
     }
 
