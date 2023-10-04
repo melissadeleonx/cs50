@@ -1,9 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-// Goal is to minimize numbers of coins due using Greedy Algorithm
-int get_cents(int n);
-
+int get_cents(const char *prompt);
 int calculate_quarters(int cents);
 int calculate_dimes(int cents);
 int calculate_nickels(int cents);
@@ -12,7 +10,7 @@ int calculate_pennies(int cents);
 int main(void)
 {
     // Ask how many cents the customer is owed
-    int cents = get_cents("Change owed: ");
+    int cents = get_cents("Change owed in cents: ");
 
     // Calculate the number of quarters to give the customer
     int quarters = calculate_quarters(cents);
@@ -34,16 +32,16 @@ int main(void)
     int coins = quarters + dimes + nickels + pennies;
 
     // Print total number of coins to give the customer
-    printf("%i\n", coins);
+    printf("Number of coins: %i\n", coins);
 }
 
-int get_cents(int n)
+int get_cents(const char *prompt)
 
 {
     int n;
     do
     {
-        n = get_int(change);
+        n = get_int("Change due: ");
 
         if (n < 1)
         {
