@@ -32,7 +32,7 @@ int main(void)
 
 bool prime(int number)
 {
-    if (n % 2 == 0)
-    
+    if (number % 2 == 0)
+
     return false;
 }
