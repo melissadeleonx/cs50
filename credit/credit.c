@@ -6,7 +6,7 @@
 // Make functions to determine if the card provided by the user meet the requirements
 // Function for Luhns Algorithm
 // Function to determine card type - American Express, MasterCard, or Visa
-// Conditions: Should all be numeric, less than required number length
+// Conditions: Should all be numeric or contains digit, less than required number length. Use True or False return.
 
 int main(void)
 {
