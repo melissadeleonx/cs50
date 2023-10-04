@@ -5,11 +5,14 @@
 // Goal is to find out if a credit card is valid using Luhn’s Algorithm
 // Make functions to determine if the card provided by the user meet the requirements
 // Function for Luhns Algorithm
+bool luhnAlgorithm (long cardnumber);
+
 // * Function to determine card type - American Express, MasterCard, or Visa
-// Conditions: Should all be numeric or contains digit, less than required number length. Use True or False return.
+string cardtype (long cardnumber);
 
 int main(void)
 {
+    // Conditions: Should all be numeric or contains digit, less than required number length. Use True or False return.
     // Prompt user to enter the credit card number. Use get_long function
     do
     {
