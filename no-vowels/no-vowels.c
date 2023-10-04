@@ -9,7 +9,7 @@ string get_replace(string prompt);
 #include <cs50.h>
 #include <stdio.h>
 
-int main(int argc, argv[1])
+int main(int argc, string argv[1])
 {
     printf("%c\n", argv[1][0]);
 }
