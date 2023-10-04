@@ -26,7 +26,6 @@ int main(void)
     {
         if (prime(i))
         {
-            i++;
             printf("%i\n", i);
         }
         return 0;
@@ -42,13 +41,7 @@ int main(void)
 // How to identify a prime number?
 bool prime(int number)
 {
-    if (number == 2)
-    {
-        return true;
-    } else if (number % 2 == 0)
-    {
-        return false;
-    } else if (number % 2 == 1)
+    if ((number == 2) || (number % 2 == 1))
     {
         return true;
     }
