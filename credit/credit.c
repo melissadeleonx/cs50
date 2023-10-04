@@ -1,8 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-// Goal is to find out if a credit card is valid
-
+// Goal is to find out if a credit card is valid using Luhn’s Algorithm
 int main(void)
 {
     // Prompt user to enter the credit card number
