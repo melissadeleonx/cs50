@@ -4,14 +4,18 @@
 // Get practice with switch
 
 // Declare the function here and tackle the definition below.
-string get_replace(string prompt);
-
 #include <cs50.h>
 #include <stdio.h>
 
+string get_replace(string prompt);
+
 int main(int argc, string argv[1])
 {
-    printf("%c\n", argv[1][0]);
+    // If command-line argument is empty, print an Error Message
+    if (argc < 0)
+    {
+        printf("Error, please input a command-line argument");
+    }
 }
 
 
