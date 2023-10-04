@@ -1,28 +1,29 @@
-#include <stdio.h>
 #include <cs50.h>
+#include <stdio.h>
 
-// Goal is to recreate a right-aligned pyramid
-
-int main(void) {
-    int height, rows, columns;
-
-    do { height = get_int("Height: ");
-    if(height < 1 || height > 8)
+// Goal is to right-aligned pyramid of blocks
+int main(void)
+{
+    // First declare n as the size input, meaning the largest height and width of the pyramid
+    int n;
+    do
     {
-        printf("Enter a number from 1 to 8\n");
-    }
-    } while(height < 1 || height > 8);
+        n = get_int("Size: ");
+    } while (n < 1);
 
-    for(rows = 0; rows < height; rows++)
+    // Print . as the space the remove it later after we identify how to make the right
+    for (int i = 0; i < n; i++)
     {
-        for(columns = 0; columns < (height - rows - 1); columns++)
+        for (int j = 0; j < n - i; j++)
         {
             printf(" ");
         }
-        for(columns = 0; columns < (rows + 1); columns++)
-        {
-            printf("#");
-        }
+        // Print # NOW!!
+        for (int k = 0; k < i + 1; k++)
+    {
+        printf("#");
+    }
     printf("\n");
-    } return 0;
+    } // Moral of the story: Try and try until you succeed! Go girl!! I am not really sure how I made it happen but I guess I just invert the for loop of the i
+      // Coding and Guessing :)
 }
