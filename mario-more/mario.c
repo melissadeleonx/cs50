@@ -30,11 +30,11 @@ int main(void)
         {
             printf("#");
         }
-        // Make spaces
+        // Use '.' temporarily and change them to spaces after
 
         printf("  ");
 
-        // Second Pyramid
+        // Print the second pyramid (left)
         for (columns = 0; columns <= rows; columns++)
         {
             printf("#");
@@ -43,32 +43,3 @@ int main(void)
     }
     return 0;
 }
-
-#include <cs50.h>
-#include <stdio.h>
-
-
-    // Print the right pyramid
-    for (int i = 0; i < n; i++)
-    {
-        for (int j = 1; j < n - i; j++)
-        {
-            printf(" ");
-        }
-        for (int k = 0; k < i + 1; k++)
-    {
-
-        printf("#");
-    }
-     // Print the space in between using . for now then change it to space
-    printf("  ");
-
-    // Add another counter variable for the left pyramid
-        for (int l = 0; l < i + 1; l++)
-        {
-            printf("#");
-        }
-          printf("\n");
-    }
-    return 0;
-}    // Print the left pyramid, since they will all be in the same levels, the conditionals should be together with other conditionals under 1 major conditionals
