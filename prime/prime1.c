@@ -48,6 +48,10 @@ bool prime(int number)
     } else if (number % 2 == 0)
     {
         return false;
+    } else if (number % 2 == 1)
+    {
+        return true;
     }
+
     return true;
 }
