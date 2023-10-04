@@ -32,9 +32,7 @@ int main(void)
 
 bool prime(int number)
 {
-    if (int number % 2 == 0)
-    {
-        printf();
-    }
+    if (number % 2 == 0)
+
     return false;
 }
