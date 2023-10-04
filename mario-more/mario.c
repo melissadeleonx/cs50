@@ -5,7 +5,8 @@
 int main(void)
 
 // Prompt the user to enter the height
-// Use the do while loop to implement the limitations of the code. Use specific variables instead of i, j and k for clarity.
+// Use the do while loop to implement the limitations of the code.
+// Use specific variables instead of i, j and k for clarity.
 {
     int height, rows, columns;
     do
@@ -18,7 +19,7 @@ int main(void)
     }
     while (height < 1 || height > 8);
 
-    // First pyramid
+    // Print the first pyramid(right)
     for (rows = 0; rows < height; rows++)
     {
         for (columns = 0; columns < (height - rows - 1); columns++)
@@ -46,15 +47,6 @@ int main(void)
 #include <cs50.h>
 #include <stdio.h>
 
-
-int main(void)
-{
-    // Prompt user using the do while LOOP
-    int n;
-    do
-    {
-        n = get_int("Size: ");
-    } while (n < 1);
 
     // Print the right pyramid
     for (int i = 0; i < n; i++)
