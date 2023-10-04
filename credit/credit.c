@@ -7,6 +7,7 @@
 // Function for Luhns Algorithm
 bool luhnAlgorithm (long cardnumber);
 
+
 // * Function to determine card type - American Express, MasterCard, or Visa
 string cardtype (long cardnumber);
 
