@@ -28,7 +28,14 @@ int main(void)
         {
             printf("%i", i);
         }
+        return 0;
     }
+}
+
+
+
+
+
 
 
 // How to identify a prime number?
