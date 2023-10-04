@@ -2,6 +2,9 @@
 #include <stdio.h>
 
 // Goal is to find out if a credit card is valid using Luhn’s Algorithm
+// Make functions to determine if the card provided by the user meet the requirements
+
+
 int main(void)
 {
     // Prompt user to enter the credit card number
