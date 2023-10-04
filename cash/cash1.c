@@ -4,7 +4,7 @@
 // New function to get the cents(change owed). Use the prompt input of the user and assign to an int inside the function definition
 int get_cents(const char *prompt);
 
-// Calculate how much coins are 
+// Functions to calculate how many of the specific coin should be handed to the customer
 int calculate_quarters(int cents);
 int calculate_dimes(int cents);
 int calculate_nickels(int cents);
