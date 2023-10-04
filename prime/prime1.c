@@ -20,18 +20,20 @@ int main(void)
         max = get_int("Maximum: ");
     }
     while (min >= max);
-}
-
-bool prime(int number)
-{
 
     for (int i = number; i <= number; i++)
     {
-        if (number % 2 == 0)
+        if (prime[i])
         {
             printf("%i\n", i);
         }
     }
+
+}
+
+
+bool prime(int number)
+{
 
     return false;
 }
