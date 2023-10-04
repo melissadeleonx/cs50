@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 // Goal is to minimize numbers of coins due using Greedy Algorithm
-int get_cents(in cents);
+int get_cents(int n);
 
 int calculate_quarters(int cents);
 int calculate_dimes(int cents);
@@ -37,13 +37,13 @@ int main(void)
     printf("%i\n", coins);
 }
 
-int get_cents(int cents)
+int get_cents(int n)
 
 {
     int n;
     do
     {
-        n = get_int(cents);
+        n = get_int(change);
 
         if (n < 1)
         {
