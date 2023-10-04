@@ -13,7 +13,7 @@ int calculate_pennies(int cents);
 int main(void)
 {
     // Ask how many cents the customer is owed
-    int cents = get_cents("Change due: ");
+    int cents = get_cents("Change owed: ");
 
     // Calculate the number of quarters to give the customer
     int quarters = calculate_quarters(cents);
@@ -38,12 +38,29 @@ int main(void)
     printf("Number of coins: %i\n", coins);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Definition of the get_cents function and its limitation. It is similiar to the get_int prototype.
 int get_cents(const char *prompt)
 {
     int n;
     do
     {
-        n = get_int("Change due: ");
+        n = get_int("Change owed: ");
 
         if (n < 1)
         {
@@ -55,7 +72,6 @@ int get_cents(const char *prompt)
 }
 
 int calculate_quarters(int cents)
-
 {
     return cents / 25;
 }
