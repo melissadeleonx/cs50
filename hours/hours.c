@@ -13,7 +13,7 @@ int main(void)
 
     for (int i = 0; i < weeks; i++)
     {
-        hours[i] = get_int("Week %i Hours: ", i);
+        hours[i] = get_int("Week %i HW Hours: ", i);
     }
 
     char output;
