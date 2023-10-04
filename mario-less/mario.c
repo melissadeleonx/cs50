@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-// Goal is to right-aligned pyramid of blocks
+// Goal is to make right-aligned pyramid of blocks(#) like in World 1-1 in Nintendo’s Super Mario Brothers
 int main(void)
 {
     // First declare n as the size input, meaning the largest height and width of the pyramid
@@ -11,7 +11,7 @@ int main(void)
         n = get_int("Size: ");
     } while (n < 1);
 
-    // Print . as the space the remove it later after we identify how to make the right
+    // Print . as the space then remove it later after we identify how to make the right pyramid
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < n - i; j++)
