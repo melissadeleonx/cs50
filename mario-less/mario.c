@@ -15,6 +15,7 @@ int main(void)
     // Print . as the space then remove it later after we identify how to make the right pyramid
     for (int i = 0; i < n; i++)
     {
+        // Inside the loop is the rules implemented to make the right pyramid
         // Make the j = 1 so there is no space before the pyramid
         for (int j = 1; j < n - i; j++)
         {
