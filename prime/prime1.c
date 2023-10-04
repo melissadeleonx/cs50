@@ -25,9 +25,9 @@ int main(void)
 bool prime(int number)
 {
 
-    for (int i = number; i <= max; i++)
+    for (int i = number; i <= number; i++)
     {
-        if (number % 2 == 0))
+        if (number % 2 == 0)
         {
             printf("%i\n", i);
         }
