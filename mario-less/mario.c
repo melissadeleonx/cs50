@@ -14,7 +14,7 @@ int main(void)
     // Print . as the space then remove it later after we identify how to make the right pyramid
     for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < n - i; j++)
+        for (int j = 1; j < n - i; j++)
         {
             printf(" ");
         }
