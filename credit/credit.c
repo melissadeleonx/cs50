@@ -11,14 +11,13 @@
 int main(void)
 {
     // Prompt user to enter the credit card number. Use get_long function
-    long number = get_long("Enter the credit card number: ");
-
+    do
+    {
+        long number = get_long("Enter the credit card number: ");
+    } while (strlen(number) )
 
     // Identify their type(Visa, MasterCard, American Express)
-    if (number[0] == '3' && number[1] == 7)
-    {
-        printf("Amex");
-    }
+
 
     // Calculate checksum ??????
 
