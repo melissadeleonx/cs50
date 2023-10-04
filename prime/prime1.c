@@ -51,4 +51,5 @@ bool prime(int number)
     {
         return false;
     }
+    return false;
 }
