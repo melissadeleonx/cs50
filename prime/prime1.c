@@ -26,7 +26,8 @@ int main(void)
     {
         if (prime(i))
         {
-            printf("%i", i);
+            i++;
+            printf("%i\n", i);
         }
         return 0;
     }
