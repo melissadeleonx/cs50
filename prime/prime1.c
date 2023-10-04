@@ -4,6 +4,7 @@
 // Goal: Make a prime-finding algorithm
 // A boolean function that will help generate prime numbers(works like isalpha, isdigit etc.)
 bool prime(int number);
+
 int main(void)
 {
     // Prompt user to enter the minimum number with its limitations
@@ -43,11 +44,11 @@ int main(void)
 // How to identify a prime number?
 bool prime(int number)
 {
-    if ((number == 2) || (number % 2 == 1))
+    if ((number >= 2) || (number % 2 == 1))
     {
         return true;
     }
-   else
+    else
     {
         return false;
     }
