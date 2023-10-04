@@ -3,7 +3,6 @@
 
 // Goal: Make a prime-finding algorithm
 // A boolean function that will help generate prime numbers
-bool prime(int number)
 
 int main(void)
 {
@@ -25,13 +24,13 @@ int main(void)
 
     for (int i = min; i <= max; i++)
     {
-        if (i % 2 == 0 )
-        {
-
-        } else
+        if (i % 2 != 2)
         {
             printf("%i\n", i);
         }
+        else if (i % 2 != 0)
+        {
+            printf("%i\n", i);
+        }
+        }
     }
-
-}
