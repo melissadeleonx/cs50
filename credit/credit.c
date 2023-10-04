@@ -7,18 +7,19 @@
 // Function for Luhns Algorithm
 bool luhnAlgorithm (long cardnumber);
 
-
 // * Function to determine card type - American Express, MasterCard, or Visa
 string cardtype (long cardnumber);
 
 int main(void)
 {
-    // Conditions: Should all be numeric or contains digit, less than required number length. Use True or False return.
+    // Conditions: Positive Integers only. No letters.
     // Prompt user to enter the credit card number. Use get_long function
+    long number;
     do
     {
-        long number = get_long("Enter the credit card number: ");
-    } while ()
+        number = get_long("Enter the credit card number: ");
+        if ()
+    } while (number <= 0);
 
     // Identify their type(Visa, MasterCard, American Express)
 
