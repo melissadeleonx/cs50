@@ -22,15 +22,17 @@ int main(void)
     }
     while (min >= max);
 
-    for (int i = min; i <= max; i++)
-    {
-        if (prime(i))
+
+// START CHAOS HERE
+        for (int i = min; i <= max; i++)
         {
-            printf("%i\n", i);
+            if (prime(i))
+            {
+                printf("%i\n", i);
+            }
         }
         return 0;
     }
-}
 
 
 
@@ -44,6 +46,10 @@ bool prime(int number)
     if ((number == 2) || (number % 2 == 1))
     {
         return true;
+    }
+    else
+    {
+        return false;
     }
 
     return true;
