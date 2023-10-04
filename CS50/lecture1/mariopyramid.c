@@ -33,4 +33,5 @@ int main(void)
         }
           printf("\n");
     }
+    return 0;
 }    // Print the left pyramid, since they will all be in the same levels, the conditionals should be together with other conditionals under 1 major conditionals
