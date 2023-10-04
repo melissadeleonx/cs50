@@ -24,10 +24,10 @@ int main(void)
 
 bool prime(int number)
 {
-    if (n % 2 == 0)
-    for (int i = min; i <= max; i++)
+
+    for (int i = number; i <= max; i++)
     {
-        if (prime(i))
+        if (number % 2 == 0))
         {
             printf("%i\n", i);
         }

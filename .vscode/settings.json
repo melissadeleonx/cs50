@@ -9,6 +9,9 @@
         "string.h": "c",
         "string_view": "c",
         "compare": "c",
-        "typeinfo": "c"
+        "typeinfo": "c",
+        "random": "c",
+        "limits": "c",
+        "algorithm": "c"
     }
 }
