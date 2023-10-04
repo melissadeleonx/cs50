@@ -1,7 +1,8 @@
 #include <cs50.h>
 #include <stdio.h>
 
-// Goal: 
+// Goal: Make a prime-finding algorithm
+// A boolean function that will help generate prime numbers
 bool prime(int number);
 
 int main(void)
@@ -31,6 +32,7 @@ int main(void)
 
 bool prime(int number)
 {
-    // TODO
+    if (n % 2 == 0)
+    
     return false;
 }
