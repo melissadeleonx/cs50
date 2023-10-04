@@ -51,10 +51,5 @@ bool prime(int number)
     {
         return false;
     }
-
-    if (number == 1)
-    {
-        return false;
-    }
     return true;
 }
