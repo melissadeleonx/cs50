@@ -3,6 +3,8 @@
 // Get practice with command line
 // Get practice with switch
 
+get_replace
+
 #include <cs50.h>
 #include <stdio.h>
 
