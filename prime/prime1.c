@@ -20,7 +20,11 @@ int main(void)
         max = get_int("Maximum: ");
     }
     while (min >= max);
+}
 
+bool prime(int number)
+{
+    if (n % 2 == 0)
     for (int i = min; i <= max; i++)
     {
         if (prime(i))
@@ -28,11 +32,6 @@ int main(void)
             printf("%i\n", i);
         }
     }
-}
-
-bool prime(int number)
-{
-    if (n % 2 == 0)
 
     return false;
 }
