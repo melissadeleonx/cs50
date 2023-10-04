@@ -1,7 +1,8 @@
 #include <cs50.h>
 #include <stdio.h>
 
-int get_cents(void);
+// New function to get the cents(change owed)
+int get_cents(const char *prompt);
 int calculate_quarters(int cents);
 int calculate_dimes(int cents);
 int calculate_nickels(int cents);
@@ -36,7 +37,6 @@ int main(void)
 }
 
 int get_cents(const char *prompt)
-
 {
     int n;
     do
