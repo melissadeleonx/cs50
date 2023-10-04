@@ -17,7 +17,7 @@ int main(void)
     do
     {
         long number = get_long("Enter the credit card number: ");
-    } while (strlen(number) >= 15)
+    } while ()
 
     // Identify their type(Visa, MasterCard, American Express)
 
