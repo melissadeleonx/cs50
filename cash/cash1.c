@@ -36,13 +36,13 @@ int main(void)
     printf("%i\n", coins);
 }
 
-int get_cents()
+int get_cents(int cents)
 
 {
     int n;
     do
     {
-        n = get_int("Change due: ");
+        n = get_int(cents);
 
         if (n < 1)
         {
