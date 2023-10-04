@@ -1,5 +1,6 @@
 #include <cs50.h>
 #include <stdio.h>
+#include <math.h>
 
 // Goal: Make a prime-finding algorithm
 // A boolean function that will help generate prime numbers(works like isalpha, isdigit etc.)
@@ -40,13 +41,11 @@ int main(void)
 // How to identify a prime number?
 bool prime(int number)
 {
-    if ((number % 2 == 1) && (number == 2))
-    {
-        return true;
-    }
-    else
+    if (number < 2)
     {
         return false;
     }
+
+   
     return true;
 }
