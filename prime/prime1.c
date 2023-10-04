@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 // Goal: Make a prime-finding algorithm
-// A boolean function that will help generate prime numbers
+// A boolean function that will help generate prime numbers(works like isalpha, isdigit etc.)
 bool prime(int number);
 int main(void)
 {
@@ -28,9 +28,13 @@ int main(void)
     }
 
 
+// How to identify a prime number?
 bool prime(int number)
 {
-    if (number == 2)
+    if (number <= 1)
+    {
+        return false;
+    } else if (number == 2)
     {
         return true;
     } else if (number % 2 == 0)
