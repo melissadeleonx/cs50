@@ -15,7 +15,10 @@ int main(void)
 
 
     // Identify their type(Visa, MasterCard, American Express)
-    if (number[0])
+    if (number[0] == '3' && number[1] == 7)
+    {
+        printf("Amex");
+    }
 
     // Calculate checksum ??????
 
