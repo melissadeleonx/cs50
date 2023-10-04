@@ -47,10 +47,14 @@ bool prime(int number)
     {
         return true;
     }
-    else
+   else
     {
         return false;
     }
 
+    if (number == 1)
+    {
+        return false;
+    }
     return true;
 }
