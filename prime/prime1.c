@@ -41,15 +41,12 @@ int main(void)
 // How to identify a prime number?
 bool prime(int number)
 {
-    if (number <= 1)
-    {
-        return false;
-    } else if (number == 2)
+    if (number == 2)
     {
         return true;
     } else if (number % 2 == 0)
     {
         return false;
     }
-    return false;
+    return true;
 }
