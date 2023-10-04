@@ -1,8 +1,10 @@
 #include <cs50.h>
 #include <stdio.h>
 
-// New function to get the cents(change owed)
+// New function to get the cents(change owed). Use the prompt input of the user and assign to an int inside the function definition
 int get_cents(const char *prompt);
+
+// Calculate how much coins are 
 int calculate_quarters(int cents);
 int calculate_dimes(int cents);
 int calculate_nickels(int cents);
