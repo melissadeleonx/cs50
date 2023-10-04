@@ -18,7 +18,7 @@ int main(void)
 
     char output;
     do
-    {   // Make the conditions 'T' for total hours and 'A' for average hours
+    { // Make the conditions 'T' for total hours and 'A' for average hours
         output = toupper(get_char("Enter T for total hours, A for average hours per week: "));
 
         if (output == 'T')
