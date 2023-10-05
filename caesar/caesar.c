@@ -7,6 +7,11 @@
 
 int main(int argc, string argv[1])
 {
+     if (argc != 2)
+    {
+        printf("\n");
+        return 1;
+    }
     int key = atoi(argv[1]);
     string plaintext = get_string("plaintext:  ");
     char n = argv[3][0];
