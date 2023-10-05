@@ -31,7 +31,7 @@ int main(int argc, string argv[])
 
     // If everything is valid, prompt the user to enter an input
     string plaintext = get_string("Plaintext: ");
-    string sub = replace(plaintext);
+    string sub = substitute(plaintext);
 
     // Convert the plaintext to ciphertext by substituting the key character inputs
 
@@ -59,7 +59,7 @@ string substitute(string input)
         // Use the switch statement.
         switch (input[i])
         {
-            case 'a':
+            case 'input':
                 input[i] = '6';
                 break;
 
