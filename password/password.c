@@ -31,14 +31,9 @@ bool valid(string password)
         if (isdigit(password[i]) < 0)
 
         {
-            return false;
-        }
-
-        if (isalpha(password[i]) < 0)
-        {
-            return false;
+            return true;
         }
     }
 
-    return true;
+    return false;
 }
