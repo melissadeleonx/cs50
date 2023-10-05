@@ -22,7 +22,8 @@ int main(int argc, string argv[])
     int key = atoi(argv[1]);
     string password = get_string("Plaintext: ");
 
-    // Convert to ciphertext
+    // Convert plaintext to ciphertext and print the result
+    // Rules: 
 }
 
 
