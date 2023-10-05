@@ -15,10 +15,10 @@ float calculate_clindex(int letters, int words, int sentences);
 int main(void)
 {
     // Prompt the user to enter the text
-    string text = get_string("Write the text: ");
-    int letters = count_letters(text);
-    int words = count_words(text);
-    int sentences = count_sentences(text);
+    string readability = get_string("Write the text: ");
+    int letters = count_letters(readability);
+    int words = count_words(readability);
+    int sentences = count_sentences(readability);
 
     float clindex = calculate_clindex(letters, words, sentences);
 
