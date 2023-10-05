@@ -52,8 +52,12 @@ bool only_alpha(string input)
     return true;
 }
 
+// Function to implement the letter substitution
 string substitute(string input)
 {
     for (int i = 0; i < strlen(input); i++)
+    {
+        
+    }
 
 }
