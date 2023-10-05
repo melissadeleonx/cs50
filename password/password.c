@@ -36,7 +36,8 @@ bool valid(string password)
     bool punct = false;
 
 
-    // Use the ctype library for the for (int i = 0; i < strlen(password); i++)
+    // Use the ctype library for the boolean functions
+    for (int i = 0; i < strlen(password); i++)
     {
         if (isalpha(password[i]))
         {
@@ -58,5 +59,6 @@ bool valid(string password)
             punct = true;
         }
     }
+    // Return the boolean variables as true
     return lower && upper && digit && punct;
 }
