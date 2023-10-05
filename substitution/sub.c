@@ -15,7 +15,12 @@ int main(int argc, string argv[])
         return 1;
     } else if (!only_alpha(argv[1]))
     {
-        printf("");
+        printf("Key must contain 26 letters.\n");
+        return 1;
+    } else if (strlen(argv[1]) < 26)
+    {
+        printf("Key must contain 26 letters.\n");
+        return 1;
     }
 }
 
