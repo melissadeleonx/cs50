@@ -31,10 +31,6 @@ bool valid(string password)
         if (isalpha(password[i]))
         {
             return true;
-            if (isalpha(password[i]) == 0)
-            {
-                return false;
-            }
         }
         else if (isdigit(password[i]))
         {
