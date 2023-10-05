@@ -13,5 +13,17 @@ int main(int argc, string argv[])
     {
         printf("Usage: ./substitution key\n");
         return 1;
+    } else if (!only_alpha(argv[1])
+}
+
+bool only_alpha(string input)
+{
+    for (int i = 0; i < strlen(input); i++)
+    {
+        if (!isalpha(input[i]))
+        {
+            return false;
+        }
     }
+    return true;
 }
