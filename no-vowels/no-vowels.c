@@ -7,7 +7,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-string get_replace(string prompt);
+string replace(string argv[1]);
 
 int main(int argc, string argv[1])
 {
