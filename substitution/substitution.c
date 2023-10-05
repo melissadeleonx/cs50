@@ -1,12 +1,14 @@
 // Design and implement a program, substitution, that encrypts messages using a substitution cipher.
 #include <cs50.h>
-#include <ctype.h>
 #include <stdio.h>
-#include <stdlib.h>
+#include <ctype.h>
 #include <string.h>
 
 // Function to check that the input has only alphabet letters
 bool only_alpha(string input);
+
+// Function to replace from key letters to ciphertext
+string substitute(string input);
 
 // The program must accept a single command-line argument, the key to use for the substitution.
 int main(int argc, string argv[])
@@ -29,8 +31,11 @@ int main(int argc, string argv[])
 
     // If everything is valid, prompt the user to enter an input
     string plaintext = get_string("Plaintext: ");
+    string sub = replace(plaintext);
 
-    printf("Ciphertext: %s\n", plaintext);
+    // Convert the plaintext to ciphertext by substituting the key character inputs
+
+    printf("Ciphertext: %s\n", sub);
     return 0;
 }
 
@@ -45,4 +50,31 @@ bool only_alpha(string input)
         }
     }
     return true;
+}
+
+string substitute(string input)
+{
+    for (int i = 0; i < strlen(input); i++)
+    {
+        // Use the switch statement.
+        switch (input[i])
+        {
+            case 'a':
+                input[i] = '6';
+                break;
+
+            case 'e':
+                input[i] = '3';
+                break;
+
+            case 'i':
+                input[i] = '1';
+                break;
+
+            case 'o':
+                input[i] = '0';
+                break;
+        }
+    }
+    return input;
 }

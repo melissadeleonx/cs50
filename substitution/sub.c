@@ -4,7 +4,10 @@
 #include <stdlib.h>
 #include <string.h>
 
-bool only_alpha(string input);
+bool only_alpha(string argv[]);
+
+// Function to replace from key letters to ciphertext
+string replace(string input);
 
 int main(int argc, string argv[])
 {
@@ -36,7 +39,6 @@ int main(int argc, string argv[])
             {
                 initial = 'a';
             }
-            plaintext[i] = (plaintext[i] - initial + key) % 26 + initial;
         }
     }
     printf("Ciphertext: %s\n", plaintext);
@@ -55,3 +57,32 @@ bool only_alpha(string input)
     }
     return true;
 }
+
+
+string replace(string argv[1])
+{
+    for (int i = 0; i < strlen(input); i++)
+    {
+        // Use the switch statement.
+        switch (argv[1][i])
+        {
+            case 'a':
+                argv[1][0] = 'a';
+                break;
+
+            case 'b':
+                argv[1][1] = 'b';
+                break;
+
+            case 'c':
+                argv[1][2] = 'c';
+                break;
+
+            case 'o':
+                argv[1][3] = '0';
+                break;
+        }
+    }
+    return input;
+}
+
