@@ -36,6 +36,7 @@ string replace(string argv[1])
             break;
         }
     }
+    return argv[1];
 
 }
 
