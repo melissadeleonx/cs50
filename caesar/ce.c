@@ -26,7 +26,7 @@ int main(int argc, string argv[])
     // Rules: Use the formula (ciphertext[i] = (plaintext[i] - initial + key) % 26 + initial)
     for (int i = 0, n = strlen(plaintext); i < n; i++)
     {
-        if (isalpha(plainttext[i]))
+        if (isalpha(plaintext[i]))
         {
             char initial;
             if (isupper(plainttext[i]))
@@ -39,10 +39,11 @@ int main(int argc, string argv[])
             }
             plaintext[i] = (plaintext[i] - initial + key) % 26 + initial;
         }
-
-        }
     }
+    printf("Ciphertext: %s\n", plaintext)
+    return 0;
 }
+
 
 
 
