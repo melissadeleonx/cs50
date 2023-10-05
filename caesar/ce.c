@@ -37,8 +37,9 @@ int main(int argc, string argv[])
             {
                 initial = 'a'
             }
+            plaintext[i] = (plaintext[i] - initial + key) % 26 + initial;
         }
-        
+
         }
     }
 }
