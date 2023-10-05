@@ -6,7 +6,7 @@
 #include <ctype.h>
 #include <string.h>
 
-// Make a function to check has only digits
+// Make a function to check that the input has only digits
 bool only_digits (string input);
 
 int main(int argc, string argv[])
@@ -18,6 +18,7 @@ int main(int argc, string argv[])
         return 1;
     }
 
+    // Convert the string to int using stdlib.h
     int key = atoi(argv[1]);
     string password = get_string("Plaintext: ");
 
