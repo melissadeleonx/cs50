@@ -36,7 +36,16 @@ string replace(string input)
             break;
 
             case 'e':
-            
+            input[i] = '3';
+            break;
+
+            case 'i':
+            input[i] = '1';
+            break;
+
+            case 'o':
+            input[i] = '0';
+            break;
         }
     }
     return input;
