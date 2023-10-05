@@ -38,6 +38,8 @@ int main(int argc, string argv[])
                 initial = 'a'
             }
         }
+        
+        }
     }
 }
 
