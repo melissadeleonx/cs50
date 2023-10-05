@@ -9,7 +9,7 @@ int main(int argc, string argv[1])
 {
      if (argc != 2)
     {
-        printf("\n");
+        printf("Usage: ./caesar key\n");
         return 1;
     }
     int key = atoi(argv[1]);
