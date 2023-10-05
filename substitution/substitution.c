@@ -53,18 +53,11 @@ bool only_alpha(string input)
 }
 
 // Function to implement the letter substitution
-string substitute(string input)
+string substitute(string input, string key)
 {
     for (int i = 0; i < strlen(input); i++)
     {
-        if (isalpha(input[i]))
-        {
-            int index;
-            if (islower(input[i]))
-            {
-                index =
-            }
-        }
+
     }
 
 }
