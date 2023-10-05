@@ -14,7 +14,7 @@ int main(int argc, string argv[])
     // If command-line argument is empty, print an Error Message
     if (argc != 2)
     {
-        printf("Error, please input a command-line argument.\n");
+        printf("Error message! Please input a command-line argument.\n");
         return 1;
     }
 
@@ -34,6 +34,9 @@ string replace(string input)
             case 'a':
             input[i] = '6';
             break;
+
+            case 'e':
+            
         }
     }
     return input;
