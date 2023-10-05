@@ -55,26 +55,5 @@ bool only_alpha(string input)
 string substitute(string input)
 {
     for (int i = 0; i < strlen(input); i++)
-    {
-        // Use the switch statement.
-        switch (input[i])
-        {
-            case 'a':
-                input[i] = input[1][0];
-                break;
 
-            case 'b':
-                input[i] = input[1][1];
-                break;
-
-            case 'c':
-                input[i] = input[1][2];
-                break;
-
-            case 'd':
-                input[i] = input[1][3];
-                break;
-        }
-    }
-    return input;
 }
