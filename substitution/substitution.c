@@ -10,5 +10,7 @@ int main(int argc, string argv[])
     // Rules and error messages.
     // If your program is executed without any command-line arguments or with more than one command-line argument
     // If the key is invalid (as by not containing 26 characters, containing any character that is not an alphabetic character, or not containing each letter exactly once)
-    
+
+    // If everything is valid, prompt the user to enter an input
+    string plaintext = get_string("Plaintext: ");
 }
