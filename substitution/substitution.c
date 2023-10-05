@@ -13,4 +13,7 @@ int main(int argc, string argv[])
 
     // If everything is valid, prompt the user to enter an input
     string plaintext = get_string("Plaintext: ");
+
+    printf("Ciphertext: %s\n", plaintext);
+    return 0;
 }
