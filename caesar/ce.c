@@ -6,6 +6,7 @@
 #include <ctype.h>
 #include <string.h>
 
+
 bool only_digits (string input);
 
 int main(int argc, string argv[1])
