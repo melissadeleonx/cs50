@@ -61,8 +61,8 @@ string substitute(string input, string key)
         {
             int index = input[i] - 'a';
 
-            input[i] = 
+            input[i] = key[index];
         }
     }
-
+    return input;
 }
