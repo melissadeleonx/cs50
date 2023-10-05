@@ -24,6 +24,7 @@ int main(int argc, string argv[])
     // Convert plaintext to ciphertext and print the result
     // Rules: Use the formula (ciphertext[i] = (plaintext[i] - initial + key) % 26 + initial)
     string plaintext = get_string("Plaintext: ");
+    string ciphertext = plaintext;
     for (int i = 0, n = strlen(plaintext); i < n; i++)
     {
         if (isalpha(plaintext[i]))
