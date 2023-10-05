@@ -4,23 +4,58 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include <string.h>
 
-int main(int argc, string argv[1])
+// Make a function to check that the input has only digits
+bool only_digits (string input);
+
+int main(int argc, string argv[])
 {
-     if (argc != 2)
+    // Rules: If there is no input and user puts letters or symbols, print an error message
+    if (argc != 2 || !only_digits(argv[1]))
     {
         printf("Usage: ./caesar key\n");
         return 1;
     }
+
+    // Convert the string to int using stdlib.h
     int key = atoi(argv[1]);
-    string plaintext = get_string("plaintext:  ");
-    char n = argv[3][0];
-    if ( isalpha('n') || isupper('n') || isupper('n'))
+
+    // Convert plaintext to ciphertext and print the result
+    // Rules: Use the formula (ciphertext[i] = (plaintext[i] - initial + key) % 26 + initial)
+    string plaintext = get_string("Plaintext: ");
+    string ciphertext = plaintext;
+    for (int i = 0, n = strlen(plaintext); i < n; i++)
+    {
+        if (isalpha(plaintext[i]))
+        {
+            char initial;
+            if (isupper(plaintext[i]))
+            {
+                initial = 'A';
+            }
+            else
+            {
+                initial = 'a';
+            }
+            plaintext[i] = (plaintext[i] - initial + key) % 26 + initial;
+        }
+    }
+    printf("Ciphertext: %s\n", plaintext);
+    return 0;
+}
+
+
+
+
+bool only_digits (string input)
 {
-    printf("ciphertext: %s\n", plaintext);
+    for (int i = 0; i < strlen(input); i++)
+    {
+        if (!isdigit(input[i]))
+        {
+            return false;
+        }
+    }
+    return true;
 }
-    // For each character in the plaintext:
-
-        // Rotate the character if it's a letter
-}
-
