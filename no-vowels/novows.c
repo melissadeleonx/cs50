@@ -3,7 +3,6 @@
 #include <stdio.h>
 #include <string.h>
 
-string replace(string argv[1]);
 
 int main(int argc, string argv[1])
 {
@@ -14,8 +13,8 @@ int main(int argc, string argv[1])
         return 1;
     }
 
-    // Print the string with no vowels.
-    printf("%s\n" argv[]);
+    // Print the string with no vowels. Implement the new function that replace vowels with numbers.
+    printf("%s\n", argv[1]);
 }
 
 
@@ -25,12 +24,3 @@ int main(int argc, string argv[1])
 
 
 
-
-string replace(string argv[1])
-{
-        if (argv[1][i] == 'a')
-        {
-            printf("6");
-        }
-        return argv[1];
-}
