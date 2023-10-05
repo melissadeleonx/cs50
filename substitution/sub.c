@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+bool only_alpha(string input);
 
 int main(int argc, string argv[])
 {
