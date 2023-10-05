@@ -21,6 +21,10 @@ int main(int argc, string argv[])
         printf("Key must contain 26 letters.\n");
         return 1;
     }
+        string plaintext = get_string("Plaintext: ");
+
+    printf("Ciphertext: %s\n", plaintext);
+    return 0;
 }
 
 bool only_alpha(string input)
