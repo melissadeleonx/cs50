@@ -28,14 +28,9 @@ bool valid(string password)
 {
     for (int i = 0; i < strlen(password); i++)
     {
-        if (isalnum(password[i]))
+        if (islower(password[i]) < 0)
         {
             return true;
-        }
-        else if (islower(password[i]) > 0)
-        {
-            return true;
-
         }
         else
         {
