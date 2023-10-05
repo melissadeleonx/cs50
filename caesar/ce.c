@@ -6,11 +6,12 @@
 #include <ctype.h>
 #include <string.h>
 
-
-bool only_digits (string input);
+// Make a function to check has only digits
+bool only_digits (string argv);
 
 int main(int argc, string argv[1])
 {
+    // Rules: If there is no input and user puts letters or symbols, print an error message
     if (argc != 2)
     {
         printf("Usage: ./caesar key\n");
@@ -27,7 +28,7 @@ int main(int argc, string argv[1])
         printf("Usage: ./caesar key\n");
     }
 
-
+    // Convert to ciphertext
 }
 
 
