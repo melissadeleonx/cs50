@@ -31,6 +31,7 @@ bool valid(string password)
         if (isalpha(password[i]))
         {
             return true;
+            if
         }
         else if (isdigit(password[i]))
         {
@@ -44,13 +45,14 @@ bool valid(string password)
         {
             return true;
         }
-        else if (
-
+        else if (ispunct(password[i]))
+        {
+            return true;
+        }
         else
         {
             return false;
         }
     }
-
     return true;
 }
