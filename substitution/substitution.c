@@ -57,7 +57,14 @@ string substitute(string input)
 {
     for (int i = 0; i < strlen(input); i++)
     {
-        
+        if (isalpha(input[i]))
+        {
+            int index;
+            if (islower(input[i]))
+            {
+                index =
+            }
+        }
     }
 
 }
