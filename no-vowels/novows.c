@@ -25,6 +25,13 @@ int main(int argc, string argv[1])
 
 string replace(string argv[1])
 {
+    void replacevowels(argv[1[i]])
+    {
+        for int i = 0;
+    }
+
+
+    
     for (int i = 0; i < strlen(argv[1]); i++)
     {
         switch(argv[i])
@@ -34,7 +41,7 @@ string replace(string argv[1])
 
 
 
-            
+
         }
     }
 
