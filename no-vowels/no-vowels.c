@@ -28,31 +28,29 @@ int main(int argc, string argv[])
     printf("%s\n", leetcode);
 }
 
-
 string replace(string input)
 {
     for (int i = 0; i < strlen(input); i++)
     {
         // Use the switch statement.
-        switch(input[i])
+        switch (input[i])
         {
             case 'a':
-            input[i] = '6';
-            break;
+                input[i] = '6';
+                break;
 
             case 'e':
-            input[i] = '3';
-            break;
+                input[i] = '3';
+                break;
 
             case 'i':
-            input[i] = '1';
-            break;
+                input[i] = '1';
+                break;
 
             case 'o':
-            input[i] = '0';
-            break;
+                input[i] = '0';
+                break;
         }
     }
     return input;
 }
-
