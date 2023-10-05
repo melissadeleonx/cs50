@@ -13,7 +13,10 @@ int main(int argc, string argv[])
     {
         printf("Usage: ./substitution key\n");
         return 1;
-    } else if (!only_alpha(argv[1])
+    } else if (!only_alpha(argv[1]))
+    {
+        printf("");
+    }
 }
 
 bool only_alpha(string input)
