@@ -27,9 +27,9 @@ int main(void)
 bool valid(string password)
 {
     bool lower = false;
-    bool noupper = false;
-    bool nodigit = false;
-    bool nopunct = false;
+    bool upper = false;
+    bool digit = false;
+    bool punct = false;
 
     for (int i = 0; i < strlen(password); i++)
     {
@@ -37,21 +37,21 @@ bool valid(string password)
         {
             if (islower(password[i]))
             {
-                nolower = true;
+                lower = true;
             }
             else if (isupper(password[i]))
             {
-                noupper = true;
+                upper = true;
             }
         }
         else if (isdigit(password[i]))
         {
-            nodigit = true;
+            digit = true;
         }
         else if (ispunct(password[i]))
         {
-            nopunct = true;
+            punct = true;
         }
     }
-    return nolower && noupper && nodigit && nopunct;
+    return lower && upper && digit && punct;
 }
