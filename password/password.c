@@ -3,8 +3,8 @@
 // Practice using the ctype library
 
 #include <cs50.h>
-#include <stdio.h>
 #include <ctype.h>
+#include <stdio.h>
 #include <string.h>
 
 // Function to implement the rule of the password input
@@ -34,7 +34,6 @@ bool valid(string password)
     bool upper = false;
     bool digit = false;
     bool punct = false;
-
 
     // Use the ctype library for the boolean functions
     for (int i = 0; i < strlen(password); i++)
