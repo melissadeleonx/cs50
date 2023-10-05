@@ -18,7 +18,7 @@ int main(int argc, string argv[])
         return 1;
     }
 
-    string leetcode = replace(input);
+    string leetcode = replace(argv[1]);
 
     // Print the string with no vowels. Implement the new function that replace vowels with numbers.
     printf("%s\n", leetcode);
@@ -32,7 +32,7 @@ string replace(string input)
         switch(input[i])
         {
             case 'a':
-            argv[1[i]] = '6'
+            input[i] = '6';
             break;
         }
     }
