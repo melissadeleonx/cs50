@@ -4,10 +4,9 @@
 #include <stdio.h>
 #include <string.h>
 
-void replace()
-
 // Make a function that will replace vowels to numbers. The program only works for lowercase letters
 // Rules: a = 6, e = 3, i = 1, o = 0, u does not change.
+void replace()
 
 int main(int argc, string argv[1])
 {
