@@ -31,7 +31,7 @@ bool valid(string password)
         if (isdigit(password[i]) == 0)
         {
             return false;
-        }
+        } else if (is)
     }
 
     return true;
