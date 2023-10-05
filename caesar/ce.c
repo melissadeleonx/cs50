@@ -14,10 +14,13 @@ int main(int argc, string argv[1])
         return 1;
     }
 
-    if (isdigit(argv[1]))
+    int key = atoi(argv[1]);
+    if (isdigit(key))
     {
         return true;
     }
+    else if
+    
 
 
 }
