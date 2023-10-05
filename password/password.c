@@ -28,17 +28,22 @@ bool valid(string password)
 {
     for (int i = 0; i < strlen(password); i++)
     {
-        if (isdigit(password[i]))
+        if (isdigit(password[i]) > 1)
         {
-            return true;
+            return false;
         }
 
-        if (isalpha(password[i]))
+        if (isalpha(password[i]) > 1)
         {
-            return true;
+            return false;
+        }
+
+        if (islower(password[i]) > 1)
+        {
+            return false;
         }
 
     }
 
-    return false;
+    return true;
 }
