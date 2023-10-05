@@ -30,24 +30,24 @@ bool valid(string password)
     {
         if (isalpha(password[i]))
         {
-            return false;
+        
         }
         else if (isdigit(password[i]))
         {
-            return false;
+
         }
         else if (islower(password[i]))
         {
-            return false;
+
         }
         else if (isupper(password[i]))
         {
-            return false;
+
         }
         else if (ispunct(password[i]))
         {
-            return false;
+
         }
     }
-    return false;
+    return true;
 }
