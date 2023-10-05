@@ -8,7 +8,7 @@
 bool only_alpha(string input);
 
 // Function to replace from key letters to ciphertext
-string substitute(string input);
+string substitute(string input, string key);
 
 // The program must accept a single command-line argument, the key to use for the substitution.
 int main(int argc, string argv[])
