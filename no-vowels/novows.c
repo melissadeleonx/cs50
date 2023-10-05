@@ -5,7 +5,7 @@
 #include <string.h>
 
 // Make a function that will replace vowels to numbers. The program only works for lowercase letters
-// Rules: 'a' = 6, e  3, i becomes 1, o becomes 0 and u does not change
+// Rules: a = 6, e = 3, i = 1, o = 0, u does not change.
 
 int main(int argc, string argv[1])
 {
