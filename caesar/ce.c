@@ -23,7 +23,7 @@ int main(int argc, string argv[])
     string password = get_string("Plaintext: ");
 
     // Convert plaintext to ciphertext and print the result
-    // Rules: Use the formula 
+    // Rules: Use the formula (ciphertext[i] = (plaintext[i] - initial + key) % 26 + initial)
 }
 
 
