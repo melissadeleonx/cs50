@@ -59,20 +59,20 @@ string substitute(string input)
         // Use the switch statement.
         switch (input[i])
         {
-            case 'input':
-                input[i] = '6';
+            case 'a':
+                input[i] = input[1][0];
                 break;
 
-            case 'e':
-                input[i] = '3';
+            case 'b':
+                input[i] = input[1][1];
                 break;
 
-            case 'i':
-                input[i] = '1';
+            case 'c':
+                input[i] = input[1][2];
                 break;
 
-            case 'o':
-                input[i] = '0';
+            case 'd':
+                input[i] = input[1][3];
                 break;
         }
     }
