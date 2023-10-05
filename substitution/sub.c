@@ -22,10 +22,27 @@ int main(int argc, string argv[])
         return 1;
     }
         string plaintext = get_string("Plaintext: ");
-
+        string ciphertext = plaintext;
+        for (int i = 0, n = strlen(plaintext); i < n; i++)
+    {
+        if (isalpha(plaintext[i]))
+        {
+            char initial;
+            if (isupper(plaintext[i]))
+            {
+                initial = 'A';
+            }
+            else
+            {
+                initial = 'a';
+            }
+            plaintext[i] = (plaintext[i] - initial + key) % 26 + initial;
+        }
+    }
     printf("Ciphertext: %s\n", plaintext);
     return 0;
 }
+
 
 bool only_alpha(string input)
 {
