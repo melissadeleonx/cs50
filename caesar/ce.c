@@ -6,6 +6,8 @@
 #include <ctype.h>
 #include <string.h>
 
+bool only_digits (string input);
+
 int main(int argc, string argv[1])
 {
     if (argc != 2)
@@ -14,9 +16,14 @@ int main(int argc, string argv[1])
         return 1;
     }
 
-    int key = atoi(argv[1]);
+}
 
-        if (isdigit(key))
+
+
+bool only_digits (string input)
+{
+    int key = atoi(input);
+    if (isdigit(key))
         {
             return true;
             string plaintext = get_string("plaintext: ");
