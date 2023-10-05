@@ -15,17 +15,11 @@ int main(int argc, string argv[1])
     }
 
     int key = atoi(argv[1]);
-    do
-    {
+
         if (isdigit(key))
         {
             return true;
             string plaintext = get_string("plaintext: ");
-        }
-        else
-        {
-            printf("Usage: ./caesar key\n");
-            return 1;
         }
 
 }
