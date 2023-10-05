@@ -9,7 +9,7 @@
 // The input parameter for the replace function will be argv[1] and the return value is the converted word.
 string replace(string argv[1]);
 
-int main(int argc, string argv[1])
+int main(int argc, string argv[])
 {
     // If command-line argument is empty, print an Error Message
     if (argc != 2)
@@ -25,18 +25,18 @@ int main(int argc, string argv[1])
 }
 
 
-string replace(string argv[1])
+string replace(string argv[])
 {
-    for (int i = 0; i < strlen(argv[1]); i++)
+    for (int i = 0; i < strlen(argv[]); i++)
     {
-        switch(argv[1[i]])
+        switch(argv[i[i]])
         {
             case 'a':
             argv[1[i]] = '6'
             break;
         }
     }
-    return argv[1];
+    return argv[];
 
 }
 
