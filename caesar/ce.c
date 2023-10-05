@@ -29,18 +29,18 @@ int main(int argc, string argv[])
         if (isalpha(plaintext[i]))
         {
             char initial;
-            if (isupper(plainttext[i]))
+            if (isupper(plaintext[i]))
             {
-                initial = 'A'
+                initial = 'A';
             }
             else
             {
-                initial = 'a'
+                initial = 'a';
             }
             plaintext[i] = (plaintext[i] - initial + key) % 26 + initial;
         }
     }
-    printf("Ciphertext: %s\n", plaintext)
+    printf("Ciphertext: %s\n", plaintext);
     return 0;
 }
 
