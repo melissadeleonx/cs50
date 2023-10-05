@@ -1,8 +1,11 @@
+// Implement the Leetspeak system or l33tsp36k
 // Convert a single command-line argument with no-vowel string
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
 
+// Make a function that will replace vowels to numbers
+// Rules: 'a' 'A' becomes 6, e becomes 3, i becomes 1, o becomes 0 and u does not change
 
 int main(int argc, string argv[1])
 {
