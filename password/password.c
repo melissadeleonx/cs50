@@ -32,7 +32,7 @@ bool valid(string password)
         {
             return true;
         }
-        else if
+        else
         {
             return false;
         }
