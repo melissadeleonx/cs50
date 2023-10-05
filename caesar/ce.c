@@ -16,6 +16,17 @@ int main(int argc, string argv[1])
         return 1;
     }
 
+    int key = atoi(argv[i]);
+    if(only_digits(key))
+    {
+        string password = get_string("Plaintext: ");
+    }
+    else
+    {
+        printf("Usage: ./caesar key\n");
+    }
+
+
 }
 
 
@@ -26,7 +37,7 @@ bool only_digits (string input)
     if (isdigit(key))
         {
             return true;
-            string plaintext = get_string("plaintext: ");
         }
 
+    return true;
 }
