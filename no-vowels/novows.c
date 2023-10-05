@@ -7,7 +7,7 @@
 // Make a function that will replace vowels to numbers. The program only works for lowercase letters
 // Rules: a = 6, e = 3, i = 1, o = 0, u does not change.
 // The input parameter for the replace function will be argv[1] and the return value is the converted word.
-string replace(string argv[1]);
+string replace(string input);
 
 int main(int argc, string argv[])
 {
@@ -36,7 +36,7 @@ string replace(string argv[])
             break;
         }
     }
-    return argv[];
+    return input;
 
 }
 
