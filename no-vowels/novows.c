@@ -27,9 +27,9 @@ int main(int argc, string argv[])
 
 string replace(string input)
 {
-    for (int i = 0; i < strlen(argv[]); i++)
+    for (int i = 0; i < strlen(input); i++)
     {
-        switch(argv[i[i]])
+        switch(input[i])
         {
             case 'a':
             argv[1[i]] = '6'
