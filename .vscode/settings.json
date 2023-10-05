@@ -13,6 +13,7 @@
         "random": "c",
         "limits": "c",
         "algorithm": "c",
-        "ctype.h": "c"
+        "ctype.h": "c",
+        "string": "c"
     }
 }
