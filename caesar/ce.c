@@ -7,26 +7,19 @@
 #include <string.h>
 
 // Make a function to check has only digits
-bool only_digits (string argv);
+bool only_digits (string input);
 
-int main(int argc, string argv[1])
+int main(int argc, string argv[])
 {
     // Rules: If there is no input and user puts letters or symbols, print an error message
-    if (argc != 2)
+    if (argc != 2 || !only_digits(argv[1]))
     {
         printf("Usage: ./caesar key\n");
         return 1;
     }
 
-    int key = atoi(argv[i]);
-    if(only_digits(key))
-    {
-        string password = get_string("Plaintext: ");
-    }
-    else
-    {
-        printf("Usage: ./caesar key\n");
-    }
+    int key = atoi(argv[1]);
+    string password = get_string("Plaintext: ");
 
     // Convert to ciphertext
 }
@@ -35,11 +28,12 @@ int main(int argc, string argv[1])
 
 bool only_digits (string input)
 {
-    int key = atoi(input);
-    if (isdigit(key))
+    for (int i = 0; i < strlen(input); i++)
+    {
+        if (!isdigit(input[i]))
         {
-            return true;
+            return false;
         }
-
+    }
     return true;
 }
