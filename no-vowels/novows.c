@@ -18,6 +18,8 @@ int main(int argc, string argv[1])
         return 1;
     }
 
+    replace(string argv[1]);
+
     // Print the string with no vowels. Implement the new function that replace vowels with numbers.
     printf("%s\n", argv[1]);
 }
@@ -25,23 +27,13 @@ int main(int argc, string argv[1])
 
 string replace(string argv[1])
 {
-    void replacevowels(argv[1[i]])
-    {
-        for int i = 0;
-    }
-
-
-    
     for (int i = 0; i < strlen(argv[1]); i++)
     {
-        switch(argv[i])
+        switch(argv[1[i]])
         {
-
-
-
-
-
-
+            case 'a':
+            argv[1[i]] = '6'
+            break;
         }
     }
 
