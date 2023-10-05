@@ -15,7 +15,7 @@ int main(int argc, string argv[1])
     }
 
     // Print the string with no vowels.
-    printf("%s\n", );
+    printf("%s\n" replace);
 }
 
 
