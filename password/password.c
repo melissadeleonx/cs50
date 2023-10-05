@@ -33,6 +33,14 @@ bool valid(string password)
         {
             return false;
         }
+        else if (isalpha(password[i]) == 0)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
     }
 
     return true;
