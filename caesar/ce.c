@@ -6,7 +6,7 @@
 #include <ctype.h>
 #include <string.h>
 
-int main(int argc, int argv[1])
+int main(int argc, string argv[1])
 {
     if (argc != 2)
     {
