@@ -2,8 +2,8 @@
 // Get practice with strings
 // Get practice with command line
 // Get practice with switch
-
-// Declare the function here and tackle the definition below.
+// Implement the Leetspeak system or l33tsp36k
+// Convert a single command-line argument with no-vowel string
 #include <cs50.h>
 #include <stdio.h>
 
