@@ -26,31 +26,32 @@ int main(void)
 // TODO: Complete the Boolean function below
 bool valid(string password)
 {
+    bool lower = false;
+    bool noupper = false;
+    bool nodigit = false;
+    bool nopunct = false;
+
     for (int i = 0; i < strlen(password); i++)
     {
         if (isalpha(password[i]))
         {
-            if (islower(password[i]) == 0)
+            if (islower(password[i]))
             {
-            return false;
+                nolower = true;
             }
-            else if (isupper(password[i]) == 0)
+            else if (isupper(password[i]))
             {
-            return false;
+                noupper = true;
             }
         }
-        else if (isdigit(password[i]) == 0)
+        else if (isdigit(password[i]))
         {
-            return false;
+            nodigit = true;
         }
-        else if (ispunct(password[i]) == 0)
+        else if (ispunct(password[i]))
         {
-            return false;
-        }
-        else
-        {
-            return true;
+            nopunct = true;
         }
     }
-    return true;
+    return nolower && noupper && nodigit && nopunct;
 }
