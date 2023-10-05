@@ -38,7 +38,7 @@ bool valid(string password)
         }
         else if (islower(password[i]) == 0)
         {
-
+            return false;
         }
         else if (isupper(password[i]) == 0)
         {
