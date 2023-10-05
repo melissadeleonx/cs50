@@ -28,7 +28,7 @@ bool valid(string password)
 {
     for (int i = 0; i < strlen(password); i++)
     {
-        if (islanum(password[i]) == 0)
+        if (isalnum(password[i]) == 0)
         {
             return false;
         }
