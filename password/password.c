@@ -32,9 +32,9 @@ bool valid(string password)
         {
             return true;
         }
-        else if (islower(password[i]) < 0)
+        else if (islower(password[i]) > 0)
         {
-            return false;
+            return true;
 
         }
         else
