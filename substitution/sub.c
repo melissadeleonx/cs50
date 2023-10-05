@@ -8,9 +8,9 @@
 int main(int argc, string argv[])
 {
     // Rules: If there is no input and user puts letters or symbols, print an error message
-    if (argc != 2 || !only_digits(argv[1]))
+    if (argc != 2)
     {
-        printf("Usage: ./caesar key\n");
+        printf("Usage: ./substitution key\n");
         return 1;
     }
 }
