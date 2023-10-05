@@ -18,14 +18,14 @@ int main(int argc, string argv[])
         return 1;
     }
 
-    replace(argv[1]);
+    string leetcode = replace(input);
 
     // Print the string with no vowels. Implement the new function that replace vowels with numbers.
-    printf("%s\n", argv[1]);
+    printf("%s\n", leetcode);
 }
 
 
-string replace(string argv[])
+string replace(string input)
 {
     for (int i = 0; i < strlen(argv[]); i++)
     {
