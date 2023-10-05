@@ -15,7 +15,6 @@ int main(int argc, string argv[1])
     }
 
     // Print the string with no vowels.
-    replace = argv[1];
     printf("%s\n", replace);
 }
 
@@ -29,12 +28,9 @@ int main(int argc, string argv[1])
 
 string replace(string argv[1])
 {
-    for (int i = 0; i < strlen(argv[1]); i++)
-        {
-            if (argv[1][i] == 'a')
+        if (argv[1][i] == 'a')
         {
             printf("6");
-        }
         }
         return argv[1];
 }
