@@ -8,9 +8,9 @@
 // The program must accept a single command-line argument, the key to use for the substitution.
 int main(int argc, string argv[])
 {
-    // The key itself should be case-insensitive, so whether any character in the key is uppercase or lowercase should not affect the behavior of your program.
-    // If your program is executed without any command-line arguments or with more than one command-line argument
-    // If the key is invalid (as by not containing 26 characters, containing any character that is not an alphabetic character, or not containing each letter exactly once)
+    // Key is case-insensitive and should contain 26 letters.
+    // Error message if no command-line arguments or with more than one and if key does not meet requirements
+    
 
 
     // If everything is valid, prompt the user to enter an input

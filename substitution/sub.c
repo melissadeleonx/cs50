@@ -8,7 +8,6 @@ bool only_alpha(string input);
 
 int main(int argc, string argv[])
 {
-    // Rules: If there is no input and user puts letters or symbols, print an error message
     if (argc != 2)
     {
         printf("Usage: ./substitution key\n");
