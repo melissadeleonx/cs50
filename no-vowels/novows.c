@@ -25,7 +25,11 @@ int main(int argc, string argv[1])
 
 string replace(string argv[1])
 {
-    
+    for (int i = 0; i < strlen(argv[1]); i++)
+    {
+        
+    }
+
 }
 
 
