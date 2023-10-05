@@ -48,6 +48,10 @@ bool valid(string password)
         {
             return false;
         }
+        else
+        {
+            return true;
+        }
     }
     return true;
 }
