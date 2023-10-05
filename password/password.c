@@ -31,7 +31,7 @@ bool valid(string password)
         if (isalpha(password[i]))
         {
             return true;
-            if (isalpha(password[i]) <== 1)
+            if (isalpha(password[i]) == 0)
             {
                 return false;
             }
