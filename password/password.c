@@ -24,7 +24,14 @@ int main(void)
 // TODO: Complete the Boolean function below
 bool valid(string password)
 {
-    for (int i = 0; )
-    if ()
+    for (int i = 0; i < strlen(password); i++)
+    {
+        if (isdigit(password[i]))
+        {
+            return true;
+        }
+
+    }
+
     return false;
 }
