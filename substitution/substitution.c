@@ -1,6 +1,9 @@
 // Design and implement a program, substitution, that encrypts messages using a substitution cipher.
 #include <cs50.h>
+#include <ctype.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 // The program must accept a single command-line argument, the key to use for the substitution.
 int main(int argc, string argv[])
