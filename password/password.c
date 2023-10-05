@@ -5,6 +5,8 @@
 #include <cs50.h>
 #include <stdio.h>
 #include <ctype.h>
+#include <string.h>
+
 
 bool valid(string password);
 
@@ -27,6 +29,11 @@ bool valid(string password)
     for (int i = 0; i < strlen(password); i++)
     {
         if (isdigit(password[i]))
+        {
+            return true;
+        }
+
+        if (isalpha(password[i]))
         {
             return true;
         }
