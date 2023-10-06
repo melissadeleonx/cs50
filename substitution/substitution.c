@@ -8,7 +8,7 @@
 bool only_alpha(string input);
 
 // Function to check if the key input has one letter for each letters of the alphabet. No duplicate letters.
-bool one_letter(string key);
+bool one_letter(string input);
 
 
 
@@ -70,7 +70,7 @@ bool only_alpha(string input)
 }
 
 // Definition of the one-letter function where each letter is to appear only once
-bool one_letter(string input)
+bool one_letter(string key)
 {
     for (int i = 0; i < strlen(input); i++)
     {
