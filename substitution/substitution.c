@@ -62,9 +62,12 @@ string substitute(string input, string key)
     {
         if (isalpha(input[i]))
         {
-            int index = tolower(input[i]) - 'a';
+            int index = n;
 
-            switch (n)
+            switch(n)
+            tolower(input[i]) - 'a';
+
+            switch (index)
 {
     case -1:
         printf("n is -1\n");
