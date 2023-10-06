@@ -64,6 +64,16 @@ string substitute(string input, string key)
         {
             int index = tolower(input[i]) - 'a';
 
+            switch (n)
+{
+    case -1:
+        printf("n is -1\n");
+        break;
+
+    case 1:
+        printf("n is 1\n");
+        break;
+
             input[i] = isupper(input[i]);
         }
     }
