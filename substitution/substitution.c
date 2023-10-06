@@ -70,9 +70,9 @@ string substitute(string input, string key)
                 index = toupper(input[i]) - 'a';
                 break;
 
+                case tolower(input[i]) = isupper(input[i]);
 
             }
-            input[i] = isupper(input[i]);
         }
     }
     return input;
