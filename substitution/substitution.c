@@ -64,7 +64,15 @@ string substitute(string input, string key)
         {
             int index = tolower(input[i]) - 'a';
 
-            input[i] = 
+            input[i];
+            if (isupper(input[i]))
+            {
+                input[i] = toupper(index);
+            }
+            else
+            {
+                input[i] = index;
+            }
         }
     }
     return input;
