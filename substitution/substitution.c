@@ -62,7 +62,7 @@ string substitute(string input, string key)
     {
         if (isalpha(input[i]))
         {
-            int index = input[i] - 'a';
+            int index = tolower(input[i]) - 'a';
 
             input[i] = isupper(input[i]);
         }
