@@ -6,6 +6,8 @@
 
 bool only_alpha(string argv[]);
 
+bool one_letter(string key);
+
 // Function to replace from key letters to ciphertext
 string replace(string input);
 
