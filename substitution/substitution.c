@@ -34,7 +34,7 @@ int main(int argc, string argv[])
 
     // If everything is valid, prompt the user to enter an input
     string plaintext = get_string("Plaintext: ");
-    string sub = substitute(plaintext, argv[1]);
+    string ciphertext = substitute(plaintext, argv[1]);
 
     // Convert the plaintext to ciphertext by substituting letters with the key characters
 
