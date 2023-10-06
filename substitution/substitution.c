@@ -67,6 +67,10 @@ string substitute(string input, string key)
             switch (index)
             {
                 case toupper(input[i]) - 'a':
+                index = toupper(input[i]) - 'a';
+                break;
+
+                
             }
 {
     case -1:
