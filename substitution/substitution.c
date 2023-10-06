@@ -7,6 +7,7 @@
 // Function to check if the key input has only alphabet letters
 bool only_alpha(string input);
 
+// 
 bool one_letter(string key);
 
 // Function to check if the key input has one letter for each letters of the alphabet. No duplicate letters.
@@ -57,6 +58,7 @@ bool only_alpha(string input)
     return true;
 }
 
+// Definition of the one-letter function where
 // Function to implement the letter substitution
 string substitute(string input, string key)
 {
