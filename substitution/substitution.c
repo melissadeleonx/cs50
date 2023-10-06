@@ -7,6 +7,8 @@
 // Function to check if the key input has only alphabet letters
 bool only_alpha(string input);
 
+bool one_letter(string key);
+
 // Function to check if the key input has one letter for each letters of the alphabet. No duplicate letters.
 
 
@@ -60,20 +62,8 @@ string substitute(string input, string key)
 {
     for (int i = 0; i < strlen(input); i++)
     {
-        if (isalpha(input[i]))
-        {
-            int index = tolower(input[i]) - 'a';
 
-            input[i];
-            if (isupper(input[i]))
-            {
-                input[i] = toupper(index);
-            }
-            else
-            {
-                input[i] = index;
-            }
-        }
+
     }
     return input;
 }
