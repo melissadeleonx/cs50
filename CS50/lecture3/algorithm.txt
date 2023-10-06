@@ -1,0 +1,3 @@
+Algorithm - Computer memory sees the data as closed door and it is up to the programmer
+to make algorithm that is easier to be read by the computer.
+
