@@ -70,17 +70,8 @@ string substitute(string input, string key)
                 index = toupper(input[i]) - 'a';
                 break;
 
-                
+
             }
-{
-    case -1:
-        printf("n is -1\n");
-        break;
-
-    case 1:
-        printf("n is 1\n");
-        break;
-
             input[i] = isupper(input[i]);
         }
     }
