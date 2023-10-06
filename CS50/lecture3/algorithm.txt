@@ -1,3 +1,18 @@
-Algorithm - Computer memory sees the data as closed door and it is up to the programmer
-to make algorithm that is easier to be read by the computer.
+Algorithms - Computer memory sees the data as closed door and it is up to the programmer
+to make s that is easier to be read by the computer.
+
+Arrays are zero indexed, the data start counting from [0] from left to right.
+
+Searching and finding the information.
+input -> algorithm -> output
+
+Compare which algorithm is better. Correct is already given but programs should be well designed, sophisticated,
+not confusing, nonredundant, the quality of the code and the performance.
+
+Algorithm is correlated with their running times, the time consumed when it is run.
+big O = order of such and such, should be faster and efficient
+
+log2(n) - dive and conquer strategy, solving smaller parts to bigger parts at a time, faster and more
+effective.
+
 
