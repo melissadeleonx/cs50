@@ -7,10 +7,9 @@
 // Function to check if the key input has only alphabet letters
 bool only_alpha(string input);
 
-// 
+// Function to check if the key input has one letter for each letters of the alphabet. No duplicate letters.
 bool one_letter(string key);
 
-// Function to check if the key input has one letter for each letters of the alphabet. No duplicate letters.
 
 
 // Function to replace from key letters to ciphertext
@@ -45,6 +44,18 @@ int main(int argc, string argv[])
     return 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 // Definition of the only alphabet function
 bool only_alpha(string input)
 {
@@ -58,7 +69,16 @@ bool only_alpha(string input)
     return true;
 }
 
-// Definition of the one-letter function where
+// Definition of the one-letter function where each letter is to appear only once
+bool one_letter(string input)
+{
+    for (int i = 0; i < strlen(input); i++)
+    {
+
+    }
+
+}
+
 // Function to implement the letter substitution
 string substitute(string input, string key)
 {
