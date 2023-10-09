@@ -1,0 +1,6 @@
+Arrays are lightweighted data structures which allow variables to run back to back to back
+We can invent our own data types whether 2 dimensional, 3 dimensional or beyond
+With C, we can create our own type with our names
+
+For example, we can make a data type called person and the variable people. We can use the primitive functions to implement it.
+person people[] =
