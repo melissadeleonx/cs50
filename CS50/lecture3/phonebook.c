@@ -1,4 +1,4 @@
-// Poor Design Set-up but it works
+// Poor Design Set-up but it works - next term to study DATA STRUCTURES!
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
