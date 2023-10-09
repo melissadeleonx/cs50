@@ -5,10 +5,10 @@
 int main(void)
 {
     // Use a shorter syntax instead of saying, int numbers[7]; numbers[0] = 20;.... statically design
-    string samples[] = {"love", "desire", "friendship", "one", "two", "three", "four"};
+    string samples[] = {"love", "desire", "friendship"};
 
     string n = get_string("Word: ");
-    for (int i = 0; i < 7; i++)
+    for (int i = 0; i < 3; i++)
     {
         if (samples[i] == n)
         {
