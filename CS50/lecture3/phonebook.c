@@ -15,7 +15,8 @@ int main(void)
     {
         if (strcmp(names[i], name) == 0)
         {
-            printf("Found %s\n", names[i]);
+            // We are printing the string numbers, since it is a phonebook and we need to find the number!
+            printf("Found %s\n", numbers[i]);
             return 0;
         }
     }
