@@ -5,12 +5,13 @@
 int main(void)
 {
     // Use a shorter syntax instead of saying, int numbers[7]; numbers[0] = 20;.... statically design
-    string samples[] = {"love", "desire", "friendship"};
+    int numbers[] = {20, 500, 10, 5, 100, 1, 50};
 
-    string n = get_string("Word: ");
-    for (int i = 0; i < 3; i++)
+    int n = get_int("Number: ");
+    for (int i = 0; i < 7; i++)
     {
-        if (samples[i] == n)
+        // We can also use this linear search with char or string, for string, we need to use this function, for example (strcmp(samples[i], n) == 0)
+        if (numbers[i] == n)
         {
             printf("Found\n");
             return 0;
