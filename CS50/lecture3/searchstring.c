@@ -17,6 +17,7 @@ int main(void)
         {
             printf("Found\n");
             // Code will compile without the return statement but to differentiate a successful code to a failed one, we use this statement. For the benefit of user and programmer.
+            // We write code to automate not having the user do it manually!
             // To what main return (0 or 1), we can execute the command echo $?
             return 0;
         }
