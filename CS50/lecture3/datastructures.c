@@ -1,4 +1,5 @@
 // Implement how DATA STRUCTURES work
+// For now, the codes look messier but 
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
