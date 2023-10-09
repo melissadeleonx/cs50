@@ -12,8 +12,9 @@ person;
 
 int main(void)
 {
-
-
+    // Person is the new datatype(different from function) and people is the variable
+    person people[2];
+    
     string name = get_string("Name: ");
     for (int i = 0; i < 2; i++)
     {
