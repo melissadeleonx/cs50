@@ -3,4 +3,15 @@ We can invent our own data types whether 2 dimensional, 3 dimensional or beyond
 With C, we can create our own type with our names
 
 For example, we can make a data type called person and the variable people. We can use the primitive functions to implement it.
-person people[] =
+person people[]
+In previous example when doing a phonebook, we used two datatypes, string name and string number. We can actually combine to structured the data more sophisticatedly.
+
+In scratch, we see that we can also do the same and define the new functions.
+To define the data structure of the new data type, we use the key. It is like making a data structure with multiple values
+typedef struct
+{
+    string name;
+    string number;
+}
+person;
+After the semi colon, it means that any syntax after that can access the person data type.
