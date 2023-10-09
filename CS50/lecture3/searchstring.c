@@ -16,7 +16,7 @@ int main(void)
         if (strcmp(strings[i], s) == 0)
         {
             printf("Found\n");
-            // Code will compile without the return statement but it won't 
+            // Code will compile without the return statement but to differentiate a successful code to a failed one, we use this statement. For the benefit of user and programmer.
             return 0;
         }
     }
