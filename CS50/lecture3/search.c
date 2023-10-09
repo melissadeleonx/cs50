@@ -1,4 +1,4 @@
-// Implementation of Linear Search into code
+// Implementation of Linear Search into code with int
 #include <cs50.h>
 #include <stdio.h>
 
