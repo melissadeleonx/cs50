@@ -16,6 +16,7 @@ int main(void)
         if (strcmp(strings[i], s) == 0)
         {
             printf("Found\n");
+            // Code will compile without the return statement but it won't 
             return 0;
         }
     }
