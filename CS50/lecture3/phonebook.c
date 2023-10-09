@@ -5,6 +5,6 @@
 int main(void)
 {
     string names[] = {"Carter", "David"};
-    // How to store the phone number systematically
-    
+    // How to store the phone number systematically? We can combine names and numbers as strings but it is not very sophisticated
+
 }
