@@ -1,15 +1,16 @@
+// Implementation of Linear Search into code
 #include <cs50.h>
 #include <stdio.h>
 
 int main(void)
 {
     // Use a shorter syntax instead of saying, int numbers[7]; numbers[0] = 20;.... statically design
-    int numbers[] = {20, 500, 10, 5, 100, 1, 50};
+    string samples[] = {"love", "desire", "friendship", "one", "two", "three", "four"};
 
-    int n = get_int("Number: ");
+    string n = get_string("Word: ");
     for (int i = 0; i < 7; i++)
     {
-        if (numbers[i] == n)
+        if (samples[i] == n)
         {
             printf("Found\n");
             return 0;
