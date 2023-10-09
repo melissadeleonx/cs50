@@ -1,3 +1,4 @@
+// Poor Design Set-up but it works
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
@@ -16,7 +17,7 @@ int main(void)
         if (strcmp(names[i], name) == 0)
         {
             // We are printing the string numbers, since it is a phonebook and we need to find the number!
-            printf("Found %s\n", numbers[i]);
+            printf("Found %s: %s\n", names[i], numbers[i]);
             return 0;
         }
     }
