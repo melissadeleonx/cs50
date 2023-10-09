@@ -14,14 +14,20 @@ int main(void)
 {
     // Person is the new datatype(different from function) and people is the variable
     person people[2];
-    
+
+    people[0].name = "Carter";
+    people[0].number = "+1-619-0000";
+
+    people[1].name = "David";
+    people[1].number = "+1-789-0101";
+
     string name = get_string("Name: ");
     for (int i = 0; i < 2; i++)
     {
-        if (strcmp(names[i], name) == 0)
+        if (strcmp(people[i].name, name) == 0)
         {
             // We are printing the string numbers, since it is a phonebook and we need to find the number!
-            printf("Found %s: %s\n", names[i], numbers[i]);
+            printf("Found %s\n", people[i].number);
             return 0;
         }
     }
