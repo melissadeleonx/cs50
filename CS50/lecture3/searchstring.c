@@ -10,7 +10,7 @@ int main(void)
 
     string s = get_string("String: ");
     // Use the string.h library to use the function strcmp, to compare strings with each other, == is not gonna compare each letter 'char' of the string so this function is required
-    for (int i = 0; i < 7; i++)
+    for (int i = 0; i < 6; i++)
     {
         // The strings are both equal to zero which in this case signifies True ==
         if (strcmp(strings[i], s) == 0)
@@ -19,6 +19,7 @@ int main(void)
             return 0;
         }
     }
+    // Segmentation fault (core dumped)/ Crash happens when there is a slight inconsistency with the code. For this case, the arrays are only 6 but the loops asked for 7 or less.
     printf("Not found\n");
     return 1;
 }
