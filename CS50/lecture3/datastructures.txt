@@ -14,4 +14,5 @@ typedef struct
     string number;
 }
 person;
-After the semi colon, it means that any syntax after that can access the person data type.
+After the semi colon, it means that any syntax after that can access the person data type. The new definition of tjhe
+new data structure is usually indicated above main
