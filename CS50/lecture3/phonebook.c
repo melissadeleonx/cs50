@@ -4,5 +4,7 @@
 
 int main(void)
 {
-    string name = {"Carter", "David"};
+    string names[] = {"Carter", "David"};
+    // How to store the phone number systematically
+    
 }
