@@ -12,8 +12,8 @@ int main(void)
     // Use the string.h library to use the function strcmp, to compare strings with each other, == is not gonna compare each letter 'char' of the string so this function is required
     for (int i = 0; i < 7; i++)
     {
-        // The strings are both equal to zero which signifies 
-        if (strcmp(strings[i], n) == 0)
+        // The strings are both equal to zero which in this case signifies True ==
+        if (strcmp(strings[i], s) == 0)
         {
             printf("Found\n");
             return 0;
