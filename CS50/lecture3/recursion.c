@@ -16,4 +16,5 @@ void draw(int n)
             printf("#");
         }
         printf("\n");
+        draw(n + 1);
 }
