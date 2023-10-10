@@ -1,4 +1,4 @@
-// Pseudocode
+// Pseudocode - Search Algorithm is recursive, the algorithm calls itself, everytime you search, you search again and again and smaller smaller
 If there are no doors
     Return false
 If 50 is behind middle door
