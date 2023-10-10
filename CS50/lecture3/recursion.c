@@ -14,10 +14,8 @@ Else if 50 > middle door
 4  If person is on page
 5      Call person
 6  Else if person is earlier in book
-7      Open to middle of left half of book
-8      Go back to line 3
+7      Search left half of book
 9  Else if person is later in book
-10     Open to middle of right half of book
-11     Go back to line 3
+10     Search right half of book
 12 Else
 13     Quit
