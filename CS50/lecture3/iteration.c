@@ -15,7 +15,7 @@ void draw(int n)
 // Reiterate row by row
 for (int i = 0; i < n; i++)
     {
-        //
+        // Making sure that when i is 1, 1 brick is print out
         for (int j = 0; j < i + 1; j++)
         {
             printf("#");
