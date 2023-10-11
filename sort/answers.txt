@@ -4,7 +4,7 @@ How do you know?: TODO
 
 sort2 uses: Merge Sort
 
-How do you know?: After conducting the timing tests, Sort 2 shows
+How do you know?: After conducting the timing tests, Sort 2 shows efficiency in user time 
 
 sort3 uses: Selection Sort
 
