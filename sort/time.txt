@@ -1,4 +1,4 @@
-// Notes of Time for each sort programs. Make an excel copy to compare in details
+// Notes of Time for each sort programs.
 
 time ./sort3 random10000.txt
 
