@@ -1,6 +1,6 @@
 // Notes of Time for each sort programs.
 
-time ./sort3 random10000.txt
+time ./sort3 random50000.txt
 
 sort1
 - random5000.txt
