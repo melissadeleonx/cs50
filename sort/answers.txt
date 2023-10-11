@@ -1,6 +1,7 @@
 sort1 uses: Bubble Sort
 
-How do you know?: On the previous lesson, it was discussed that 
+How do you know?: On the previous lesson, it was discussed that arrays/elements were swapped repeatedly into larger
+                elements during Bubble Sort. 
 
 sort2 uses: Merge Sort
 
