@@ -1,7 +1,6 @@
-sort1 uses: Bubble Sort
+sort1 uses: Selection Sort
 
-How do you know?: On the previous lesson, it was discussed that arrays/elements were swapped repeatedly into larger
-                elements during Bubble Sort. 
+How do you know?:
 
 sort2 uses: Merge Sort
 
@@ -10,6 +9,6 @@ How do you know?: After conducting the timing tests, Sort 2 shows fast user time
                 observed that the time difference between real and sys time are very minimal. The timings are
                 consistent during the other tests with larger files too.
 
-sort3 uses: Selection Sort
+sort3 uses: Bubble Sort
 
 How do you know?: TODO
