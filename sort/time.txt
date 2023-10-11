@@ -13,6 +13,11 @@ real    0m0.176s
 user    0m0.133s
 sys     0m0.035s
 
+- random50000.txt
+real    0m6.821s
+user    0m5.089s
+sys     0m0.124s
+
 
 sort2
 - random5000.txt
