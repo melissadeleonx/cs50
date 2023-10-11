@@ -1,5 +1,8 @@
+time ./sort random5000.txt
+
 sort1
 - random5000.txt
+
 
 
 
