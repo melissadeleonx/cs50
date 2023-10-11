@@ -1,4 +1,4 @@
-time ./sort3 random5000.txt
+time ./sort2 random10000.txt
 
 sort1
 - random5000.txt
@@ -7,6 +7,9 @@ user    0m0.034s
 sys     0m0.017s
 
 - random10000.txt
+real    0m0.176s
+user    0m0.133s
+sys     0m0.035s
 
 
 sort2
@@ -14,6 +17,12 @@ sort2
 real    0m0.027s
 user    0m0.000s
 sys     0m0.020s
+
+- random10000.txt
+real    0m0.037s
+user    0m0.004s
+sys     0m0.033s
+
 
 
 sort3
