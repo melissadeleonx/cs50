@@ -75,7 +75,6 @@ real    0m0.039s
 user    0m0.025s
 sys     0m0.012s
 
-
 reversed10000.txt
 real    0m0.131s
 user    0m0.089s
