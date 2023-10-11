@@ -1,6 +1,6 @@
 sort1 uses: Bubble Sort
 
-How do you know?: 
+How do you know?: On the previous lesson, it was discussed that 
 
 sort2 uses: Merge Sort
 
