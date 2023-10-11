@@ -1,81 +1,46 @@
 // Notes of Time for each sort programs.
 
-time ./sort3 reversed10000.txt
+time ./sort1 random5000.txt - change sort number and file name to test each Sort Algorithms
 
-sort1
-- random5000.txt
-real    0m0.051s
-user    0m0.034s
-sys     0m0.017s
-
-- random10000.txt
-real    0m0.176s
-user    0m0.133s
-sys     0m0.035s
-
-- random50000.txt
-real    0m6.821s
-user    0m5.089s
-sys     0m0.124s
-
-reversed5000.txt
-real    0m0.073s
-user    0m0.041s
-sys     0m0.019s
-
-reversed10000.txt
-real    0m0.260s
-user    0m0.200s
-sys     0m0.031s
-
-sort2
-- random5000.txt
-real    0m0.027s
-user    0m0.000s
-sys     0m0.020s
-
-- random10000.txt
-real    0m0.037s
-user    0m0.004s
-sys     0m0.033s
-
-- random50000.txt
-real    0m1.619s
-user    0m0.021s
-sys     0m0.152s
-
-reversed5000.txt
-real    0m0.026s
-user    0m0.005s
-sys     0m0.010s
-
-reversed10000.txt
-real    0m0.041s
-user    0m0.003s
+sort1 - random5000.txt real    0m0.087s
+user    0m0.026s
+sys     0m0.026s - random10000.txt real    0m0.195s
+user    0m0.143s
 sys     0m0.028s
 
-sort3
-- random5000.txt
-real    0m0.046s
-user    0m0.028s
-sys     0m0.009s
-
-- random10000.txt
-real    0m0.137s
-user    0m0.095s
-sys     0m0.031s
-
 - random50000.txt
-real    0m3.427s
-user    0m1.841s
-sys     0m0.160s
+real    0m6.247s
+user    0m5.233s
+sys     0m0.148s
 
-reversed5000.txt
-real    0m0.039s
-user    0m0.025s
-sys     0m0.012s
+- reversed5000.txt
+real    0m0.059s
+user    0m0.043s
+sys     0m0.016s
 
-reversed10000.txt
-real    0m0.131s
-user    0m0.089s
-sys     0m0.025s
+- reversed10000.txt
+real    0m0.257s
+user    0m0.170s
+sys     0m0.046s
+
+- reversed50000.txt
+real    0m5.832s
+user    0m4.479s
+sys     0m0.135s
+
+- sorted5000.txt
+real    0m0.020s
+user    0m0.005s
+sys     0m0.013s
+
+- sorted10000.txt
+real    0m0.077s
+user    0m0.003s
+sys     0m0.036s
+
+- sorted50000.txt
+real    0m1.457s
+user    0m0.032s
+sys     0m0.127s
+
+
