@@ -6,7 +6,7 @@ sort2 uses: Merge Sort
 
 How do you know?: After conducting the timing tests, Sort 2 shows fast user time which
                 corresponds with the characteristics of a Merge Sort. Aside from its efficiency, the
-                time difference between real and sys time are also very minimal and the timings are also
+                time difference between real and sys time are very minimal and the timings are also
                 consistent during the other tests with larger files.
 
 sort3 uses: Selection Sort
