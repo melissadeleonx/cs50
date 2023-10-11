@@ -1,6 +1,6 @@
 // Notes of Time for each sort programs.
 
-time ./sort1 reversed5000.txt
+time ./sort2 reversed10000.txt
 
 sort1
 - random5000.txt
@@ -19,7 +19,9 @@ user    0m5.089s
 sys     0m0.124s
 
 reversed5000.txt
-
+real    0m0.073s
+user    0m0.041s
+sys     0m0.019s
 
 
 sort2
@@ -39,6 +41,15 @@ user    0m0.021s
 sys     0m0.152s
 
 reversed5000.txt
+real    0m0.026s
+user    0m0.005s
+sys     0m0.010s
+
+reversed10000.txt
+real    0m0.212s
+user    0m0.171s
+sys     0m0.032s
+
 
 sort3
 - random5000.txt
@@ -57,3 +68,6 @@ user    0m1.841s
 sys     0m0.160s
 
 reversed5000.txt
+real    0m0.039s
+user    0m0.025s
+sys     0m0.012s
