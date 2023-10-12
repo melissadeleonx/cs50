@@ -7,7 +7,7 @@ How do you know?: Going back to the charateristics of the Bubble Sort Algorithm,
                 even more with the reversed text files where each large element must be bubbled across the entire array
                 to its correct position. Simultaneously, small elements also need to be bubbled back across the
                 array.
-                The best case scenario 
+                The best case scenario Ω(n) is the efficient attribute of the Sort 1(Bubble Sort). 
 
                 here is only a very
                 small time difference between running the unsorted and sorted files. The sorted files is actually
