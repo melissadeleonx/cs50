@@ -195,4 +195,30 @@ And in the best case scenario, we have to do the same.
 what do you think is the worst case runtime for selection sort?
 What do you think is the best case runtime for selection sort?
 
-// Merge Sort -
+// Merge Sort - So as long as I'm consistent, as long as I always choose, in this case,
+the left side is smaller, that will be fine for merge sort's purposes.
+So now I'm left with this single element, this five.
+In the best case scenario, sort of like selection sort,
+the array is already sorted, but we don't know this.
+We don't know this until we split it and recombine it back with this algorithm.
+There's no sort of shortcut here other than doing a search beforehand.
+But that's going to add extra time as well.
+So the result here is that we have n elements--
+and we might have to combine them if we're doubling-- log n times.
+Mathematically, that's how it works.
+And so actually, unlike the other algorithms
+we've covered, in the worst case scenario, the runtime of merge sort
+is O of n log n, which in general is going to be less than or faster than n
+squared.
+In the best case scenario, because we still have to go through this process
+again, it is still n log n.
+So in the best case scenario, it can be slower than, say,
+bubble sort, where the array happens to be perfectly sorted.
+As you may recall the omega there is n, and not n log n.
+But in the worst case or maybe even in an average case,
+merge sort is actually going to be faster, at the expense of maybe taking
+up more memory because we have to recombine and create
+new segments in memory for our sub-arrays.
+So merge sort is a really powerful tool to have in your toolbox
+once you understand recursion, because it can make the speed of sorting
+an array that much faster.
