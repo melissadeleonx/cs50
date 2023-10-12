@@ -21,7 +21,8 @@ How do you know?: After conducting the timing tests, Sort 2 shows fast user time
                 observed that the time difference between real and sys time are very minimal. For every files,
                 Sort 2(Merge Sort) displayed consistency in both of its worst and best case scenarios.
                 Its worst case scenario is 0(n log n) has the fastest runtime among the three programs, tested with
-                both small and larger arrays(files).
+                both small and larger arrays(files) as well as with the reversed files.
+                The best case scenario follows the same steps 
 
 
                 The timings are
