@@ -20,7 +20,9 @@ How do you know?: After conducting the timing tests, Sort 2 shows fast user time
                 corresponds with the characteristics of a Merge Sort. Aside from its efficiency, I also
                 observed that the time difference between real and sys time are very minimal. For every files,
                 Sort 2(Merge Sort) displayed consistency in both of its worst and best case scenarios.
-                Its worst case scenario is 0(n log n) is 
+                Its worst case scenario is 0(n log n) has the fastest runtime among the three programs, tested with
+                both small and larger arrays(files).
+
 
                 The timings are
                 consistent during the other tests with larger files too. Merge Sort has the same worst case
