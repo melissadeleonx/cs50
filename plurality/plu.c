@@ -20,7 +20,7 @@ candidate candidates[MAX];
 int candidate_count;
 
 // Function prototypes
-// Complete the bool vote function 
+// Complete the bool vote function
 bool vote(string name);
 void print_winner(void);
 
