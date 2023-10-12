@@ -9,10 +9,10 @@ How do you know?: Going back to the charateristics of the Bubble Sort Algorithm,
                 array.
                 The best case scenario Ω(n) is the efficient attribute of the Sort 1(Bubble Sort). When we run the already
                 sorted files, the steps changes to more effective steps, skipping the first procedures of its worst case.
-                Since the files are already, running time is also reduced and there is no need to swap elements
-                since they are already in order.
+                Since the files are already in order, running time is also reduced and there is no need to swap elements.
 
-                We can also observe that for sorted files(its) Sort 1(Bubble Sort)
+                We can also observe that with sorted files, the best case scenario of Sort 1(Bubble Sort)
+                exhibits comparable efficiency so Sort 2(which I presumed is the Merge Sort).
 
 sort2 uses: Merge Sort
 
