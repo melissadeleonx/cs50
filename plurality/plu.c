@@ -24,6 +24,7 @@ candidates[0].votes =
 
 candidates[0].name = "Charlie";
 candidates[0].votes =
+
 // Number of candidates
 int candidate_count;
 
