@@ -12,12 +12,7 @@ How do you know?: Going back to the charateristics of the Bubble Sort Algorithm,
                 Since the files are already, running time is also reduced and there is no need to swap elements
                 since they are already in order.
 
-                here is only a very
-                small time difference between running the unsorted and sorted files. The sorted files is actually
-                faster since the files(arrays) are already sorted. We can conclude that its worse case n squared wherein
-                we have to iterate across all the n elements n times while for the best case, if the array is perfectly
-                sorted, we only have to look at each of the elements once.
-                Comparing Sort 2(which I proposed is the Merge Sort), Sort 3 Algorithm with sorted files are as efficient as Sort
+            lgorithm with sorted files are as efficient as Sort
                 2.
 
 sort2 uses: Merge Sort
