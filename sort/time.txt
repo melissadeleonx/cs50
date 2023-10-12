@@ -1,4 +1,4 @@
-// Notes of Time for each sort programs.
+// Run time of each Sort Programs.
 
 time ./sort1 random5000.txt - change sort number and file name to test each Sort Algorithms
 
@@ -173,6 +173,24 @@ real    0m3.326s
 user    0m1.878s
 sys     0m0.170s
 
-// Bubble Sort -
-// Selection Sort -
+
+
+Notes to Remember:
+
+// Bubble Sort - In the worst case you have to iterate across all the n elements n times.
+So the worst case is n squared.
+>> If the array is perfectly sorted though, you only
+have to look at each of the elements once.
+And if the swap counter is still 0, you can say this array is sorted.
+And so in the best case, this is actually better than selection
+sort-- it's omega of n.
+// Selection Sort - Well it's exactly the same, right?
+We actually have to still step through every single element of the array
+in order to confirm that it is, in fact, the smallest element.
+>> So the worst case runtime, we have to repeat a process n times,
+once for each of n elements.
+And in the best case scenario, we have to do the same.
+>> So thinking back to our computational complexity toolbox,
+what do you think is the worst case runtime for selection sort?
+What do you think is the best case runtime for selection sort?
 // Merge Sort -
