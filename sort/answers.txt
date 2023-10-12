@@ -1,11 +1,13 @@
 sort1 uses: Bubble Sort
 
 How do you know?: Going back to the charateristics of the Bubble Sort Algorithm, we can see on the running time
-                of the program becomes slower with larger files. We can also note taht here is only a very
+                of the program becomes slower with larger files. We can also note that here is only a very
                 small time difference between running the unsorted and sorted files. The sorted files is actually
                 faster since the files(arrays) are already sorted. We can conclude that its worse case n squared wherein
                 we have to iterate across all the n elements n times while for the best case, if the array is perfectly
                 sorted, we only have to look at each of the elements once.
+                Comparing Sort 2(which I proposed is the Merge Sort), Sort 3 Algorithm with sorted files are as efficient as Sort
+                2.
 
 sort2 uses: Merge Sort
 
