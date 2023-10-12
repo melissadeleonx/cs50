@@ -12,8 +12,7 @@ How do you know?: Going back to the charateristics of the Bubble Sort Algorithm,
                 Since the files are already, running time is also reduced and there is no need to swap elements
                 since they are already in order.
 
-            lgorithm with sorted files are as efficient as Sort
-                2.
+                We can also observe that for sorted files(its) Sort 1(Bubble Sort)
 
 sort2 uses: Merge Sort
 
