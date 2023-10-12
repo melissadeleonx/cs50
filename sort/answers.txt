@@ -3,7 +3,7 @@ sort1 uses: Bubble Sort
 How do you know?: Going back to the charateristics of the Bubble Sort Algorithm, we can see on the running time
                 of the program becomes slower with larger files. We can also note taht here is only a very
                 small time difference between running the unsorted and sorted files. The sorted files is actually
-                faster since the files(arrays) are already sorted.
+                faster since the files(arrays) are already sorted. We can conclude that 
 
 sort2 uses: Merge Sort
 
