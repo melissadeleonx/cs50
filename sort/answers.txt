@@ -26,14 +26,13 @@ How do you know?: After conducting the timing tests, Sort 2 shows fast user time
                 Its worst case scenario is 0(n log n) has the fastest runtime among the three programs, tested with
                 both small and larger arrays(files) as well as with the reversed files.
 
-                The best case scenario0(n log n) follows the same efficient steps of splitting and recombining
-                elements so the runtime are pretty similar between sorted and unsorted files, smaller or larger.
-                We are repeating the same 
-
+                The best case scenario0(n log n) follows the same efficient steps. It repeats the same procedure
+                of splitting and recombining elements so the runtime are pretty similar between sorted and unsorted files,
+                smaller or larger files.
 
 sort3 uses: Selection Sort
 
-How do you know?: Among the options of Sort Algorithms, Sort 3 has the slowest outcome and its time run
+How do you know?: Among these options of Sort Algorithms, Sort 3 has the slowest outcome and its time run
                 for sorted and unsorted files are very similar. They consume more time than the other two sort
                 programs. It means that with Selection Sort, we go through every single element of the array
                 in order to confirm the smallest element and the same steps is repeated even if the arrays
