@@ -1,6 +1,7 @@
-sort1 uses: Selection Sort
+sort1 uses: Bubble Sort
 
-How do you know?:
+How do you know?: Going back to the charateristics of the Bubble Sort Algorithm, we can see on the running time
+                the program that 
 
 sort2 uses: Merge Sort
 
