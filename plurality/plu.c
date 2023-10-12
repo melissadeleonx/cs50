@@ -1,3 +1,4 @@
+// Pseudocode for the Plurality.c Voting program
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
@@ -16,6 +17,7 @@ candidate;
 // Array of candidates
 candidate candidates[MAX];
 
+// For this problem, we are using 3 candidates but we can input up to 9 candidates
 candidates[0].name = "Alice";
 candidates[0].votes =
 
