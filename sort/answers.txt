@@ -1,9 +1,7 @@
 sort1 uses: Bubble Sort
 
 How do you know?: Going back to the charateristics of the Bubble Sort Algorithm, we can see on the running time
-                that Sort 1 program becomes slower with larger files. Here are also a few notes that corresponds with
-                the description of a Bubble Sort.
-                
+                that Sort 1 program becomes slower with larger files. The worst case scenario O(n^2)
                 here is only a very
                 small time difference between running the unsorted and sorted files. The sorted files is actually
                 faster since the files(arrays) are already sorted. We can conclude that its worse case n squared wherein
