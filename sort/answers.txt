@@ -16,8 +16,9 @@ How do you know?: After conducting the timing tests, Sort 2 shows fast user time
                 observed that the time difference between real and sys time are very minimal. The timings are
                 consistent during the other tests with larger files too. Merge Sort has the same worst case
                 and best case scenarios in the file examples. It is O of n log n, which we use the same
-                process with sorted and unsorted files.
+                process with sorted and unsorted files. Even though we are repeating the same steps with sorted
+                unsorted files, the speed is still fast and efficient.
 
-sort3 uses: Bubble Sort
+sort3 uses: Selection Sort
 
-How do you know?: TODO
+How do you know?: 
