@@ -3,10 +3,12 @@ sort1 uses: Bubble Sort
 How do you know?: Going back to the charateristics of the Bubble Sort Algorithm, we can see on various running time
                 that Sort 1 program becomes slower with larger files especially on unsorted arrays but shows evident
                 changes with sorted files.
+
                 The worst case scenario O(n^2) is visible with larger arrays of 10000 to 50000 textsts and declined
                 even more with the reversed text files where each large element must be bubbled across the entire array
                 to its correct position. Simultaneously, small elements also need to be bubbled back across the
                 array.
+
                 The best case scenario Ω(n) is the efficient attribute of the Sort 1(Bubble Sort). When we run the already
                 sorted files, the steps changes to faster, more effective steps, skipping the first procedures of its worst case.
                 Since the files are already in order, running time is also reduced and there is no need to swap elements.
@@ -20,8 +22,10 @@ How do you know?: After conducting the timing tests, Sort 2 shows fast user time
                 corresponds with the characteristics of a Merge Sort. Aside from its efficiency, I also
                 observed that the time difference between real and sys time are very minimal. For every files,
                 Sort 2(Merge Sort) displayed consistency in both of its worst and best case scenarios.
+
                 Its worst case scenario is 0(n log n) has the fastest runtime among the three programs, tested with
                 both small and larger arrays(files) as well as with the reversed files.
+
                 The best case scenario follows the same steps 
 
 
