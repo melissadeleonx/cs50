@@ -185,13 +185,13 @@ And if the swap counter is still 0, you can say this array is sorted.
 And so in the best case, this is actually better than selection
 sort-- it's omega of n.
 
-// Selection Sort - Well it's exactly the same, right?
-We actually have to still step through every single element of the array
+// Selection Sort -
+For sorted arrays - we actually have to still step through every single element of the array
 in order to confirm that it is, in fact, the smallest element.
->> So the worst case runtime, we have to repeat a process n times,
+So the worst case runtime, we have to repeat a process n times,
 once for each of n elements.
 And in the best case scenario, we have to do the same.
->> So thinking back to our computational complexity toolbox,
+So thinking back to our computational complexity toolbox,
 what do you think is the worst case runtime for selection sort?
 What do you think is the best case runtime for selection sort?
 
