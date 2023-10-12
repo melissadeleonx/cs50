@@ -32,9 +32,11 @@ How do you know?: After conducting the timing tests, Sort 2 shows fast user time
 
 sort3 uses: Selection Sort
 
-How do you know?: Among these options of Sort Algorithms, Sort 3 has the slowest outcome and its time run
+How do you know?: Among these options of Sort Algorithms, Sort 3 has the slowest outcome like Selection Sort
+ and its time run
                 for sorted and unsorted files are very similar. They consume more time than the other two sort
                 programs. It means that with Selection Sort, we go through every single element of the array
                 in order to confirm the smallest element and the same steps is repeated even if the arrays
-                are already sorted. n times, once for each of n elements. Therefore, its worst and best case scenario
-                is not a very ideal sort algorithm.
+                are already sorted. n times, once for each of n elements.
+
+                Therefore, its worst and best case scenario O(n^2) is not a very ideal sort algorithm.
