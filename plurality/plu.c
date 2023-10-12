@@ -76,13 +76,9 @@ int main(int argc, string argv[])
 // Update vote totals given a new vote
 bool vote(string name)
 {
-    for (int i = 0; i < ; i++)
+    for (int i = 0; i < 9 ; i++)
     {
-        for (int j = 0; j < n; j++)
-        {
-            printf("#");
-        }
-        printf("\n");
+        if (strcmp(people[i].name, name) == 0)
     }
     return false;
 }
