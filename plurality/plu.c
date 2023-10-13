@@ -72,6 +72,7 @@ bool vote(string name)
     {
         if (strcmp(candidates[i].name, name) == 0)
         {
+            candidates[i].votes++
             return 0;
         }
     }return false;
@@ -81,7 +82,7 @@ bool vote(string name)
 void print_winner(void)
 {
     int most_votes = 0;
-    
+
     for (int i = 0; i < voter_count; i++)
     {
         if (candidates[i].votes == )
