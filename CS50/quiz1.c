@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-void swap(int a, int b);
+bool swap(int a, int b);
 
 int main(void)
 {
@@ -15,9 +15,13 @@ int main(void)
 
 }
 
-void swap(int a, int b)
+bool swap(int a, int b)
 {
-    int tmp = a;
-    a = b;
-    b = tmp;
+    if (int tmp = a)
+    {
+        a = b;
+        b = tmp;
+        return true;
+    }
+return false;
 }
