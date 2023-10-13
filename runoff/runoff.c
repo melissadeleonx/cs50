@@ -6,7 +6,7 @@
 #define MAX_VOTERS 100
 #define MAX_CANDIDATES 9
 
-//* We are using 2d array, represented as preferences[i][j] ( i is )
+//* We are using 2d array, represented as preferences[i][j] ( i is the vote number(voted candidate) and j is the rank(position of the voted candidate))
 // preferences[i][j] is jth preference for voter i
 int preferences[MAX_VOTERS][MAX_CANDIDATES];
 
