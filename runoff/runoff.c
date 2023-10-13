@@ -1,10 +1,12 @@
 #include <cs50.h>
 #include <stdio.h>
 
+//* means additional comments to be deleted later before submission
 // Max voters and candidates
 #define MAX_VOTERS 100
 #define MAX_CANDIDATES 9
 
+//* We are using 2d array, represented as preferences[i][j] ( i is )
 // preferences[i][j] is jth preference for voter i
 int preferences[MAX_VOTERS][MAX_CANDIDATES];
 
