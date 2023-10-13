@@ -158,7 +158,7 @@ void tabulate(void)
     {
         for (int j = 0; j < candidate_count; j++)
         {
-            int n = preference[i][j];
+            int n = preferences[i][j];
 
             // Iteration only works for non-eliminated candidates
             if (!candidates[n].eliminated)
@@ -174,7 +174,13 @@ void tabulate(void)
 // Print the winner of the election, if there is one
 bool print_winner(void)
 {
-    // TODO
+    for (int i = 0; i < candidate_count; i++)
+    {
+        if (candidates[i].votes > voter_count / 2)
+        {
+            printf("%s\n". candidates[i].name)
+        }
+    }
     return false;
 }
 
