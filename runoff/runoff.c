@@ -67,7 +67,7 @@ int main(int argc, string argv[])
         printf("Maximum number of voters is %i\n", MAX_VOTERS);
         return 3;
     }
-
+    //* The logic is similar to the # previous psets
     // Keep querying for votes
     for (int i = 0; i < voter_count; i++)
     {
