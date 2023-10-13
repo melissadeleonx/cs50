@@ -1,7 +1,7 @@
+//* means additional comments/pseudocode to be deleted later before submission
 #include <cs50.h>
 #include <stdio.h>
 
-//* means additional comments to be deleted later before submission
 // Max voters and candidates
 #define MAX_VOTERS 100
 #define MAX_CANDIDATES 9
@@ -23,7 +23,7 @@ candidate;
 // Array of candidates
 candidate candidates[MAX_CANDIDATES];
 
-// * Both voter count and candidate count are inputs
+// * Both voter count and candidate count are inputs obtained from the user
 // Numbers of voters and candidates
 int voter_count;
 int candidate_count;
