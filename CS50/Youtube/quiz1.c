@@ -1,6 +1,6 @@
 // Question: Which of these is true before main returns?
-// Answer:
-// Reason: 
+// Answer: a.
+// Reason:
 #include <stdio.h>
 #include <cs50.h>
 
