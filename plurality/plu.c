@@ -17,7 +17,7 @@ candidate;
 // Array of candidates
 candidate candidates[MAX];
 
-// Number of candidates - 3?
+// Number of candidates
 int candidate_count;
 
 // Function prototypes
@@ -55,7 +55,7 @@ int main(int argc, string argv[])
         string name = get_string("Vote: ");
 
         // Check for invalid vote
-        if (!vote(candidates[i].name))
+        if (!vote(name))
         {
             printf("Invalid vote.\n");
         }
