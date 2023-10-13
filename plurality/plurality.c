@@ -67,7 +67,7 @@ int main(int argc, string argv[])
 bool vote(string name)
 {
     // TODO
-    return false;
+    return 0;
 }
 
 // Print the winner (or winners) of the election
