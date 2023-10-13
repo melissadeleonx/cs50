@@ -1,6 +1,6 @@
 // Question: Which of these is true before main returns?
-// My answer: D. tmp equals a
-// Reason: The function definition void swap goes before main.
+// Answer:
+// Reason: 
 #include <stdio.h>
 #include <cs50.h>
 
