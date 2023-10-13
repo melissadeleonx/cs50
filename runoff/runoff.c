@@ -19,9 +19,11 @@ typedef struct
 }
 candidate;
 
+//* Candidates names are input after argv[0]
 // Array of candidates
 candidate candidates[MAX_CANDIDATES];
 
+// * Both voter count and candidate count are inputs
 // Numbers of voters and candidates
 int voter_count;
 int candidate_count;
