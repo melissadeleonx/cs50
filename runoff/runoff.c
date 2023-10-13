@@ -23,7 +23,7 @@ candidate;
 // Array of candidates
 candidate candidates[MAX_CANDIDATES];
 
-// * Both voter count and candidate count are inputs obtained from the user
+// * Both voter count(get_int) and candidate count(argc - 1) are inputs obtained from the user
 // Numbers of voters and candidates
 int voter_count;
 int candidate_count;
@@ -38,6 +38,7 @@ void eliminate(int min);
 
 int main(int argc, string argv[])
 {
+    
     // Check for invalid usage
     if (argc < 2)
     {
