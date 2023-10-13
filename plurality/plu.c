@@ -55,7 +55,7 @@ int main(int argc, string argv[])
         string name = get_string("Vote: ");
 
         // Check for invalid vote
-        if (!vote(name))f
+        if (!vote(candidates[i].name))
         {
             printf("Invalid vote.\n");
         }
@@ -75,7 +75,7 @@ bool vote(string name)
             candidates[i].votes++;
             return 0;
         }
-    }return false;
+    }return true;
 }
 
 // Print the winner (or winners) of the election
