@@ -77,7 +77,7 @@ int main(int argc, string argv[])
         {
             string name = get_string("Rank %i: ", j + 1);
 
-            //* Again, this needs improvement to save time but next time
+            //* Again, this needs improvement to save time but next time, wrong name, no rank etc. Invalid
             // Record vote, unless it's invalid
             if (!vote(i, j, name))
             {
@@ -89,7 +89,7 @@ int main(int argc, string argv[])
         printf("\n");
     }
 
-    //*
+    //* How calculation and voting works!
     // Keep holding runoffs until winner exists
     while (true)
     {
@@ -103,6 +103,7 @@ int main(int argc, string argv[])
             break;
         }
 
+        //* Lowest vote will be eliminated
         // Eliminate last-place candidates
         int min = find_min();
         bool tie = is_tie(min);
