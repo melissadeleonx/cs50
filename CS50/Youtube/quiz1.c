@@ -10,7 +10,9 @@ int main(void)
 {
     int x = 1;
     int y = 2;
-    (swap(x, y));
+    (swap(&x, &y));
+
+    printf("%i\n", x);
 
 }
 
