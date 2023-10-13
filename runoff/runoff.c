@@ -150,7 +150,7 @@ bool vote(int voter, int rank, string name)
     return false;
 }
 
-//* 
+//* Exclude the eliminated candidate
 // Tabulate votes for non-eliminated candidates
 void tabulate(void)
 {
