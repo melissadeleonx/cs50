@@ -1,7 +1,8 @@
+// Question: 
 #include <stdio.h>
 #include <cs50.h>
 
-bool swap(int a, int b);
+void swap(int a, int b);
 
 int main(void)
 {
@@ -15,13 +16,9 @@ int main(void)
 
 }
 
-bool swap(int a, int b)
+void swap(int a, int b)
 {
-    if (int tmp = a)
-    {
-        a = b;
-        b = tmp;
-        return true;
-    }
-return false;
+    int tmp = a;
+    a = b;
+    b = tmp;
 }
