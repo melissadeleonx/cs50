@@ -71,12 +71,13 @@ int main(int argc, string argv[])
     // Keep querying for votes
     for (int i = 0; i < voter_count; i++)
     {
-
+        //* The length of the rank is the candidate_count input, iterate
         // Query for each rank
         for (int j = 0; j < candidate_count; j++)
         {
             string name = get_string("Rank %i: ", j + 1);
 
+            //* Again, this needs improvement to save time but next time
             // Record vote, unless it's invalid
             if (!vote(i, j, name))
             {
@@ -88,6 +89,7 @@ int main(int argc, string argv[])
         printf("\n");
     }
 
+    //*
     // Keep holding runoffs until winner exists
     while (true)
     {
