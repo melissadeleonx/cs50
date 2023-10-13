@@ -1,5 +1,5 @@
 // Question: Which of these is true before main returns?
-// Answer: a.
+// Answer: D. tmp = a;
 // Reason:
 #include <stdio.h>
 #include <cs50.h>
