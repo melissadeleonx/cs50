@@ -83,7 +83,7 @@ int main(int argc, string argv[])
             if (!vote(i, j, name))
             {
                 printf("Invalid vote.\n");
-            
+            //* return 4 is deleted to check a more efficient ways of voting
             }
         }
 
