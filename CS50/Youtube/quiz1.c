@@ -1,6 +1,6 @@
 // Question: Which of these is true before main returns?
 // Answer: D. tmp = a;
-// Reason: 
+// Reason: Before the main returns, we have the swap functions defined which assign the value of tmp to a.
 #include <stdio.h>
 #include <cs50.h>
 
