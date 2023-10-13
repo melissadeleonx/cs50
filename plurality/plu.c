@@ -17,16 +17,6 @@ candidate;
 // Array of candidates
 candidate candidates[MAX];
 
-// For this problem, we are using 3 candidates but we can input up to 9 candidates
-candidates[0].name = "Alice";
-candidates[0].votes = ;
-
-candidates[0].name = "Bob";
-candidates[0].votes = ;
-
-candidates[0].name = "Charlie";
-candidates[0].votes = ;
-
 // Number of candidates - 3?
 int candidate_count;
 
