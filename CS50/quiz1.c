@@ -9,7 +9,9 @@ int main(void)
     int y = 2;
 
     if (swap(x, y))
-    printf("%i\n", y);
+    {
+        printf("%i\n", y);
+    }
 
 }
 
