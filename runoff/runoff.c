@@ -134,7 +134,7 @@ int main(int argc, string argv[])
     return 0;
 }
 
-//* if candidate name is equal to the name voted, it will count as a vote, with same condition, it will iterate
+//* Candidate name equals name voted, and everytime the same condition is met, vote will iterate
 // Record preference if vote is valid
 bool vote(int voter, int rank, string name)
 {
