@@ -134,7 +134,7 @@ int main(int argc, string argv[])
     return 0;
 }
 
-//* Candidate name equals name voted, and everytime the same condition is met, vote will iterate
+//* Candidate name equals name voted, and everytime the same condition is met, votes will increment
 // Record preference if vote is valid
 bool vote(int voter, int rank, string name)
 {
@@ -150,7 +150,7 @@ bool vote(int voter, int rank, string name)
     return false;
 }
 
-//* Exclude the eliminated candidates, iterate vote and rank
+//* Exclude the eliminated candidates, increment votes and ranks
 // Tabulate votes for non-eliminated candidates
 void tabulate(void)
 {
@@ -195,6 +195,7 @@ int find_min(void)
     //* Iterate through each candidate
     for (int i = 0; i < candidate_count; i++)
     {
+        //* 
         if (!candidates[i].eliminated && candidates[i].votes < min)
         {
             min = candidates[i].votes;
