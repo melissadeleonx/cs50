@@ -9,7 +9,7 @@ int main(void)
     char *t = get_string("t: ");
 
     // Compare strings' addresses
-    if (*s == *t)
+    if (strcmp(s, t) == 0)
     {
         printf("Same\n");
         printf("%p\n", s);
