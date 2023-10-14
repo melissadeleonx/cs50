@@ -1,5 +1,6 @@
 #include <cs50.h>
 #include <stdio.h>
+#include <string.h>
 
 int main(void)
 {
@@ -8,7 +9,7 @@ int main(void)
     char *t = get_string("t: ");
 
     // Compare strings' addresses
-    if (s == t)
+    if (strcmp(s, t) == 0)
     {
         printf("Same\n");
     }

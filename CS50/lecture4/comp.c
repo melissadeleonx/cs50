@@ -8,7 +8,10 @@ int main(void)
 
     if (i == j)
     {
-        printf("")
+        printf("Same\n");
     }
-
+    else
+    {
+        printf("Different\n");
+    }
 }
