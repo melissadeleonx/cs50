@@ -95,7 +95,7 @@ int main(int argc, string argv[])
     // Keep holding runoffs until winner exists
     while (true)
     {
-        //* In tabulation, the eliminated candidated is no longer part of the choices
+        //* In tabulation, the eliminated candidates are no longer part of the choices
         // Calculate votes given remaining candidates
         tabulate();
 
