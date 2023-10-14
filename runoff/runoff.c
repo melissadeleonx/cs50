@@ -61,12 +61,14 @@ int main(int argc, string argv[])
         candidates[i].eliminated = false;
     }
 
+    //* Get the number of voters from the user
     voter_count = get_int("Number of voters: ");
     if (voter_count > MAX_VOTERS)
     {
         printf("Maximum number of voters is %i\n", MAX_VOTERS);
         return 3;
     }
+
     //* Voting program starts here combining votes and ranks
     // Keep querying for votes
     for (int i = 0; i < voter_count; i++)
@@ -77,7 +79,7 @@ int main(int argc, string argv[])
         {
             string name = get_string("Rank %i: ", j + 1);
 
-            //* In real voting scenario, voters need to follow specific guidelines
+            //* In real voting scenario, voters need to follow specific guidelines. Otherwise, their votes are not counted.
             // Record vote, unless it's invalid
             if (!vote(i, j, name))
             {
