@@ -15,5 +15,7 @@ int main(void)
 
     *y = 13;
 
-    printf("%i", *y);
+    printf("%i" y);
+
+    free(y);
 }
