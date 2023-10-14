@@ -19,7 +19,10 @@ int main(void)
     }
 
     // Capitalize copy
-    t[0] = toupper(t[0]);
+    if (strlen(t) > 0)
+    {
+        t[0] = toupper(t[0]);
+    }
 
     // Print strings
     printf("s: %s\n", s);
