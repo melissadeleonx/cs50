@@ -8,7 +8,7 @@
 #define MAX_CANDIDATES 9
 
 //* We are using 2d array, represented as preferences[i][j] ( i is the vote number(voted candidate) and j is the rank(position of
-//the voted candidate))
+// the voted candidate))
 // preferences[i][j] is jth preference for voter i
 int preferences[MAX_VOTERS][MAX_CANDIDATES];
 
@@ -208,7 +208,7 @@ bool is_tie(int min)
     for (int i = 0; i < candidate_count; i++)
     {
         if (!candidates[i].eliminated && candidates[i].votes != min)
-        return false;
+            return false;
     }
     return true;
 }
