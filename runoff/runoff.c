@@ -53,7 +53,7 @@ int main(int argc, string argv[])
         printf("Maximum number of candidates is %i\n", MAX_CANDIDATES);
         return 2;
     }
-    //* Here is the iteration of the candidate count
+    //* Iterate through each candidate
     for (int i = 0; i < candidate_count; i++)
     {
         candidates[i].name = argv[i + 1];
@@ -71,7 +71,7 @@ int main(int argc, string argv[])
     // Keep querying for votes
     for (int i = 0; i < voter_count; i++)
     {
-        //* The length of the rank is the candidate_count input, iterate
+        //* The length of the rank is the candidate_count input
         // Query for each rank
         for (int j = 0; j < candidate_count; j++)
         {
