@@ -7,6 +7,7 @@ int main(void)
     int *y;
 
     x = malloc(sizeof(int));
+    y = NULL;
 
     *x = 42;
     *y = 13;
@@ -15,7 +16,7 @@ int main(void)
 
     *y = 13;
 
-    printf("%i" y);
+    printf("");
 
     free(y);
 }
