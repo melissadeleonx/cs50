@@ -134,7 +134,7 @@ int main(int argc, string argv[])
     return 0;
 }
 
-//* Candidate name equals name voted, and everytime the same condition is met, votes will increment
+//* Candidate name equals name voted, and everytime the same condition is met, votes and ranks will increment
 // Record preference if vote is valid
 bool vote(int voter, int rank, string name)
 {
@@ -160,7 +160,7 @@ void tabulate(void)
         {
             int n = preferences[i][j];
 
-            // Iteration only works for non-eliminated candidates
+            // Increment only for non-eliminated candidates
             if (!candidates[n].eliminated)
             {
                 candidates[n].votes++;
