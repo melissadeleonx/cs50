@@ -67,7 +67,7 @@ int main(int argc, string argv[])
         printf("Maximum number of voters is %i\n", MAX_VOTERS);
         return 3;
     }
-    //* Voting program starts here
+    //* Voting program starts here combining votes and ranks
     // Keep querying for votes
     for (int i = 0; i < voter_count; i++)
     {
