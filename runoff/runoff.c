@@ -39,7 +39,7 @@ void eliminate(int min);
 
 int main(int argc, string argv[])
 {
-    //* The program has so much potential to be improved but the requirements is to only answer the TO DO functions
+    //* In real voting scenario, 
     // Check for invalid usage
     if (argc < 2)
     {
