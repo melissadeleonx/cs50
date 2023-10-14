@@ -1,3 +1,4 @@
+// Original code has a buggy function, we need to correct it
 #include <stdio.h>
 
 void swap(int a, int b);
