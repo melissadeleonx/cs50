@@ -7,7 +7,8 @@
 #define MAX_VOTERS 100
 #define MAX_CANDIDATES 9
 
-//* We are using 2d array, represented as preferences[i][j] ( i is the vote number(voted candidate) and j is the rank(position of the voted candidate))
+//* We are using 2d array, represented as preferences[i][j] ( i is the vote number(voted candidate) and j is the rank(position of
+//the voted candidate))
 // preferences[i][j] is jth preference for voter i
 int preferences[MAX_VOTERS][MAX_CANDIDATES];
 
@@ -17,8 +18,7 @@ typedef struct
     string name;
     int votes;
     bool eliminated;
-}
-candidate;
+} candidate;
 
 //* Candidates names are input after argv[0]
 // Array of candidates
@@ -84,7 +84,7 @@ int main(int argc, string argv[])
             if (!vote(i, j, name))
             {
                 printf("Invalid vote.\n");
-            //* return 4 is deleted to check a more efficient ways of voting without returning to main all the time
+                //* return 4 is deleted to check a more efficient ways of voting without returning to main all the time
             }
         }
 
@@ -134,7 +134,6 @@ int main(int argc, string argv[])
     }
     return 0;
 }
-
 
 // Record preference if vote is valid
 bool vote(int voter, int rank, string name)
@@ -223,7 +222,7 @@ void eliminate(int min)
 {
     for (int i = 0; i < candidate_count; i++)
     {
-        if(candidates[i].votes == min)
+        if (candidates[i].votes == min)
         {
             candidates[i].eliminated = true;
         }
