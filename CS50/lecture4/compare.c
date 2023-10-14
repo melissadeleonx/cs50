@@ -12,6 +12,8 @@ int main(void)
     if (strcmp(s, t) == 0)
     {
         printf("Same\n");
+        printf("%p\n", s);
+        printf("%p\n", t);
     }
     else
     {
