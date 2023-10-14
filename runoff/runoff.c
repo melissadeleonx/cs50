@@ -39,7 +39,6 @@ void eliminate(int min);
 
 int main(int argc, string argv[])
 {
-    //* In real voting scenario, 
     // Check for invalid usage
     if (argc < 2)
     {
@@ -78,12 +77,12 @@ int main(int argc, string argv[])
         {
             string name = get_string("Rank %i: ", j + 1);
 
-            //* Again, this needs improvement to save time but next time, wrong name, no rank etc. Invalid
+            //* In real voting scenario, voters need to follow specific guidelines
             // Record vote, unless it's invalid
             if (!vote(i, j, name))
             {
                 printf("Invalid vote.\n");
-            //* return 4 is deleted to check a more efficient ways of voting
+            //* return 4 is deleted to check a more efficient ways of voting without returning to main all the time
             }
         }
 
