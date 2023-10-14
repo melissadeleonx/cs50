@@ -1,4 +1,5 @@
 // Original code has a buggy function, we need to correct the code
+// I did it without the lecture!!
 
 #include <stdio.h>
 
@@ -10,13 +11,13 @@ int main(void)
     int y = 2;
 
     printf("x is %i, y is %i\n", x, y);
-    swap(x, y);
+    swap(&x, &y);
     printf("x is %i, y is %i\n", x, y);
 }
 
 void swap(int *a, int *b)
 {
-    int *tmp = *a;
+    int tmp = *a;
     *a = *b;
-    *b = *tmp;
+    *b = tmp;
 }
