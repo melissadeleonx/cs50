@@ -1,5 +1,5 @@
 // Original code has a buggy function, we need to correct the code
-// I did it without the lecture!!
+// I did it without the notes!!
 
 #include <stdio.h>
 
