@@ -3,6 +3,7 @@
 
 int main(void)
 {
+    // Interchangeably, we can use char *s as string is the pointer for char data types
     string s = "HI!";
     printf("%p\n", s);
     printf("%p\n", &s[0]);
