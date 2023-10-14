@@ -1,4 +1,4 @@
-//* means additional comments/pseudocode to be deleted later before submission
+//* = Additional comments/pseudocode to further explain the logic of the program
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
@@ -188,14 +188,25 @@ bool print_winner(void)
 // Return the minimum number of votes any remaining candidate has
 int find_min(void)
 {
-   
+    int min = 0;
+    for (int i = 0; i < candidate_count; i++)
+    {
+        if (!candidates[i].eliminated && candidates[i].votes < min)
+        {
+            min = candidates[i].votes;
+        }
+    }
     return 0;
 }
 
 // Return true if the election is tied between all candidates, false otherwise
 bool is_tie(int min)
 {
-    // TODO
+    for (int i = 0; i < candidate_count; i++)
+    {
+        if()
+        return true;
+    }
     return false;
 }
 
