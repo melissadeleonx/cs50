@@ -71,7 +71,7 @@ int main(int argc, string argv[])
     // Keep querying for votes
     for (int i = 0; i < voter_count; i++)
     {
-        //* The length of the rank is the candidate_count input
+        //* The length of the rank is argc - 1 = candidate_count
         // Query for each rank
         for (int j = 0; j < candidate_count; j++)
         {
