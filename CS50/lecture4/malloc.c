@@ -13,7 +13,7 @@ int main(void)
     char *t = malloc(strlen(s) + 1);
 
     // Copy string into memory, including '\0'
-    for (int i = 0; i <= strlen(s); i++)
+    for (int i = 0; i <= strlen(s) + 1; i++)
     {
         t[i] = s[i];
     }
