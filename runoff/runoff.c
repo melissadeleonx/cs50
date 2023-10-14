@@ -106,7 +106,6 @@ int main(int argc, string argv[])
             break;
         }
 
-        //* Lowest vote will be eliminated
         // Eliminate last-place candidates
         int min = find_min();
         bool tie = is_tie(min);
