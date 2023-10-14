@@ -1,4 +1,4 @@
-//* = Additional comments/pseudocode to further explain the logic of the program
+//* = Additional comments/pseudocode to further explain the logic of the Runoff Voting Program
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
