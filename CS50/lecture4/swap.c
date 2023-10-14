@@ -1,4 +1,5 @@
-// Original code has a buggy function, we need to correct it
+// Original code has a buggy function, we need to correct the code
+
 #include <stdio.h>
 
 void swap(int a, int b);
