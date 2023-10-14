@@ -135,16 +135,16 @@ int main(int argc, string argv[])
     return 0;
 }
 
-//* Candidate name equals name voted, and everytime the same condition is met, votes and ranks will increment
+
 // Record preference if vote is valid
 bool vote(int voter, int rank, string name)
 {
     for (int i = 0; i < candidate_count; i++)
     {
+        //* Check if the entered candidate name matches a valid candidate name
         if (strcmp(candidates[i].name, name) == 0)
         {
             preferences[voter][rank] = i;
-            i++;
             return true;
         }
     }
