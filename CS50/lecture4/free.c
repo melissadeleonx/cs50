@@ -32,4 +32,7 @@ int main(void)
     // Print strings
     printf("s: %s\n", s);
     printf("t: %s\n", t);
+
+    // The free function is a good habit to prevent programs to run endlessly. free lets the computer know you are done with this block of memory you created via malloc
+    free(t);
 }
