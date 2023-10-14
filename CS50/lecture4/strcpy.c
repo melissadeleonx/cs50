@@ -6,7 +6,7 @@
 
 int main(void)
 {
-    // Get a string
+    // Get a string - Another term is introduced NULL which represent the address 0. To not be confused with \0
     char *s = get_string("s: ");
 
     // Allocate memory for another string
@@ -14,7 +14,7 @@ int main(void)
 
     // Use the strcpy function instead of looping
     strcpy(t, s);
-    
+
     // Capitalize copy
     if (strlen(t) > 0)
     {
