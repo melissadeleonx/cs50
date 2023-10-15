@@ -1,5 +1,5 @@
-// 
-#include "helpers.h"
+// Make a Purple Smiley
+#include <helpers.h>
 
 void colorize(int height, int width, RGBTRIPLE image[height][width]);
 {
