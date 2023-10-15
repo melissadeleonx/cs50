@@ -2,21 +2,6 @@
 // Inside the header file helpers.h is is the header file bmp.h which includes the structure definition of RGBTRIPLE
 #include "helpers.h"
 
-void colorize(int height, int width, RGBTRIPLE image[height][width]);
-
-int main(void)
-{
-    int height = 5;
-    int width = 5;
-
-    RGBTRIPLE image[5][5];
-
-    colorize(height, width, image);
-
-    return 0;
-}
-
-
 // Sample Definition by the staff of the colorize function
 void colorize(int height, int width, RGBTRIPLE image[height][width])
 {
