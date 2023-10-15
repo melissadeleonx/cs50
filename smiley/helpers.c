@@ -7,7 +7,7 @@
     //BYTE  rgbtRed;
 //} __attribute__((__packed__))
 // RGBTRIPLE;
-
+// Staff also has a sample solution
 void colorize(int height, int width, RGBTRIPLE image[height][width])
 {
     {
