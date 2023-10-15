@@ -1,9 +1,20 @@
 // Make a Purple Smiley
-#include <helpers.h>
+// Inside the header file helpers.h is is the header file bmp.h which includes the structure definition of RGBTRIPLE
+#include "helpers.h"
 
 void colorize(int height, int width, RGBTRIPLE image[height][width]);
+
+int main(void)
 {
-    {
+    int height = 5;
+    int width = 5;
+    
+}
+
+
+// Sample Definition by the staff of the colorize function
+void colorize(int height, int width, RGBTRIPLE image[height][width])
+{
     for (int i = 0; i < height; i++)
     {
         for (int j = 0; j < width; j++)
@@ -15,5 +26,4 @@ void colorize(int height, int width, RGBTRIPLE image[height][width]);
             }
         }
     }
-}
 }
