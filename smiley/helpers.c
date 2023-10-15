@@ -1,14 +1,7 @@
+// 
 #include "helpers.h"
 
-// Let's make a pseudocode, we found this typedef struct in bmp.h
-// {
-    //BYTE  rgbtBlue;
-    //BYTE  rgbtGreen;
-    //BYTE  rgbtRed;
-//} __attribute__((__packed__))
-// RGBTRIPLE;
-// Staff also has a sample solution
-void colorize(int height, int width, RGBTRIPLE image[height][width])
+void colorize(int height, int width, RGBTRIPLE image[height][width]);
 {
     {
     for (int i = 0; i < height; i++)
