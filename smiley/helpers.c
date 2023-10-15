@@ -1,5 +1,6 @@
 // Make a Purple Smiley
 // Inside the header file helpers.h is is the header file bmp.h which includes the structure definition of RGBTRIPLE
+// Basically all files are connected by indicate them on the header file and using them in the colorize.c main file
 #include "helpers.h"
 
 // Sample Definition by the staff of the colorize function
