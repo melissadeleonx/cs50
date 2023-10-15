@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(void)
 {
@@ -9,5 +8,4 @@ int main(void)
     scanf("%s", s);
     printf("s: %s\n", s);
 
-    free(s);
 }
