@@ -1,6 +1,6 @@
 #include "helpers.h"
 
-// Let's make a pseudocode, we found this typedef struct
+// Let's make a pseudocode, we found this typedef struct in bmp.h
 // {
     //BYTE  rgbtBlue;
     //BYTE  rgbtGreen;
