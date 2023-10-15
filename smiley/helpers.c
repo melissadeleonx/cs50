@@ -8,7 +8,12 @@ int main(void)
 {
     int height = 5;
     int width = 5;
-    
+
+    RGBTRIPLE image[5][5];
+
+    colorize(height, width, image);
+
+    return 0;
 }
 
 
