@@ -7,9 +7,9 @@
 void colorize(int height, int width, RGBTRIPLE image[height][width])
 {
     RGBTRIPLE Purplepixel;
-    Purplepixel.rgbtRed = 128;
-    Purplepixel.rgbtGreen = 0x000000;
-    Purplepixel.rgbtBlue = 128;
+    Purplepixel.rgbtRed = 0x80;
+    Purplepixel.rgbtGreen = 0x00;
+    Purplepixel.rgbtBlue = 0x80;
 
     // Change the color from black to purple
     for (int i = 0; i < height; i++)
