@@ -3,7 +3,7 @@
 // Basically all files are connected by indicate them on the header file and using them in the colorize.c main file
 #include "helpers.h"
 
-// 
+// Make the pixel in purple
 void colorize(int height, int width, RGBTRIPLE image[height][width])
 {
     RGBTRIPLE Purplepixel;
@@ -16,11 +16,7 @@ void colorize(int height, int width, RGBTRIPLE image[height][width])
     {
         for (int j = 0; j < width; j++)
         {
-            // Make black pixels turn red
-            if (image[i][j].rgbtRed == 0x80 && image[i][j].rgbtGreen == 0x00 && image[i][j].rgbtBlue == 0x80)
-            {
-                image[i][j].rgbtRed = 0x800080;
-            }
+   
         }
     }
 }
