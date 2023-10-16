@@ -71,7 +71,8 @@ void reflect(int height, int width, RGBTRIPLE image[height][width])
         // The image is divided by 2 with left side and right side
         for (int j = 0; j < width / 2; j++)
         {
-            // Use the 
+            // Use the swap logic from lecture 4
+            
         }
 
     }
