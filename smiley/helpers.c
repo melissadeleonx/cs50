@@ -6,12 +6,7 @@
 // Make the pixel in purple(How to represent a pixel using a 24-bit color BMP file?)
 void colorize(int height, int width, RGBTRIPLE image[height][width])
 {
-    RGBTRIPLE Purplepixel;
-    Purplepixel.rgbtRed = 0x80;
-    Purplepixel.rgbtGreen = 0x00;
-    Purplepixel.rgbtBlue = 0x80;
-
-    // Change the color from black to purple
+    // Change the color from black to green
     for (int i = 0; i < height; i++)
     {
         for (int j = 0; j < width; j++)
