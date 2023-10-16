@@ -13,9 +13,6 @@ void grayscale(int height, int width, RGBTRIPLE image[height][width])
                 image[i][j].rgbtRed = RGBaverage;
                 image[i][j].rgbtGreen = RGBaverage;
                 image[i][j].rgbtBlue = RGBaverage;
-
-                //  The red, green, and blue values should be capped at 255
-                if ()
         }
     }
     return;
@@ -32,6 +29,35 @@ void sepia(int height, int width, RGBTRIPLE image[height][width])
             int sepiaRed = round(.393 * image[i][j].rgbtRed + .769 * image[i][j].rgbtGreen + .189 * image[i][j].rgbtBlue);
             int sepiaGreen = round(.349 * image[i][j].rgbtRed + .686 * image[i][j].rgbtGreen + .168 * image[i][j].rgbtBlue);
             int sepiaBlue = round(.272 * image[i][j].rgbtRed + .534 * image[i][j].rgbtGreen + .131 * image[i][j].rgbtBlue);
+
+            //  The red, green, and blue values should be capped at 255
+            if (sepiaRed > 255)
+            {
+
+            }
+            else
+            {
+
+            }
+
+            if (sepiaGreen > 255)
+            {
+
+            }
+            else
+            {
+
+            }
+
+            if (sepiaBlue < 255)
+            {
+
+            }
+            else
+            {
+                
+            }
+
         }
     }
     return;
