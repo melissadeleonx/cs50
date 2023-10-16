@@ -68,7 +68,7 @@ void reflect(int height, int width, RGBTRIPLE image[height][width])
 {
     for (int i = 0; i < height; i++)
     {
-        // The image is divided by 2 with 
+        // The image is divided by 2 with left side and right side
         for (int j = 0; j < width / 2; j++)
 
     }
