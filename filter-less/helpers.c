@@ -19,7 +19,7 @@ void grayscale(int height, int width, RGBTRIPLE image[height][width])
 }
 
 // Convert image to sepia
-// 
+// The sepia color values should be calculated based on the given algorithm
 void sepia(int height, int width, RGBTRIPLE image[height][width])
 {
     return;
