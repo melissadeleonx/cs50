@@ -63,11 +63,12 @@ void sepia(int height, int width, RGBTRIPLE image[height][width])
 }
 
 // Reflect image horizontally
-// Any pixels on the left side of the image should end up on the right, and vice versa
+// Any pixels on the left side of the image should end up on the right, and vice versa. Like a mirror effect.
 void reflect(int height, int width, RGBTRIPLE image[height][width])
 {
     for (int i = 0; i < height; i++)
     {
+        // The image is divided by 2 with 
         for (int j = 0; j < width / 2; j++)
 
     }
