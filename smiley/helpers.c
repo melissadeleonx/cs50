@@ -1,4 +1,4 @@
-// Make a Purple Smiley
+// Make a Green Smiley - any colors is possible as long as we initialize its on the loop
 // Inside the header file helpers.h is is the header file bmp.h which includes the structure definition of RGBTRIPLE
 // Basically all files are connected by indicate them on the header file and using them in the colorize.c main file
 #include "helpers.h"
