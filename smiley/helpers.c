@@ -3,10 +3,15 @@
 // Basically all files are connected by indicate them on the header file and using them in the colorize.c main file
 #include "helpers.h"
 
-// Sample Definition by the staff of the colorize function
+// 
 void colorize(int height, int width, RGBTRIPLE image[height][width])
 {
-    
+    RGBTRIPLE Purplepixel;
+    Purplepixel.rgbtRed = 128;
+    Purplepixel.rgbtGreen = 0;
+    Purplepixel.rgbtBlue = 128;
+
+
     for (int i = 0; i < height; i++)
     {
         for (int j = 0; j < width; j++)
