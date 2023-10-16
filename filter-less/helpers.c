@@ -11,14 +11,15 @@ void grayscale(int height, int width, RGBTRIPLE image[height][width])
             int RGBaverage = (image[i][j].rgbtRed + image[i][j].rgbtGreen + image[i][j].rgbtBlue)/3;
 
                 image[i][j].rgbtRed = RGBaverage;
-                image[i][j].rgbtRed = RGBaverage;
-                image[i][j].rgbtRed = RGBaverage;
+                image[i][j].rgbtGreen = RGBaverage;
+                image[i][j].rgbtBlue = RGBaverage;
         }
     }
     return;
 }
 
 // Convert image to sepia
+// 
 void sepia(int height, int width, RGBTRIPLE image[height][width])
 {
     return;
