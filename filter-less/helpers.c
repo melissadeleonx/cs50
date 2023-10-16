@@ -73,7 +73,7 @@ void reflect(int height, int width, RGBTRIPLE image[height][width])
         {
             // Use the swap logic from lecture 4
             RGBTRIPLE tmp = image[i][j];
-            image[i][j] = *b;
+            image[i][j] = *b????;
             *b = tmp;
         }
 
