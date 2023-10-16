@@ -3,7 +3,6 @@
 // Basically all files are connected by indicate them on the header file and using them in the colorize.c main file
 #include "helpers.h"
 
-// Make the pixel in purple(How to represent a pixel using a 24-bit color BMP file?)
 void colorize(int height, int width, RGBTRIPLE image[height][width])
 {
     // Change the color from black to green
