@@ -13,6 +13,9 @@ void grayscale(int height, int width, RGBTRIPLE image[height][width])
                 image[i][j].rgbtRed = RGBaverage;
                 image[i][j].rgbtGreen = RGBaverage;
                 image[i][j].rgbtBlue = RGBaverage;
+
+                //  The red, green, and blue values should be capped at 255
+                
         }
     }
     return;
