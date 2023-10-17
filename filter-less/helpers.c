@@ -93,12 +93,14 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
             int allred = 0;
             int allgreen = 0;
             int allblue = 0;
-            
+            // Number of pixels within the 3x3 box
             int count = 0;
-
             for (int npi = i - 1; npi < i + 1; npi++)
             {
-                 for each neighboring pixel from j - 1 to j + 1
+                 for (int npj = j - 1; npi < j + 1; npj++)
+                 {
+                    
+                 }
             }
 
 
