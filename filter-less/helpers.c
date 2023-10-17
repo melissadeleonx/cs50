@@ -105,9 +105,11 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
                     count++;
                  }
             }
-
         }
-        
+        // Average of the color values of all of the pixels within the 3x3 box
+        blurimage[i][j].rgbtRed = allred / count;
+        blurimage[i][j].rgbtGreen = allgreen / count;
+        blurimage[i][j].rgbtBlue = allblue / count;
 
     }
     return;
