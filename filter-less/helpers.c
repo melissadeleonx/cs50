@@ -85,7 +85,7 @@ void reflect(int height, int width, RGBTRIPLE image[height][width])
 // Use 'box blur'taking each pixel and, for each color value, giving it a new value by averaging the color values of neighboring pixels.
 void blur(int height, int width, RGBTRIPLE image[height][width])
 {
-    RGBTRIPLE blurimage;
+    RGBTRIPLE blurimage[height][width];
 
     // Sum of the color values within the 3x3 box
     int allred = 0;
