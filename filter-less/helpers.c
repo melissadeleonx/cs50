@@ -84,14 +84,16 @@ void reflect(int height, int width, RGBTRIPLE image[height][width])
 // Use 'box blur'taking each pixel and, for each color value, giving it a new value by averaging the color values of neighboring pixels.
 void blur(int height, int width, RGBTRIPLE image[height][width])
 {
+    RGBTRIPLE blurimage;
     for (int i = 0; i < height; i++)
     {
         for (int j = 0; j < width; j++)
         {
-            for each pixel i from 0 to height - 1
-                for each pixel j from 0 to width - 1
-                    for each neighboring pixel from i - 1 to i + 1
-                        for each neighboring pixel from j - 1 to j + 1
+            for (int npi = i - 1; npi < i + 1; npi++)
+            {
+                 for each neighboring pixel from j - 1 to j + 1
+            }
+
 
         }
     }
