@@ -86,33 +86,15 @@ void reflect(int height, int width, RGBTRIPLE image[height][width])
 void blur(int height, int width, RGBTRIPLE image[height][width])
 {
     RGBTRIPLE copy[height][width];
+    
 
-    for (int i = 0; i < height; i++)
-    {
-        for (int j = 0; j < width; j++)
-        {
-                // Sum of the color values within the 3x3 box
-    int allred = 0;
-    int allgreen = 0;
-    int allblue = 0;
+
+
+    // Sum of the color values within the 3x3 box
 
      // Number of pixels within the 3x3 box
-     int count = 0;
-            for (int npi = i - 1; npi < i + 1; npi++)
-            {
-                 for (int npj = j - 1; npi < j + 1; npj++)
-                 {
-                    allred += image[npi][npj].rgbtRed;
-                    allgreen += image[npi][npj].rgbtGreen;
-                    allred += image[npi][npj].rgbtBlue;
-                    count++;
-                 }
-            }
-        }
+
         // Average of the color values of all of the pixels within the 3x3 box
-        blurimage[i][j].rgbtRed = allred / count;
-        blurimage[i][j].rgbtGreen = allgreen / count;
-        blurimage[i][j].rgbtBlue = allblue / count;
-    }
+
     return;
 }
