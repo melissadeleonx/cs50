@@ -70,7 +70,7 @@ void reflect(int height, int width, RGBTRIPLE image[height][width])
 {
     for (int i = 0; i < height; i++)
     {
-       
+        // Iterate through the first half of the image width
         for (int j = 0; j < width / 2; j++)
         {
             // Use the swap logic from lecture 4
