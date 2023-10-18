@@ -9,7 +9,7 @@ void grayscale(int height, int width, RGBTRIPLE image[height][width])
     {
         for (int j = 0; j <= width; j++)
         {
-            // If average is 0, the 
+            // If average is 0, the pixels will be completely black. Add 1 to prevent it.
             float RGBaverage = round(image[i][j].rgbtRed + image[i][j].rgbtGreen + image[i][j].rgbtBlue + 1) / 3.0;
 
             image[i][j].rgbtRed = RGBaverage;
