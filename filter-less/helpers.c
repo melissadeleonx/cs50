@@ -100,7 +100,7 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
             // Number of pixels within the 3x3 box
             int count = 0;
 
-            // Surrounding the 
+            // Iterate through the neighboring pixels surrounding the central pixel within the 3x3 box
             for (int npi = i - 1; npi <= i + 1; npi++)
             {
                 for (int npj = j - 1; npj <= j + 1; npj++)
