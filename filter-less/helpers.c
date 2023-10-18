@@ -128,7 +128,7 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
             copy[i][j].rgbtBlue = round(averageGreen);
         }
     }
-    // Assign the blurred values back to the original image
+    // Assign the blurred values from the copy image back to the original image
     for (int i = 0; i < height; i++)
     {
         for (int j = 0; j < width; j++)
