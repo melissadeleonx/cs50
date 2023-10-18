@@ -101,7 +101,7 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
         {
             for (int npi = i - 1; npi < i + 1; npi++)
             {
-                 for (int npj = j - 1; npi < j + 1; npj++)
+                 for (int npj = j - 1; npj < j + 1; npj++)
                  {
                     newRed += image[npi][npj].rgbtRed;
                     newGreen += image[npi][npj].rgbtGreen;
@@ -115,17 +115,5 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
         copy[i][j].rgbtGreen = newGreen / count;
         copy[i][j].rgbtBlue = newBlue / count;
     }
-    return;
-}
-
-
-
-
-    // Sum of the color values within the 3x3 box
-
-     // Number of pixels within the 3x3 box
-
-        // Average of the color values of all of the pixels within the 3x3 box
-
     return;
 }
