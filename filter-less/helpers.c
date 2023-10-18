@@ -33,7 +33,7 @@ void sepia(int height, int width, RGBTRIPLE image[height][width])
             float sepiaGreen = round(.349 * image[i][j].rgbtRed + .686 * image[i][j].rgbtGreen + .168 * image[i][j].rgbtBlue);
             float sepiaBlue = round(.272 * image[i][j].rgbtRed + .534 * image[i][j].rgbtGreen + .131 * image[i][j].rgbtBlue);
 
-            // 
+            // Values should be capped at 255 to guarantee that the resulting red, green, and blue values will be whole numbers between 0 and 255, inclusive
             if (sepiaRed > 255)
             {
                 image[i][j].rgbtRed = 255;
@@ -82,8 +82,7 @@ void reflect(int height, int width, RGBTRIPLE image[height][width])
 }
 
 // Blur image
-// Use 'box blur'taking each pixel and, for each color value, giving it a new value by averaging the color values of neighboring
-// pixels.
+// Use 'box blur'taking each pixel and, for each color value, giving it a new value by averaging the color values of neighboringpixels.
 void blur(int height, int width, RGBTRIPLE image[height][width])
 {
     RGBTRIPLE copy[height][width];
