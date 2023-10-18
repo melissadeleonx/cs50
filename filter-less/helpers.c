@@ -33,7 +33,8 @@ void sepia(int height, int width, RGBTRIPLE image[height][width])
             float sepiaGreen = round(.349 * image[i][j].rgbtRed + .686 * image[i][j].rgbtGreen + .168 * image[i][j].rgbtBlue);
             float sepiaBlue = round(.272 * image[i][j].rgbtRed + .534 * image[i][j].rgbtGreen + .131 * image[i][j].rgbtBlue);
 
-            // Values should be capped at 255 to guarantee that the resulting red, green, and blue values will be whole numbers between 0 and 255, inclusive
+            // Values should be capped at 255 to guarantee that the resulting red, green, and blue values will be whole numbers
+            // between 0 and 255, inclusive
             if (sepiaRed > 255)
             {
                 image[i][j].rgbtRed = 255;
@@ -82,7 +83,8 @@ void reflect(int height, int width, RGBTRIPLE image[height][width])
 }
 
 // Blur image
-// Use 'box blur'taking each pixel and, for each color value, giving it a new value by averaging the color values of neighboring pixels.
+// Use 'box blur'taking each pixel and, for each color value, giving it a new value by averaging the color values of neighboring
+// pixels.
 void blur(int height, int width, RGBTRIPLE image[height][width])
 {
     // Create a copy of the image to store the blurred values of the pixels
@@ -117,16 +119,16 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
             }
             // Average of the color values of all of the pixels within the 3x3 box
             // Use float to get the average and round them off to the nearest integer
-            float averageRed = (float)newRed / count;
-            float averageBlue = (float)newGreen / count;
-            float averageGreen = (float)newBlue / count;
+            float averageRed = (float) newRed / count;
+            float averageBlue = (float) newGreen / count;
+            float averageGreen = (float) newBlue / count;
 
             copy[i][j].rgbtRed = round(averageRed);
             copy[i][j].rgbtGreen = round(averageBlue);
             copy[i][j].rgbtBlue = round(averageGreen);
         }
     }
-    // 
+    // Assign the blurred values back to the original image
     for (int i = 0; i < height; i++)
     {
         for (int j = 0; j < width; j++)
@@ -134,5 +136,5 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
             image[i][j] = copy[i][j];
         }
     }
-        return;
+    return;
 }
