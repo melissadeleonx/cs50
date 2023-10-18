@@ -5,25 +5,15 @@
 // RGB is same value - average of the red green blue values
 void grayscale(int height, int width, RGBTRIPLE image[height][width])
 {
-    for (int i = 0; i < height + 1; i++)
+    for (int i = 0; i <= height; i++)
     {
-        for (int j = 0; j < width + 1; j++)
+        for (int j = 0; j <= width; j++)
         {
-            int RGBaverage = round((image[i][j].rgbtRed + image[i][j].rgbtGreen + image[i][j].rgbtBlue) / 3);
+            BYTE RGBaverage = round(image[i][j].rgbtRed + image[i][j].rgbtGreen + image[i][j].rgbtBlue + 1) / 3.0;
 
-            if (RGBaverage < 1)
-            {
-                image[i][j].rgbtRed = 1;
-                image[i][j].rgbtGreen = 1;
-                image[i][j].rgbtBlue = 1;
-            }
-            else
-            {
-                image[i][j].rgbtRed = (RGBaverage);
-                image[i][j].rgbtGreen = (RGBaverage);
-                image[i][j].rgbtBlue = (RGBaverage);
-            }
-
+            image[i][j].rgbtRed = RGBaverage;
+            image[i][j].rgbtGreen = RGBaverage;
+            image[i][j].rgbtBlue = RGBaverage;
         }
     }
     return;
@@ -37,15 +27,10 @@ void sepia(int height, int width, RGBTRIPLE image[height][width])
     {
         for (int j = 0; j < width; j++)
         {
-            int sepiaRed = ((.393 * image[i][j].rgbtRed) + (.769 * image[i][j].rgbtGreen) + (.189 * image[i][j].rgbtBlue));
-            int sepiaGreen = ((.349 * image[i][j].rgbtRed) + (.686 * image[i][j].rgbtGreen) + (.168 * image[i][j].rgbtBlue));
-            int sepiaBlue = ((.272 * image[i][j].rgbtRed) + (.534 * image[i][j].rgbtGreen) + (.131 * image[i][j].rgbtBlue));
+            float sepiaRed = round(.393 * image[i][j].rgbtRed + .769 * image[i][j].rgbtGreen + .189 * image[i][j].rgbtBlue);
+            float sepiaGreen = round(.349 * image[i][j].rgbtRed + .686 * image[i][j].rgbtGreen + .168 * image[i][j].rgbtBlue);
+            float sepiaBlue = round(.272 * image[i][j].rgbtRed + .534 * image[i][j].rgbtGreen + .131 * image[i][j].rgbtBlue);
 
-            int sepiaR = round(sepiaRed);
-            int sepiaG = round(sepiaGreen);
-            int sepiaB = round(sepiaBlue);
-
-            //  The red, green, and blue values should be capped at 255
             if (sepiaRed > 255)
             {
                 image[i][j].rgbtRed = 255;
@@ -54,7 +39,6 @@ void sepia(int height, int width, RGBTRIPLE image[height][width])
             {
                 image[i][j].rgbtRed = sepiaRed;
             }
-
             if (sepiaGreen > 255)
             {
                 image[i][j].rgbtGreen = 255;
@@ -63,8 +47,7 @@ void sepia(int height, int width, RGBTRIPLE image[height][width])
             {
                 image[i][j].rgbtGreen = sepiaGreen;
             }
-
-            if (sepiaBlue < 255)
+            if (sepiaBlue > 255)
             {
                 image[i][j].rgbtBlue = 255;
             }
@@ -102,33 +85,42 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
 {
     RGBTRIPLE copy[height][width];
 
-    // Sum of the each color values within the 3x3 box
-    int newRed = 0;
-    int newGreen = 0;
-    int newBlue = 0;
-
-    // Number of pixels within the 3x3 box
-    int count = 0;
-
     for (int i = 0; i < height; i++)
     {
         for (int j = 0; j < width; j++)
         {
-            for (int npi = i - 1; npi < i + 1; npi++)
+            // Sum of the each color values within the 3x3 box
+            int newRed = 0;
+            int newGreen = 0;
+            int newBlue = 0;
+
+            // Number of pixels within the 3x3 box
+            int count = 0;
+
+            for (int npi = i - 1; npi <= i + 1; npi++)
             {
-                for (int npj = j - 1; npj < j + 1; npj++)
+                for (int npj = j - 1; npj <= j + 1; npj++)
                 {
-                    newRed += image[npi][npj].rgbtRed;
-                    newGreen += image[npi][npj].rgbtGreen;
-                    newBlue += image[npi][npj].rgbtBlue;
-                    count++;
+                    if (npi >= 0 && npi < height && npj >= 0 && npj < width)
+                    {
+                        newRed += image[npi][npj].rgbtRed;
+                        newGreen += image[npi][npj].rgbtGreen;
+                        newBlue += image[npi][npj].rgbtBlue;
+                        count++;
+                    }
                 }
-                // Average of the color values of all of the pixels within the 3x3 box
-                copy[i][j].rgbtRed = newRed / count;
-                copy[i][j].rgbtGreen = newGreen / count;
-                copy[i][j].rgbtBlue = newBlue / count;
             }
+            // Average of the color values of all of the pixels within the 3x3 box
+
+            float averageRed = (float)newRed / count;
+            float averageBlue = (float)newGreen / count;
+            float averageGreen = (float)newBlue / count;
+
+            copy[i][j].rgbtRed = round(averageRed);
+            copy[i][j].rgbtGreen = round(averageBlue);
+            copy[i][j].rgbtBlue = round(averageGreen);
         }
     }
+    for (int i = 0; i)
     return;
 }
