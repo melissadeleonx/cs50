@@ -5,15 +5,15 @@
 // RGB is same value - average of the red green blue values
 void grayscale(int height, int width, RGBTRIPLE image[height][width])
 {
-     for (int i = 0; i < height; i++)
+    for (int i = 0; i < height; i++)
     {
         for (int j = 0; j < width; j++)
         {
-            int RGBaverage = (image[i][j].rgbtRed + image[i][j].rgbtGreen + image[i][j].rgbtBlue)/3;
+            int RGBaverage = (image[i][j].rgbtRed + image[i][j].rgbtGreen + image[i][j].rgbtBlue) / 3;
 
-                image[i][j].rgbtRed = RGBaverage;
-                image[i][j].rgbtGreen = RGBaverage;
-                image[i][j].rgbtBlue = RGBaverage;
+            image[i][j].rgbtRed = RGBaverage;
+            image[i][j].rgbtGreen = RGBaverage;
+            image[i][j].rgbtBlue = RGBaverage;
         }
     }
     return;
@@ -82,7 +82,8 @@ void reflect(int height, int width, RGBTRIPLE image[height][width])
 }
 
 // Blur image
-// Use 'box blur'taking each pixel and, for each color value, giving it a new value by averaging the color values of neighboring pixels.
+// Use 'box blur'taking each pixel and, for each color value, giving it a new value by averaging the color values of neighboring
+// pixels.
 void blur(int height, int width, RGBTRIPLE image[height][width])
 {
     RGBTRIPLE copy[height][width];
@@ -101,17 +102,18 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
         {
             for (int npi = i - 1; npi < i + 1; npi++)
             {
-                 for (int npj = j - 1; npj < j + 1; npj++)
-                 {
+                for (int npj = j - 1; npj < j + 1; npj++)
+                {
                     newRed += image[npi][npj].rgbtRed;
                     newGreen += image[npi][npj].rgbtGreen;
                     newBlue += image[npi][npj].rgbtBlue;
                     count++;
-                 }
-                    // Average of the color values of all of the pixels within the 3x3 box
-        copy[i][j].rgbtRed = newRed / count;
-        copy[i][j].rgbtGreen = newGreen / count;
-        copy[i][j].rgbtBlue = newBlue / count;}
+                }
+                // Average of the color values of all of the pixels within the 3x3 box
+                copy[i][j].rgbtRed = newRed / count;
+                copy[i][j].rgbtGreen = newGreen / count;
+                copy[i][j].rgbtBlue = newBlue / count;
+            }
         }
     }
     return;
