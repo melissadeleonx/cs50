@@ -92,7 +92,7 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
     {
         for (int j = 0; j < width; j++)
         {
-            // Sum of the each color values within the 3x3 box
+            // Sum of the each color values within the 3x3 box. Initialize them with 0.
             int newRed = 0;
             int newGreen = 0;
             int newBlue = 0;
@@ -100,6 +100,7 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
             // Number of pixels within the 3x3 box
             int count = 0;
 
+            // Surrounding the 
             for (int npi = i - 1; npi <= i + 1; npi++)
             {
                 for (int npj = j - 1; npj <= j + 1; npj++)
