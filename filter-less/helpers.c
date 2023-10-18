@@ -105,13 +105,10 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
             {
                 for (int npj = j - 1; npj <= j + 1; npj++)
                 {
-                    if (npi >= 0 && npi < height && npj >= 0 && npj < width)
-                    {
                         newRed += image[npi][npj].rgbtRed;
                         newGreen += image[npi][npj].rgbtGreen;
                         newBlue += image[npi][npj].rgbtBlue;
                         count++;
-                    }
                 }
             }
             // Average of the color values of all of the pixels within the 3x3 box
