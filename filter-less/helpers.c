@@ -121,12 +121,12 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
             float averageBlue = (float)newGreen / count;
             float averageGreen = (float)newBlue / count;
 
-            //
             copy[i][j].rgbtRed = round(averageRed);
             copy[i][j].rgbtGreen = round(averageBlue);
             copy[i][j].rgbtBlue = round(averageGreen);
         }
     }
+    // 
     for (int i = 0; i < height; i++)
     {
         for (int j = 0; j < width; j++)
