@@ -82,7 +82,7 @@ void reflect(int height, int width, RGBTRIPLE image[height][width])
 }
 
 // Blur image
-// Use 'box blur'taking each pixel and, for each color value, giving it a new value by averaging the color values of neighboringpixels.
+// Use 'box blur'taking each pixel and, for each color value, giving it a new value by averaging the color values of neighboring pixels.
 void blur(int height, int width, RGBTRIPLE image[height][width])
 {
     RGBTRIPLE copy[height][width];
