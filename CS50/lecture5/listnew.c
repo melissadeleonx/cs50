@@ -2,7 +2,7 @@
 
 int main(void)
 {
-   // Array 
+   // Array is a chunk of contiguous memory while malloc gives any old chunk of contiguous memory
    int *list = malloc(3 * sizeof(int));
 
      // Initialize list with numbers
