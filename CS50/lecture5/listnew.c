@@ -1,5 +1,6 @@
 // Implements a list of numbers with a pointer
-
+#include <stdio.h>
+#include <stdlib.h>
 int main(void)
 {
    // Array is a chunk of contiguous memory while malloc gives any old chunk of contiguous memory
@@ -17,6 +18,6 @@ int main(void)
     // Print list
     for (int i = 0; i < 3; i++)
     {
-        printf("%i\n", list[i]);
+        printf("%i\n", i);
     }
 }
