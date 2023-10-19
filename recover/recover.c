@@ -10,6 +10,7 @@ int main(int argc, char *argv[])
     }
 
     // Open memory card
+    
     // Repeat until end of card
     //      Read 512 bytes into a buffer
             // If start of new JPEG
