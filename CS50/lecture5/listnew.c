@@ -18,6 +18,6 @@ int main(void)
     // Print list
     for (int i = 0; i < 3; i++)
     {
-        printf("%i\n", i);
+        printf("%i\n", list[i]);
     }
 }
