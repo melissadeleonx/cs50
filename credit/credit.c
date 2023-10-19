@@ -10,6 +10,6 @@ int main(void)
 
    // Check for card length and starting digits
 
-   // 
+   // Print Visa Master Amex, and INVALID if not a card number
 
 }
