@@ -27,9 +27,14 @@ int main(void)
         tmp[i] = list[i];
 
    }
-   tmp[3]
+   tmp[3] = 4;
+
+   free(list);
+
+   list = tmp;
+
     // Print list
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < 4; i++)
     {
         printf("%i\n", list[i]);
     }
