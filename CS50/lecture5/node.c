@@ -1,6 +1,6 @@
 // Null means the node is empty
-node* list = NULL;
+node *list = NULL;
 
 //
-node *n = 
+node *n = malloc(sizeof(node));
 
