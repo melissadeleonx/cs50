@@ -12,4 +12,4 @@ n->number = 1;
 // To signify the end of the list, we can use this code
 n->number = NULL;
 
-
+list = n;
