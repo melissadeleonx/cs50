@@ -9,8 +9,9 @@ typdef struct node
 }
 node;
 
-int main(void)
+int main(int argc, char *argv[])
 {
+     
    node *list = NULL;
-   
+
 }
