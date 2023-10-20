@@ -6,3 +6,9 @@ We can use memory to go to the list more quickly
 TREES
 Binary search trees - another data structure that can be used to store data more efficiently such that it can be searched and retrieved.
 You can imagine a sorted sequence of numbers.
+
+DICTIONARIES
+Dictionaries are another data structure.
+Dictionaries, like actual book-form dictionaries that have a word and a definition, have a key and a value.
+The holy grail of time complexity is O(1)
+ or constant time. That is, the ultimate is for access to be instantaneous.
