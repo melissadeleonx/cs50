@@ -1,2 +1,2 @@
 // Syntax to remember,struct, ., *,  ->
-// Linked list 
+// Linked list - linking non-array data inside the memory
