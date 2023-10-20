@@ -26,9 +26,8 @@ int main(void)
 
    list = tmp;
 
-
    list[3] =  4;
-   
+
    for (int i = 0; i < 3; i++)
    {
         tmp[i] = list[i];
