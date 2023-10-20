@@ -17,7 +17,7 @@ int main(void)
     list[2] = 3;
 
     // After using malloc the first time, you can use realloc after
-    int *tmp = realloc(4 * sizeof(int));
+    int *tmp = realloc(list, 4 * sizeof(int));
     if (tmp == NULL)
    {
         free(list);
