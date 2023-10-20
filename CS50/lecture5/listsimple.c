@@ -29,7 +29,7 @@ int main(void)
    list[3] =  4;
 
     // Print list
-    for (int i = 0; i < 4; i++)
+    for (int i = 0; i < 3; i++)
     {
         printf("%i\n", list[i]);
     }
