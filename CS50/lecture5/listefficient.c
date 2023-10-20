@@ -1,4 +1,5 @@
 // Implements Linked Listing using nodes in the code instead of malloc since it is more efficient
+#include <cs50.h>
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -11,6 +12,11 @@ node;
 
 int main(int argc, char *argv[])
 {
+   if (argc < 2)
+   {
+     printf("Usage: /listefficient NUMBERS\n");
+     return 1;
+   }
    // Memory for numbers
    node *list = NULL;
 
