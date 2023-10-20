@@ -1,1 +1,1 @@
-// It is not binary search
+O(n) - the running time for the linked list
