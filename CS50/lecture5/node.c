@@ -9,3 +9,5 @@ node *n = malloc(sizeof(node));
 (n*).number = 1;
 n->number = 1;
 
+// To signify the end of the list, we can use this code
+n->number = NULL;
