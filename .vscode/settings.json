@@ -15,6 +15,7 @@
         "algorithm": "c",
         "ctype.h": "c",
         "string": "c",
-        "numbers": "c"
+        "numbers": "c",
+        "stdlib.h": "c"
     }
 }

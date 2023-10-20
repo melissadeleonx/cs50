@@ -1,6 +1,15 @@
 // Implements a list of numbers with a pointer
 #include <stdio.h>
 #include <stdlib.h>
+
+typdef struct node
+{
+    int number;
+    struct node *next;
+
+}
+node;
+
 int main(void)
 {
    // Array is a chunk of contiguous memory while malloc gives any old chunk of contiguous memory
