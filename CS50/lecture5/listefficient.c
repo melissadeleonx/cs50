@@ -11,7 +11,10 @@ node;
 
 int main(int argc, char *argv[])
 {
-     
+   // Memory for numbers
    node *list = NULL;
+
+   // For each command-line argument
+    for (int i = 1; i < argc; i++)
 
 }
