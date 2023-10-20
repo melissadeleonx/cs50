@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
      }
 
      // Print numbers, use for loops instead of wile
-    for (node *ptr = list; ptr != NULL; ptr = ptr->next);
+    for (node *ptr = list; ptr != NULL; ptr = ptr->next)
     {
         printf("%i\n", ptr->number);
         ptr = ptr->next;
