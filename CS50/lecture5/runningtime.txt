@@ -1,1 +1,2 @@
 O(n) - the running time for the linked list
+Instead of prepending the 
