@@ -16,20 +16,32 @@ int main(int argc, char *argv[])
 
    // For each command-line argument
     for (int i = 1; i < argc; i++)
-    // Convert argument to int
-        int number = atoi(argv[i]);
+    {
+          // Convert argument to int
+          int number = atoi(argv[i]);
 
-        // Allocate node for number
-        node *n = malloc(sizeof(node));
-        if (n == NULL)
-        {
+          // Allocate node for number
+          node *n = malloc(sizeof(node));
+          if (n == NULL)
+          {
             return 1;
-        }
-        n->number = number;
-        n->next = NULL;
+          }
+          n->number = number;
+          n->next = NULL;
 
-        // Prepend node to list
-        n->next = list;
-        list = n;
+          // Prepend node to list
+          n->next = list;
+          list = n;
+     }
+
+     // Print numbers
+    node *ptr = list;
+    while (ptr != NULL)
+    {
+        printf("%i\n", ptr->number);
+        ptr = ptr->next;
+    }
+
+
 
 }
