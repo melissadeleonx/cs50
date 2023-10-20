@@ -40,8 +40,10 @@ int main(int argc, char *argv[])
           list = n;
      }
 
+     node *ptr;
+
      // Print numbers, use for loops instead of wile
-    for (node *ptr = list; ptr != NULL; ptr = ptr->next)
+    for (ptr = list; ptr != NULL; ptr = ptr->next)
     {
         printf("%i\n", ptr->number);
     }
