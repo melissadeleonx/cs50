@@ -12,3 +12,8 @@ Dictionaries are another data structure.
 Dictionaries, like actual book-form dictionaries that have a word and a definition, have a key and a value.
 The holy grail of time complexity is O(1)
  or constant time. That is, the ultimate is for access to be instantaneous.
+
+ HASHING
+ Hashing is the idea of taking a value and being able to output a value that becomes a shortcut to it later.
+ A hash function is an algorithm that reduces a larger value to something small and predictable. Generally, this function takes in an item you wish to add to your hash table, and returns an integer representing the array index in which the item should be placed.
+A hash table is a fantastic combination of both arrays and linked lists. When implemented in code, a hash table is an array of pointers to nodes.
