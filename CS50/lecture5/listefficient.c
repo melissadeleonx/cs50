@@ -42,6 +42,16 @@ int main(int argc, char *argv[])
         ptr = ptr->next;
     }
 
+    // Free memory
+    ptr = list;
+    while (ptr != NULL)
+    {
+        node *next = ptr->next;
+        free(ptr);
+        ptr = next;
+    }
+}
+
 
 
 }
