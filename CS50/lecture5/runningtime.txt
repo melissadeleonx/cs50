@@ -20,3 +20,7 @@ A hash table is a fantastic combination of both arrays and linked lists. When im
 
 Collisions are when you add values to the hash table, and something already exists at the hashed location. In the above, collisions are simply appended to the end of the list.
 Collisions can be reduced by better programming your hash table and hash algorithm. You can imagine an improvement upon the above as follows:
+
+TRIES
+ries are always searchable in constant time.
+One downside to Tries is that they tend to take up a large amount of memory. 
