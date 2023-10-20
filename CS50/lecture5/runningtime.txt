@@ -2,3 +2,7 @@ O(n) - the running time for the linked list
 Instead of prepending the list, we can append them, from left to right
 O(n) - is still the running time or each insertion, as in the worst case we will have to look through all current elements.
 We can use memory to go to the list more quickly
+
+TREES
+Binary search trees - another data structure that can be used to store data more efficiently such that it can be searched and retrieved.
+You can imagine a sorted sequence of numbers.
