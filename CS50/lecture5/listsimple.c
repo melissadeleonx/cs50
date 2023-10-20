@@ -16,7 +16,7 @@ int main(void)
     list[1] = 2;
     list[2] = 3;
 
-    // After using malloc the first time, you can use realloc after 
+    // After using malloc the first time, you can use realloc after
     int *tmp = realloc(4 * sizeof(int));
     if (tmp == NULL)
    {
@@ -24,6 +24,11 @@ int main(void)
         return 1;
    }
 
+   list = tmp;
+
+
+   list[3] =  4;
+   
    for (int i = 0; i < 3; i++)
    {
         tmp[i] = list[i];
