@@ -14,6 +14,6 @@ for i in range(size):
         print(".", end="")
     print()
     k = 0
-    for k in range(i):
+    for k in range(i + 1):
+        k += 1
         print("#", end="")
-    print()
