@@ -7,7 +7,7 @@ s = input("Do you agree? ")
 #else:
     #print("Please enter Y or N")
 
-if s in ["Y", "y"]:
+if s in ["Y", "y", "yes", "Yes", ]:
     print("Agreed")
 elif s in ["N", "n"]:
     print("Not Agreed")
