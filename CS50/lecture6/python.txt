@@ -15,3 +15,22 @@ Some other data types in Python include:
   dict
   set
 Each of these data types can be implemented in C, but in Python they can be implemented more simply.
+
+As with C, the CS50 library can be utilized within Python.
+The following functions will be of particular use:
+
+  get_float
+  get_int
+  get_string
+You also have the option of importing only specific functions from the CS50 library as follows:
+
+from CS50 import get_float, get_int, get_string
+
+CONDITIONALS
+Notice that there are no more curly braces. Instead, indentations are utilized. Second, a colon is utilized in the if statement. Further, elif replaces else if. Parentheses are also no longer required in the if and elif statements.
+
+Variable declaration is simplified too. In C, you might have int counter = 1;. In Python, this same line would read counter = 1. You need not declare the type of the variable.
+Python favors counter += 1 to increment by one, losing the ability found in C to type counter++.
+
+
+Loops in Python are very similar to C. You may recall the following code in C:
