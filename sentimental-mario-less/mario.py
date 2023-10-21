@@ -8,9 +8,12 @@ size = get_int("Size: ")
 i = 0
 for i in range(size):
     i += 1
-    j = 1
+    j = 0
     for j in range (size - i):
         j += 1
         print(".", end="")
     print()
-
+    k = 0
+    for k in range(i):
+        print("#", end="")
+    print()
