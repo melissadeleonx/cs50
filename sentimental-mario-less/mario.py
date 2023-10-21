@@ -6,10 +6,7 @@ size = get_int("Size: ")
 
 #
 i = 0
-for i in range(size):
+for i in range
+    print(".")
     i += 1
-    j = 1
-    for j in range(size - 1):
-        print(".")
-        j += 1
 
