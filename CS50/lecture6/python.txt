@@ -1,0 +1,8 @@
+Data types in Python do not need to be explicitly declared. For example, you saw how answer above is a string, but we did not have to tell the interpreter this was the case: It knew on its own.
+In Python, commonly used types include:
+
+  bool
+  float
+  int
+  str
+
