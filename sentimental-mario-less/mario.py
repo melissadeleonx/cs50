@@ -11,9 +11,9 @@ for i in range(size):
     j = 0
     for j in range (size - i):
         j += 1
-        print(".", end="")
-    print()
+        print(" ")
+        print()
     k = 0
     for k in range(i + 1):
-        k += 1
-        print("#", end="")
+        k -= 1
+        print("#")
