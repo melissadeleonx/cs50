@@ -9,7 +9,7 @@ s = input("Do you agree? ")
 
 if s in ["Y", "y"]:
     print("Agreed")
-elif s in ["N", "n"]
+elif s in ["N", "n"]:
     print("Not Agreed")
 else:
     print("Please enter Y or N")
