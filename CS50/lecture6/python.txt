@@ -6,3 +6,12 @@ In Python, commonly used types include:
   int
   str
 
+Notice that long and double are missing. Python will handle what data type should be used for larger and smaller numbers.
+Some other data types in Python include:
+
+  range
+  list
+  tuple
+  dict
+  set
+Each of these data types can be implemented in C, but in Python they can be implemented more simply.
