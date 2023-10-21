@@ -6,4 +6,6 @@ size = get_int("Size: ")
 
 # Demonstrates while loop
 for i in range(size):
-    print("#")
+    for j in range(size - i):
+        for k in range(i + 1):
+            print("#")
