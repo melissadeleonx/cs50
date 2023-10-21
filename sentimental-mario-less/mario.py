@@ -12,7 +12,4 @@ for i in range(size):
     for j in range(size - i):
         print(".")
         j += 1
-    k = 0
-    for k in range(i + 1):
-        print("#")
-        k += 1
+        
