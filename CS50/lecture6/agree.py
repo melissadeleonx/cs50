@@ -1,10 +1,9 @@
-from cs50 import get_string
+s = input("Do you agree? ")
 
-answer = get_string("Do you agree? ")
-
-if answer == "y" or "Y":
+if s == 'y' or 'Y':
     print("Agreed")
-elif answer == "n" or "N":
+elif s == 'n' or 'N':
     print("Not Agreed")
 else:
-    print("No answer")
+    print("Please enter Y or N")
+
