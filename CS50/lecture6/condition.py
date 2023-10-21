@@ -1,7 +1,9 @@
 from cs50 import get_int
 
-x = 4
-y = 5
+# Prompt user for integers
+x = get_int("What's x? ")
+y = get_int("What's y? ")
+
 
 # Indention is important and should be consistent in Python. It should be done cautiously
 if x < y:
