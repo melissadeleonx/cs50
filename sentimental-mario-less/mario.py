@@ -11,5 +11,6 @@ for i in range(size):
     j = 1
     for j in range (size - i):
         j += 1
-        print(".")
+        print(".", end="")
+    print()
 
