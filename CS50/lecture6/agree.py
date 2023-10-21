@@ -1,7 +1,7 @@
 s = input("Do you agree? ")
 
-if s == 'y' or 'Y':
-    print("Agreed")
+#if s == 'y' or 'Y':
+    #print("Agreed")
 elif s == 'n' or 'N':
     print("Not Agreed")
 else:
