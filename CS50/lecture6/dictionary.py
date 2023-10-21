@@ -12,17 +12,15 @@ def check(word):
 def load(dictionary):
     file = open(dictionary, "r")
     for line in file:
-        words.add(line)
+        word = line.rstrip()
+        words.add(word)
     close(file)
     return True
 
-
-
-
 def size():
-    ...
+    return len(words)
 
 
 def unload():
-    ...
+    return True
 
