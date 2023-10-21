@@ -13,6 +13,10 @@ def load(dictionary):
     file = open(dictionary, "r")
     for line in file:
         words.add(line)
+    close(file)
+    return True
+
+
 
 
 def size():
