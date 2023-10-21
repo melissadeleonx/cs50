@@ -7,5 +7,5 @@ size = get_int("Size: ")
 #
 i = 0
 for i in range(size):
-       print(".")
-     print("#")
+    print(".")
+    print("#")
