@@ -9,7 +9,7 @@ i = 0
 for i in range(size):
     i += 1
     j = 1
-    for j in range(size - i):
+    for j in range(size - 1):
         print(".")
         j += 1
-        
+
