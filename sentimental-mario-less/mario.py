@@ -2,17 +2,20 @@
 # Goal is to make right-aligned pyramid of blocks(#)
 from cs50 import get_int
 
-def draw(n):
-    for i in range(n):
-        i += 1
-        for j in range(n - i):
-            print(".")
-            j += 1
-
-while True:
-    n = get_int("Height: ")
-    if n > 0:
+def main(n):
+       while True:
+        n = nt(input("Height: "))
+        draw(n)i
+        if n > 0:
         break
 
-right_brick(n)
+def draw(n):
+
+    draw(n - 1)
+    for i in range(n):
+        i += 1
+        print("#")
+
+main(n)
+
 
