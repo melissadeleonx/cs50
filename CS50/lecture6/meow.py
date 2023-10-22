@@ -1,10 +1,8 @@
 def main():
-    n = int(input = ("n: "))
-        meow(n)
+    meow(3)
 
 def meow(n):
    for i in range(n):
         print("meow")
 
 main()
-
