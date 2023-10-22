@@ -2,7 +2,7 @@
 # Goal is to make right-aligned pyramid of blocks(#)
 from cs50 import get_int
 
-def right_brick(n):
+def draw(n):
     for i in range(n):
         i += 1
         for j in range(n - i):
