@@ -1,1 +1,2 @@
-def meow
+def meow()
+    print("meow")
