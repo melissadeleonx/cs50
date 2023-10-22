@@ -3,8 +3,9 @@ from cs50 import get_int
 def main():
     height = get_height()
     for i in range(height):
-        for j in range(j):
+        for j in range(height - i):
             print("#", end="")
+            j += 1
     print()
 
 def get_height():
