@@ -1,3 +1,6 @@
-def meow
-    for i in range(3):
-    print("meow")
+def meow(n):
+    for i in range(n):
+        print("meow")
+
+n = int(input("How many meow? "))
+meow(n)
