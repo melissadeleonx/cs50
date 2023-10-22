@@ -1,9 +1,10 @@
 def main():
-     for i in range(3):
-         meow()
+    n = int(input = ("n: "))
+        meow(n)
 
-def meow():
-   print("meow")
+def meow(n):
+   for i in range(n):
+        print("meow")
 
 main()
 
