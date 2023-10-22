@@ -1,5 +1,6 @@
 def main():
-    meow(3)
+    n = int(input("n: "))
+    meow(n)
 
 def meow(n):
    for i in range(n):
