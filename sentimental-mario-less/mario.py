@@ -4,7 +4,8 @@ from cs50 import get_int
 
 def right_brick(n):
     for i in range(n):
-        for j in range(i - 1):
+        i += 1
+        for j in range(n - i):
             print(".")
             j += 1
 
