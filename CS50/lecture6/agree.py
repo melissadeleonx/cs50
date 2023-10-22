@@ -7,12 +7,12 @@ s = input("Do you agree? ")
 #else:
     #print("Please enter Y or N")
 
-if s in ["Y", "y"  ]:
+if s in ["y", "yes"]:
     print("Agreed")
-elif s in ["N", "n"]:
+elif s in ["n", "no"]:
     print("Not Agreed")
 else:
-    print("Please enter Y or N")
+    print("Please enter yes or no")
 
 
 
